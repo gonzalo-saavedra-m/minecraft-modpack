@@ -1160,7 +1160,7 @@ hash = "78a65dec57422f9f65a383f389bf7035c994860d705fae8767f9b7ac2ebdebe1"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/legendarios_del_cielo.json"
-hash = "ffb7fb3cb311fb0f3c71f0476fd178cde6800a1d4e8023a1ab9aee2ab24b9b2d"
+hash = "24a182e88eb6ae75d1f29ce994e2039a07f0b8563829074c903ef381e8aa03dc"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/rayquaza.json"

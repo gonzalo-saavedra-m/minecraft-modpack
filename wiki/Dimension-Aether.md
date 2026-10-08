@@ -12,7 +12,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 
 | Bioma | Zonas | Estructuras | Pokémon |
 |---|---|---|---|
-| [Arboleda de raicielo](Bioma-aether-skyroot_grove.md) | [Aether](Zonas.md#aether), [Arboleda de raicielo](Zonas.md#arboleda-de-raicielo), [Islas del cielo](Zonas.md#islas-del-cielo) | 4 | 177 |
-| [Bosque de raicielo](Bioma-aether-skyroot_forest.md) | [Aether](Zonas.md#aether), [Bosque de raicielo](Zonas.md#bosque-de-raicielo), [Islas del cielo](Zonas.md#islas-del-cielo) | 4 | 182 |
-| [Espesura de raicielo](Bioma-aether-skyroot_woodland.md) | [Aether](Zonas.md#aether), [Espesura de raicielo](Zonas.md#espesura-de-raicielo), [Islas del cielo](Zonas.md#islas-del-cielo) | 4 | 182 |
-| [Prado de raicielo](Bioma-aether-skyroot_meadow.md) | [Aether](Zonas.md#aether), [Islas del cielo](Zonas.md#islas-del-cielo), [Prado de raicielo](Zonas.md#prado-de-raicielo) | 4 | 177 |
+| [Arboleda de raicielo](Bioma-aether-skyroot_grove.md) | [Aether](Zonas.md#aether), [Arboleda de raicielo](Zonas.md#arboleda-de-raicielo), [Islas del cielo](Zonas.md#islas-del-cielo) | 4 | 178 |
+| [Bosque de raicielo](Bioma-aether-skyroot_forest.md) | [Aether](Zonas.md#aether), [Bosque de raicielo](Zonas.md#bosque-de-raicielo), [Islas del cielo](Zonas.md#islas-del-cielo) | 4 | 183 |
+| [Espesura de raicielo](Bioma-aether-skyroot_woodland.md) | [Aether](Zonas.md#aether), [Espesura de raicielo](Zonas.md#espesura-de-raicielo), [Islas del cielo](Zonas.md#islas-del-cielo) | 4 | 183 |
+| [Prado de raicielo](Bioma-aether-skyroot_meadow.md) | [Aether](Zonas.md#aether), [Islas del cielo](Zonas.md#islas-del-cielo), [Prado de raicielo](Zonas.md#prado-de-raicielo) | 4 | 178 |
