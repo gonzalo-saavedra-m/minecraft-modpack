@@ -27,7 +27,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [[ETF] Entity Texture Features](https://modrinth.com/project/entitytexturefeatures) | Traben | LGPL-3.0-only |
 | [Accessories](https://modrinth.com/project/accessories) | chyzman, miscellaneouszeal, Blodhgarm, Noaaan | MIT |
 | [Advanced Loot Info (ALI)](https://modrinth.com/project/advanced-loot-info) | lalis.jan | MIT |
-| [Almanac](https://modrinth.com/project/almanac) | frikinjay | LGPL-3.0-only |
+| [Alex's Caves: Refabricated](https://modrinth.com/project/alexs-caves-refabricated) | diffuse | LGPL-3.0-only |
 | [Ambient Environment](https://modrinth.com/project/ambient-environment) | jaredlll08 | MIT |
 | [AppleSkin](https://modrinth.com/project/appleskin) | squeek502 | Unlicense |
 | [Architectury API](https://modrinth.com/project/architectury-api) | MaxNeedsSnacks, Juuz | LGPL-3.0-only |
@@ -41,11 +41,14 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cloth Config API](https://modrinth.com/project/cloth-config) | shedaniel | LGPL-3.0-only |
 | [Clumps](https://modrinth.com/project/clumps) | jaredlll08 | MIT |
 | [Cobblemon](https://modrinth.com/project/cobblemon) | BlazingBRO, Mallowu, NickImpact, Brotatsun64, SamyTheGil, MJB-coolness, Tyzillion, mvthwus, whatsy, Mallowuu, Valirus, Apion, drewlordybuilds, plastered_crab, addy_bromide, Waldleufer, Erusel, BlackSpirit, Bwavii, Glitch_Ratt, TotallyNotAHobo, SamIr0n, EikoBiko, Gesteyy, gingledoof0, virtuositas, complacentdev, Carmendarr, Charzard4261, lilpebs, FrankTheFarmer, Dynamite2pt0, giodude1580, MoeBoy76, Kenji_64, Veraxiel, Sarge54125, heaveninvoid_, SilverBerr1, Rogerregoat, Jakotens, Wi2tert, Hysako_, Azooreh, dhi_holo, QriviateA, whoisvoxel, duckyquackington1, JPAKx4, Myslippy, Sterrezo, RedGenesectNinja, nickaholic, negocio, KleeHubertus, Torchmarrow, maashous, Genotype, 321retrogamer, boyfriends, JoeSeff, DoctorWafflePhD, JadedTeal, Hiroku, HexeChroma, TyzillionCBMN, spg | MPL-2.0 |
+| [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
 | [Cobblemon Raid Dens](https://modrinth.com/project/cobblemonraiddens) | necroso1 | MIT |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/cobblemonextrastructures) | Roi_Pasteque | All-Rights-Reserved |
 | [Cobblemon: Mega Showdown](https://modrinth.com/project/cobblemon-mega-showdown) | YajatKaul, HeyImBlue, sanji1, Treynami, Narenhate, Provismet, Lvnatic | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [Crafting Tweaks](https://modrinth.com/project/crafting-tweaks) | BlayTheNinth | All-Rights-Reserved |
 | [CraftPresence](https://modrinth.com/project/craftpresence) | CDAGaming | MIT |
+| [Deeper and Darker](https://modrinth.com/project/deeperdarker) | ang-xd, nitrodynamite18, Pedro270707, NewJumper | AGPL-3.0-only |
+| [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/project/dungeons-and-taverns-ancient-city-overhaul) | MiziraGamez, NovaWostra | All-Rights-Reserved |
 | [Dynamic Crosshair](https://modrinth.com/project/dynamiccrosshair) | Crendgrim | LGPL-3.0-only |
 | [EMI](https://modrinth.com/project/emi) | Emi, exaptations | MIT |
 | [EMI Enchanting](https://modrinth.com/project/emi-enchanting) | fzzyhmstrs | MIT |
@@ -67,7 +70,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Krypton](https://modrinth.com/project/krypton) | astei | LGPL-3.0-only |
 | [LambDynamicLights - Dynamic Lights](https://modrinth.com/project/lambdynamiclights) | LambdAurora | Lambda-License |
 | [Language Reload](https://modrinth.com/project/language-reload) | Jerozgen | MIT |
-| [Let Me Despawn](https://modrinth.com/project/lmd) | frikinjay | LGPL-3.0-only |
 | [Lithium](https://modrinth.com/project/lithium) | jellysquid3, 2No2Name | LGPL-3.0-only |
 | [Lithostitched](https://modrinth.com/project/lithostitched) | Apollo | MIT |
 | [Make Bubbles Pop](https://modrinth.com/project/make_bubbles_pop) | Tschipcraft | Custom-License |
@@ -98,6 +100,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [TerraBlender](https://modrinth.com/project/terrablender) | Adubbz | LGPL-3.0-only |
 | [Terralith](https://modrinth.com/project/terralith) | Apollo, catter1, Starmute | Stardust-Labs-License |
 | [Text Placeholder API](https://modrinth.com/project/placeholder-api) | Patbox | LGPL-3.0-only |
+| [The Aether](https://modrinth.com/project/aether) | bconlon1, sunsette, Blodhgarm, alphamode, baguchi, Katie-Payn, HugoPayn, Drullkus, Jaryt, reetamb, Burning-Cactus, raptor494, MistaJub, NAPPUS | Custom |
 | [Tips](https://modrinth.com/project/tips) | Darkhax | LGPL-2.1-only |
 | [ToolTipFix](https://modrinth.com/project/tooltipfix) | kyrptonaught | MIT |
 | [UniLib](https://modrinth.com/project/unilib) | CDAGaming | MIT |
@@ -115,6 +118,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [YUNG's Better Nether Fortresses](https://modrinth.com/project/yungs-better-nether-fortresses) | YUNGNICKYOUNG, Acarii, Drullkus | LGPL-3.0-only |
 | [YUNG's Better Ocean Monuments](https://modrinth.com/project/yungs-better-ocean-monuments) | TeraBuildsStuff, YUNGNICKYOUNG, Drullkus | LGPL-3.0-only |
 | [YUNG's Better Strongholds](https://modrinth.com/project/yungs-better-strongholds) | YUNGNICKYOUNG, Acarii, Drullkus | LGPL-3.0-only |
+| [YUNG's Better Witch Huts](https://modrinth.com/project/yungs-better-witch-huts) | YUNGNICKYOUNG, Acarii, Drullkus | LGPL-3.0-only |
 | [YUNG's Cave Biomes](https://modrinth.com/project/yungs-cave-biomes) | GoesBySully, YUNGNICKYOUNG, jaskarth, InfernalStudios, HellionGames, LudoCrypt | All-Rights-Reserved |
 
 ### Resource packs

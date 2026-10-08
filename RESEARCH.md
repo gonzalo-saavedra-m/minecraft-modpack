@@ -97,40 +97,48 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 
 ---
 
-## Dónde quedamos (07-oct, noche)
+## Dónde quedamos (08-oct, tarde)
 
-**Hecho** (pasos del plan de abajo):
-1. ✅ **Instancia base.** Pack en `pack/` (packwiz). Server headless en `server/` (mundo actual: `p4`; `world` y `ref` son de prueba). Cliente en Prism (instancia `mipack`). Golazoo es OP.
-2. ✅ **Pokédex:** 1025 especies, 0 Substitute.
-3. ✅ **`mipack`:** Celesteela, Iron Jugulis e Iron Boulder portados desde Planeta Cobblemon, con spawns.
-4. ✅ **Mundo:** Terralith, Tectonic, YUNG's Cave Biomes, Incendium y Nullscape. Meteoritos verificados. Chunky medido.
-- ✅ Scripts en `ops/`: `install-java.sh`, `sync.sh`, `start.sh` y `server.properties`.
-- ✅ Server: Chunky, spark, ServerCore, VMP. Cliente: shaders activos por defecto.
+**Hecho:**
+- **Pack** (`pack/`, packwiz) en el repo privado `github.com/gonzalo-saavedra-m/minecraft-modpack` (git, rama `main`).
+- **Worldgen y estructuras:** Terralith, Tectonic, YUNG's Cave Biomes, Incendium, Nullscape, YUNG's Better (9 mods,
+  incluidas Witch Huts), Cobblemon Extra Structures, Raid Dens, Alex's Caves: Refabricated y Ancient City Overhaul.
+  Trial chambers fuera.
+- **Dimensiones:** Aether, Otherside (Deeper and Darker) y Mundo Distorsión.
+- **`mipack-rules`:** sin spawners; sin mobs de `minecraft`, `alexscaves`, `deeperdarker` ni `aether` (salvo aldeanos);
+  abejas → Combee; sin dragón; quedarse sin Pokémon mata; Pokémon fijos solo legendarios/míticos/Gimmighoul; Heart of
+  the Deep en la ciudad antigua.
+- **Spawns** (`tools/gen_spawns.py`): Primordial (fósiles y paradójicos), 5 biomas de Alex's Caves (+10 niveles),
+  Otherside (70–100), exclusivos (Alex's Caves, Aether, Otherside), cabañas YUNG, Rayquaza en el Aether.
+- **Wiki** (`wiki/`, `tools/gen_wiki.py`): Pokémon por generación, zonas, dimensiones con página por bioma, estructuras.
+- Pruebas: `tools/test-server.sh` + `tools/test-rules.sh` (Carpet + `mipack-testkit`), `tools/scan_world.py`.
 
-**Cómo retomar:**
-- Levantar el server: `ops/start.sh`. Consola: `echo "<cmd>" > server/in.fifo`. Log: `server/console.log`.
-- Después de cambiar `pack/`: `packwiz refresh` en `pack/` (binario en `~/go/bin/packwiz`), luego `ops/sync.sh server server` y `ops/sync.sh client "$HOME/Library/Application Support/PrismLauncher/instances/mipack/minecraft"`. Después, `python3 tools/credits.py` para regenerar `CREDITS.md`; si copiamos algo a mano (assets, spawns, configs de otro pack), anotarlo arriba en `CREDITS.md`.
-- Las pruebas las hace Claude desde el server, sin cliente.
+**Cómo retomar:** `ops/start.sh test-server` / `ops/stop.sh test-server`; después de tocar spawns:
+`python3 tools/gen_spawns.py test-server`, `packwiz refresh` en `pack/`, `tools/test-server.sh`; wiki:
+`python3 tools/gen_wiki.py test-server`. Commit y `git push`.
 
-**Siguiente:**
-- **A. ✅ Mod `mipack-rules` 0.1.0** (§10): todo verificado (spawners, mobs, Combee, sin dragón, muerte sin Pokémon). Pruebas: `tools/test-server.sh` + `tools/test-rules.sh`.
-- **B. Gamerules en la función `load` de `mipack`:** keepInventory, `doPatrolSpawning`, `doTraderSpawning` y `doInsomnia` en false.
-- **C. Sin hambre**, con la barra llena y sin saturación (§13.2b).
-- **D. Paso 5** del plan: inventario y QoL.
-- **E. Limpieza de lo heredado del pack oficial** (revisado el 08-oct, falta aprobar el borrado): CraftPresence + UniLib (marca "Cobblemon Fabric" en Discord), Monsters in the Closet y Let Me Despawn + Almanac (sin mobs vanilla no aportan), Placeholder API (nadie la usa) y ~19 configs huérfanas en `yosbr/config`. Para decidir: JEI (duplica a EMI).
-
-**Al final de todo (no antes):** pregenerar el mundo de producción en local con Chunky y subirlo al server (§11.2). Los mundos de prueba actuales no sirven.
-
-**Estructuras (§13.4):** Research 1 hecho; trial chambers fuera. Tesoro enterrado con Monedas Antiguas (falta implementarlo). Mineshafts: rework + spawns exclusivos (Excadrill, Pokémon que excavan, Gimmighoul), quitándolos de las cuevas genéricas. Research 2 (mods de estructuras, rework de mineshafts) en `docs/research-estructuras.md`, para más adelante.
+**Pendiente (en este orden sugerido):**
+1. **Gameplay:** RCT (Liga con Trainer Spawners, `spawnWeightFactor: 0`, límite de nivel), Cobbreeding, Navas ZA Megas,
+   addons de captura. Verificar Megas (keystone en `mega_site`/`megaroid`, paso 7).
+2. **Addons ❓ de a uno** (paso 6): CobbleDollars (economía), Cobblemon PC Plus, Battle Extras, CobbleCuisine, etc.
+3. **Reglas en config:** gamerules en la función `load` de `mipack` (keepInventory, `doPatrolSpawning`,
+   `doTraderSpawning`, `doInsomnia`); mecanismo de "sin hambre" (barra llena sin saturación).
+4. **Spawns en estructuras:** mineshafts (Excadrill, Pokémon que excavan, Gimmighoul) quitándolos de las cuevas
+   genéricas; pool de la ciudad antigua (Sinistea, Honedge, Litwick…); poblar las mazmorras del Aether y las estructuras
+   de Extra Structures que quedaron sin su Pokémon fijo.
+5. **Loot:** tesoro enterrado con Monedas Antiguas; reinyectar la Armadura Aciaga en la fortaleza YUNG; loot Pokémon en
+   ciudad antigua y templos; ítems de otros mods si sirven.
+6. **Raid Dens:** bajar la frecuencia (decidido "menos que el default").
+7. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
+8. **Paso 5 (al final):** inventario y QoL.
+9. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack
+   (CDN) y el pre-launch de Prism.
 
 **Decisiones abiertas:**
-- Golems de hierro y gatos de aldea: hoy **bloqueados** por `mipack-rules` (solo se permiten aldeanos).
-- Si morir al perder aplica a salvajes, entrenadores y PvP.
+- Qué mod deja vivo el hilo `pool-2-thread-1` al apagar (hoy `ops/stop.sh` fuerza el cierre).
 - Cómo conseguir lana, cuero, plumas y leche sin mobs.
-- Revisar que ningún mod active agresión de Pokémon hacia el jugador.
-- **FPS que caen de a poco con shaders** (PC de Gonzalo: RTX 3060, Windows 11). Se arregla con `R` de Iris (recargar shaders), y pasa con cualquier shader: el problema está en Iris (está en la última versión para 1.21.1, 1.8.14-beta) o en un mod que dibuja a través de su pipeline (partículas, Wakes, EMF/ETF, LambDynamicLights). Para aislarlo: probar con Iris + Sodium solos en una instancia aparte. Calza con fugas de VRAM reportadas en Iris (#2172, #2593, #3109), sin arreglo conocido. Falta: ver si sube la memoria dedicada de la GPU (Administrador de tareas) o el `Mem` de F3, y un `/sparkc profiler start --timeout 60` cuando ya esté lento. **Parche puesto el 08-oct:** `mipack-rules` recarga Iris sola (como la `R`) cuando la VRAM libre baja del 15% (NVIDIA) o los FPS del último minuto caen bajo el 60% de la base post-reload; cooldown de 10 min de juego y solo al abrir pausa o inventario. Cada minuto escribe en `logs/latest.log` una línea `mipack: FPS … VRAM libre … Mem Java …`: con eso se sabe si la fuga es de VRAM o de RAM. **[NV en cliente]** Candidatos a actualizar (cliente): ETF 7.2.5, EMF 3.3.11, Entity Culling 1.11.2, Particle Rain 4.0.1, Sodium Extra 0.9.4.
-- Cómo se aprende a jugar (reemplazo del Tutorial World): un libro guía en el juego, links a una wiki existente o una wiki propia en GitHub.
-- Juzgar si hace falta un menú principal propio para enriquecer la experiencia (FancyMenu se sacó el 08-oct; base en `attic/fancymenu`).
+- Si morir al perder aplica a salvajes, entrenadores y PvP (hoy: todos).
+- Traducir al español los nombres de estructuras y biomas de otros mods en la wiki.
 
 ## Plan fin de semana (10–11 oct 2026)
 
