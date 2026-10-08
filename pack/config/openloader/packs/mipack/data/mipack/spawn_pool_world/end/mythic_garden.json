@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-end-mythic_garden-cutiefly",
+      "pokemon": "cutiefly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:mythic_garden",
+          "mes:enderskog"
+        ]
+      }
+    },
+    {
+      "id": "mipack-end-mythic_garden-ribombee",
+      "pokemon": "ribombee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:mythic_garden",
+          "mes:enderskog"
+        ]
+      }
+    },
+    {
+      "id": "mipack-end-mythic_garden-comfey",
+      "pokemon": "comfey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:mythic_garden",
+          "mes:enderskog"
+        ]
+      }
+    }
+  ]
+}

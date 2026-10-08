@@ -233,6 +233,24 @@
   "incendium:quartz_flats/kitchen_basic": {
     "table": "mipack:chests/tier2"
   },
+  "mes:end_common": {
+    "table": "mipack:chests/tier3"
+  },
+  "mes:end_rare": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "mes:end_uncommon": {
+    "table": "mipack:chests/tier4"
+  },
+  "mes:mega_ship_barrel": {
+    "table": "mipack:chests/tier3"
+  },
+  "mes:mega_ship_crate": {
+    "table": "mipack:chests/tier3"
+  },
+  "mes:mega_ship_treasure": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
   "minecraft:chests/abandoned_mineshaft": {
     "table": "mipack:chests/tier2"
   },
@@ -258,13 +276,10 @@
     "table": "mipack:chests/tier4"
   },
   "minecraft:chests/buried_treasure": {
-    "table": "mipack:chests/tier2"
+    "table": "mipack:chests/tier3"
   },
   "minecraft:chests/desert_pyramid": {
     "table": "mipack:chests/tier3"
-  },
-  "minecraft:chests/end_city_treasure": {
-    "table": "mipack:chests/tier4_jackpot"
   },
   "minecraft:chests/igloo_chest": {
     "table": "mipack:chests/tier2"

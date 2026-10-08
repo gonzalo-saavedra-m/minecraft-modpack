@@ -129,6 +129,33 @@ EXCLUSIVE = {'voltorb', 'electrode', 'grimer', 'muk', 'grimer alolan', 'muk alol
 # Exclusivos del Aether (decidido el 08-oct): conservan solo sus spawns del Aether (y estructuras)
 AETHER_EXCLUSIVE = {'bagon', 'shelgon', 'salamence', 'castform', 'swablu', 'altaria', 'happiny', 'chansey', 'blissey'}
 EXCLUSIVE |= AETHER_EXCLUSIVE
+# Estructuras del End (Moog's End Structures; decidido el 08-oct): cada ultraente es exclusivo de una estructura temática
+# y sale "rare" dentro de ella: probabilidad baja, pero se puede farmear rondando la estructura (opción A). Se borran sus spawns de ATM en Overworld y biomas del End.
+MES = 'mes:'
+SHIPS = [MES + s for s in ('mega_ship', 'mega_ship_basic', 'mega_ship_crashed', 'mega_ship_crashed_2',
+                           'mega_ship_crashed_deepslate', 'mega_ship_deepslate', 'mega_ship_deepslate_2',
+                           'mega_ship_deepslate_3', 'starlight_voyager')]
+END_STRUCTURES = {  # estructuras -> [(pokemon, bucket, niveles)]
+    (MES + 'astral_hideaway',): [('nihilego', 'rare', '50-70'), ('elgyem', 'common', '25-40'), ('beheeyem', 'uncommon', '42-60')],
+    tuple(SHIPS): [('celesteela', 'rare', '50-70')],                     # nave cohete
+    (MES + 'manuscript_shrine',): [('kartana', 'rare', '50-70')],         # papel
+    (MES + 'enderwatch_tower', MES + 'ender_spire'): [('xurkitree', 'rare', '50-70')],  # cables, torres
+    (MES + 'enderkeep_courtyard',): [('buzzwole', 'rare', '50-70')],      # patio de armas
+    (MES + 'enderbloom_grove', MES + 'placid_prairie'): [('pheromosa', 'rare', '50-70')],
+    (MES + 'endscraps',): [('guzzlord', 'rare', '50-70')],                # chatarra: se come todo
+    (MES + 'ruined_pillar', MES + 'enderpin_spikes'): [('stakataka', 'rare', '50-70')],  # muro de piedras
+    (MES + 'astral_meteorite',): [('blacephalon', 'rare', '50-70'), ('minior', 'common', '30-50')],
+    (MES + 'mystical_archway',): [('poipole', 'rare', '20-40'), ('naganadel', 'ultra-rare', '50-70'),
+                                  ('hoopa', 'ultra-rare', '70')],             # aros y portales
+    (MES + 'phantom_citadel',): [('gothita', 'common', '20-35'), ('gothorita', 'uncommon', '32-45'),
+                                 ('gothitelle', 'rare', '41-60')],            # antes en la ciudad del End (quitada)
+    (MES + 'monolith',): [('sigilyph', 'uncommon', '30-50'), ('unown', 'common', '20-40')],
+    (MES + 'mythic_garden', MES + 'enderskog'): [('cutiefly', 'common', '20-35'), ('ribombee', 'uncommon', '30-50'),
+                                                 ('comfey', 'uncommon', '30-50')],
+}
+ULTRA_BEASTS = {'nihilego', 'celesteela', 'kartana', 'xurkitree', 'buzzwole', 'pheromosa', 'guzzlord', 'stakataka',
+                'blacephalon', 'poipole', 'naganadel'}
+EXCLUSIVE |= ULTRA_BEASTS
 # Zonas especiales difíciles de encontrar: ahí los exclusivos conservan sus spawns (como el Nether)
 SPECIAL_ZONES = ('#cobblemon:nether/', 'clumpedindistortionworld:')
 
@@ -185,6 +212,8 @@ def keep_exclusive(spawn, ks):
     biomes = [str(b) for b in c.get('biomes', [])]
     if any(k in AETHER_EXCLUSIVE for k in ks):
         return any('aether' in b for b in biomes) or bool(c.get('structures'))
+    if any(k in ULTRA_BEASTS for k in ks):
+        return False  # solo los spawns propios en estructuras del End
     return bool(c.get('structures')) or bool(presets & (structure_presets | {'urban'})) or \
         any(b.startswith(SPECIAL_ZONES) for b in biomes)
 
@@ -249,6 +278,19 @@ for f in (MIPACK / 'data/mipack/spawn_pool_world').glob('iron*.json'):
         s['condition']['biomes'], s['bucket'] = [PRIMORDIAL], PRIMORDIAL_BUCKET['paradox']
         s['level'] = {'ironjugulis': '50-85', 'ironboulder': '70-90'}.get(s['pokemon'].split()[0], s['level'])  # como sus pares con +10
     f.write_text(json.dumps(d, indent=2) + '\n')
+
+# Celesteela (propia de mipack): solo en las naves del End, como el resto de los ultraentes
+for f in (MIPACK / 'data/mipack/spawn_pool_world').glob('celesteela.json'):
+    f.unlink()
+
+shutil.rmtree(MIPACK / 'data/mipack/spawn_pool_world/end', ignore_errors=True)
+for structs, entries in END_STRUCTURES.items():
+    name = structs[0].split(':')[1].replace('mega_ship', 'ships')
+    spawns = [{'id': f'mipack-end-{name}-{p}', 'pokemon': p + (' min_perfect_ivs=3' if p in ULTRA_BEASTS else ''),
+               'type': 'pokemon', 'spawnablePositionType': 'grounded', 'bucket': b, 'level': lvl, 'weight': 10.0,
+               'condition': {'biomes': ['#cobblemon:is_end'], 'structures': list(structs)}} for p, b, lvl in entries]
+    write(f'data/mipack/spawn_pool_world/end/{name}.json',
+          {'enabled': True, 'neededInstalledMods': [], 'neededUninstalledMods': [], 'spawns': spawns})
 
 for biome, entries in BIOMES.items():
     spawns = []

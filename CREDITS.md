@@ -100,9 +100,11 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Lithostitched](https://modrinth.com/project/lithostitched) | Apollo | MIT |
 | [Make Bubbles Pop](https://modrinth.com/project/make_bubbles_pop) | Tschipcraft | Custom-License |
 | [Matthiesen Core](https://modrinth.com/project/matthiesen-core) | Adammatthiesen | MIT |
+| [MES - Moog's End Structures](https://modrinth.com/project/mes-moogs-end-structures) | FinnDog_123, joshieman | LGPL-3.0-only |
 | [Mod Menu](https://modrinth.com/project/modmenu) | gniftygnome, Prospector, modmuss50 | MIT |
 | [ModernFix](https://modrinth.com/project/modernfix) | embeddedt | LGPL-3.0-only |
 | [Monsters in the Closet](https://modrinth.com/project/monsters-in-the-closet) | Minenash | MIT |
+| [Moog's Structure Lib (moogs_structures)](https://modrinth.com/project/moogs-structure-lib) | FinnDog_123 | LGPL-3.0-only |
 | [More Radical Trainers: SV](https://modrinth.com/project/more-radical-trainers) | fyre520 | MIT |
 | [Navas ZA Megas](https://modrinth.com/project/navas-zamega) | natusue233, sishengruyu, GrenCobblemon, hugoarts, Sevonents, Radowkage, sanji1, YajatKaul, Narenhate | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [NetherPortalFix](https://modrinth.com/project/netherportalfix) | BlayTheNinth | All-Rights-Reserved |

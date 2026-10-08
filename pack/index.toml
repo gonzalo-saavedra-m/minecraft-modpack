@@ -931,6 +931,10 @@ file = "config/openloader/packs/mipack/data/mega_showdown/worldgen/structure_set
 hash = "1073462c4f234bb246a4738410af8b9c1ea39468560c532a9b74d630b8c00539"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_structure/end_city.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_structure/trial_chambers.json"
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
@@ -940,23 +944,23 @@ hash = "f3343474aa98dcd045a3cf507399b2c2e18493aaf6c84b76a2f8c4668aaf41c0"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier1.json"
-hash = "3767bbc334cd13c984207980f6d5fd5799030fc4c3ad9a3bde7b37ff8554333b"
+hash = "fb9c8713ef3a04888676ab60032bc3a8944cf84dae7e39d8d9e67590ba84e529"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier2.json"
-hash = "069c5aa6fcd88b6ab5052b8264df49e0c16a1f2ba5c69ca99b72d14286a1115b"
+hash = "bd06864e441402f50add2b4f86541bcd49690cca5cb763c77b4ad219a7a408d8"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier3.json"
-hash = "ddb866c0411a35e78208c12ef2234060eb949476726c67c4c76daec8c7cdfcfc"
+hash = "2290d16b5467f561c78431c9b20e113899e7d10bb39d6bb9a6d00a94f00c3ff7"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier4.json"
-hash = "bf0903d92c354cd94ccd845439af06004a2877bad16df93bd0bb75cfac679ae4"
+hash = "392b92a68733acd6ed48766b90ec713838e94c2174802360f603d752938b00b8"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier4_jackpot.json"
-hash = "896a863bba7cbc02a876e2c0e23f9f4603bbbadbb388a94bdd8ee115617e94d4"
+hash = "5fe5dbce8675bc7c2f9b13ec3f3bbde0eae9499cf47404b78c28a21fe7f45c5b"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/apricorn.json"
@@ -1167,10 +1171,6 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/alexscaves/t
 hash = "f159513e822453bb2c19356602ffd6ce5d0b1264260bc02a4a987dd44e7acf6d"
 
 [[files]]
-file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/celesteela.json"
-hash = "d2082cb70b4a31897b86da8972df3dd5939645ccdba436d339f9157501c6568e"
-
-[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/deeperdarker/blooming_caverns.json"
 hash = "e07ab82c622ece8c0269fd53c13cae153562a66458f9fee46645f190f5938ecd"
 
@@ -1185,6 +1185,58 @@ hash = "5ea957674106896a8e55877e1e44f7d4ed1047b40114706ef5045fba7a456a63"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/deeperdarker/overcast_columns.json"
 hash = "3862de1c00c2a40102068ac923d5640336ddd5dd2862d61f07919938fcaff15d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/astral_hideaway.json"
+hash = "61a3879618b99462e344f265af25cf943863e3facc84233af647933920d9346c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/astral_meteorite.json"
+hash = "4f4dccfeb368b81ade3dbead5a2b02aba12307231ba013ed8c599acceac57c65"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/enderbloom_grove.json"
+hash = "4f1b644df28ee0da8be2dae33aecd9951d0750af37d3e3118f16c3efcba51ba6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/enderkeep_courtyard.json"
+hash = "7acf936951db400f92cd387baeef59ffa42112c360b567f9a18b314c711d960c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/enderwatch_tower.json"
+hash = "30eba5bfafa60d7ff009d5709af5e58463372c093c3acb678fcfd556c2f02af0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/endscraps.json"
+hash = "b914c5fb224c21f1635dd09918ed15b0b473be5205dbdb98a2d5db9eed8a75d1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/manuscript_shrine.json"
+hash = "8dfffb0da190f08feb617ce86c508d95e603b51c99126a1f9d74329758472daa"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/monolith.json"
+hash = "eac23295191d971b8f874b274837ef8bef023de1d05e55a32509e99584074c6e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/mystical_archway.json"
+hash = "633eaa4ceef3b99c114dd9ce6a8576d97cc387adab0c9efc39f5add8eecf1e7f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/mythic_garden.json"
+hash = "ea1e92afce80393b3e14cf4b277e3f90565e9ed65567476799e77af22adc027f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/phantom_citadel.json"
+hash = "d777d7b53deb06e1eb02feb70a9a0e3ed3beedc04606f1a1d46029650c746008"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/ruined_pillar.json"
+hash = "d17cd68943407e32179187a938107068b73a5278402b36296d9f862ca32d1a33"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/ships.json"
+hash = "f261533dfe23f82a4f0aa1acf234ecee8f7fe2e6ba64b95ae2a1134bf0af6165"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/ironboulder.json"
@@ -1769,6 +1821,42 @@ hash = "f1836294e8582109b05b1c53bc51d3c726c3b1dfec54387f942f8f600bbe1285"
 [[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/paradox/walkingwake.json"
 hash = "22cb9932235995a33a3efb8a562e452f61718f0327aef45bda1a964413cd4d2e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/blacephalon.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/buzzwole.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/guzzlord.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/kartana.json"
+hash = "fac703cc8ce64b712f15e130f4b2233414028f6cee0c52565f8cc682e29e4090"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/nihilego.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/pheromosa.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/poipole.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/stakataka.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultra_beast/xurkitree.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
 
 [[files]]
 file = "config/openloader/packs/mipack/pack.mcmeta"
@@ -2614,8 +2702,13 @@ hash = "c79a63c28d4be2d3c0e7886b27ed0bf65d1c1a48ab6b677be22e6a3d27262004"
 metafile = true
 
 [[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "66e27964c598c333a9082695989d293e554c42a8a295c6cfdc56685bb01d0f4e"
+metafile = true
+
+[[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "64dbf3d8fa477c28184fa2bd4a9e67a0f4bc2c34c9de93aea57d606989207f09"
+hash = "489c3c3080c444438752998b96aba05e57e4970e209a80051abe17863b99c699"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -2630,6 +2723,11 @@ metafile = true
 [[files]]
 file = "mods/monsters-in-the-closet.pw.toml"
 hash = "0220080e63da514cdfd5ff73355572eba1ebb0202951e12f95740ce413912fb2"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "58049e59a4d1e664f5af786ee857cddd47ca5b5e11dbc215b58c272969b6042b"
 metafile = true
 
 [[files]]

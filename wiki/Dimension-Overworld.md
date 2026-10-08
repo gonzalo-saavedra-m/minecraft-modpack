@@ -14,42 +14,42 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 
 | Bioma | Zonas | Estructuras | Pokémon |
 |---|---|---|---|
-| [Abedular](Bioma-minecraft-birch_forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 16 | 178 |
-| [Abedular ancestral](Bioma-minecraft-old_growth_birch_forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 17 | 178 |
-| [Abetal](Bioma-minecraft-grove.md) | [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada), [Templado](Zonas.md#templado) | 21 | 161 |
+| [Abedular](Bioma-minecraft-birch_forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 16 | 177 |
+| [Abedular ancestral](Bioma-minecraft-old_growth_birch_forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 17 | 177 |
+| [Abetal](Bioma-minecraft-grove.md) | [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada), [Templado](Zonas.md#templado) | 21 | 160 |
 | [Abismo Glacial](Bioma-terralith-glacial_chasm.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado) | 8 | 45 |
 | [Acantilado Blancas](Bioma-terralith-white_cliffs.md) | [Costa](Zonas.md#costa), [Frío](Zonas.md#frío) | 4 | 41 |
 | [Acantilado De Basalto](Bioma-terralith-basalt_cliffs.md) | [Costa](Zonas.md#costa) | 5 | 40 |
 | [Acantilado Friolentas](Bioma-terralith-frozen_cliffs.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Océano](Zonas.md#océano), [Océano helado](Zonas.md#océano-helado) | 7 | 108 |
 | [Acantilados de Granito](Bioma-terralith-granite_cliffs.md) | [Costa](Zonas.md#costa) | 4 | 40 |
-| [Acantilados de Yosemite](Bioma-terralith-yosemite_cliffs.md) | [Frío](Zonas.md#frío), [Mesetas](Zonas.md#mesetas), [Montañas](Zonas.md#montañas) | 6 | 73 |
-| [Arboleda de Sakuras](Bioma-terralith-sakura_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Templado](Zonas.md#templado) | 24 | 223 |
-| [Arboleda de la Luna](Bioma-terralith-moonlight_grove.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Mágico](Zonas.md#mágico), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 26 | 262 |
-| [Arenas Viejas](Bioma-terralith-ancient_sands.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 76 |
-| [Bosque](Bioma-minecraft-forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 16 | 178 |
-| [Bosque Alpino](Bioma-terralith-alpine_grove.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 24 | 194 |
-| [Bosque Boreal de Abedul](Bioma-terralith-birch_taiga.md) | [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 24 | 199 |
-| [Bosque De Nubes](Bioma-terralith-cloud_forest.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 24 | 244 |
-| [Bosque Lavanda](Bioma-terralith-lavender_forest.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 25 | 241 |
-| [Bosque Siberiana](Bioma-terralith-siberian_grove.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 24 | 198 |
-| [Bosque de Arce nevada](Bioma-terralith-snowy_maple_forest.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 23 | 198 |
+| [Acantilados de Yosemite](Bioma-terralith-yosemite_cliffs.md) | [Frío](Zonas.md#frío), [Mesetas](Zonas.md#mesetas), [Montañas](Zonas.md#montañas) | 6 | 72 |
+| [Arboleda de Sakuras](Bioma-terralith-sakura_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Templado](Zonas.md#templado) | 24 | 222 |
+| [Arboleda de la Luna](Bioma-terralith-moonlight_grove.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Mágico](Zonas.md#mágico), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 26 | 261 |
+| [Arenas Viejas](Bioma-terralith-ancient_sands.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 75 |
+| [Bosque](Bioma-minecraft-forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 16 | 177 |
+| [Bosque Alpino](Bioma-terralith-alpine_grove.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 24 | 193 |
+| [Bosque Boreal de Abedul](Bioma-terralith-birch_taiga.md) | [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 24 | 198 |
+| [Bosque De Nubes](Bioma-terralith-cloud_forest.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 24 | 243 |
+| [Bosque Lavanda](Bioma-terralith-lavender_forest.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 25 | 240 |
+| [Bosque Siberiana](Bioma-terralith-siberian_grove.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 24 | 197 |
+| [Bosque de Arce nevada](Bioma-terralith-snowy_maple_forest.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 23 | 197 |
 | [Bosque de Invierno](Bioma-terralith-wintry_forest.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 21 | 105 |
-| [Bosque floral](Bioma-minecraft-flower_forest.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Templado](Zonas.md#templado) | 18 | 223 |
-| [Bosque oscuro](Bioma-minecraft-dark_forest.md) | [Bosques](Zonas.md#bosques), [Hongos](Zonas.md#hongos), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado), [Tenebroso](Zonas.md#tenebroso) | 21 | 190 |
-| [Bosque ventiscoso](Bioma-minecraft-windswept_forest.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 12 | 147 |
-| [Caldera Volcanica](Bioma-terralith-caldera.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Termal](Zonas.md#termal) | 13 | 148 |
+| [Bosque floral](Bioma-minecraft-flower_forest.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Templado](Zonas.md#templado) | 18 | 222 |
+| [Bosque oscuro](Bioma-minecraft-dark_forest.md) | [Bosques](Zonas.md#bosques), [Hongos](Zonas.md#hongos), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado), [Tenebroso](Zonas.md#tenebroso) | 21 | 189 |
+| [Bosque ventiscoso](Bioma-minecraft-windswept_forest.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 12 | 146 |
+| [Caldera Volcanica](Bioma-terralith-caldera.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Termal](Zonas.md#termal) | 13 | 147 |
 | [Campo de champiñones](Bioma-minecraft-mushroom_fields.md) | [Campo de champiñones](Zonas.md#campo-de-champiñones), [Hongos](Zonas.md#hongos), [Islas](Zonas.md#islas) | 12 | 37 |
 | [Cavidad dulce](Bioma-alexscaves-candy_cavity.md) | [Candy Cavity (Alex's Caves)](Zonas.md#candy-cavity-alexs-caves), [Mágico](Zonas.md#mágico) | 6 | 40 |
 | [Cañón Bryce](Bioma-terralith-bryce_canyon.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Árido](Zonas.md#árido) | 19 | 161 |
 | [Cañón De Amatista](Bioma-terralith-amethyst_canyon.md) | [Cañón De Amatista](Zonas.md#cañón-de-amatista), [Jungla](Zonas.md#jungla), [Mágico](Zonas.md#mágico) | 26 | 195 |
-| [Cañón Desértico](Bioma-terralith-desert_canyon.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 19 | 76 |
-| [Cerezal](Bioma-minecraft-cherry_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 18 | 286 |
-| [Cerezal nevada](Bioma-terralith-snowy_cherry_grove.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Templado](Zonas.md#templado) | 24 | 163 |
-| [Colinas pedregosas ventiscosas](Bioma-minecraft-windswept_gravelly_hills.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 11 | 147 |
-| [Colinas ventiscosas](Bioma-minecraft-windswept_hills.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 11 | 147 |
+| [Cañón Desértico](Bioma-terralith-desert_canyon.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 19 | 75 |
+| [Cerezal](Bioma-minecraft-cherry_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 18 | 284 |
+| [Cerezal nevada](Bioma-terralith-snowy_cherry_grove.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Templado](Zonas.md#templado) | 24 | 162 |
+| [Colinas pedregosas ventiscosas](Bioma-minecraft-windswept_gravelly_hills.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 11 | 146 |
+| [Colinas ventiscosas](Bioma-minecraft-windswept_hills.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 11 | 146 |
 | [Costa rocosa](Bioma-minecraft-stony_shore.md) | [Costa](Zonas.md#costa) | 8 | 40 |
 | [Crystal Cavern](Bioma-cobblemonraiddens-raid_den.md) | — | 0 | 0 |
-| [Cráter Volcanica](Bioma-terralith-volcanic_crater.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Volcánico](Zonas.md#volcánico) | 13 | 147 |
+| [Cráter Volcanica](Bioma-terralith-volcanic_crater.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Volcánico](Zonas.md#volcánico) | 13 | 146 |
 | [Cueva magnética](Bioma-alexscaves-magnetic_caves.md) | [Magnetic Caves (Alex's Caves)](Zonas.md#magnetic-caves-alexs-caves) | 1 | 37 |
 | [Cueva primordial](Bioma-alexscaves-primordial_caves.md) | [Primordial Caves (Alex's Caves)](Zonas.md#primordial-caves-alexs-caves) | 2 | 41 |
 | [Cueva tóxica](Bioma-alexscaves-toxic_caves.md) | [Toxic Caves (Alex's Caves)](Zonas.md#toxic-caves-alexs-caves) | 1 | 24 |
@@ -67,40 +67,40 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Cuevas frondosas](Bioma-minecraft-lush_caves.md) | [Cuevas frondosas](Zonas.md#cuevas-frondosas) | 17 | 26 |
 | [Cuevas kársticas](Bioma-minecraft-dripstone_caves.md) | [Cuevas de dripstone](Zonas.md#cuevas-de-dripstone) | 12 | 11 |
 | [Cuevas profundas](Bioma-terralith-cave-deep_caves.md) | [Deep dark](Zonas.md#deep-dark) | 7 | 17 |
-| [Cumbres escarpadas](Bioma-minecraft-jagged_peaks.md) | [Cumbres escarpadas](Zonas.md#cumbres-escarpadas), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 116 |
-| [Cumbres heladas](Bioma-minecraft-frozen_peaks.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 128 |
-| [Cumbres rocosas](Bioma-minecraft-stony_peaks.md) | [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Picos](Zonas.md#picos) | 14 | 87 |
+| [Cumbres escarpadas](Bioma-minecraft-jagged_peaks.md) | [Cumbres escarpadas](Zonas.md#cumbres-escarpadas), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 114 |
+| [Cumbres heladas](Bioma-minecraft-frozen_peaks.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 126 |
+| [Cumbres rocosas](Bioma-minecraft-stony_peaks.md) | [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Picos](Zonas.md#picos) | 14 | 85 |
 | [Deep Warm Ocean](Bioma-terralith-deep_warm_ocean.md) | [Océano](Zonas.md#océano), [Océano profundo](Zonas.md#océano-profundo) | 6 | 75 |
 | [Depresión desolada](Bioma-alexscaves-forlorn_hollows.md) | [Forlorn Hollows (Alex's Caves)](Zonas.md#forlorn-hollows-alexs-caves), [Tenebroso](Zonas.md#tenebroso) | 3 | 34 |
-| [Desierto](Bioma-minecraft-desert.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 28 | 76 |
-| [Desierto Frondosa](Bioma-terralith-lush_desert.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 24 | 76 |
+| [Desierto](Bioma-minecraft-desert.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 28 | 75 |
+| [Desierto Frondosa](Bioma-terralith-lush_desert.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 24 | 75 |
 | [Desierto de Grava](Bioma-terralith-gravel_desert.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra) | 8 | 59 |
 | [Escudo](Bioma-terralith-shield.md) | [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga) | 16 | 63 |
 | [Escudo Claro](Bioma-terralith-shield_clearing.md) | [Frío](Zonas.md#frío) | 6 | 1 |
-| [Escudo nevada](Bioma-terralith-snowy_shield.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 24 | 194 |
-| [Espiral Desérticas](Bioma-terralith-desert_spires.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 76 |
-| [Espirales Vientosas](Bioma-terralith-windswept_spires.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Picos](Zonas.md#picos) | 11 | 158 |
-| [Esprilaes pétreas](Bioma-terralith-stony_spires.md) | [Colinas](Zonas.md#colinas), [Cuevas de dripstone](Zonas.md#cuevas-de-dripstone), [Montañas](Zonas.md#montañas) | 12 | 153 |
+| [Escudo nevada](Bioma-terralith-snowy_shield.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 24 | 193 |
+| [Espiral Desérticas](Bioma-terralith-desert_spires.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 75 |
+| [Espirales Vientosas](Bioma-terralith-windswept_spires.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Picos](Zonas.md#picos) | 11 | 156 |
+| [Esprilaes pétreas](Bioma-terralith-stony_spires.md) | [Colinas](Zonas.md#colinas), [Cuevas de dripstone](Zonas.md#cuevas-de-dripstone), [Montañas](Zonas.md#montañas) | 12 | 152 |
 | [Estepa](Bioma-terralith-steppe.md) | [Llanuras](Zonas.md#llanuras), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado) | 15 | 140 |
 | [Fosa abisal](Bioma-alexscaves-abyssal_chasm.md) | [Abyssal Chasm (Alex's Caves)](Zonas.md#abyssal-chasm-alexs-caves), [Océano](Zonas.md#océano), [Océano profundo](Zonas.md#océano-profundo) | 6 | 80 |
-| [Islas Alfas](Bioma-terralith-alpha_islands.md) | [Bosques](Zonas.md#bosques), [Islas](Zonas.md#islas), [Templado](Zonas.md#templado) | 8 | 188 |
-| [Islas Alfas (Invierno)](Bioma-terralith-alpha_islands_winter.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas](Zonas.md#islas), [Nevado](Zonas.md#nevado), [Templado](Zonas.md#templado) | 10 | 157 |
-| [Islas Espejismo](Bioma-terralith-mirage_isles.md) | [Bosques](Zonas.md#bosques), [Hongos](Zonas.md#hongos), [Islas](Zonas.md#islas), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 11 | 227 |
+| [Islas Alfas](Bioma-terralith-alpha_islands.md) | [Bosques](Zonas.md#bosques), [Islas](Zonas.md#islas), [Templado](Zonas.md#templado) | 8 | 187 |
+| [Islas Alfas (Invierno)](Bioma-terralith-alpha_islands_winter.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas](Zonas.md#islas), [Nevado](Zonas.md#nevado), [Templado](Zonas.md#templado) | 10 | 156 |
+| [Islas Espejismo](Bioma-terralith-mirage_isles.md) | [Bosques](Zonas.md#bosques), [Hongos](Zonas.md#hongos), [Islas](Zonas.md#islas), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 11 | 226 |
 | [Islas del Cielo (Invierno)](Bioma-terralith-skylands_winter.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas del Cielo (Invierno)](Zonas.md#islas-del-cielo-invierno), [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado) | 5 | 113 |
 | [Islas del Cielo (Otoño)](Bioma-terralith-skylands_autumn.md) | [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico) | 2 | 92 |
 | [Islas del Cielo (Primavera)](Bioma-terralith-skylands_spring.md) | [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico) | 2 | 92 |
 | [Islas del Cielo (Verano)](Bioma-terralith-skylands_summer.md) | [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico) | 2 | 92 |
 | [Jungla](Bioma-minecraft-jungle.md) | [Jungla](Zonas.md#jungla) | 25 | 153 |
-| [Jungla Tropical](Bioma-terralith-tropical_jungle.md) | [Colinas](Zonas.md#colinas), [Jungla](Zonas.md#jungla), [Montañas](Zonas.md#montañas) | 29 | 271 |
+| [Jungla Tropical](Bioma-terralith-tropical_jungle.md) | [Colinas](Zonas.md#colinas), [Jungla](Zonas.md#jungla), [Montañas](Zonas.md#montañas) | 29 | 270 |
 | [Jungla bajo tierra](Bioma-terralith-cave-underground_jungle.md) | [Cuevas frondosas](Zonas.md#cuevas-frondosas), [Jungla](Zonas.md#jungla), [has block: mud](Zonas.md#has-block-mud) | 20 | 168 |
-| [Jungla de bambú](Bioma-minecraft-bamboo_jungle.md) | [Bambú](Zonas.md#bambú), [Jungla](Zonas.md#jungla) | 24 | 163 |
+| [Jungla de bambú](Bioma-minecraft-bamboo_jungle.md) | [Bambú](Zonas.md#bambú), [Jungla](Zonas.md#jungla) | 24 | 162 |
 | [Jungla dispersa](Bioma-minecraft-sparse_jungle.md) | [Jungla](Zonas.md#jungla) | 23 | 153 |
-| [Ladera nevada](Bioma-minecraft-snowy_slopes.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 116 |
-| [Laderas de Sabana](Bioma-terralith-savanna_slopes.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 22 | 240 |
+| [Ladera nevada](Bioma-minecraft-snowy_slopes.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 114 |
+| [Laderas de Sabana](Bioma-terralith-savanna_slopes.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 22 | 239 |
 | [Llanura](Bioma-minecraft-plains.md) | [Llanuras](Zonas.md#llanuras), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado) | 22 | 140 |
 | [Llanura de girasoles](Bioma-minecraft-sunflower_plains.md) | [Floral](Zonas.md#floral), [Llanura de girasoles](Zonas.md#llanura-de-girasoles), [Llanuras](Zonas.md#llanuras), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado) | 22 | 176 |
 | [Llanura nevada](Bioma-minecraft-snowy_plains.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra) | 17 | 53 |
-| [Manglar](Bioma-minecraft-mangrove_swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano), [has block: mud](Zonas.md#has-block-mud) | 6 | 110 |
+| [Manglar](Bioma-minecraft-mangrove_swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano), [has block: mud](Zonas.md#has-block-mud) | 6 | 108 |
 | [Matorral](Bioma-terralith-shrubland.md) | [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Árido](Zonas.md#árido) | 16 | 216 |
 | [Matorrales](Bioma-terralith-brushland.md) | [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Árido](Zonas.md#árido) | 21 | 216 |
 | [Matorrales Calientes](Bioma-terralith-hot_shrubland.md) | [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 12 | 130 |
@@ -109,13 +109,13 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Mesa Blanca](Bioma-terralith-white_mesa.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Mesetas](Zonas.md#mesetas), [Árido](Zonas.md#árido) | 28 | 112 |
 | [Mesa deformada](Bioma-terralith-warped_mesa.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Islas](Zonas.md#islas), [Mágico](Zonas.md#mágico), [Árido](Zonas.md#árido) | 8 | 171 |
 | [Meseta de sabana](Bioma-minecraft-savanna_plateau.md) | [Mesetas](Zonas.md#mesetas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 18 | 132 |
-| [Meseta floriciente](Bioma-terralith-blooming_plateau.md) | [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Llanuras](Zonas.md#llanuras), [Mesetas](Zonas.md#mesetas), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 19 | 275 |
-| [Montañas Escarlatas](Bioma-terralith-scarlet_mountains.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 19 | 162 |
-| [Montañas Pintadas](Bioma-terralith-painted_mountains.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Picos](Zonas.md#picos), [Árido](Zonas.md#árido) | 22 | 228 |
-| [Montañas Rocosas](Bioma-terralith-rocky_mountains.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 116 |
-| [Montañas de Neblina](Bioma-terralith-haze_mountain.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Taiga](Zonas.md#taiga) | 14 | 175 |
-| [Oasis Desértica](Bioma-terralith-desert_oasis.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 31 | 164 |
-| [Oasis Rojas](Bioma-terralith-red_oasis.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Desierto](Zonas.md#desierto), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 28 | 204 |
+| [Meseta floriciente](Bioma-terralith-blooming_plateau.md) | [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Llanuras](Zonas.md#llanuras), [Mesetas](Zonas.md#mesetas), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 19 | 274 |
+| [Montañas Escarlatas](Bioma-terralith-scarlet_mountains.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 19 | 160 |
+| [Montañas Pintadas](Bioma-terralith-painted_mountains.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Picos](Zonas.md#picos), [Árido](Zonas.md#árido) | 22 | 226 |
+| [Montañas Rocosas](Bioma-terralith-rocky_mountains.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 17 | 114 |
+| [Montañas de Neblina](Bioma-terralith-haze_mountain.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Taiga](Zonas.md#taiga) | 14 | 174 |
+| [Oasis Desértica](Bioma-terralith-desert_oasis.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 31 | 163 |
+| [Oasis Rojas](Bioma-terralith-red_oasis.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Desierto](Zonas.md#desierto), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 28 | 203 |
 | [Océano](Bioma-minecraft-ocean.md) | [Océano](Zonas.md#océano) | 7 | 74 |
 | [Océano cálido](Bioma-minecraft-warm_ocean.md) | [Océano](Zonas.md#océano), [Océano cálido](Zonas.md#océano-cálido) | 7 | 86 |
 | [Océano frío](Bioma-minecraft-cold_ocean.md) | [Frío](Zonas.md#frío), [Océano](Zonas.md#océano), [Océano frío](Zonas.md#océano-frío) | 9 | 83 |
@@ -126,22 +126,22 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Océano tibio](Bioma-minecraft-lukewarm_ocean.md) | [Océano](Zonas.md#océano), [Océano templado](Zonas.md#océano-templado) | 7 | 80 |
 | [Océano tibio profundo](Bioma-minecraft-deep_lukewarm_ocean.md) | [Océano](Zonas.md#océano), [Océano profundo](Zonas.md#océano-profundo), [Océano templado](Zonas.md#océano-templado) | 9 | 81 |
 | [Oscuridad profunda](Bioma-minecraft-deep_dark.md) | [Deep dark](Zonas.md#deep-dark) | 3 | 17 |
-| [Pantano](Bioma-minecraft-swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano) | 14 | 110 |
-| [Pantano Helada](Bioma-terralith-ice_marsh.md) | [Agua dulce](Zonas.md#agua-dulce), [Bosque nevado](Zonas.md#bosque-nevado), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Pantano](Zonas.md#pantano), [Taiga](Zonas.md#taiga) | 14 | 169 |
-| [Pantano de Orquídeas](Bioma-terralith-orchid_swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano) | 10 | 110 |
-| [Picos Esmeraldas](Bioma-terralith-emerald_peaks.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 19 | 128 |
-| [Picos Volcanica](Bioma-terralith-volcanic_peaks.md) | [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Picos](Zonas.md#picos), [Volcánico](Zonas.md#volcánico) | 13 | 88 |
+| [Pantano](Bioma-minecraft-swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano) | 14 | 108 |
+| [Pantano Helada](Bioma-terralith-ice_marsh.md) | [Agua dulce](Zonas.md#agua-dulce), [Bosque nevado](Zonas.md#bosque-nevado), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Pantano](Zonas.md#pantano), [Taiga](Zonas.md#taiga) | 14 | 167 |
+| [Pantano de Orquídeas](Bioma-terralith-orchid_swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano) | 10 | 108 |
+| [Picos Esmeraldas](Bioma-terralith-emerald_peaks.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 19 | 126 |
+| [Picos Volcanica](Bioma-terralith-volcanic_peaks.md) | [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Picos](Zonas.md#picos), [Volcánico](Zonas.md#volcánico) | 13 | 86 |
 | [Picos de hielo](Bioma-minecraft-ice_spikes.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra) | 14 | 59 |
 | [Playa](Bioma-minecraft-beach.md) | [Costa](Zonas.md#costa), [Playas](Zonas.md#playas) | 6 | 63 |
 | [Playa de Grava](Bioma-terralith-gravel_beach.md) | [Costa](Zonas.md#costa), [Playas](Zonas.md#playas) | 9 | 63 |
 | [Playa nevada](Bioma-minecraft-snowy_beach.md) | [Costa](Zonas.md#costa), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Playa nevada](Zonas.md#playa-nevada), [Playas](Zonas.md#playas) | 8 | 76 |
-| [Prado](Bioma-minecraft-meadow.md) | [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Llanuras](Zonas.md#llanuras), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 28 | 273 |
+| [Prado](Bioma-minecraft-meadow.md) | [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Llanuras](Zonas.md#llanuras), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 28 | 272 |
 | [Rio Tibia](Bioma-terralith-warm_river.md) | [Agua dulce](Zonas.md#agua-dulce), [Ríos](Zonas.md#ríos) | 5 | 69 |
 | [Río](Bioma-minecraft-river.md) | [Agua dulce](Zonas.md#agua-dulce), [Ríos](Zonas.md#ríos) | 3 | 69 |
 | [Río helado](Bioma-minecraft-frozen_river.md) | [Agua dulce](Zonas.md#agua-dulce), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Río helado](Zonas.md#río-helado), [Ríos](Zonas.md#ríos) | 5 | 45 |
 | [Sabana](Bioma-minecraft-savanna.md) | [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 20 | 130 |
-| [Sabana Fracturada](Bioma-terralith-fractured_savanna.md) | [Colinas](Zonas.md#colinas), [Cuevas de dripstone](Zonas.md#cuevas-de-dripstone), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 19 | 246 |
-| [Sabana Palida](Bioma-terralith-ashen_savanna.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 24 | 286 |
+| [Sabana Fracturada](Bioma-terralith-fractured_savanna.md) | [Colinas](Zonas.md#colinas), [Cuevas de dripstone](Zonas.md#cuevas-de-dripstone), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 19 | 245 |
+| [Sabana Palida](Bioma-terralith-ashen_savanna.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 24 | 285 |
 | [Sabana ventiscosa](Bioma-minecraft-windswept_savanna.md) | [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 17 | 130 |
 | [Selva De Amatista](Bioma-terralith-amethyst_rainforest.md) | [Jungla](Zonas.md#jungla), [Mágico](Zonas.md#mágico), [Selva De Amatista](Zonas.md#selva-de-amatista) | 27 | 195 |
 | [Selva rocosa](Bioma-terralith-rocky_jungle.md) | [Jungla](Zonas.md#jungla) | 25 | 153 |
@@ -152,22 +152,22 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Taiga de pinos ancestral](Bioma-minecraft-old_growth_pine_taiga.md) | [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga) | 14 | 63 |
 | [Taiga nevada](Bioma-minecraft-snowy_taiga.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 19 | 93 |
 | [Tierra Baja de Invierno](Bioma-terralith-wintry_lowlands.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada) | 20 | 105 |
-| [Tierras Altas](Bioma-terralith-highlands.md) | [Colinas](Zonas.md#colinas), [Llanuras](Zonas.md#llanuras), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 18 | 241 |
-| [Tierras Altas Arido](Bioma-terralith-arid_highlands.md) | [Colinas](Zonas.md#colinas), [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas), [Árido](Zonas.md#árido) | 24 | 302 |
-| [Tierras Altas Con Bosques](Bioma-terralith-forested_highlands.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 22 | 283 |
-| [Tierras Altas De Alpino](Bioma-terralith-alpine_highlands.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 20 | 237 |
-| [Tierras Altas Templado](Bioma-terralith-temperate_highlands.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 22 | 278 |
-| [Tierras Bajas de Yosemite](Bioma-terralith-yosemite_lowlands.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 22 | 283 |
+| [Tierras Altas](Bioma-terralith-highlands.md) | [Colinas](Zonas.md#colinas), [Llanuras](Zonas.md#llanuras), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 18 | 240 |
+| [Tierras Altas Arido](Bioma-terralith-arid_highlands.md) | [Colinas](Zonas.md#colinas), [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas), [Árido](Zonas.md#árido) | 24 | 301 |
+| [Tierras Altas Con Bosques](Bioma-terralith-forested_highlands.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 22 | 281 |
+| [Tierras Altas De Alpino](Bioma-terralith-alpine_highlands.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Montañas](Zonas.md#montañas), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado), [Tierras altas](Zonas.md#tierras-altas) | 20 | 236 |
+| [Tierras Altas Templado](Bioma-terralith-temperate_highlands.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 22 | 276 |
+| [Tierras Bajas de Yosemite](Bioma-terralith-yosemite_lowlands.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 22 | 281 |
 | [Tierras Baldías de Sabana](Bioma-terralith-savanna_badlands.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Mesetas](Zonas.md#mesetas), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 26 | 185 |
 | [Tierras baldías](Bioma-minecraft-badlands.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Árido](Zonas.md#árido) | 17 | 112 |
 | [Tierras baldías erosionadas](Bioma-minecraft-eroded_badlands.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Árido](Zonas.md#árido) | 17 | 112 |
 | [Tierras baldías frondosas](Bioma-minecraft-wooded_badlands.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Árido](Zonas.md#árido) | 17 | 112 |
 | [Tierras baldías nevada](Bioma-terralith-snowy_badlands.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra), [Árido](Zonas.md#árido) | 22 | 147 |
 | [Valle Claro](Bioma-terralith-valley_clearing.md) | [Llanuras](Zonas.md#llanuras), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado) | 14 | 140 |
-| [Valle Floreciente](Bioma-terralith-blooming_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 22 | 323 |
-| [Valle Frondosa](Bioma-terralith-lush_valley.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas) | 5 | 142 |
-| [Valle Lavanda](Bioma-terralith-lavender_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 25 | 337 |
-| [Valle de Arenisca](Bioma-terralith-sandstone_valley.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 76 |
-| [Valle de Sakura](Bioma-terralith-sakura_valley.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 25 | 323 |
-| [Valle de la Luna](Bioma-terralith-moonlight_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 26 | 342 |
+| [Valle Floreciente](Bioma-terralith-blooming_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 22 | 321 |
+| [Valle Frondosa](Bioma-terralith-lush_valley.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas) | 5 | 141 |
+| [Valle Lavanda](Bioma-terralith-lavender_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 25 | 335 |
+| [Valle de Arenisca](Bioma-terralith-sandstone_valley.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 75 |
+| [Valle de Sakura](Bioma-terralith-sakura_valley.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 25 | 321 |
+| [Valle de la Luna](Bioma-terralith-moonlight_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 26 | 340 |
 | [Yellowstone](Bioma-terralith-yellowstone.md) | [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Termal](Zonas.md#termal), [Tundra](Zonas.md#tundra), [Yellowstone](Zonas.md#yellowstone) | 5 | 90 |

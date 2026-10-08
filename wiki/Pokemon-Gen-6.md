@@ -80,5 +80,5 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0717 | <a id="yveltal"></a>Yveltal | [Arenoso](Zonas.md#arenoso) (de noche)<br>[Bosques](Zonas.md#bosques) (de noche)<br>[Nether: arena de almas](Zonas.md#nether-arena-de-almas) | ultra raro | 70–70 |
 | 0718 | <a id="zygarde"></a>Zygarde **Exclusivo** | [Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) (bajo tierra) | ultra raro | 1–1 |
 | 0719 | <a id="diancie"></a>Diancie **Exclusivo** | [Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) (bajo tierra) | raro | 60–60 |
-| 0720 | <a id="hoopa"></a>Hoopa **Exclusivo** | [End](Zonas.md#end) — en [Ciudad del End](Estructuras.md#ciudad-del-end) | ultra raro | 60–60 |
+| 0720 | <a id="hoopa"></a>Hoopa **Exclusivo** | [End](Zonas.md#end) — en [Arco místico (Moog's End Structures)](Estructuras.md#arco-místico-moogs-end-structures) | ultra raro | 70–70 |
 | 0721 | <a id="volcanion"></a>Volcanion | [Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) (bajo tierra)<br>[Árido](Zonas.md#árido) | ultra raro | 70–70 |

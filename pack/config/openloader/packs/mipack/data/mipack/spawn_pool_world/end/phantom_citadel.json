@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-end-phantom_citadel-gothita",
+      "pokemon": "gothita",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:phantom_citadel"
+        ]
+      }
+    },
+    {
+      "id": "mipack-end-phantom_citadel-gothorita",
+      "pokemon": "gothorita",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:phantom_citadel"
+        ]
+      }
+    },
+    {
+      "id": "mipack-end-phantom_citadel-gothitelle",
+      "pokemon": "gothitelle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "41-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:phantom_citadel"
+        ]
+      }
+    }
+  ]
+}

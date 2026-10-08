@@ -14,21 +14,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:exp_candy_l",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:ultra_ball",
           "weight": 10,
           "functions": [
@@ -129,21 +114,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:exp_candy_xl",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:full_restore",
           "weight": 4,
           "functions": [
@@ -206,6 +176,32 @@
           "type": "minecraft:loot_table",
           "value": "mipack:groups/bottle_cap",
           "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_l",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 1,
+          "functions": []
         }
       ]
     },

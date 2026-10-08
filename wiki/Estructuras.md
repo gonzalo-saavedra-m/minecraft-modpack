@@ -14,6 +14,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Río helado](Bioma-minecraft-frozen_river.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Aguja del End (Moog's End Structures)
+
+`mes:ender_spire` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Xurkitree](Pokemon-Gen-7.md#xurkitree)
+
 ## Aldea fortificada (Terralith)
 
 `terralith:fortified_village` · Terralith
@@ -46,6 +54,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Infernal Dunes](Bioma-incendium-infernal_dunes.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Arboleda enderflor (Moog's End Structures)
+
+`mes:enderbloom_grove` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Pheromosa](Pokemon-Gen-7.md#pheromosa)
+
 ## Arco de dona (Alex's Caves)
 
 `alexscaves:donut_arch` · Alex's Caves
@@ -53,6 +69,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Biomas (1):** [Cavidad dulce](Bioma-alexscaves-candy_cavity.md)
 - **Pokémon que nacen dentro (0):** —
+
+## Arco místico (Moog's End Structures)
+
+`mes:mystical_archway` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (3):** [Hoopa](Pokemon-Gen-6.md#hoopa), [Poipole](Pokemon-Gen-7.md#poipole), [Naganadel](Pokemon-Gen-7.md#naganadel)
 
 ## Bastión
 
@@ -69,6 +93,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Biomas (4):** [Bosque oscuro](Bioma-minecraft-dark_forest.md), [Cuevas Infestadas](Bioma-terralith-cave-infested_caves.md), [Cuevas de Fuego Fria](Bioma-terralith-cave-frostfire_caves.md), [Depresión desolada](Bioma-alexscaves-forlorn_hollows.md)
 - **Pokémon que nacen dentro (0):** —
+
+## Bosque del End (Moog's End Structures)
+
+`mes:enderskog` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (3):** [Cutiefly](Pokemon-Gen-7.md#cutiefly), [Ribombee](Pokemon-Gen-7.md#ribombee), [Comfey](Pokemon-Gen-7.md#comfey)
 
 ## Bote de pesca: océano cálido (Cobblemon)
 
@@ -206,6 +238,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Depresión desolada](Bioma-alexscaves-forlorn_hollows.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Chatarra del End (Moog's End Structures)
+
+`mes:endscraps` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Guzzlord](Pokemon-Gen-7.md#guzzlord)
+
 ## Ciudad antigua
 
 `minecraft:ancient_city` · Minecraft
@@ -214,13 +254,13 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (2):** [Cuevas de Fuego Fria](Bioma-terralith-cave-frostfire_caves.md), [Oscuridad profunda](Bioma-minecraft-deep_dark.md)
 - **Pokémon que nacen dentro (13):** [Gastly](Pokemon-Gen-1.md#gastly), [Haunter](Pokemon-Gen-1.md#haunter), [Gengar](Pokemon-Gen-1.md#gengar), [Misdreavus](Pokemon-Gen-2.md#misdreavus), [Mismagius](Pokemon-Gen-4.md#mismagius), [Spiritomb](Pokemon-Gen-4.md#spiritomb), [Rotom](Pokemon-Gen-4.md#rotom), [Yamask](Pokemon-Gen-5.md#yamask), [Cofagrigus](Pokemon-Gen-5.md#cofagrigus), [Golett](Pokemon-Gen-5.md#golett), [Golurk](Pokemon-Gen-5.md#golurk), [Meltan](Pokemon-Gen-7.md#meltan), [Runerigus](Pokemon-Gen-8.md#runerigus)
 
-## Ciudad del End
+## Ciudadela fantasma (Moog's End Structures)
 
-`minecraft:end_city` · Minecraft
+`mes:phantom_citadel` · Moog's End Structures
 
 - **Dimensión:** [End](Dimension-End.md)
-- **Biomas (5):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (5):** [Sigilyph](Pokemon-Gen-5.md#sigilyph), [Gothita](Pokemon-Gen-5.md#gothita), [Gothorita](Pokemon-Gen-5.md#gothorita), [Gothitelle](Pokemon-Gen-5.md#gothitelle), [Hoopa](Pokemon-Gen-6.md#hoopa)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (3):** [Gothita](Pokemon-Gen-5.md#gothita), [Gothorita](Pokemon-Gen-5.md#gothorita), [Gothitelle](Pokemon-Gen-5.md#gothitelle)
 
 ## Cocina de cuarzo (Incendium)
 
@@ -318,6 +358,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Biomas (15):** [Abetal](Bioma-minecraft-grove.md), [Bosque Alpino](Bioma-terralith-alpine_grove.md), [Bosque Boreal de Abedul](Bioma-terralith-birch_taiga.md), [Bosque Siberiana](Bioma-terralith-siberian_grove.md), [Desierto de Grava](Bioma-terralith-gravel_desert.md), [Escudo](Bioma-terralith-shield.md), [Escudo Claro](Bioma-terralith-shield_clearing.md), [Escudo nevada](Bioma-terralith-snowy_shield.md), [Matorrales Frios](Bioma-terralith-cold_shrubland.md), [Montañas de Neblina](Bioma-terralith-haze_mountain.md), [Taiga](Bioma-minecraft-taiga.md), [Taiga Siberiana](Bioma-terralith-siberian_taiga.md), [Taiga de abetos ancestral](Bioma-minecraft-old_growth_spruce_taiga.md), [Taiga de pinos ancestral](Bioma-minecraft-old_growth_pine_taiga.md), [Taiga nevada](Bioma-minecraft-snowy_taiga.md)
 - **Pokémon que nacen dentro (0):** —
+
+## Escondite astral (Moog's End Structures)
+
+`mes:astral_hideaway` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (3):** [Elgyem](Pokemon-Gen-5.md#elgyem), [Beheeyem](Pokemon-Gen-5.md#beheeyem), [Nihilego](Pokemon-Gen-7.md#nihilego)
 
 ## Esqueleto de dragón (Nullscape)
 
@@ -647,6 +695,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Cerezal nevada](Bioma-terralith-snowy_cherry_grove.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Jardín mítico (Moog's End Structures)
+
+`mes:mythic_garden` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (3):** [Cutiefly](Pokemon-Gen-7.md#cutiefly), [Ribombee](Pokemon-Gen-7.md#ribombee), [Comfey](Pokemon-Gen-7.md#comfey)
+
 ## Laboratorio en ruinas (Incendium)
 
 `incendium:ruined_lab` · Incendium
@@ -750,6 +806,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Biomas (145):** [Abedular](Bioma-minecraft-birch_forest.md), [Abedular ancestral](Bioma-minecraft-old_growth_birch_forest.md), [Abetal](Bioma-minecraft-grove.md), [Abismo Glacial](Bioma-terralith-glacial_chasm.md), [Acantilado Blancas](Bioma-terralith-white_cliffs.md), [Acantilado De Basalto](Bioma-terralith-basalt_cliffs.md), [Acantilado Friolentas](Bioma-terralith-frozen_cliffs.md), [Acantilados de Granito](Bioma-terralith-granite_cliffs.md), [Acantilados de Yosemite](Bioma-terralith-yosemite_cliffs.md), [Arboleda de Sakuras](Bioma-terralith-sakura_grove.md), [Arboleda de la Luna](Bioma-terralith-moonlight_grove.md), [Arenas Viejas](Bioma-terralith-ancient_sands.md), [Bosque](Bioma-minecraft-forest.md), [Bosque Alpino](Bioma-terralith-alpine_grove.md), [Bosque Boreal de Abedul](Bioma-terralith-birch_taiga.md), [Bosque De Nubes](Bioma-terralith-cloud_forest.md), [Bosque Lavanda](Bioma-terralith-lavender_forest.md), [Bosque Siberiana](Bioma-terralith-siberian_grove.md), [Bosque de Arce nevada](Bioma-terralith-snowy_maple_forest.md), [Bosque de Invierno](Bioma-terralith-wintry_forest.md), [Bosque floral](Bioma-minecraft-flower_forest.md), [Bosque oscuro](Bioma-minecraft-dark_forest.md), [Bosque ventiscoso](Bioma-minecraft-windswept_forest.md), [Caldera Volcanica](Bioma-terralith-caldera.md), [Campo de champiñones](Bioma-minecraft-mushroom_fields.md), [Cañón Bryce](Bioma-terralith-bryce_canyon.md), [Cañón De Amatista](Bioma-terralith-amethyst_canyon.md), [Cañón Desértico](Bioma-terralith-desert_canyon.md), [Cerezal](Bioma-minecraft-cherry_grove.md), [Cerezal nevada](Bioma-terralith-snowy_cherry_grove.md), [Colinas pedregosas ventiscosas](Bioma-minecraft-windswept_gravelly_hills.md), [Colinas ventiscosas](Bioma-minecraft-windswept_hills.md), [Costa rocosa](Bioma-minecraft-stony_shore.md), [Cráter Volcanica](Bioma-terralith-volcanic_crater.md), [Cuevas Heladas](Bioma-yungscavebiomes-frosted_caves.md), [Cuevas Infestadas](Bioma-terralith-cave-infested_caves.md), [Cuevas Perdidas](Bioma-yungscavebiomes-lost_caves.md), [Cuevas Termico](Bioma-terralith-cave-thermal_caves.md), [Cuevas de Andesita](Bioma-terralith-cave-andesite_caves.md), [Cuevas de Diorita](Bioma-terralith-cave-diorite_caves.md), [Cuevas de Fuego Fria](Bioma-terralith-cave-frostfire_caves.md), [Cuevas de Granita](Bioma-terralith-cave-granite_caves.md), [Cuevas de Hongos](Bioma-terralith-cave-fungal_caves.md), [Cuevas de tufo](Bioma-terralith-cave-tuff_caves.md), [Cuevas del Manto](Bioma-terralith-cave-mantle_caves.md), [Cuevas frondosas](Bioma-minecraft-lush_caves.md), [Cuevas kársticas](Bioma-minecraft-dripstone_caves.md), [Cuevas profundas](Bioma-terralith-cave-deep_caves.md), [Cumbres escarpadas](Bioma-minecraft-jagged_peaks.md), [Cumbres heladas](Bioma-minecraft-frozen_peaks.md), [Cumbres rocosas](Bioma-minecraft-stony_peaks.md), [Desierto](Bioma-minecraft-desert.md), [Desierto Frondosa](Bioma-terralith-lush_desert.md), [Desierto de Grava](Bioma-terralith-gravel_desert.md), [Escudo](Bioma-terralith-shield.md), [Escudo Claro](Bioma-terralith-shield_clearing.md), [Escudo nevada](Bioma-terralith-snowy_shield.md), [Espiral Desérticas](Bioma-terralith-desert_spires.md), [Espirales Vientosas](Bioma-terralith-windswept_spires.md), [Esprilaes pétreas](Bioma-terralith-stony_spires.md), [Estepa](Bioma-terralith-steppe.md), [Islas Alfas](Bioma-terralith-alpha_islands.md), [Islas Alfas (Invierno)](Bioma-terralith-alpha_islands_winter.md), [Islas Espejismo](Bioma-terralith-mirage_isles.md), [Jungla](Bioma-minecraft-jungle.md), [Jungla Tropical](Bioma-terralith-tropical_jungle.md), [Jungla bajo tierra](Bioma-terralith-cave-underground_jungle.md), [Jungla de bambú](Bioma-minecraft-bamboo_jungle.md), [Jungla dispersa](Bioma-minecraft-sparse_jungle.md), [Ladera nevada](Bioma-minecraft-snowy_slopes.md), [Laderas de Sabana](Bioma-terralith-savanna_slopes.md), [Llanura](Bioma-minecraft-plains.md), [Llanura de girasoles](Bioma-minecraft-sunflower_plains.md), [Llanura nevada](Bioma-minecraft-snowy_plains.md), [Manglar](Bioma-minecraft-mangrove_swamp.md), [Matorral](Bioma-terralith-shrubland.md), [Matorrales](Bioma-terralith-brushland.md), [Matorrales Calientes](Bioma-terralith-hot_shrubland.md), [Matorrales Frios](Bioma-terralith-cold_shrubland.md), [Matorrales Rocosas](Bioma-terralith-rocky_shrubland.md), [Mesa Blanca](Bioma-terralith-white_mesa.md), [Mesa deformada](Bioma-terralith-warped_mesa.md), [Meseta de sabana](Bioma-minecraft-savanna_plateau.md), [Meseta floriciente](Bioma-terralith-blooming_plateau.md), [Montañas Escarlatas](Bioma-terralith-scarlet_mountains.md), [Montañas Pintadas](Bioma-terralith-painted_mountains.md), [Montañas Rocosas](Bioma-terralith-rocky_mountains.md), [Montañas de Neblina](Bioma-terralith-haze_mountain.md), [Oasis Desértica](Bioma-terralith-desert_oasis.md), [Oasis Rojas](Bioma-terralith-red_oasis.md), [Océano](Bioma-minecraft-ocean.md), [Océano cálido](Bioma-minecraft-warm_ocean.md), [Océano frío](Bioma-minecraft-cold_ocean.md), [Océano frío profundo](Bioma-minecraft-deep_cold_ocean.md), [Océano helado](Bioma-minecraft-frozen_ocean.md), [Océano helado profundo](Bioma-minecraft-deep_frozen_ocean.md), [Océano profundo](Bioma-minecraft-deep_ocean.md), [Océano tibio](Bioma-minecraft-lukewarm_ocean.md), [Océano tibio profundo](Bioma-minecraft-deep_lukewarm_ocean.md), [Oscuridad profunda](Bioma-minecraft-deep_dark.md), [Pantano](Bioma-minecraft-swamp.md), [Pantano Helada](Bioma-terralith-ice_marsh.md), [Pantano de Orquídeas](Bioma-terralith-orchid_swamp.md), [Picos Esmeraldas](Bioma-terralith-emerald_peaks.md), [Picos Volcanica](Bioma-terralith-volcanic_peaks.md), [Picos de hielo](Bioma-minecraft-ice_spikes.md), [Playa](Bioma-minecraft-beach.md), [Playa de Grava](Bioma-terralith-gravel_beach.md), [Playa nevada](Bioma-minecraft-snowy_beach.md), [Prado](Bioma-minecraft-meadow.md), [Rio Tibia](Bioma-terralith-warm_river.md), [Río](Bioma-minecraft-river.md), [Río helado](Bioma-minecraft-frozen_river.md), [Sabana](Bioma-minecraft-savanna.md), [Sabana Fracturada](Bioma-terralith-fractured_savanna.md), [Sabana Palida](Bioma-terralith-ashen_savanna.md), [Sabana ventiscosa](Bioma-minecraft-windswept_savanna.md), [Selva De Amatista](Bioma-terralith-amethyst_rainforest.md), [Selva rocosa](Bioma-terralith-rocky_jungle.md), [Selvas Montañosas](Bioma-terralith-jungle_mountains.md), [Taiga](Bioma-minecraft-taiga.md), [Taiga Siberiana](Bioma-terralith-siberian_taiga.md), [Taiga de abetos ancestral](Bioma-minecraft-old_growth_spruce_taiga.md), [Taiga de pinos ancestral](Bioma-minecraft-old_growth_pine_taiga.md), [Taiga nevada](Bioma-minecraft-snowy_taiga.md), [Tierra Baja de Invierno](Bioma-terralith-wintry_lowlands.md), [Tierras Altas](Bioma-terralith-highlands.md), [Tierras Altas Arido](Bioma-terralith-arid_highlands.md), [Tierras Altas Con Bosques](Bioma-terralith-forested_highlands.md), [Tierras Altas De Alpino](Bioma-terralith-alpine_highlands.md), [Tierras Altas Templado](Bioma-terralith-temperate_highlands.md), [Tierras Bajas de Yosemite](Bioma-terralith-yosemite_lowlands.md), [Tierras Baldías de Sabana](Bioma-terralith-savanna_badlands.md), [Tierras baldías](Bioma-minecraft-badlands.md), [Tierras baldías erosionadas](Bioma-minecraft-eroded_badlands.md), [Tierras baldías frondosas](Bioma-minecraft-wooded_badlands.md), [Tierras baldías nevada](Bioma-terralith-snowy_badlands.md), [Valle Claro](Bioma-terralith-valley_clearing.md), [Valle Floreciente](Bioma-terralith-blooming_valley.md), [Valle Frondosa](Bioma-terralith-lush_valley.md), [Valle Lavanda](Bioma-terralith-lavender_valley.md), [Valle de Arenisca](Bioma-terralith-sandstone_valley.md), [Valle de Sakura](Bioma-terralith-sakura_valley.md), [Valle de la Luna](Bioma-terralith-moonlight_valley.md), [Yellowstone](Bioma-terralith-yellowstone.md)
 - **Pokémon que nacen dentro (0):** —
+
+## Meteorito astral (Moog's End Structures)
+
+`mes:astral_meteorite` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (2):** [Minior](Pokemon-Gen-7.md#minior), [Blacephalon](Pokemon-Gen-7.md#blacephalon)
 
 ## Mina: abeto (YUNG's Better Mineshafts)
 
@@ -855,6 +919,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (5):** [Llanura](Bioma-minecraft-plains.md), [Llanura de girasoles](Bioma-minecraft-sunflower_plains.md), [Matorrales](Bioma-terralith-brushland.md), [Pantano](Bioma-minecraft-swamp.md), [Prado](Bioma-minecraft-meadow.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Monolito (Moog's End Structures)
+
+`mes:monolith` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (2):** [Unown](Pokemon-Gen-2.md#unown), [Sigilyph](Pokemon-Gen-5.md#sigilyph)
+
 ## Monumento oceánico
 
 `betteroceanmonuments:ocean_monument` · YUNG's Better Ocean Monuments
@@ -879,6 +951,70 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (3):** [Playa](Bioma-minecraft-beach.md), [Playa de Grava](Bioma-terralith-gravel_beach.md), [Playa nevada](Bioma-minecraft-snowy_beach.md)
 - **Pokémon que nacen dentro (1):** [Dhelmise](Pokemon-Gen-7.md#dhelmise)
 
+## Nave gigante (Moog's End Structures)
+
+`mes:mega_ship` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante (básica) (Moog's End Structures)
+
+`mes:mega_ship_basic` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante (pizarra) (Moog's End Structures)
+
+`mes:mega_ship_deepslate` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante (pizarra) 2 (Moog's End Structures)
+
+`mes:mega_ship_deepslate_2` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante (pizarra) 3 (Moog's End Structures)
+
+`mes:mega_ship_deepslate_3` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante estrellada (Moog's End Structures)
+
+`mes:mega_ship_crashed` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante estrellada (pizarra) (Moog's End Structures)
+
+`mes:mega_ship_crashed_deepslate` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
+## Nave gigante estrellada 2 (Moog's End Structures)
+
+`mes:mega_ship_crashed_2` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+
 ## Observatorio (Mega Showdown)
 
 `mega_showdown:observatory` · Mega Showdown
@@ -886,6 +1022,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Biomas (9):** [Cañón De Amatista](Bioma-terralith-amethyst_canyon.md), [Jungla](Bioma-minecraft-jungle.md), [Jungla Tropical](Bioma-terralith-tropical_jungle.md), [Jungla bajo tierra](Bioma-terralith-cave-underground_jungle.md), [Jungla de bambú](Bioma-minecraft-bamboo_jungle.md), [Jungla dispersa](Bioma-minecraft-sparse_jungle.md), [Selva De Amatista](Bioma-terralith-amethyst_rainforest.md), [Selva rocosa](Bioma-terralith-rocky_jungle.md), [Selvas Montañosas](Bioma-terralith-jungle_mountains.md)
 - **Pokémon que nacen dentro (0):** —
+
+## Patio del torreón del End (Moog's End Structures)
+
+`mes:enderkeep_courtyard` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Buzzwole](Pokemon-Gen-7.md#buzzwole)
 
 ## Pilar Celeste (Cobblemon Extra Structures)
 
@@ -895,6 +1039,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (4):** [Deep Warm Ocean](Bioma-terralith-deep_warm_ocean.md), [Océano cálido](Bioma-minecraft-warm_ocean.md), [Océano tibio](Bioma-minecraft-lukewarm_ocean.md), [Océano tibio profundo](Bioma-minecraft-deep_lukewarm_ocean.md)
 - **Pokémon que nacen dentro (0):** —
 - **Legendario fijo:** Rayquaza
+
+## Pilar en ruinas (Moog's End Structures)
+
+`mes:ruined_pillar` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Stakataka](Pokemon-Gen-7.md#stakataka)
 
 ## Portal en ruinas (Minecraft)
 
@@ -960,6 +1112,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Cueva tóxica](Bioma-alexscaves-toxic_caves.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Pradera plácida (Moog's End Structures)
+
+`mes:placid_prairie` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Pheromosa](Pokemon-Gen-7.md#pheromosa)
+
 ## Pueblo de jengibre (Alex's Caves)
 
 `alexscaves:gingerbread_town` · Alex's Caves
@@ -999,6 +1159,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Biomas (3):** [Desierto](Bioma-minecraft-desert.md), [Desierto Frondosa](Bioma-terralith-lush_desert.md), [Oasis Desértica](Bioma-terralith-desert_oasis.md)
 - **Pokémon que nacen dentro (0):** —
+
+## Púas del End (Moog's End Structures)
+
+`mes:enderpin_spikes` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Stakataka](Pokemon-Gen-7.md#stakataka)
 
 ## Reactor del Nether (Incendium)
 
@@ -1329,6 +1497,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Distortion World](Bioma-clumpedindistortionworld-clumpy_distortion_world.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Santuario del manuscrito (Moog's End Structures)
+
+`mes:manuscript_shrine` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Kartana](Pokemon-Gen-7.md#kartana)
+
 ## Sitio arqueológico (Mega Showdown)
 
 `mega_showdown:archaeological_site` · Mega Showdown
@@ -1514,6 +1690,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (1):** [Islas del Cielo (Verano)](Bioma-terralith-skylands_summer.md)
 - **Pokémon que nacen dentro (0):** —
 
+## Torre vigía del End (Moog's End Structures)
+
+`mes:enderwatch_tower` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Xurkitree](Pokemon-Gen-7.md#xurkitree)
+
 ## Tubería (Incendium)
 
 `incendium:pipeline` · Incendium
@@ -1539,6 +1723,14 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 - **Biomas (6):** [Cañón Bryce](Bioma-terralith-bryce_canyon.md), [Mesa Blanca](Bioma-terralith-white_mesa.md), [Montañas Pintadas](Bioma-terralith-painted_mountains.md), [Oasis Rojas](Bioma-terralith-red_oasis.md), [Tierras Baldías de Sabana](Bioma-terralith-savanna_badlands.md), [Tierras baldías nevada](Bioma-terralith-snowy_badlands.md)
 - **Pokémon que nacen dentro (0):** —
 - **Legendario fijo:** Groudon
+
+## Viajero de luz estelar (Moog's End Structures)
+
+`mes:starlight_voyager` · Moog's End Structures
+
+- **Dimensión:** [End](Dimension-End.md)
+- **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
+- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
 
 ## Volcán (Alex's Caves)
 

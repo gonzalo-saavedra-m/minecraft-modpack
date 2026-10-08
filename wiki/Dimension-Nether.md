@@ -17,11 +17,11 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | [Bosque distorsionado](Bioma-minecraft-warped_forest.md) | [Nether](Zonas.md#nether), [Nether: distorsionado](Zonas.md#nether-distorsionado), [Nether: hongos](Zonas.md#nether-hongos) | 4 | 23 |
 | [Deltas de basalto](Bioma-minecraft-basalt_deltas.md) | [Nether](Zonas.md#nether), [Nether: basalto](Zonas.md#nether-basalto), [Nether: montañas](Zonas.md#nether-montañas) | 4 | 31 |
 | [Desiertos del Nether](Bioma-minecraft-nether_wastes.md) | [Nether](Zonas.md#nether), [Nether: páramo](Zonas.md#nether-páramo) | 4 | 26 |
-| [Infernal Dunes](Bioma-incendium-infernal_dunes.md) | [Nether](Zonas.md#nether), [Nether: desierto](Zonas.md#nether-desierto) | 5 | 21 |
+| [Infernal Dunes](Bioma-incendium-infernal_dunes.md) | [Nether](Zonas.md#nether), [Nether: desierto](Zonas.md#nether-desierto) | 5 | 20 |
 | [Inverted Forest](Bioma-incendium-inverted_forest.md) | [Nether](Zonas.md#nether), [Nether: hongos](Zonas.md#nether-hongos) | 4 | 25 |
 | [Quartz Flats](Bioma-incendium-quartz_flats.md) | [Nether](Zonas.md#nether), [Nether: cuarzo](Zonas.md#nether-cuarzo), [Nether: fuego de almas](Zonas.md#nether-fuego-de-almas) | 7 | 20 |
 | [Toxic Heap](Bioma-incendium-toxic_heap.md) | [Nether](Zonas.md#nether), [Nether: páramo](Zonas.md#nether-páramo), [Nether: tóxico](Zonas.md#nether-tóxico) | 5 | 28 |
-| [Valle de almas](Bioma-minecraft-soul_sand_valley.md) | [Nether](Zonas.md#nether), [Nether: arena de almas](Zonas.md#nether-arena-de-almas), [Nether: desierto](Zonas.md#nether-desierto), [Nether: fuego de almas](Zonas.md#nether-fuego-de-almas) | 5 | 28 |
+| [Valle de almas](Bioma-minecraft-soul_sand_valley.md) | [Nether](Zonas.md#nether), [Nether: arena de almas](Zonas.md#nether-arena-de-almas), [Nether: desierto](Zonas.md#nether-desierto), [Nether: fuego de almas](Zonas.md#nether-fuego-de-almas) | 5 | 27 |
 | [Volcanic Deltas](Bioma-incendium-volcanic_deltas.md) | [Nether](Zonas.md#nether), [Nether: basalto](Zonas.md#nether-basalto), [Nether: montañas](Zonas.md#nether-montañas) | 5 | 31 |
-| [Weeping Valley](Bioma-incendium-weeping_valley.md) | [Nether](Zonas.md#nether), [Nether: arena de almas](Zonas.md#nether-arena-de-almas), [Nether: desierto](Zonas.md#nether-desierto), [Nether: fuego de almas](Zonas.md#nether-fuego-de-almas) | 5 | 28 |
+| [Weeping Valley](Bioma-incendium-weeping_valley.md) | [Nether](Zonas.md#nether), [Nether: arena de almas](Zonas.md#nether-arena-de-almas), [Nether: desierto](Zonas.md#nether-desierto), [Nether: fuego de almas](Zonas.md#nether-fuego-de-almas) | 5 | 27 |
 | [Withered Forest](Bioma-incendium-withered_forest.md) | [Nether](Zonas.md#nether), [Nether: basalto](Zonas.md#nether-basalto) | 5 | 27 |

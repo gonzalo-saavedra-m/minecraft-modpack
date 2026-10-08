@@ -85,6 +85,8 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 | 2026-10-08 | **Sin mobs del Aether** ("pokemon only"), jefes incluidos. Sus mazmorras quedan para poblar con Pokémon más adelante. **Los exclusivos de Candy solo en Candy** (fuera del Aether) | Verificado: 0 mobs `aether:*` guardados |
 | 2026-10-08 | **Paradójicos verificados en vivo en Primordial**: Brute Bonnet de día, Iron Jugulis de noche | — |
 | 2026-10-08 | El server puede **colgarse al apagar** (un hilo `pool-2-thread-1` de algún mod no se cierra). `ops/stop.sh` lo mata si ya guardó; en AWS, `TimeoutStopSec` de systemd | — |
+| 2026-10-08 | **End: Nullscape + Moog's End Structures** (25 estructuras); **sin ciudades del End** (tag `has_structure/end_city` vacío; los Pokémon vuelan, no hacen falta élitros). **Ultraentes exclusivos de estructuras del End** (opción A: "rare" dentro de su estructura, se pueden farmear rondándola; Naganadel ultra raro): Nihilego → Escondite astral, Celesteela → naves, Kartana → Santuario del manuscrito, Xurkitree → torres, Buzzwole → Patio del torreón, Pheromosa → Arboleda/Pradera, Guzzlord → Chatarra, Stakataka → Pilar/Púas, Blacephalon → Meteorito, Poipole/Naganadel/Hoopa → Arco místico. Además Gothita (Ciudadela fantasma), Sigilyph y Unown (Monolito), Elgyem/Beheeyem, Minior, Cutiefly/Comfey | `tools/gen_spawns.py` (END_STRUCTURES); los archivos cargan sin errores. El spawn en vivo no se probó (es "rare") |
+| 2026-10-08 | **Loot ajustado:** tesoro enterrado a T3; **caramelos en T2+ (no en T1), siempre 1 tirada y más grandes por nivel** (S/M, M/L, L/XL), por debajo de la raid equivalente (★3 da S/M x2-6, ★5 L/XL x2-6). Cofres de MES: comunes T3, raros T4, tesoro de la nave y "end_rare" con premio raro asegurado | — |
 | 2026-10-08 | **Loot Pokémon por dificultad del cofre** (`tools/gen_loot.py`): 4 niveles (casas de aldea → herrería/mina/naufragio → templos/stronghold/fortaleza → ciudad antigua/End/tesoros YUNG) + premio raro (Cápsula/Parche de habilidad, Chapa de oro, Beast Ball, Master Ball: 25 % en T4, 100 % en End y recompensas del Aether). Aditivo vía `mipack-rules` (no reemplaza tablas, a diferencia del DP de COBBLEVERSE). 146 tablas, incluidas las YUNG. Armadura Aciaga al 45 % en la fortaleza YUNG. + Only Bottle Caps | Verificado por muestreo de cofres de cada nivel |
 | 2026-10-08 | **Morir al perder: todos menos PvP y raids** (Raid Dens no soporta muertes en su dimensión) | `test-rules.sh` #2 y #2b |
 | 2026-10-08 | **Insomnio:** quien no duerme 3+ días recibe Drowzee, Hypno, Munna, Musharna o Misdreavus en vez de phantoms | `test-rules.sh` #7 (Munna a los 210 s) |
@@ -149,8 +151,8 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 4. **Spawns en estructuras:** mineshafts (Excadrill, Pokémon que excavan, Gimmighoul) quitándolos de las cuevas
    genéricas; pool de la ciudad antigua (Sinistea, Honedge, Litwick…); poblar las mazmorras del Aether y las estructuras
    de Extra Structures que quedaron sin su Pokémon fijo.
-5. ~~Loot~~ (08-oct). **Siguiente: el End** (¿Moog's End Structures sobre Nullscape? + spawns en biomas/estructuras del
-   End). Después, pregenerar.
+5. ~~Loot~~ y ~~End~~ (08-oct). **Siguiente: pregenerar** el mundo de producción (Chunky, Overworld + Nether + End +
+   Aether + Otherside; medir MES).
 6. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
 7. **Paso 5 (al final):** inventario y QoL.
 8. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack

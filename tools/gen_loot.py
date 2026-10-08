@@ -55,31 +55,34 @@ E = None  # entrada vacía
 # (ítem o 'grupo:x', peso, (min, max))
 TIERS = {
     'tier1': ((1, 2), [(E, 30), ('cobblemon:poke_ball', 20, (2, 4)), ('group:apricorn', 12, (1, 3)),
-                       ('cobblemon:potion', 15, (1, 3)), ('group:status', 10, (1, 2)), ('cobblemon:oran_berry', 8, (2, 4)),
-                       ('cobblemon:exp_candy_xs', 8, (1, 3)), ('cobblemon:great_ball', 5, (1, 2)),
+                       ('cobblemon:potion', 15, (1, 3)), ('group:status', 10, (1, 2)), ('cobblemon:oran_berry', 8, (2, 4)), ('cobblemon:great_ball', 5, (1, 2)),
                        ('cobblemon:premier_ball', 3), ('cobblemon:heal_powder', 4, (1, 2)), ('cobblemon:ether', 2)]),
     'tier2': ((1, 3), [(E, 20), ('cobblemon:great_ball', 15, (1, 3)), ('group:ball2', 14, (1, 2)),
-                       ('cobblemon:super_potion', 12, (1, 3)), ('cobblemon:exp_candy_s', 10, (1, 3)),
+                       ('cobblemon:super_potion', 12, (1, 3)),
                        ('group:apricorn', 6, (1, 3)), ('cobblemon:relic_coin', 6, (1, 4)), ('group:gem', 6),
                        ('cobblemon:revive', 5), ('cobblemon:full_heal', 4, (1, 2)), ('cobblemon:ether', 4),
-                       ('group:boost', 4), ('cobblemon:exp_candy_m', 4), ('group:evo_stone', 3), ('cobblemon:elixir', 2),
+                       ('group:boost', 4), ('group:evo_stone', 3), ('cobblemon:elixir', 2),
                        ('group:vitamin', 2), ('cobblemon:ultra_ball', 2)]),
     'tier3': ((2, 3), [(E, 10), ('cobblemon:ultra_ball', 12, (1, 3)), ('group:ball2', 10, (2, 3)),
-                       ('cobblemon:hyper_potion', 10, (1, 3)), ('cobblemon:exp_candy_m', 10, (1, 3)),
+                       ('cobblemon:hyper_potion', 10, (1, 3)),
                        ('cobblemon:revive', 8, (1, 2)), ('group:vitamin', 8, (1, 2)), ('group:feather', 6, (2, 5)),
-                       ('group:evo_stone', 6), ('group:evo_item', 6), ('group:held1', 5), ('cobblemon:full_heal', 5, (1, 2)),
-                       ('cobblemon:exp_candy_l', 4, (1, 2)), ('group:mint', 4), ('group:gem', 4), ('group:tera', 3, (1, 3)),
+                       ('group:evo_stone', 6), ('group:evo_item', 6), ('group:held1', 5), ('cobblemon:full_heal', 5, (1, 2)), ('group:mint', 4), ('group:gem', 4), ('group:tera', 3, (1, 3)),
                        ('cobblemon:max_potion', 3), ('cobblemon:max_ether', 3), ('cobblemon:rare_candy', 3),
                        ('cobblemon:relic_coin_pouch', 3), ('cobblemon:max_revive', 2), ('cobblemon:pp_up', 2),
                        ('group:bottle_cap', 1), ('cobblemon:ability_capsule', 1)]),
-    'tier4': ((2, 4), [(E, 5), ('cobblemon:exp_candy_l', 10, (1, 3)), ('cobblemon:ultra_ball', 10, (2, 4)),
+    'tier4': ((2, 4), [(E, 5), ('cobblemon:ultra_ball', 10, (2, 4)),
                        ('group:ball3', 8, (2, 4)), ('cobblemon:max_potion', 8, (1, 3)), ('group:vitamin', 8, (2, 3)),
                        ('cobblemon:rare_candy', 6, (1, 3)), ('group:held2', 6), ('cobblemon:max_revive', 5, (1, 2)),
-                       ('group:mint', 5), ('cobblemon:exp_candy_xl', 4, (1, 2)), ('cobblemon:full_restore', 4, (1, 2)),
+                       ('group:mint', 5), ('cobblemon:full_restore', 4, (1, 2)),
                        ('group:evo_stone', 4), ('group:tera', 4, (1, 3)), ('cobblemon:max_elixir', 3),
                        ('cobblemon:pp_up', 3), ('cobblemon:relic_coin_sack', 2), ('cobblemon:pp_max', 1), ('group:z', 1),
                        ('group:bottle_cap', 2)]),
 }
+# Caramelos: siempre 1 tirada en T2+ (T1 no tiene); el tamaño sube con el nivel. Las raids dan más (★3: S/M x2-6,
+# ★5: L/XL x2-6), así que un cofre de nivel N queda por debajo de la raid equivalente (T2≈★1-2, T3≈★3-4, T4≈★5)
+CANDY = {'tier2': [('cobblemon:exp_candy_s', 3, (1, 2)), ('cobblemon:exp_candy_m', 1)],
+         'tier3': [('cobblemon:exp_candy_m', 3, (1, 2)), ('cobblemon:exp_candy_l', 1)],
+         'tier4': [('cobblemon:exp_candy_l', 3, (1, 2)), ('cobblemon:exp_candy_xl', 1)]}
 # Premio raro de T4: 25 % en un cofre T4 normal, 100 % en los "jackpot" (End, recompensas de mazmorras del Aether)
 RARE = [('cobblemon:ability_capsule', 6), ('cobblemon:ability_patch', 2), ('obc:bottle_cap_gold', 2),
         ('cobblemon:beast_ball', 2), ('cobblemon:master_ball', 1)]
@@ -94,7 +97,7 @@ CHESTS = {  # tabla de cofre -> nivel. Las de Cobblemon, Mega Showdown y Extra S
              + ['alexscaves:chests/caveman_house'],
     'tier2': ['minecraft:chests/village/village_' + v for v in ('armorer', 'toolsmith', 'weaponsmith', 'mason', 'temple')]
              + ['minecraft:chests/' + k for k in ('shipwreck_supply', 'shipwreck_treasure', 'underwater_ruin_small',
-                                                  'underwater_ruin_big', 'buried_treasure', 'ruined_portal',
+                                                  'underwater_ruin_big', 'ruined_portal',
                                                   'abandoned_mineshaft', 'simple_dungeon', 'igloo_chest')]
              + ['betterdungeons:' + k for k in ('skeleton_dungeon/chests/common', 'small_dungeon/chests/loot_piles',
                                                 'spider_dungeon/chests/egg_room', 'zombie_dungeon/chests/common',
@@ -105,7 +108,7 @@ CHESTS = {  # tabla de cofre -> nivel. Las de Cobblemon, Mega Showdown y Extra S
                 'incendium:cvill/medium', 'incendium:cvill/blacksmith', 'incendium:quartz_flats/kitchen_basic',
                 'alexscaves:chests/gingerbread_town', 'aether:chests/ruined_portal',
                 'aether:chests/dungeon/bronze/bronze_dungeon_loot'],
-    'tier3': ['minecraft:chests/' + k for k in ('desert_pyramid', 'jungle_temple', 'stronghold_corridor',
+    'tier3': ['minecraft:chests/' + k for k in ('buried_treasure', 'desert_pyramid', 'jungle_temple', 'stronghold_corridor',
                                                 'stronghold_crossing', 'stronghold_library', 'pillager_outpost',
                                                 'nether_bridge', 'bastion_other', 'bastion_bridge', 'bastion_hoglin_stable')]
              + ['betterdeserttemples:chests/' + k for k in ('storage', 'statue', 'library', 'wardrobe', 'food_storage',
@@ -120,6 +123,7 @@ CHESTS = {  # tabla de cofre -> nivel. Las de Cobblemon, Mega Showdown y Extra S
                                                     'licowitch_tower')]
              + ['deeperdarker:chests/' + k for k in ('ancient_temple_storage', 'ancient_temple_basement',
                                               'ancient_temple_fountain', 'crystallized_amber')]
+             + ['mes:end_common', 'mes:mega_ship_crate', 'mes:mega_ship_barrel']
              + ['terralith:spire/rare', 'aether:chests/dungeon/silver/silver_dungeon_loot',
                 'aether:chests/dungeon/bronze/bronze_dungeon_treasure'],
     'tier4': ['minecraft:chests/' + k for k in ('ancient_city', 'ancient_city_ice_box', 'ancient_city_center',
@@ -128,8 +132,8 @@ CHESTS = {  # tabla de cofre -> nivel. Las de Cobblemon, Mega Showdown y Extra S
                 'betterdeserttemples:chests/tomb_pharaoh', 'betterdeserttemples:chests/pharaoh_hidden',
                 'betterjungletemples:chests/treasure', 'betterfortresses:chests/obsidian',
                 'betterfortresses:chests/beacon', 'deeperdarker:chests/ancient_temple_apex', 'deeperdarker:chests/ancient_temple_secret',
-                'alexscaves:chests/licowitch_tower_secret'],
-    'tier4_jackpot': ['minecraft:chests/end_city_treasure']
+                'alexscaves:chests/licowitch_tower_secret', 'mes:end_uncommon'],
+    'tier4_jackpot': ['mes:end_rare', 'mes:mega_ship_treasure']
                      + ['aether:chests/dungeon/' + k for k in ('bronze/bronze_dungeon_reward', 'silver/silver_dungeon_reward',
                                                                'silver/silver_dungeon_treasure', 'gold/gold_dungeon_reward',
                                                                'gold/gold_dungeon_treasure')],
@@ -181,11 +185,12 @@ shutil.rmtree(OUT, ignore_errors=True)
 for g, ids in GROUPS.items():
     write(f'groups/{g}', {'type': 'minecraft:chest', 'pools': [{'rolls': 1, 'entries': [
         {'type': 'minecraft:item', 'name': i} for i in ids if ok(i)]}]})
+candy = lambda t: [{'rolls': 1, 'entries': [e for e in map(entry, CANDY[t]) if e]}] if t in CANDY else []
 rare = lambda chance: {'rolls': 1, 'entries': [e for e in map(entry, RARE) if e],
                        'conditions': [{'condition': 'minecraft:random_chance', 'chance': chance}]}
 for t, (rolls, specs) in TIERS.items():
-    write(f'chests/{t}', table(rolls, specs, [rare(0.25)] if t == 'tier4' else []))
-write('chests/tier4_jackpot', table(*TIERS['tier4'], [rare(1.0)]))
+    write(f'chests/{t}', table(rolls, specs, candy(t) + ([rare(0.25)] if t == 'tier4' else [])))
+write('chests/tier4_jackpot', table(*TIERS['tier4'], candy('tier4') + [rare(1.0)]))
 
 inject, unknown = {}, []
 for t, chests in CHESTS.items():
