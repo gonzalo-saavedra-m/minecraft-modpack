@@ -2437,6 +2437,11 @@ hash = "6d4de3bf124c98a61c022477e07c8386940d4804001f5f71b322c9b1b74cb5c2"
 metafile = true
 
 [[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
+metafile = true
+
+[[files]]
 file = "mods/catch-indicator.pw.toml"
 hash = "0b3f5077664c6c6a37f2f8b511c7d5f69afad78c707803a9ace94b0fbddab1e1"
 metafile = true
@@ -2702,6 +2707,11 @@ hash = "391f5b0b0fcae3ce77be6ab211435228faec79cb92c50d69471c52ba36b139d6"
 metafile = true
 
 [[files]]
+file = "mods/inventory-essentials.pw.toml"
+hash = "dfcb3d7ea5bad0e7444cc4ac315ebf1153b9c9c8b82e5b6c69d6f9e9e1e1e6d9"
+metafile = true
+
+[[files]]
 file = "mods/invmove.pw.toml"
 hash = "44f1fbc496fb2d54467ccbe0df5362c54542193e33b8541ad75b532e1baf775e"
 metafile = true
@@ -2926,6 +2936,11 @@ hash = "9bdd041fb29ab003ef5bb1f0ba53516847e32e3010a3fce247f743fc98e08a6b"
 metafile = true
 
 [[files]]
+file = "mods/stack-to-nearby-chests.pw.toml"
+hash = "6e06c71124bd06e1e489c9ad5034046a29344eddb599058d7c4cb2e5703bad1a"
+metafile = true
+
+[[files]]
 file = "mods/stendhal.pw.toml"
 hash = "8cd4c8bc9d0b3a0059f870c04b0fa273c32812c34e56340d3fa66c5b79cc965e"
 metafile = true
@@ -2956,8 +2971,18 @@ hash = "ab209eb758421144f7c4f8cee369ab8b9197a88a0b58d0c5282824274629ab04"
 metafile = true
 
 [[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "a8d6d924b7b2b2e6c0cdfaf76bc54e1d4a7cf04351b06b66a2fa6dc959beeb93"
+metafile = true
+
+[[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "ee103bf45111c2cd7ea2d9b31087867dd4b0d07a4b7dad7b138a4ae506127b37"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "76c319b18147464969222ce63823f32ea49d87e337d6c82b20568efe0ef2f331"
 metafile = true
 
 [[files]]
