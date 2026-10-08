@@ -12,7 +12,8 @@ otros mods (salvo aldeanos).
 - [Megas](Megas.md): Piedra activadora, Megapulsera, cómo megaevolucionar y la receta de cada megapiedra.
 - [Raids](Raids.md): guaridas, niveles y jefes Tera, Dynamax, Gigamax, Mega y legendarios.
 - [Viajes](Viajes.md): dónde hay postes de teletransporte (Waystones) y cómo se usan.
+- [QoL](QoL.md): cofres con buscador (Tom's Simple Storage), mochilas, ordenar inventario y la lista de mods de calidad de vida.
 - [Crianza](Crianza.md): cómo criar en el Corral, qué se hereda y cómo sacar shinies con el método Masuda.
 
 Las páginas se generan con `python3 tools/gen_wiki.py` (Liga: `tools/gen_rct.py`, Megas: `tools/gen_megas.py`); no se editan a mano. Crianza,
-Raids y Viajes se escriben a mano.
+Raids, Viajes y QoL se escriben a mano.
