@@ -831,6 +831,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/075
 hash = "44a7075c651e260d57d52aaeaf7ba0d4cc81cf54f9df1e2901bfb66a2218682a"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0780_drampa_alpha.json"
+hash = "c70d2560dc7a1a26420fba76929abd11d5a1967b08efbe7cf4432b75ca5ffcc7"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0821_rookidee_herd.json"
 hash = "f65b1716246879684f1fac8806e15e1a3709bb043d7ca360e6d6f03b1a4b88c8"
 

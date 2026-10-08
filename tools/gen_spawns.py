@@ -170,6 +170,7 @@ ROAM_WEIGHT = 1.0  # en estructura: 10
 STRONG = ULTRA_BEASTS | END_LEGENDARIES | {'cosmog'}
 # Zonas especiales difíciles de encontrar: ahí los exclusivos conservan sus spawns (como el Nether)
 SPECIAL_ZONES = ('#cobblemon:nether/', 'clumpedindistortionworld:')
+SKY, AETHER = '#cobblemon:is_sky', '#aether:is_aether'  # el Aether está en la zona cielo (mipack/tags)
 
 # Tags genéricos por los que se cuelan especies ajenas: solo nacen ahí las de la lista del bioma
 CLEAN = {'#cobblemon:is_magical': AC + 'candy_cavity', '#cobblemon:is_spooky': AC + 'forlorn_hollows'}
@@ -281,6 +282,16 @@ for z in sources:
                 if anti:
                     a = s.setdefault('anticondition', {})
                     a['biomes'] = sorted(set(a.get('biomes', [])) | anti)
+                    changed = True
+                if SKY in c.get('biomes', []) and ('minY' in c or 'maxY' in c):
+                    # El Aether es cielo entero (islas en y≈50-100): ahí la misma entrada sin límite de altura
+                    aether = json.loads(json.dumps(s))
+                    aether['id'] = f"{s.get('id', 'sky')}-aether"
+                    aether['condition']['biomes'] = [AETHER]
+                    aether['condition'].pop('minY', None); aether['condition'].pop('maxY', None)
+                    out.append(aether)
+                    a = s.setdefault('anticondition', {})
+                    a['biomes'] = sorted(set(a.get('biomes', [])) | {AETHER})
                     changed = True
             out.append(s)
         if changed:
