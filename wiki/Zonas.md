@@ -88,7 +88,7 @@ Una zona es un grupo de biomas que usa Cobblemon para decidir qué Pokémon apar
 
 - **Overworld:** [Arboleda de Sakuras](Bioma-terralith-sakura_grove.md), [Cerezal](Bioma-minecraft-cherry_grove.md), [Valle de Sakura](Bioma-terralith-sakura_valley.md)
 
-**Pokémon (3):** [Cherubi](Pokemon-Gen-4.md#cherubi), [Cherrim](Pokemon-Gen-4.md#cherrim), [Vivillon](Pokemon-Gen-6.md#vivillon)
+**Pokémon (4):** [Cherubi](Pokemon-Gen-4.md#cherubi), [Cherrim](Pokemon-Gen-4.md#cherrim), [Vivillon](Pokemon-Gen-6.md#vivillon), [Enamorus](Pokemon-Gen-8.md#enamorus)
 
 ## Colinas
 

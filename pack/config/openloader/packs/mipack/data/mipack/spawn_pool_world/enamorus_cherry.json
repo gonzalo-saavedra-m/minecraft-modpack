@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-cherry-enamorus",
+      "pokemon": "enamorus min_perfect_ivs=3",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 5.0,
+      "condition": {
+        "canSeeSky": true,
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_cherry_blossom"
+        ]
+      }
+    }
+  ]
+}

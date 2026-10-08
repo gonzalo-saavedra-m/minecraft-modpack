@@ -1203,6 +1203,10 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/deeperdarker
 hash = "3862de1c00c2a40102068ac923d5640336ddd5dd2862d61f07919938fcaff15d"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/enamorus_cherry.json"
+hash = "67ee6cc0f44b558f76cd5c3bb15c641a42cd5326ffc9feec1bdfefda654bbde5"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/astral_hideaway.json"
 hash = "61a3879618b99462e344f265af25cf943863e3facc84233af647933920d9346c"
 

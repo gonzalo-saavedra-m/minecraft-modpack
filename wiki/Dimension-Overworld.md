@@ -23,7 +23,7 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Acantilado Friolentas](Bioma-terralith-frozen_cliffs.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Océano](Zonas.md#océano), [Océano helado](Zonas.md#océano-helado) | 7 | 108 |
 | [Acantilados de Granito](Bioma-terralith-granite_cliffs.md) | [Costa](Zonas.md#costa) | 4 | 40 |
 | [Acantilados de Yosemite](Bioma-terralith-yosemite_cliffs.md) | [Frío](Zonas.md#frío), [Mesetas](Zonas.md#mesetas), [Montañas](Zonas.md#montañas) | 6 | 72 |
-| [Arboleda de Sakuras](Bioma-terralith-sakura_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Templado](Zonas.md#templado) | 24 | 222 |
+| [Arboleda de Sakuras](Bioma-terralith-sakura_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Templado](Zonas.md#templado) | 24 | 223 |
 | [Arboleda de la Luna](Bioma-terralith-moonlight_grove.md) | [Bosques](Zonas.md#bosques), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Mágico](Zonas.md#mágico), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 26 | 261 |
 | [Arenas Viejas](Bioma-terralith-ancient_sands.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 75 |
 | [Bosque](Bioma-minecraft-forest.md) | [Bosques](Zonas.md#bosques), [Templado](Zonas.md#templado) | 16 | 177 |
@@ -43,7 +43,7 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Cañón Bryce](Bioma-terralith-bryce_canyon.md) | [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Árido](Zonas.md#árido) | 19 | 161 |
 | [Cañón De Amatista](Bioma-terralith-amethyst_canyon.md) | [Cañón De Amatista](Zonas.md#cañón-de-amatista), [Jungla](Zonas.md#jungla), [Mágico](Zonas.md#mágico) | 26 | 195 |
 | [Cañón Desértico](Bioma-terralith-desert_canyon.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 19 | 75 |
-| [Cerezal](Bioma-minecraft-cherry_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 18 | 284 |
+| [Cerezal](Bioma-minecraft-cherry_grove.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 18 | 285 |
 | [Cerezal nevada](Bioma-terralith-snowy_cherry_grove.md) | [Bosque nevado](Zonas.md#bosque-nevado), [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Templado](Zonas.md#templado) | 24 | 162 |
 | [Colinas pedregosas ventiscosas](Bioma-minecraft-windswept_gravelly_hills.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 11 | 146 |
 | [Colinas ventiscosas](Bioma-minecraft-windswept_hills.md) | [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas) | 11 | 146 |
@@ -168,6 +168,6 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Valle Frondosa](Bioma-terralith-lush_valley.md) | [Colinas](Zonas.md#colinas), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas) | 5 | 141 |
 | [Valle Lavanda](Bioma-terralith-lavender_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado) | 25 | 335 |
 | [Valle de Arenisca](Bioma-terralith-sandstone_valley.md) | [Arenoso](Zonas.md#arenoso), [Desierto](Zonas.md#desierto), [Árido](Zonas.md#árido) | 21 | 75 |
-| [Valle de Sakura](Bioma-terralith-sakura_valley.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 25 | 321 |
+| [Valle de Sakura](Bioma-terralith-sakura_valley.md) | [Bosques](Zonas.md#bosques), [Cerezos](Zonas.md#cerezos), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Montañas](Zonas.md#montañas), [Templado](Zonas.md#templado) | 25 | 322 |
 | [Valle de la Luna](Bioma-terralith-moonlight_valley.md) | [Bosques](Zonas.md#bosques), [Colinas](Zonas.md#colinas), [Floral](Zonas.md#floral), [Frío](Zonas.md#frío), [Montañas](Zonas.md#montañas), [Mágico](Zonas.md#mágico), [Taiga](Zonas.md#taiga), [Templado](Zonas.md#templado) | 26 | 340 |
 | [Yellowstone](Bioma-terralith-yellowstone.md) | [Frío](Zonas.md#frío), [Taiga](Zonas.md#taiga), [Termal](Zonas.md#termal), [Tundra](Zonas.md#tundra), [Yellowstone](Zonas.md#yellowstone) | 5 | 90 |
