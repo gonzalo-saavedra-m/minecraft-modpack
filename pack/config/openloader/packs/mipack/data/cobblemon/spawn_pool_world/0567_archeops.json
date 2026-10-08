@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "archeops-1",
+      "level": "37-57",
+      "pokemon": "archeops",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 40.0
+    }
+  ]
+}

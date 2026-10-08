@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "lileep-1",
+      "level": "11-36",
+      "pokemon": "lileep",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 60.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "lileep-2",
+      "level": "11-36",
+      "pokemon": "lileep",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "seafloor",
+      "type": "pokemon",
+      "weight": 60.0
+    }
+  ]
+}

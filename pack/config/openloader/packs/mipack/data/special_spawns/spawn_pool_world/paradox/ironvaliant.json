@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ironjugulis-1T",
-      "pokemon": "ironjugulis min_perfect_ivs=3",
+      "id": "ironvaliant-1T",
+      "pokemon": "ironvaliant min_perfect_ivs=3",
       "presets": [
         "natural",
         "wild"
@@ -15,11 +15,21 @@
       "bucket": "uncommon",
       "level": "40-75",
       "weight": 3.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:lightning_rod"
+            ]
+          }
+        }
+      ],
       "condition": {
+        "timeRange": "night",
         "biomes": [
           "alexscaves:primordial_caves"
-        ],
-        "timeRange": "night"
+        ]
       }
     }
   ]

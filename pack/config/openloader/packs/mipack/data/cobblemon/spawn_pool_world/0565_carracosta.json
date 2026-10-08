@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "carracosta-1",
+      "level": "37-50",
+      "pokemon": "carracosta",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 40.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "carracosta-2",
+      "level": "37-50",
+      "pokemon": "carracosta",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 40.0
+    }
+  ]
+}

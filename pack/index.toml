@@ -118,6 +118,118 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_detail_presets/illag
 hash = "ac5a0b320b1981781f83d2d14922fed125352ae1ca1279a21afe9e8ea9d77497"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0138_omanyte.json"
+hash = "30394d7cd14db80c5400b9799bcd2ea6b0d62482e968837e889e52e45aadcb83"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0139_omastar.json"
+hash = "b55df2342fb707536cd887f5b975f15e7581da594a66b73f13d37533f661dbdb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0140_kabuto.json"
+hash = "794ad7c069feedd47accc51f104d56d3485a4f11e3f08f32a6c1ce7798c94230"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0141_kabutops.json"
+hash = "2e09468afed25381596f02eed4988e2a23e72906634539efeeb5c14bc7241534"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0142_aerodactyl.json"
+hash = "d931e060dddfa7bfc9c724d215aed29410a50ae681b9a973e89c18597fd0a12c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0167_spinarak.json"
+hash = "72ba58e17c81ea44fc4669573e12eab3b46805b465f07508980d1aa2ff9546d6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0168_ariados.json"
+hash = "d664165390e608663ca74e3027d7daebc0e495c345af704758fdd6ceedd9c488"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0345_lileep.json"
+hash = "99ff0fa7e2bf6ce47bbce4f5fbb71ea8ee06b1484def78d66d1de3946d3bd4ba"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0346_cradily.json"
+hash = "4091db02ebdfc9136e17351e9cb0c8ad2c48b206d854290767b3e43ef355e1a6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0347_anorith.json"
+hash = "bea6874a3e6730747ac2540d560fecb590e9807855449f09eecfd83d32e464c1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0348_armaldo.json"
+hash = "77de28dc0f056654892a1f3dbb9a6cbd92188a5c4cb0254e4e38cc3c76f12961"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0408_cranidos.json"
+hash = "e5c8e6de599cd9d49503bca96ede58375f532954e69bd066af4a530608e56c24"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0409_rampardos.json"
+hash = "fc9bafd2eb09e6e321a0d5946504e533fac0a16ea7f50f3143c653a2b305db35"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0410_shieldon.json"
+hash = "7326311034b586de7de94f28828e4024b8fdc9eacbfa7722573fec44ffe6a579"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0411_bastiodon.json"
+hash = "5304d39cf47a8d99272cd23c105a3b04cb8d4cb15dea759c9e6d3f89448425e8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0564_tirtouga.json"
+hash = "c20884f9023b933de8fa239ccd27221c32b7b2b74350b0f335774cde519d5f0b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0565_carracosta.json"
+hash = "cd363349ba7446612641d5ee6d7b4558b5225cdbea8da2379df28a47d0c0fb6f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0566_archen.json"
+hash = "97f65dbdeb0a5eec84157df4618329ef78ab6e0d6011ac9a2d7fa3e74bbff774"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0567_archeops.json"
+hash = "777cf22c3cb3fc9ac37c0c3df499a9a7f7de06dd57e054b7bc9b34e885079bd8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0595_joltik.json"
+hash = "9f89b4c894af627119ccd955ca05bd733d06acacae27fbadf45fb55e010f2e2c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0596_galvantula.json"
+hash = "8ccb7569200ce7a200c209e9e819398e039f801eaa828b387af8a53d97c892ee"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0696_tyrunt.json"
+hash = "4baebd052f6ca3488ede9e8388b78a0b46d01ebe2662b0ad470881ecd6ff2606"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0697_tyrantrum.json"
+hash = "5ee6c64d43a8b9a90a513717bf98490361cd2e07bdf49470c2faba7a02938fef"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0698_amaura.json"
+hash = "9393bf355848896d1969530fbb528a71735ff547b4603c7800af188f65768b6d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0699_aurorus.json"
+hash = "6b6bc7c6166a96884d76ae0cb299e6ca886561b5d76a3079d1c3fa83b24c6f8c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0932_nacli.json"
+hash = "27980a679ff74300b32654e33e517d6d1b39227612a87e81fded482a3611e166"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0933_naclstack.json"
+hash = "3f41510ca47cbb76c0ffbaed6ecdedd9c1fff24a55812cc495f14ef7f1abb99c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0934_garganacl.json"
+hash = "98899e3b7ea69e372a12a358679e6e8bf0aaf5a58a68e1fa682743a01640abb6"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/species_additions/generation7/celesteela.json"
 hash = "8bd68493bd5491c2f3195b43ef865fbc820d1ec2b71e44628323f56f02c34c4f"
 
@@ -854,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "89d3ca1b86183a32c58e33f92a9eac894fe3f753ce620e310c9bef8bb705f760"
+hash = "a6efb235871e519918fcdb8846c02dac0907bd673a9a0d146429fbb87c214d04"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

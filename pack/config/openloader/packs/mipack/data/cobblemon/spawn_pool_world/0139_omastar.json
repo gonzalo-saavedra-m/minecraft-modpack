@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "omastar-1",
+      "level": "40-50",
+      "pokemon": "omastar",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 40.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "omastar-2",
+      "level": "40-50",
+      "pokemon": "omastar",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon",
+      "weight": 40.0
+    }
+  ]
+}

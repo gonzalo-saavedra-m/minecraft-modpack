@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ironjugulis-1T",
-      "pokemon": "ironjugulis min_perfect_ivs=3",
+      "id": "ironmoth-1T",
+      "pokemon": "ironmoth min_perfect_ivs=3",
       "presets": [
         "natural",
         "wild"
@@ -16,10 +16,10 @@
       "level": "40-75",
       "weight": 3.0,
       "condition": {
+        "timeRange": "night",
         "biomes": [
           "alexscaves:primordial_caves"
-        ],
-        "timeRange": "night"
+        ]
       }
     }
   ]

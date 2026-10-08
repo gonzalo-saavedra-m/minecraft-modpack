@@ -23,7 +23,9 @@ import org.slf4j.Logger;
 /** Reglas del server (RESEARCH §13.2b): sin spawners, sin mobs de Minecraft y quedarte sin Pokémon te mata. */
 public class MipackRules implements ModInitializer {
 	private static final Logger LOGGER = LogUtils.getLogger();
-	/** Mobs vanilla que sí aparecen solos. */
+	/** Mods cuyos mobs no aparecen solos (RESEARCH §13.2b): Minecraft y Alex's Caves. */
+	private static final Set<String> BLOCKED_NAMESPACES = Set.of("minecraft", "alexscaves");
+	/** Mobs de esos mods que sí aparecen solos. */
 	private static final Set<EntityType<?>> ALLOWED_TYPES = Set.of(EntityType.VILLAGER);
 	/** Spawns hechos a propósito por un jugador u operador: siempre se permiten. */
 	private static final Set<MobSpawnType> PLAYER_REASONS = EnumSet.of(MobSpawnType.COMMAND, MobSpawnType.SPAWN_EGG,
@@ -70,7 +72,7 @@ public class MipackRules implements ModInitializer {
 	public static boolean isBlockedSpawn(Entity entity) {
 		if (!(entity instanceof Mob mob)) return false;
 		EntityType<?> type = entity.getType();
-		if (ALLOWED_TYPES.contains(type) || !BuiltInRegistries.ENTITY_TYPE.getKey(type).getNamespace().equals("minecraft"))
+		if (ALLOWED_TYPES.contains(type) || !BLOCKED_NAMESPACES.contains(BuiltInRegistries.ENTITY_TYPE.getKey(type).getNamespace()))
 			return false;
 		MobSpawnType reason = ((SpawnReasonHolder) mob).mipackrules$getSpawnReason();
 		return reason == null || !PLAYER_REASONS.contains(reason);

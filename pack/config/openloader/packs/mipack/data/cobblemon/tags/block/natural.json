@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#alexscaves:primordial_caves_base_blocks",
+    "alexscaves:flood_basalt",
+    "alexscaves:fern_thatch"
+  ]
+}

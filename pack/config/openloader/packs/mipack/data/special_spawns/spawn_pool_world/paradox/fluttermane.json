@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fluttermane-1T",
+      "pokemon": "fluttermane min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-75",
+      "weight": 3.0,
+      "condition": {
+        "timeRange": "day",
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    },
+    {
+      "id": "fluttermane-2T",
+      "pokemon": "fluttermane min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-75",
+      "weight": 3.0,
+      "condition": {
+        "timeRange": "day",
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ironboulder-1T",
-      "pokemon": "ironboulder min_perfect_ivs=3",
+      "id": "ragingbolt-1T",
+      "pokemon": "ragingbolt min_perfect_ivs=3",
       "presets": [
         "natural",
         "wild"
@@ -15,11 +15,25 @@
       "bucket": "uncommon",
       "level": "60-80",
       "weight": 1.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "isRaining": true
+          }
+        },
+        {
+          "multiplier": 3,
+          "condition": {
+            "isThundering": true
+          }
+        }
+      ],
       "condition": {
+        "timeRange": "day",
         "biomes": [
           "alexscaves:primordial_caves"
-        ],
-        "timeRange": "night"
+        ]
       }
     }
   ]
