@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "rival_cheren_1"
+    ]
+  ],
+  "series": [
+    "unovagymchallenge"
+  ],
+  "type": "gymleader_unova",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "cobblemon:grass_gem"
+}

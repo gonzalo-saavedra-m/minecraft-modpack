@@ -1,0 +1,13 @@
+name = "Cobblemon: Wild Loot"
+filename = "CobblemonWildLoot-fabric-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/krPhIQKY/versions/tOMo06KX/CobblemonWildLoot-fabric-1.0.5.jar"
+hash-format = "sha512"
+hash = "a71e76da137dabd253393414d84d68fea404b11f1ae686657db8b0583200110a69223d4ac52022013b28b3dd06a5c0cf5f8478190b953411e6d84d9ccbdddd3d"
+
+[update]
+[update.modrinth]
+mod-id = "krPhIQKY"
+version = "tOMo06KX"

@@ -1,0 +1,29 @@
+{
+  "requiredDefeats": [
+    [
+      "kaloselitefour_malva"
+    ],
+    [
+      "kaloselitefour_wikstrom"
+    ],
+    [
+      "kaloselitefour_drasna"
+    ],
+    [
+      "kaloselitefour_siebold"
+    ]
+  ],
+  "series": [
+    "kalosleague"
+  ],
+  "type": "elitefour_kalos",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:fist_plate"
+}

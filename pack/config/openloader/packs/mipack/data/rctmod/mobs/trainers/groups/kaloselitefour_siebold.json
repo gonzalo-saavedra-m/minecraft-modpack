@@ -1,0 +1,15 @@
+{
+  "series": [
+    "kalosleague"
+  ],
+  "type": "elitefour_kalos",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:splash_plate"
+}

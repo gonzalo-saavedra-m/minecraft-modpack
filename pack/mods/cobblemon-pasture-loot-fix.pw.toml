@@ -1,0 +1,13 @@
+name = "Cobblemon Pasture Loot Fix"
+filename = "cobblemon-pasture-loot-fix-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lua4uZFD/versions/9Lu6eB7W/cobblemon-pasture-loot-fix-1.0.0.jar"
+hash-format = "sha512"
+hash = "7effdd82e693bdd8f0d8a9d95e4b626361f419f00ff7ad660313b70fdb779fe69b747bf52a545ebe516497109add8fd07a2a5ce58e3817531f840d23ed7d9fc0"
+
+[update]
+[update.modrinth]
+mod-id = "lua4uZFD"
+version = "9Lu6eB7W"

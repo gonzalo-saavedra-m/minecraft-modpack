@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "paldeaelitefour_hassel"
+    ]
+  ],
+  "series": [
+    "paldeaelitefour"
+  ],
+  "type": "elitefour_paldea",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:rock_memory"
+}

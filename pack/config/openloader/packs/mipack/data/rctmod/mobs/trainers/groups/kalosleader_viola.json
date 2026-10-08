@@ -1,0 +1,15 @@
+{
+  "series": [
+    "kalosgymchallenge"
+  ],
+  "type": "gymleader_kalos",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:buginium_z"
+}

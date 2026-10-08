@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "subwayboss_emmet"
+    ]
+  ],
+  "series": [
+    "unovab2w2"
+  ],
+  "type": "elitefour_unova",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "cobblemon:dragon_gem"
+}

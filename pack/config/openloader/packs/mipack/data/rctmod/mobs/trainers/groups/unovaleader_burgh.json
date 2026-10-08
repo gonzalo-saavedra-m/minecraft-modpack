@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "unovaleader_lenora"
+    ]
+  ],
+  "series": [
+    "unovagymchallenge"
+  ],
+  "type": "gymleader_unova",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "cobblemon:tanga_berry"
+}

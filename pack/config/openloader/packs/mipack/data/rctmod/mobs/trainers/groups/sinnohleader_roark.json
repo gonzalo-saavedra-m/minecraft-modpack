@@ -1,0 +1,15 @@
+{
+  "series": [
+    "sinnohgymchallenge"
+  ],
+  "type": "gymleader_sinnoh",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "cobblemon:rock_gem"
+}

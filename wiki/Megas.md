@@ -5,7 +5,7 @@ con **su megapiedra equipada** y estar en combate. Todo sale de dos estructuras 
 
 ## Piedra activadora y Megapulsera
 
-1. Busca un **Megaroide**: un meteorito enterrado entre y −32 y y −20, en cualquier bioma del Overworld. Trae
+1. Busca un **Megaroide** (los mapas de las minas ayudan, ver abajo): un meteorito enterrado entre y −32 y y −20, en cualquier bioma del Overworld. Trae
    **una** Mena de Piedra Activadora.
 2. Mínala con **pico de diamante** o mejor, **sin Toque de seda** (con Toque de seda sale la mena entera, que no
    sirve para nada). Suelta 1 <img src="img/megas/keystone.png" width="24"> **Piedra activadora**. Cada Megapulsera gasta una, así que cada jugador necesita su meteorito.
@@ -60,6 +60,9 @@ lo mismo, solo cambia el look; todos llevan una Piedra activadora:
 - **No salen de cofres ni de arqueología.** Los observatorios y sitios arqueológicos de Mega Showdown dan piedras
   evolutivas, gemas, Zygarde Cells y Bloques de Mega Meteorito, pero ninguna megapiedra. Las menas de Mega Meteorito
   dan piedras evolutivas (Fuego, Agua, Trueno...), no megapiedras.
+- **Mapas del tesoro:** los cofres de las minas abandonadas pueden traer un **Mapa del Megasitio** (12 %) o un
+  **Mapa del Megaroide** (8 %), que marcan con una X el más cercano. Los Mega Sites además son más frecuentes que
+  en Mega Showdown (uno cada ~24 chunks en vez de ~32).
 
 ## Megapiedras (86)
 

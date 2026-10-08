@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/CobblemonWildLoot.json"
+hash = "a3522d9ddff83ff8e3c8320d4241aba4b715bde0e6238e1c05d66dc3a14528ed"
+
+[[files]]
+file = "config/PastureLoot.json"
+hash = "3977d805b89bfafb218166a973d137e7a3f47595a20cffde975dd2a9d8edad21"
+
+[[files]]
 file = "config/alexscaves_biome_generation/candy_cavity.json"
 hash = "1eb75371ee8f59e4b2fdfced11d772b19db7a7d1babed093c7089ffdc0bb5438"
 
@@ -19,6 +27,10 @@ hash = "db16d8a0895f5412b27baff3a474b8aa4eb86809f9ef397ec80f2e890300fe19"
 [[files]]
 file = "config/betterdeserttemples-fabric-1_21.toml"
 hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
+
+[[files]]
+file = "config/cobblemon_move_tutor/server.toml"
+hash = "ef096cb312fcbd77bf4c0d89c56ff1d981b7d5c0092be3548ae1c8fd1f02da3e"
 
 [[files]]
 file = "config/cobblemonraiddens/common.json5"
@@ -907,6 +919,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/tags/block/natural.json"
 hash = "90273f37a231cca88dd57bf97a2c87571fb5993b7f63b22a56c432b043765d6b"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mega_showdown/worldgen/structure_set/mega_site.json"
+hash = "1073462c4f234bb246a4738410af8b9c1ea39468560c532a9b74d630b8c00539"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_structure/trial_chambers.json"
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
@@ -1113,6 +1129,282 @@ hash = "17526468f96991152b20fc585a3b3af47ce326988973b38731983129a6d14840"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/witch_huts/0858_hatterene_alpha.json"
 hash = "9638641173fa020a3721a872341ecd18cb23cd99e2cbd4db8ea7bdb5744b134c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/has_waystone.json"
+hash = "edc7c39de8eabd066acfbcf602dbc62efe5656b093ee6e5e5e8992c14554657b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/mega_site_maps.json"
+hash = "102d2ed8b1b21e56eaa8988aa6af3842175fb0b754b1fa151c49fd7cf552aac6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/megaroid_maps.json"
+hash = "0e9206f9af43cb144067d03c00f7ecffbcbc74215c5b3591f77a7ad956bfb29d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennchampion_steven.json"
+hash = "c025adca9b3b4b2c92af5591fa9ac8d7837502225428fc36c70ed3e9004c3e11"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennelitefour_drake.json"
+hash = "766750f2b87cbdad7ae1b097a482a548b04caa615cf8f36e480eb9e25ff361ab"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennelitefour_glacia.json"
+hash = "51609438e68bdd12273da4f0cb99bc5ac7bb6e90b5912d130bb066322cd0f4e8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennelitefour_phoebe.json"
+hash = "7977380a5967181a83bc00dcfef0c66bc52c2e3d5baa973aaa0ed5700c27c0ae"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennelitefour_sidney.json"
+hash = "51b9346de66362d2570f7558cb72cc4becc13d8679d39106535b171ea77f09dc"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_brawly.json"
+hash = "4b72eec41338f40cf10d00edfeab353a7881421abf7416c4c99c614a960ea70c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_flannery.json"
+hash = "e75015d424c78272b5601556e59a46fd753c156a8fc498b3d5627fb25df7adad"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_liza.json"
+hash = "6bb523b7bb9fb9b05c623de12d71e499f5b55d5ddcb0b14e8b53c92d0ee41c96"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_norman.json"
+hash = "5a2c28b5548c022268aa9b38650d4ac0a0ac9fdce1d0795c39fc1575d0fa7995"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_roxanne.json"
+hash = "ac84f48991c570c113476c4b0400472f13a68c52413197d93a2d96900b457ab4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_wallace.json"
+hash = "d695753cc400b9943b4463d7aeb55758496992f28850518a610e4318eec1d8e0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_wattson.json"
+hash = "9fa14909188a17932f7374766f39e20f6f928bb86d39ad36712fdc44f62ec829"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_winona.json"
+hash = "9eb928d88ff20acb11921bb36b1440f49f0b2fc4201468d3b59a0525a856e120"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloschampion_diantha.json"
+hash = "43973f7ec06b84b4949dabda387671a0f9d425b3a074d59e0b711267f78fd6ea"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_drasna.json"
+hash = "c31e89cda8fe147a142f561c3d5b0e21a37d048b693d82d4a8d0cff160e2c6f2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_malva.json"
+hash = "3c0202c306e4d83294134479948c29fbf3387ad4623fc9818e74339a4d58a18b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_siebold.json"
+hash = "7925637d8a8b6cfa837f7eea6a4a9dd81fa0ea6aa99e4e9f95a59b9ba3ee8cbc"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_wikstrom.json"
+hash = "fa36b7a67607b650edaa7876cc6f8bb2ea4d61923c45fd25a1ced965e4ed4f70"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_clemont.json"
+hash = "887bc8b89d88034d96fa4f62aebfe4920bd99f557501791744e3f4d91b9e8e5e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_grant.json"
+hash = "88315d124e0494d530039a89bace51a8d1ae2e67709318f260f97739602e96da"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_korrina.json"
+hash = "d9096d8e8974bc039a8493d6f96e96c673cd22f7944a77e4d8d6f8ca9127a98c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_olympia.json"
+hash = "ffc9c61404d0852728702617a7704be2084b4b9e438871c2ad2b5b4987602595"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_ramos.json"
+hash = "a2643b1c50f20d2490f4c0c91f54e27586ae396ef7edd8a340b5554e1889ea70"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_valerie.json"
+hash = "480079acd5461a74c77b4931da82e4ca6abcd66ff843118ce3dca6f0213044c6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_viola.json"
+hash = "f511133dac0ab03c7497ae1fcd5623ad62ba19d4881fd8c168c59302b5a2650d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_wulfric.json"
+hash = "a1c09bcc65a2987f2572b2252c07dc6a8c62df4e486eede472e27a184c4f9928"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeachampion_geeta.json"
+hash = "fab1707d82c80fa54ccadee5fa10a5bacef28dd9b78d025257987c0c84ebb5fb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_hassel.json"
+hash = "611f5c1ed5b76e33e65ade34cba8e5258d5117303d582c3240c7dd314f0eb76f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_larry.json"
+hash = "12a9e3ecfa781781d7625acc3745aa54f78cf12801d7531740e13848c4a545d4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_poppy.json"
+hash = "f663e47a44067e2c2b298a642b158264d9afb546952fcc68524a17c7ecf7b39a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_rika.json"
+hash = "54a56064323d01be2bd9df86da357b9c17ce124a74f67375d4ce85c17c0bfe50"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_brassius.json"
+hash = "290aa701c3b78cf79740dc812dc4e73526eeff1f8202d9d6dff4aefbeac2f11e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_grusha.json"
+hash = "b90f137bfef9f81ae6b7740212d982e7bc7a6361312e40e6fe9d7694756c92eb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_iono.json"
+hash = "08243bf793d188a5a5ce9610d234a8b1b3371d13d69f65eb217c9b9307161003"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_katy.json"
+hash = "eaead5b09e75d1b273af2b2f7e03760cf5543e64cb59b7f089b6eb1f32988b92"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_kofu.json"
+hash = "48831e45bae803c4975d553f4af66f862e260bfbaf3d9562ec5cc78f670d32d1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_larry.json"
+hash = "b0b04e4374f039da8768dbf5c233624958cb0c548ec63e05cb77de3fb1692915"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_ryme.json"
+hash = "8d10c73a92e49f3ca8a9c998a5671c8583cd6b0defb7ba4a20ab702ab6fa6833"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_tulip.json"
+hash = "4d03a99b2a525433c4dc6556d8fdee5c2dc5cbe0d5ab3d3201f84191ebe49b3f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_byron.json"
+hash = "2e04b3ad0cf76aa07ffb7d0314df29851ee5034f57abf8e7e008638bcdb7e446"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_candice.json"
+hash = "647e9381f96c07eb7e0b9e072d6e8d931d9c06883e0eb2a3c6da2960a8b4fc8e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_crasherwake.json"
+hash = "bdcaa220c4943409007b588ee830dfaa131488d7bee8884ad16eea9324d924bb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_fantina.json"
+hash = "2ebeb71887736cfaf9954e4c683d979a93a83420860e87fe2bcb1f80d08f6480"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_gardenia.json"
+hash = "4e6856a3ca8437b45041cca4557f611dd5142149002aad4a23b23549163e81d2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_maylene.json"
+hash = "4e9dd010c6527c21d9bc4bca2c4fe1ca72ecccf770d279cdfcd604010a4182ba"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_roark.json"
+hash = "156c06d73febd128933ff673835575eeb8f1664e5a842906946e9f19fdb9905a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_volkner.json"
+hash = "c14981bcbcaf274d95356647dc7a7114e069f3ba56903da1a51320940b831b61"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovachampion_alder.json"
+hash = "7d6a5ac1c6b246d086d14fa9296f219a6633455a5350cc5d439f54249243e50a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovachampion_iris.json"
+hash = "7279b07931fee52a3d3cdfa94645a5cc759721e1d45f7bcacfb65cc5aaf3d00c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_caitlin.json"
+hash = "e51dbba913f1bd76702eeab079f69bf90d5f980809201dbf5ca289a91cb0f4bb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_grimsley.json"
+hash = "d0e0518c826e2a816a2b6320f191907b2fc8aee87ffe270f0204ec8745a5e99d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_marshal.json"
+hash = "edc4b4d6ed381c846c9ebf84828b74b0c7dc3d74b7c557f1d6ca32a2b1bbe1cd"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_shauntal.json"
+hash = "9be3e6f64c5a09d740f424463228e401f1def1e362a12977282695e35fdb354b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_brycen.json"
+hash = "155f5b1486b0bab7a3393e39f014b8bde053f49563909a0f4dc586574ec2bdec"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_burgh.json"
+hash = "eb1e6fdaa08f8065b94e0792de64fa5a8b3abf3d6f3ddbe0e5bc9c7eb29f2995"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_cheren.json"
+hash = "32bec1245c489d831f45e58262f7defd7dbc5533201c8e5616551caf081836f2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_chili.json"
+hash = "dac37555322b8e9e7cbca5dc47a38d9fb246cfa585d5e81020814a8147d36939"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_cilan.json"
+hash = "9f935a782cf053b791d670b9deabc80fb4e1abcdb801d210782d3754bff2403a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_clay.json"
+hash = "f7df97c48d5400b300c70813fc535cfb12cb63786d640aedc1534b1729b79a6f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_cress.json"
+hash = "6f2181c3a7fc28ef3418f8803513f3c18ec6844fe5bd729b4cfd5d856021cc08"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_drayden.json"
+hash = "7fe079610354490cb4323b8a33b4327fd41d1b6453becefbb6875e2f351fcd44"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_elesa.json"
+hash = "1aac40ae8a2eb84ae3b9275c25013b696d0c4d84a7cf7b0d9f1b83470df46bb7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_lenora.json"
+hash = "a956168300807862edde1d5a5535911c3a17d8bda2932d651ada5fd3a60010ad"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_marlon.json"
+hash = "081bd62ef75e74e05da90102c0ee1ca7b520d97c1cbc5440bcebd456e91eb948"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_roxie.json"
+hash = "c11c1ce44f125b64e9a64976e39d63148d396e17566ec9022736c40a6f894a17"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_skyla.json"
+hash = "cefcab59b87ce9957b08ee1f18c7d62fed2a9c632457380ce23041309707df47"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/single/champion_cynthia_03a5.json"
@@ -1398,6 +1690,10 @@ hash = "b53eaa9beaca3a27b3bd5ab62e9422cfd0c2bdc88d54602563dbfcf59fb93aa7"
 [[files]]
 file = "config/rctmod-server.toml"
 hash = "471195dcf09af6c97eb4ebd372645afdaac994d3890b99aa3e1905fe51789237"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "a8d06a55ac6232b03faf550b12c175b02dd1307326ba25b41d6ab75830231bfa"
 
 [[files]]
 file = "config/yosbr/config/ali/ali_common.json"
@@ -1867,6 +2163,11 @@ hash = "0fb3808193da9b587367337d12d202d7b006e2522637a6502913d66a84f8626f"
 metafile = true
 
 [[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "16f4aa64663e05ba013f9a38c69695e4086a6403575adb29b1379b417d28e519"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
 metafile = true
@@ -1917,8 +2218,18 @@ hash = "fe84e2227c405bf9b735f01f307a01768784b9d49df82a13ecda3d3b6d198507"
 metafile = true
 
 [[files]]
+file = "mods/cobblecuisine.pw.toml"
+hash = "dd9c84c3f22e37ee533990585112642b5c9a7ede61d29e5d13330a99b9a48b02"
+metafile = true
+
+[[files]]
 file = "mods/cobbledollars.pw.toml"
 hash = "b61d3783e85f963d6235bf86e0d09a3f9e0030634654b07327600ca6b939d627"
+metafile = true
+
+[[files]]
+file = "mods/cobblefurnies.pw.toml"
+hash = "4ea6079e726435a8a9ecc92824c9bd2e0636495a4d73f8641e014cd5060c4d45"
 metafile = true
 
 [[files]]
@@ -1937,8 +2248,33 @@ hash = "95317bc1b02ee76693d1f489e63ccd4525bbc4a79f627d0b53e7506fdd0cdeba"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-exp.-all.pw.toml"
+hash = "502c96511d48818edbb193ea3651ca38b03f17fc352ca404090f346496d72c11"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-move-tutor.pw.toml"
+hash = "d60225534ac2b4a5396e856928add62521108db0b5066534ceae7bed8aec4e9d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pasture-loot-fix.pw.toml"
+hash = "cfd2d4dbc03c37576ad02daff7a1bec136694549cf8c4f474eda30c15e306520"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pasture-loot.pw.toml"
+hash = "253284368b80980f3261e44b2a539db0a608f525c6adfe8f096803de0c8e9c90"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pc-plus.pw.toml"
+hash = "52c1bfe98017697cace8dea1d6e30d8ad95b297c0b462851edd6e980c76fe444"
 metafile = true
 
 [[files]]
@@ -1959,6 +2295,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-true-pickup.pw.toml"
 hash = "cd8bc1488031f73e4566a883ae9a5666884c0d8d79af50274f23dc86c596f55d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-wild-loot.pw.toml"
+hash = "1774f8fceb5997b46854f01b36198a645ae0db6166c6f52ae35d849094d4f139"
 metafile = true
 
 [[files]]
@@ -2147,8 +2488,13 @@ hash = "f531a8ee70e9d78ee62a84e3fd18088070dcf8f2cee2384a8aabed16dbfafe6c"
 metafile = true
 
 [[files]]
+file = "mods/matthiesen-core.pw.toml"
+hash = "c79a63c28d4be2d3c0e7886b27ed0bf65d1c1a48ab6b677be22e6a3d27262004"
+metafile = true
+
+[[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "af72f92d76eca60c718b04f4aecf6d18c3e77dcf4ca31fe387fca90bf22e01a1"
+hash = "62e605bea3677dcc13e453413a3451df811bcd7ab63dbf3f8f592a277bc00053"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -2213,6 +2559,11 @@ metafile = true
 [[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
+metafile = true
+
+[[files]]
+file = "mods/pokemon-fly-transitions.pw.toml"
+hash = "b4b498f9052402ca9b68188000faa9821b9678e24c3c48eeb57c17ee0315cb2a"
 metafile = true
 
 [[files]]
@@ -2328,6 +2679,11 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "53e01bde67391ead9e5bcf1e86479aebd9ddb0345f871ce4b49afd655b238523"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "442c13fe3b1f0462adf895bbab49388967cafc294f56c57d2d4b1db6b0b24d53"
 metafile = true
 
 [[files]]

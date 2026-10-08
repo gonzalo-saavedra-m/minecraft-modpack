@@ -1,0 +1,29 @@
+{
+  "requiredDefeats": [
+    [
+      "unovaelitefour_shauntal"
+    ],
+    [
+      "unovaelitefour_grimsley"
+    ],
+    [
+      "unovaelitefour_caitlin"
+    ],
+    [
+      "unovaelitefour_marshal"
+    ]
+  ],
+  "series": [
+    "unovaleague"
+  ],
+  "type": "elitefour_unova",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:bug_memory"
+}

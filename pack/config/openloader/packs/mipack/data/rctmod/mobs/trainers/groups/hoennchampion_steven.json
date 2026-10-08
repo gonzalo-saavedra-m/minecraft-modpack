@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "hoennelitefour_drake"
+    ]
+  ],
+  "series": [
+    "hoennleague"
+  ],
+  "type": "elitefour_hoenn",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:steelium_z"
+}

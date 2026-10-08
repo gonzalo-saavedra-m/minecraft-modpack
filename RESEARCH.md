@@ -85,6 +85,13 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 | 2026-10-08 | **Sin mobs del Aether** ("pokemon only"), jefes incluidos. Sus mazmorras quedan para poblar con Pokémon más adelante. **Los exclusivos de Candy solo en Candy** (fuera del Aether) | Verificado: 0 mobs `aether:*` guardados |
 | 2026-10-08 | **Paradójicos verificados en vivo en Primordial**: Brute Bonnet de día, Iron Jugulis de noche | — |
 | 2026-10-08 | El server puede **colgarse al apagar** (un hilo `pool-2-thread-1` de algún mod no se cierra). `ops/stop.sh` lo mata si ya guardó; en AWS, `TimeoutStopSec` de systemd | — |
+| 2026-10-08 | **Megapiedras más accesibles:** Mega Sites cada ~24 chunks (antes 32) y **mapas del tesoro** en los cofres de las minas: Mapa del Megasitio (12 %) y del Megaroide (8 %) | Verificado: 8 mapas en 30 cofres, todos con destino |
+| 2026-10-08 | **Líderes, Alto Mando y campeones de More Radical Trainers en el altar** (son parte de una serie): peso 0 y un signature item único de su tipo (cristal Z, tabla, disco, gema o baya; todos se craftean, cultivan o salen de alfas). 111 entrenadores clave en total | `tools/gen_rct.py`; Roxanne aparece con su Litostal Z |
+| 2026-10-08 | **EXP a todo el equipo**: Cobblemon - Exp. All (accesorio, 50 % al resto del equipo; compatible con Fix Pokemon Experience). **Objetos gastados en combate no vuelven** (como en los juegos) | — |
+| 2026-10-08 | **Wild Loot + Pasture Loot (+ fix):** los Pokémon sueltan objetos en el mundo, en el equipo (fuera de la ball) y en el corral; la Pokécesta los junta. Se quitaron de la lista negra lana, cuero, huesos, miel y piel de conejo: **lana (Mareep, Swablu…), cuero (Miltank, Tauros…) y plumas salen de Pokémon**. Resuelve la decisión abierta de materiales sin mobs (falta: leche) | `pack/config/{CobblemonWildLoot,PastureLoot}.json` |
+| 2026-10-08 | **Tutor de movimientos** (cobblemon-move-tutor) en aldeas, cobra en CobbleDollars (1000 / 2000 los de huevo y MO antiguas; perilla a calibrar con la economía) | Aparece de a uno en aldeas |
+| 2026-10-08 | **Waystones** (sin costo de XP, sin waystones salvajes, **uno garantizado por aldea**) + **postes en estructuras "destino de Vuelo"**: stronghold YUNG, Bell Tower y Sky Pillar (`mipack-rules`, tag `mipack:has_waystone`, se pone al entrar). Criterio de los juegos: pueblos con Centro Pokémon, la Liga y landmarks altos; nunca dungeons. + Pokemon Fly Transitions (animación de Vuelo; con Waystones de Blay en Fabric no está garantizado) | 5/5 aldeas nuevas con poste; Bell Tower verificada |
+| 2026-10-08 | **Addons:** entran PC Plus, CobbleCuisine, CobbleFurnies (Athena forzada a `both`). Fuera: Battle Extras, Pokeblocks, Shiny Rarities, Outbreaks, Smartphone, Cobbledex, Cobbleloots, Minimons, Trials Edition | — |
 | 2026-10-08 | **Entrenadores de RCT que no combaten en 5 min desaparecen** (`mipack-rules`, salvo persistentes y los de un Trainer Spawner, que tienen `HomePos`). El despawn de RCT solo actúa si ningún jugador los ve, por eso llenaban las casas. Tope **6 por jugador** (`maxTrainersPerPlayer`, antes 12); los del spawner no cuentan para ese tope | Verificado: los salvajes se fueron a los 5 min y Brock (spawner) siguió |
 | 2026-10-08 | **Rad Gyms fuera**: no invoca a los líderes de RCT; son gimnasios propios con equipos al azar y sus cachés épicos dan legendarios | — |
 | 2026-10-08 | **More Radical Trainers 1.8.1** (Hoenn, Sinnoh, Teselia, Kalos, Paldea, equipos Aqua/Magma/Plasma…) + **medallas**: Cobblemon Pokemon Badges + `rct-badges-cobblemonpokemonbadges` (24/24 líderes de RCT base; MRT trae las suyas, sin Paldea). Los líderes de MRT **no tienen signature item**, así que siguen apareciendo en el mundo | 1709 entrenadores registrados |
@@ -127,9 +134,9 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 `python3 tools/gen_wiki.py test-server`; si se actualiza RCT: `python3 tools/gen_rct.py`. Commit y `git push`.
 
 **Pendiente (en este orden sugerido):**
-1. ~~Gameplay~~, ~~Raid Dens~~, ~~MRT, medallas y raids especiales~~ (08-oct). Queda: altar de Trainer Spawners en el
-   spawn del mundo de producción; ¿signature items propios para los líderes de MRT?; página de Raids en la wiki.
-2. **Addons ❓ que esperan decisión** (ya arrancan con 1.8.1): ver la fila del 08-oct en Decisiones.
+1. ~~Gameplay~~ (08-oct). Queda: altar de Trainer Spawners en el spawn del mundo de producción; página de Raids y de
+   Waystones en la wiki; probar en cliente PFT y la UI de los addons.
+2. ~~Addons ❓~~ (08-oct).
 3. **Reglas en config:** gamerules en la función `load` de `mipack` (keepInventory, `doPatrolSpawning`,
    `doTraderSpawning`, `doInsomnia`); mecanismo de "sin hambre" (barra llena sin saturación).
 4. **Spawns en estructuras:** mineshafts (Excadrill, Pokémon que excavan, Gimmighoul) quitándolos de las cuevas
@@ -144,7 +151,7 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 
 **Decisiones abiertas:**
 - Qué mod deja vivo el hilo `pool-2-thread-1` al apagar (hoy `ops/stop.sh` fuerza el cierre).
-- Cómo conseguir lana, cuero, plumas y leche sin mobs.
+- Leche sin vacas (lana, cuero y plumas ya salen de Pokémon con Wild/Pasture Loot).
 - Si morir al perder aplica a salvajes, entrenadores y PvP (hoy: todos).
 - Traducir al español los nombres de estructuras y biomas de otros mods en la wiki.
 

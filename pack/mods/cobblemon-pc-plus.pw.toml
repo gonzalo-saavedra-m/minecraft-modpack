@@ -1,0 +1,13 @@
+name = "Cobblemon PC Plus"
+filename = "cobblemonpcplus-fabric-1.3.0+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zPZ3SPik/versions/TUu8PFNm/cobblemonpcplus-fabric-1.3.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "8d941fffa44755e8dfeee4a4e9f4eb43f667bad17630dd426073dbfaca23de6c674148d63e8e8e22b7eaf5cb9ca08f69c1f459d42433c5a6860b2959e06b0cfe"
+
+[update]
+[update.modrinth]
+mod-id = "zPZ3SPik"
+version = "TUu8PFNm"

@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "kalosleader_olympia"
+    ]
+  ],
+  "series": [
+    "kalosgymchallenge"
+  ],
+  "type": "gymleader_kalos",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:icicle_plate"
+}

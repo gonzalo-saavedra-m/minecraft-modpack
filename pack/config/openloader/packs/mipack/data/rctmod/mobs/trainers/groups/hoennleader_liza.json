@@ -1,0 +1,20 @@
+{
+  "requiredDefeats": [
+    [
+      "hoennleader_winona"
+    ]
+  ],
+  "series": [
+    "hoenngymchallenge"
+  ],
+  "type": "gymleader_hoenn",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:psychium_z"
+}

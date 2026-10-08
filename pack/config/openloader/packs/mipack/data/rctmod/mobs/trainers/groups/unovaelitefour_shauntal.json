@@ -1,0 +1,15 @@
+{
+  "series": [
+    "unovaleague"
+  ],
+  "type": "elitefour_unova",
+  "maxTrainerWins": 2,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "cobblemon:ghost_gem"
+}

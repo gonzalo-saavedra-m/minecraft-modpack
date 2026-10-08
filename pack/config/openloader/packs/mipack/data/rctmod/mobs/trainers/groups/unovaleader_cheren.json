@@ -1,0 +1,15 @@
+{
+  "series": [
+    "unovab2w2"
+  ],
+  "type": "gymleader_unova",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "cobblemon:occa_berry"
+}

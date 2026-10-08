@@ -1,0 +1,75 @@
+#Currency Provider Config
+[currencyProviderConfig]
+	#Display name for CobbleDollars currency provider.
+	cobbleDollarsProvider_displayName = "CobbleDollars"
+	#Display name for Impactor currency provider.
+	impactorProvider_displayName = "Dollars"
+	#Currency identifier for Impactor currency provider.
+	impactorProvider_currency = "impactor:dollars"
+	#Display name for Item currency provider.
+	itemProvider_displayName = "Rare Candy"
+	#Item ID for Item currency provider.
+	itemProvider_itemId = "cobblemon:rare_candy"
+
+#Currency Config
+[currencyConfig]
+	#Type of currency used for move tutoring. Options: 'item', 'cobbledollars', 'impactor'.
+	currencyType = "cobbledollars"
+	#Price for level-up moves.
+	# Default: 16
+	# Range: > 0
+	levelMovePrice = 1000
+	#Price for TM moves.
+	# Default: 16
+	# Range: > 0
+	tmMovePrice = 1000
+	#Price for legacy moves (HMs).
+	# Default: 32
+	# Range: > 0
+	legacyMovePrice = 2000
+	#Price for tutor moves.
+	# Default: 16
+	# Range: > 0
+	tutorMovePrice = 1000
+	#Price for special moves.
+	# Default: 16
+	# Range: > 0
+	specialMovePrice = 1000
+	#Price for egg moves.
+	# Default: 32
+	# Range: > 0
+	eggMovePrice = 2000
+
+#Village Tutor Config
+[villageTutorConfig]
+	#Whether to hide moves that the Pokémon already knows in the village tutor interface.
+	hideAlreadyKnownMoves = false
+	#Whether level-up moves are available in the village tutor.
+	levelMove = false
+	#Whether TM moves are available in the village tutor.
+	tmMove = false
+	#Whether legacy moves (HMs) are available in the village tutor.
+	legacyMove = true
+	#Whether tutor moves are available in the village tutor.
+	tutorMove = true
+	#Whether special moves are available in the village tutor.
+	specialMove = true
+	#Whether egg moves are available in the village tutor.
+	eggMove = false
+
+#Admin Tutor Config
+[adminTutorConfig]
+	#Whether to hide moves that the Pokémon already knows in the admin tutor interface.
+	hideAlreadyKnownMoves = false
+	#Whether level-up moves are available in the admin tutor.
+	levelMove = false
+	#Whether TM moves are available in the admin tutor.
+	tmMove = false
+	#Whether legacy moves (HMs) are available in the admin tutor.
+	legacyMove = true
+	#Whether tutor moves are available in the admin tutor.
+	tutorMove = true
+	#Whether special moves are available in the admin tutor.
+	specialMove = true
+	#Whether egg moves are available in the admin tutor.
+	eggMove = false

@@ -31,6 +31,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Ambient Environment](https://modrinth.com/project/ambient-environment) | jaredlll08 | MIT |
 | [AppleSkin](https://modrinth.com/project/appleskin) | squeek502 | Unlicense |
 | [Architectury API](https://modrinth.com/project/architectury-api) | MaxNeedsSnacks, Juuz | LGPL-3.0-only |
+| [Athena](https://modrinth.com/project/athena-ctm) | ThatGravyBoat | MIT |
 | [Balm](https://modrinth.com/project/balm) | BlayTheNinth | All-Rights-Reserved |
 | [Better Advancements](https://modrinth.com/project/better-advancements) | way2muchnoise | Dont-Be-a-Jerk |
 | [Better Ping Display [Fabric]](https://modrinth.com/project/better-ping-display-fabric) | vladmarica | MIT |
@@ -41,11 +42,18 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [CIT Resewn](https://modrinth.com/project/cit-resewn) | shsupercm | MIT |
 | [Cloth Config API](https://modrinth.com/project/cloth-config) | shedaniel | LGPL-3.0-only |
 | [Clumps](https://modrinth.com/project/clumps) | jaredlll08 | MIT |
+| [CobbleCuisine](https://modrinth.com/project/cobblecuisine) | fyre520, tredevelops, EasyMochi | MIT |
 | [CobbleDollars [Cobblemon Addon]](https://modrinth.com/project/cobbledollars) | Hazuriel | All-Rights-Reserved |
+| [CobbleFurnies](https://modrinth.com/project/cobblefurnies) | LunazStudios | MIT |
 | [Cobblemon](https://modrinth.com/project/cobblemon) | BlazingBRO, Mallowu, NickImpact, Brotatsun64, SamyTheGil, MJB-coolness, Tyzillion, mvthwus, whatsy, Mallowuu, Valirus, Apion, drewlordybuilds, plastered_crab, addy_bromide, Waldleufer, Erusel, BlackSpirit, Bwavii, Glitch_Ratt, TotallyNotAHobo, SamIr0n, EikoBiko, Gesteyy, gingledoof0, virtuositas, complacentdev, Carmendarr, Charzard4261, lilpebs, FrankTheFarmer, Dynamite2pt0, giodude1580, MoeBoy76, Kenji_64, Veraxiel, Sarge54125, heaveninvoid_, SilverBerr1, Rogerregoat, Jakotens, Wi2tert, Hysako_, Azooreh, dhi_holo, QriviateA, whoisvoxel, duckyquackington1, JPAKx4, Myslippy, Sterrezo, RedGenesectNinja, nickaholic, negocio, KleeHubertus, Torchmarrow, maashous, Genotype, 321retrogamer, boyfriends, JoeSeff, DoctorWafflePhD, JadedTeal, Hiroku, HexeChroma, TyzillionCBMN, spg | MPL-2.0 |
+| [Cobblemon - Exp. All](https://modrinth.com/project/cobblemon-exp.-all) | Axel-WF | MPL-2.0 |
 | [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
 | [Cobblemon EvoNotify](https://modrinth.com/project/cobblemon-evonotify) | Arimil | MIT |
+| [Cobblemon Move Tutor](https://modrinth.com/project/cobblemon-move-tutor) | Adammatthiesen | MIT |
+| [Cobblemon Pasture Loot](https://modrinth.com/project/cobblemon-pasture-loot) | DrEmixam | AGPL-3.0-or-later |
+| [Cobblemon Pasture Loot Fix](https://modrinth.com/project/cobblemon-pasture-loot-fix) | kolius990 | AGPL-3.0-or-later |
+| [Cobblemon PC Plus](https://modrinth.com/project/cobblemon-pc-plus) | gingerbreadcat4 | All-Rights-Reserved |
 | [Cobblemon Pokemon Badges](https://modrinth.com/project/cobblemon-pokemon-badges) | Jamesssssssssssssss | All-Rights-Reserved |
 | [Cobblemon Pokerus](https://modrinth.com/project/cobblemon-pokerus) | tmetcalfe89 | MIT |
 | [Cobblemon Raid Dens](https://modrinth.com/project/cobblemonraiddens) | necroso1 | MIT |
@@ -53,6 +61,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon True Pickup](https://modrinth.com/project/cobblemon-true-pickup) | zmoonmaru | MIT |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/cobblemonextrastructures) | Roi_Pasteque | All-Rights-Reserved |
 | [Cobblemon: Mega Showdown](https://modrinth.com/project/cobblemon-mega-showdown) | YajatKaul, HeyImBlue, sanji1, Treynami, Narenhate, Provismet, Lvnatic | MEGA-SHOWDOWN-LICENSE-v2.1 |
+| [Cobblemon: Wild Loot](https://modrinth.com/project/cobblemon-wild-loot) | lucyazalea | AGPL-3.0-or-later |
 | [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT |
 | [Crafting Tweaks](https://modrinth.com/project/crafting-tweaks) | BlayTheNinth | All-Rights-Reserved |
 | [CraftPresence](https://modrinth.com/project/craftpresence) | CDAGaming | MIT |
@@ -85,6 +94,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Lithium](https://modrinth.com/project/lithium) | jellysquid3, 2No2Name | LGPL-3.0-only |
 | [Lithostitched](https://modrinth.com/project/lithostitched) | Apollo | MIT |
 | [Make Bubbles Pop](https://modrinth.com/project/make_bubbles_pop) | Tschipcraft | Custom-License |
+| [Matthiesen Core](https://modrinth.com/project/matthiesen-core) | Adammatthiesen | MIT |
 | [Mod Menu](https://modrinth.com/project/modmenu) | gniftygnome, Prospector, modmuss50 | MIT |
 | [ModernFix](https://modrinth.com/project/modernfix) | embeddedt | LGPL-3.0-only |
 | [Monsters in the Closet](https://modrinth.com/project/monsters-in-the-closet) | Minenash | MIT |
@@ -97,6 +107,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [oωo (owo-lib)](https://modrinth.com/project/owo-lib) | BasiqueEvangelist, chyzman, Blodhgarm, glisco | MIT |
 | [Particle Rain](https://modrinth.com/project/particle-rain) | PigCart | MIT |
 | [Particular ✨](https://modrinth.com/project/particular) | Chai | LGPL-3.0-only |
+| [Pokemon Fly Transitions](https://modrinth.com/project/pokemon-fly-transitions) | LevelsFR | All-Rights-Reserved |
 | [Presence Footsteps](https://modrinth.com/project/presence-footsteps) | Sollace | Polyform-Shield-1.0 |
 | [Prickle](https://modrinth.com/project/prickle) | Darkhax | LGPL-2.1-only |
 | [Radical Cobblemon Trainers](https://modrinth.com/project/rctmod) | hd42 | MCOML |
@@ -122,6 +133,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [UniLib](https://modrinth.com/project/unilib) | CDAGaming | MIT |
 | [Very Many Players (Fabric)](https://modrinth.com/project/vmp-fabric) | ishland | MIT |
 | [Visuality](https://modrinth.com/project/visuality) | PinkGoosik | MIT |
+| [Waystones](https://modrinth.com/project/waystones) | BlayTheNinth | All-Rights-Reserved |
 | [Xaero's Minimap](https://modrinth.com/project/xaeros-minimap) | thexaero | All-Rights-Reserved |
 | [Xaero's World Map](https://modrinth.com/project/xaeros-world-map) | thexaero | All-Rights-Reserved |
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/project/yacl) | isxander | LGPL-3.0-or-later |

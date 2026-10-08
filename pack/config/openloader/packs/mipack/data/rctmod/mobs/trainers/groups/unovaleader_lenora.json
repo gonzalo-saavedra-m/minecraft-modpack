@@ -1,0 +1,26 @@
+{
+  "requiredDefeats": [
+    [
+      "rival_hugh_2"
+    ],
+    [
+      "rival_bianca_2"
+    ],
+    [
+      "rival_cheren_2"
+    ]
+  ],
+  "series": [
+    "unovagymchallenge"
+  ],
+  "type": "gymleader_unova",
+  "maxTrainerWins": 5,
+  "spawnWeightFactor": 0,
+  "biomeTagBlacklist": [
+    "is_water"
+  ],
+  "biomeTagWhitelist": [
+    "is_overworld"
+  ],
+  "signatureItem": "mega_showdown:poison_memory"
+}

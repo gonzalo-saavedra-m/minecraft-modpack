@@ -14,7 +14,20 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Items;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.levelgen.structure.BoundingBox;
+import net.minecraft.world.level.levelgen.structure.Structure;
+import net.minecraft.world.level.saveddata.maps.MapDecorationTypes;
+import net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction;
+import net.minecraft.world.level.storage.loot.functions.SetNameFunction;
 import net.minecraft.server.TickTask;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -46,6 +59,19 @@ public class MipackRules implements ModInitializer {
 			ResourceLocation.parse("minecraft:chests/ancient_city_center"), 1.0f,
 			ResourceLocation.parse("minecraft:chests/ancient_city"), 0.08f);
 
+	/** Mapas del tesoro a las estructuras de Megas (Mega Showdown) en los cofres de las minas. */
+	private static final ResourceLocation MINESHAFT_CHEST = ResourceLocation.parse("minecraft:chests/abandoned_mineshaft");
+	private static final Map<String, Float> MEGA_MAPS = Map.of("mega_site", 0.12f, "megaroid", 0.08f);
+	private static final Map<String, String> MEGA_MAP_NAMES = Map.of(
+			"mega_site", "Mapa del Megasitio (megapiedra)", "megaroid", "Mapa del Megaroide (piedra activadora)");
+
+	/**
+	 * Poste de teletransporte (Waystones) en las estructuras que serían destino de Vuelo en los juegos (torres,
+	 * stronghold). Se pone la primera vez que alguien entra, en la superficie frente al centro de la estructura.
+	 */
+	private static final TagKey<Structure> HAS_WAYSTONE = TagKey.create(Registries.STRUCTURE, ResourceLocation.parse("mipack:has_waystone"));
+	private static final ResourceLocation WAYSTONE = ResourceLocation.parse("waystones:waystone");
+
 	/** Entrenador de RCT. Los del mundo sin combatir este tiempo desaparecen (el despawn de RCT exige que nadie los vea). */
 	private static final ResourceLocation RCT_TRAINER = ResourceLocation.parse("rctmod:trainer");
 	private static final int TRAINER_IDLE_TICKS = 5 * 60 * 20;
@@ -54,6 +80,8 @@ public class MipackRules implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
+			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
+				for (ServerPlayer player : server.getPlayerList().getPlayers()) placeStructureWaystone(player);
 			if (server.getTickCount() % 100 != 0) return;
 			for (ServerLevel level : server.getAllLevels())
 				for (Entity e : level.getAllEntities())
@@ -66,6 +94,16 @@ public class MipackRules implements ModInitializer {
 			table.withPool(LootPool.lootPool()
 					.add(LootItem.lootTableItem(BuiltInRegistries.ITEM.get(HEART)))
 					.when(LootItemRandomChanceCondition.randomChance(chance)));
+		});
+		LootTableEvents.MODIFY.register((key, table, source, registries) -> {
+			if (!key.location().equals(MINESHAFT_CHEST)) return;
+			MEGA_MAPS.forEach((structure, chance) -> table.withPool(LootPool.lootPool()
+					.add(LootItem.lootTableItem(Items.MAP)
+							.apply(ExplorationMapFunction.makeExplorationMap()
+									.setDestination(TagKey.create(Registries.STRUCTURE, ResourceLocation.parse("mipack:" + structure + "_maps")))
+									.setMapDecoration(MapDecorationTypes.RED_X).setZoom((byte) 1).setSkipKnownStructures(false))
+							.apply(SetNameFunction.setName(Component.literal(MEGA_MAP_NAMES.get(structure)), SetNameFunction.Target.ITEM_NAME)))
+					.when(LootItemRandomChanceCondition.randomChance(chance))));
 		});
 
 		// Muere quien pierde con todos sus Pokémon debilitados; rendirse no mata
@@ -94,6 +132,31 @@ public class MipackRules implements ModInitializer {
 		var species = pokemon.getPokemon().getSpecies();
 		return !FIXED_OK_SPECIES.contains(species.getResourceIdentifier().getPath())
 				&& species.getLabels().stream().noneMatch(FIXED_OK_LABELS::contains);
+	}
+
+	private static void placeStructureWaystone(ServerPlayer player) {
+		ServerLevel level = player.serverLevel();
+		var start = level.structureManager().getStructureWithPieceAt(player.blockPosition(), HAS_WAYSTONE);
+		if (!start.isValid()) return;
+		BoundingBox box = start.getBoundingBox();
+		int x = box.getCenter().getX(), z = box.minZ() - 3;
+		if (!level.isLoaded(new BlockPos(x, 0, z))) return;
+		BlockPos pos = new BlockPos(x, level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z), z);
+		// Ya puesto: el heightmap queda justo sobre el poste
+		if (BuiltInRegistries.BLOCK.getKey(level.getBlockState(pos.below()).getBlock()).getNamespace().equals("waystones")) return;
+		Block waystone = BuiltInRegistries.BLOCK.get(WAYSTONE);
+		level.setBlockAndUpdate(pos, with(with(waystone.defaultBlockState(), "half", "lower"), "origin", "village"));
+		level.setBlockAndUpdate(pos.above(), with(with(waystone.defaultBlockState(), "half", "upper"), "origin", "village"));
+		LOGGER.info("Waystone en {} para {}", pos, start.getStructure());
+	}
+
+	private static BlockState with(BlockState state, String property, String value) {
+		Property<?> p = state.getBlock().getStateDefinition().getProperty(property);
+		return p == null ? state : withValue(state, p, value);
+	}
+
+	private static <T extends Comparable<T>> BlockState withValue(BlockState state, Property<T> p, String value) {
+		return p.getValue(value).map(v -> state.setValue(p, v)).orElse(state);
 	}
 
 	/**

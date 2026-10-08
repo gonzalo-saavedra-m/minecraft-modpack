@@ -1,0 +1,26 @@
+{
+  "tick_per_minute": 1200,
+  "drop_chance_per_minute": 0.05,
+  "pokebasket_block_radius": 12,
+  "item_blacklist": [
+    "minecraft:porkchop",
+    "minecraft:beef",
+    "minecraft:chicken",
+    "minecraft:mutton",
+    "minecraft:rabbit",
+    "minecraft:fish",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_beef",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_rabbit",
+    "minecraft:cooked_fish",
+    "minecraft:spider_eye",
+    "minecraft:rotten_flesh",
+    "minecraft:rabbit_foot",
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "cobblemon:sharp_beak",
+    "minecraft:salmon"
+  ]
+}
