@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-aether-rayquaza",
+      "pokemon": "rayquaza min_perfect_ivs=3",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 4.21875,
+      "condition": {
+        "timeRange": "day",
+        "isRaining": false,
+        "canSeeSky": true,
+        "biomes": [
+          "#aether:is_aether"
+        ]
+      }
+    }
+  ]
+}

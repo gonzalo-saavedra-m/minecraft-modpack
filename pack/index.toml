@@ -898,6 +898,10 @@ file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_st
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/rayquaza.json"
+hash = "f74ea10afc22b743e036c66a5fbf74afecc5516f4794c44ec647b634b55b780a"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/alexscaves/abyssal_chasm.json"
 hash = "9b1e87ce849e63a667df51868bfe0fd5b924869d9945ce7eec5c5f4d88cf27d0"
 

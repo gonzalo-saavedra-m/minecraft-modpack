@@ -392,7 +392,7 @@ Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 | 0381 | Latios **Exclusivo** | [Overworld (cualquier bioma)](Biomas.md#overworld-cualquier-bioma) | ultra raro | 65–65 |
 | 0382 | Kyogre **Exclusivo** | [Océano](Biomas.md#océano) (pesca) | ultra raro | 70–70 |
 | 0383 | Groudon | [Badlands](Biomas.md#badlands)<br>[Nether: páramo](Biomas.md#nether-páramo)<br>[Volcánico](Biomas.md#volcánico) | ultra raro | 70–70 |
-| 0384 | Rayquaza **Exclusivo** | [Overworld (cualquier bioma)](Biomas.md#overworld-cualquier-bioma) (de día) | ultra raro | 70–70 |
+| 0384 | Rayquaza | [Aether](Biomas.md#aether) (de día)<br>[Overworld (cualquier bioma)](Biomas.md#overworld-cualquier-bioma) (de día) | ultra raro | 70–70 |
 | 0385 | Jirachi | [End](Biomas.md#end)<br>[Montañas](Biomas.md#montañas) | ultra raro | 60–60 |
 | 0386 | Deoxys **Exclusivo** | [End](Biomas.md#end) | ultra raro | 70–70 |
 | 0387 | Turtwig **Exclusivo** | [Bosques](Biomas.md#bosques) | ultra raro | 5–32 |
