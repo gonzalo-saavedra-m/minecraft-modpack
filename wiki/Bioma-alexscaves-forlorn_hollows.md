@@ -1,14 +1,14 @@
-# Forlorn Hollows
+# Depresión desolada
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `alexscaves:forlorn_hollows` · Alex's Caves
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Forlorn Hollows (Alex's Caves)](Zonas.md#forlorn-hollows-alexs-caves), [Tenebroso](Zonas.md#tenebroso)
-- **Estructuras que se generan aquí:** [Forlorn Bridge (Alex's Caves)](Estructuras.md#forlorn-bridge-alexs-caves), [Forlorn Canyon (Alex's Caves)](Estructuras.md#forlorn-canyon-alexs-caves), [Wishing Weald (Mega Showdown)](Estructuras.md#wishing-weald-mega-showdown)
+- **Estructuras que se generan aquí:** [Bosque de los Deseos (Mega Showdown)](Estructuras.md#bosque-de-los-deseos-mega-showdown), [Cañón desolado (Alex's Caves)](Estructuras.md#cañón-desolado-alexs-caves), [Puente desolado (Alex's Caves)](Estructuras.md#puente-desolado-alexs-caves)
 
 ## Pokémon (34)
 

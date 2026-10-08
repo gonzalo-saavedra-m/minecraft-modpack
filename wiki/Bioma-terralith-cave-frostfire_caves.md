@@ -1,14 +1,14 @@
-# Frostfire Caves
+# Cuevas de Fuego Fria
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:cave/frostfire_caves` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Deep dark](Zonas.md#deep-dark), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tenebroso](Zonas.md#tenebroso)
-- **Estructuras que se generan aquí:** [Ciudad antigua](Estructuras.md#ciudad-antigua), [Habitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#habitats-carved-ice-spikes-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ruins: Crumbling Arch Ruins (Cobblemon)](Estructuras.md#ruins-crumbling-arch-ruins-cobblemon), [Ruins: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruins-frozen-gimmi-tower-cobblemon), [Underground: Frosted Dungeon (Terralith)](Estructuras.md#underground-frosted-dungeon-terralith), [Wishing Weald (Mega Showdown)](Estructuras.md#wishing-weald-mega-showdown)
+- **Estructuras que se generan aquí:** [Bosque de los Deseos (Mega Showdown)](Estructuras.md#bosque-de-los-deseos-mega-showdown), [Ciudad antigua](Estructuras.md#ciudad-antigua), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Ruinas: Crumbling Arch Ruins (Cobblemon)](Estructuras.md#ruinas-crumbling-arch-ruins-cobblemon), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon), [Subterráneo: mazmorra helada (Terralith)](Estructuras.md#subterráneo-mazmorra-helada-terralith)
 
 ## Pokémon (92)
 

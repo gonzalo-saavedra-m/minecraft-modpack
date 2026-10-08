@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:normalium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:firium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:waterium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:grassium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:electrium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:icium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:fightinium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:poisonium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:groundium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:flyinium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:psychium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:buginium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:rockium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:ghostium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:dragonium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:darkinium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:steelium_z"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mega_showdown:fairium_z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,14 @@
-# Volcanic Crater
+# Cráter Volcanica
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:volcanic_crater` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Colinas](Zonas.md#colinas), [Montañas](Zonas.md#montañas), [Volcánico](Zonas.md#volcánico)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Natural Lightningrod (Cobblemon)](Estructuras.md#habitats-natural-lightningrod-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Puesto de saqueadores](Estructuras.md#puesto-de-saqueadores), [Ruined Portal Mountain (Minecraft)](Estructuras.md#ruined-portal-mountain-minecraft), [Skeleton Dungeon (YUNG's Better Dungeons)](Estructuras.md#skeleton-dungeon-yungs-better-dungeons), [Small Dungeon (YUNG's Better Dungeons)](Estructuras.md#small-dungeon-yungs-better-dungeons), [Spearpillar (Distortion World)](Estructuras.md#spearpillar-distortion-world), [Spider Dungeon (YUNG's Better Dungeons)](Estructuras.md#spider-dungeon-yungs-better-dungeons), [Stronghold](Estructuras.md#stronghold), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves), [Zombie Dungeon (YUNG's Better Dungeons)](Estructuras.md#zombie-dungeon-yungs-better-dungeons)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Columna Lanza (Distortion World)](Estructuras.md#columna-lanza-distortion-world), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Natural Lightningrod (Cobblemon)](Estructuras.md#hábitats-natural-lightningrod-cobblemon), [Mazmorra de arañas (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-arañas-yungs-better-dungeons), [Mazmorra de esqueletos (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-esqueletos-yungs-better-dungeons), [Mazmorra de zombis (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-zombis-yungs-better-dungeons), [Mazmorra pequeña (YUNG's Better Dungeons)](Estructuras.md#mazmorra-pequeña-yungs-better-dungeons), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Portal en ruinas (montaña) (Minecraft)](Estructuras.md#portal-en-ruinas-montaña-minecraft), [Puesto de saqueadores](Estructuras.md#puesto-de-saqueadores), [Stronghold](Estructuras.md#stronghold)
 
 ## Pokémon (147)
 

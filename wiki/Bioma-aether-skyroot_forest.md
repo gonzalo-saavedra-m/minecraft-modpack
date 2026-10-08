@@ -1,14 +1,14 @@
-# Skyroot Forest
+# Bosque de raicielo
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `aether:skyroot_forest` · The Aether
 
 - **Dimensión:** [Aether](Dimension-Aether.md)
-- **Zonas a las que pertenece:** [Aether](Zonas.md#aether), [Skyroot Forest](Zonas.md#skyroot-forest)
-- **Estructuras que se generan aquí:** [Bronze Dungeon (The Aether)](Estructuras.md#bronze-dungeon-the-aether), [Gold Dungeon (The Aether)](Estructuras.md#gold-dungeon-the-aether), [Large Aercloud (The Aether)](Estructuras.md#large-aercloud-the-aether), [Silver Dungeon (The Aether)](Estructuras.md#silver-dungeon-the-aether)
+- **Zonas a las que pertenece:** [Aether](Zonas.md#aether), [Bosque de raicielo](Zonas.md#bosque-de-raicielo)
+- **Estructuras que se generan aquí:** [Gran aeronube (The Aether)](Estructuras.md#gran-aeronube-the-aether), [Mazmorra de bronce (The Aether)](Estructuras.md#mazmorra-de-bronce-the-aether), [Mazmorra de oro (The Aether)](Estructuras.md#mazmorra-de-oro-the-aether), [Mazmorra de plata (The Aether)](Estructuras.md#mazmorra-de-plata-the-aether)
 
 ## Pokémon (143)
 

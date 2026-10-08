@@ -2,17 +2,17 @@
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 **Cómo se llega:** Portal con marco de glowstone, encendido con un balde de agua (como en The Aether).
 
-**Estructuras:** [Bronze Dungeon (The Aether)](Estructuras.md#bronze-dungeon-the-aether), [Gold Dungeon (The Aether)](Estructuras.md#gold-dungeon-the-aether), [Large Aercloud (The Aether)](Estructuras.md#large-aercloud-the-aether), [Silver Dungeon (The Aether)](Estructuras.md#silver-dungeon-the-aether)
+**Estructuras:** [Gran aeronube (The Aether)](Estructuras.md#gran-aeronube-the-aether), [Mazmorra de bronce (The Aether)](Estructuras.md#mazmorra-de-bronce-the-aether), [Mazmorra de oro (The Aether)](Estructuras.md#mazmorra-de-oro-the-aether), [Mazmorra de plata (The Aether)](Estructuras.md#mazmorra-de-plata-the-aether)
 
 ## Biomas
 
 | Bioma | Zonas | Estructuras | Pokémon |
 |---|---|---|---|
-| [Skyroot Forest](Bioma-aether-skyroot_forest.md) | [Aether](Zonas.md#aether), [Skyroot Forest](Zonas.md#skyroot-forest) | 4 | 143 |
-| [Skyroot Grove](Bioma-aether-skyroot_grove.md) | [Aether](Zonas.md#aether), [Skyroot Grove](Zonas.md#skyroot-grove) | 4 | 134 |
-| [Skyroot Meadow](Bioma-aether-skyroot_meadow.md) | [Aether](Zonas.md#aether), [Skyroot Meadow](Zonas.md#skyroot-meadow) | 4 | 134 |
-| [Skyroot Woodland](Bioma-aether-skyroot_woodland.md) | [Aether](Zonas.md#aether), [Skyroot Woodland](Zonas.md#skyroot-woodland) | 4 | 143 |
+| [Arboleda de raicielo](Bioma-aether-skyroot_grove.md) | [Aether](Zonas.md#aether), [Arboleda de raicielo](Zonas.md#arboleda-de-raicielo) | 4 | 134 |
+| [Bosque de raicielo](Bioma-aether-skyroot_forest.md) | [Aether](Zonas.md#aether), [Bosque de raicielo](Zonas.md#bosque-de-raicielo) | 4 | 143 |
+| [Espesura de raicielo](Bioma-aether-skyroot_woodland.md) | [Aether](Zonas.md#aether), [Espesura de raicielo](Zonas.md#espesura-de-raicielo) | 4 | 143 |
+| [Prado de raicielo](Bioma-aether-skyroot_meadow.md) | [Aether](Zonas.md#aether), [Prado de raicielo](Zonas.md#prado-de-raicielo) | 4 | 134 |

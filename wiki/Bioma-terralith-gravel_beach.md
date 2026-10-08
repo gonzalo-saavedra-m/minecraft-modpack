@@ -1,14 +1,14 @@
-# Gravel Beach
+# Playa de Grava
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:gravel_beach` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Costa](Zonas.md#costa), [Playas](Zonas.md#playas)
-- **Estructuras que se generan aquí:** [Buried Treasure (Minecraft)](Estructuras.md#buried-treasure-minecraft), [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Fishing Boat: Beach (Cobblemon)](Estructuras.md#fishing-boat-beach-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Pharmacy (Cobblemon Extra Structures)](Estructuras.md#pharmacy-cobblemon-extra-structures), [Ruined Portal (Minecraft)](Estructuras.md#ruined-portal-minecraft), [Shipwreck Beached (Minecraft)](Estructuras.md#shipwreck-beached-minecraft), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves)
+- **Estructuras que se generan aquí:** [Bote de pesca: playa (Cobblemon)](Estructuras.md#bote-de-pesca-playa-cobblemon), [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Farmacia (Cobblemon Extra Structures)](Estructuras.md#farmacia-cobblemon-extra-structures), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Naufragio varado (Minecraft)](Estructuras.md#naufragio-varado-minecraft), [Portal en ruinas (Minecraft)](Estructuras.md#portal-en-ruinas-minecraft), [Tesoro enterrado (Minecraft)](Estructuras.md#tesoro-enterrado-minecraft)
 
 ## Pokémon (63)
 

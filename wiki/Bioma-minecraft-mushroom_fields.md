@@ -1,14 +1,14 @@
-# Mushroom Fields
+# Campo de champiñones
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:mushroom_fields` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
-- **Zonas a las que pertenece:** [Hongos](Zonas.md#hongos), [Islas](Zonas.md#islas), [Mushroom Fields](Zonas.md#mushroom-fields)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Fungal Dwelling (Cobblemon)](Estructuras.md#habitats-fungal-dwelling-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Mineshaft Mushroom (YUNG's Better Mineshafts)](Estructuras.md#mineshaft-mushroom-yungs-better-mineshafts), [Ruined Portal (Minecraft)](Estructuras.md#ruined-portal-minecraft), [Skeleton Dungeon (YUNG's Better Dungeons)](Estructuras.md#skeleton-dungeon-yungs-better-dungeons), [Small Dungeon (YUNG's Better Dungeons)](Estructuras.md#small-dungeon-yungs-better-dungeons), [Spider Dungeon (YUNG's Better Dungeons)](Estructuras.md#spider-dungeon-yungs-better-dungeons), [Stronghold](Estructuras.md#stronghold), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves), [Zombie Dungeon (YUNG's Better Dungeons)](Estructuras.md#zombie-dungeon-yungs-better-dungeons)
+- **Zonas a las que pertenece:** [Campo de champiñones](Zonas.md#campo-de-champiñones), [Hongos](Zonas.md#hongos), [Islas](Zonas.md#islas)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Fungal Dwelling (Cobblemon)](Estructuras.md#hábitats-fungal-dwelling-cobblemon), [Mazmorra de arañas (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-arañas-yungs-better-dungeons), [Mazmorra de esqueletos (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-esqueletos-yungs-better-dungeons), [Mazmorra de zombis (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-zombis-yungs-better-dungeons), [Mazmorra pequeña (YUNG's Better Dungeons)](Estructuras.md#mazmorra-pequeña-yungs-better-dungeons), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Mina: hongos (YUNG's Better Mineshafts)](Estructuras.md#mina-hongos-yungs-better-mineshafts), [Portal en ruinas (Minecraft)](Estructuras.md#portal-en-ruinas-minecraft), [Stronghold](Estructuras.md#stronghold)
 
 ## Pokémon (37)
 

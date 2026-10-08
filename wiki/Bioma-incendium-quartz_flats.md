@@ -2,13 +2,13 @@
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `incendium:quartz_flats` · Incendium
 
 - **Dimensión:** [Nether](Dimension-Nether.md)
 - **Zonas a las que pertenece:** [Nether](Zonas.md#nether), [Nether: cuarzo](Zonas.md#nether-cuarzo), [Nether: fuego de almas](Zonas.md#nether-fuego-de-almas)
-- **Estructuras que se generan aquí:** [Abandoned Tower (Incendium)](Estructuras.md#abandoned-tower-incendium), [Fortaleza del Nether](Estructuras.md#fortaleza-del-nether), [Fósil del Nether](Estructuras.md#fósil-del-nether), [Quartz Kitchen (Incendium)](Estructuras.md#quartz-kitchen-incendium), [Ruined Portal Nether (Minecraft)](Estructuras.md#ruined-portal-nether-minecraft), [Sanctum (Incendium)](Estructuras.md#sanctum-incendium), [Small Nether Dungeon (YUNG's Better Dungeons)](Estructuras.md#small-nether-dungeon-yungs-better-dungeons)
+- **Estructuras que se generan aquí:** [Cocina de cuarzo (Incendium)](Estructuras.md#cocina-de-cuarzo-incendium), [Fortaleza del Nether](Estructuras.md#fortaleza-del-nether), [Fósil del Nether](Estructuras.md#fósil-del-nether), [Mazmorra pequeña del Nether (YUNG's Better Dungeons)](Estructuras.md#mazmorra-pequeña-del-nether-yungs-better-dungeons), [Portal en ruinas (Nether) (Minecraft)](Estructuras.md#portal-en-ruinas-nether-minecraft), [Santuario (Incendium)](Estructuras.md#santuario-incendium), [Torre abandonada (Incendium)](Estructuras.md#torre-abandonada-incendium)
 
 ## Pokémon (20)
 

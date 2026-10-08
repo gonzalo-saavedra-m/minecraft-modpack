@@ -18,27 +18,27 @@
 	#Price for level-up moves.
 	# Default: 16
 	# Range: > 0
-	levelMovePrice = 1000
+	levelMovePrice = 5000
 	#Price for TM moves.
 	# Default: 16
 	# Range: > 0
-	tmMovePrice = 1000
+	tmMovePrice = 5000
 	#Price for legacy moves (HMs).
 	# Default: 32
 	# Range: > 0
-	legacyMovePrice = 2000
+	legacyMovePrice = 5000
 	#Price for tutor moves.
 	# Default: 16
 	# Range: > 0
-	tutorMovePrice = 1000
+	tutorMovePrice = 5000
 	#Price for special moves.
 	# Default: 16
 	# Range: > 0
-	specialMovePrice = 1000
+	specialMovePrice = 5000
 	#Price for egg moves.
 	# Default: 32
 	# Range: > 0
-	eggMovePrice = 2000
+	eggMovePrice = 50000
 
 #Village Tutor Config
 [villageTutorConfig]

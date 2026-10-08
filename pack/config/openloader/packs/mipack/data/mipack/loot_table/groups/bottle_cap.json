@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "obc:bottle_cap_hp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obc:bottle_cap_attack"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obc:bottle_cap_defence"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obc:bottle_cap_special_attack"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obc:bottle_cap_special_defence"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obc:bottle_cap_speed"
+        }
+      ]
+    }
+  ]
+}

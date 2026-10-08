@@ -1,14 +1,14 @@
-# Valley Clearing
+# Valle Claro
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:valley_clearing` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Llanuras](Zonas.md#llanuras), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Berry Patch (Cobblemon)](Estructuras.md#habitats-berry-patch-cobblemon), [Habitats: Freshwater Pond (Cobblemon)](Estructuras.md#habitats-freshwater-pond-cobblemon), [Habitats: Oak Wildfire Scar (Cobblemon)](Estructuras.md#habitats-oak-wildfire-scar-cobblemon), [Habitats: Parched Peat Bog (Cobblemon)](Estructuras.md#habitats-parched-peat-bog-cobblemon), [Habitats: Sandpit Clearing (Cobblemon)](Estructuras.md#habitats-sandpit-clearing-cobblemon), [Habitats: Sunflowerbed Clearing (Cobblemon)](Estructuras.md#habitats-sunflowerbed-clearing-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Rubble Forest (Terralith)](Estructuras.md#rubble-forest-terralith), [Ruins: Stonjourner Henge Ruins (Cobblemon)](Estructuras.md#ruins-stonjourner-henge-ruins-cobblemon), [Ruins: Temperate Gimmi Tower (Cobblemon)](Estructuras.md#ruins-temperate-gimmi-tower-cobblemon), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves), [Valley Lodge (Terralith)](Estructuras.md#valley-lodge-terralith)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Escombros: bosque (Terralith)](Estructuras.md#escombros-bosque-terralith), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Berry Patch (Cobblemon)](Estructuras.md#hábitats-berry-patch-cobblemon), [Hábitats: Freshwater Pond (Cobblemon)](Estructuras.md#hábitats-freshwater-pond-cobblemon), [Hábitats: Oak Wildfire Scar (Cobblemon)](Estructuras.md#hábitats-oak-wildfire-scar-cobblemon), [Hábitats: Parched Peat Bog (Cobblemon)](Estructuras.md#hábitats-parched-peat-bog-cobblemon), [Hábitats: Sandpit Clearing (Cobblemon)](Estructuras.md#hábitats-sandpit-clearing-cobblemon), [Hábitats: Sunflowerbed Clearing (Cobblemon)](Estructuras.md#hábitats-sunflowerbed-clearing-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Refugio del valle (Terralith)](Estructuras.md#refugio-del-valle-terralith), [Ruinas: Stonjourner Henge Ruins (Cobblemon)](Estructuras.md#ruinas-stonjourner-henge-ruins-cobblemon), [Ruinas: Temperate Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-temperate-gimmi-tower-cobblemon)
 
 ## Pokémon (140)
 

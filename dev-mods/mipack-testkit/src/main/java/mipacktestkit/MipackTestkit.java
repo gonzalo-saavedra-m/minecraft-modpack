@@ -69,6 +69,12 @@ public class MipackTestkit implements ModInitializer {
 									com.mojang.brigadier.arguments.IntegerArgumentType.getInteger(c, "hp")));
 							return reply(c, "hp " + p.getScoreboardName() + ": " + status(p));
 						}))))
+				// Simula días sin dormir (los phantoms, que mipack-rules cambia por Pokémon, aparecen con >= 72000)
+				.then(literal("insomnia").then(argument("player", EntityArgument.player()).executes(c -> {
+					var p = EntityArgument.getPlayer(c, "player");
+					p.getStats().setValue(p, net.minecraft.stats.Stats.CUSTOM.get(net.minecraft.stats.Stats.TIME_SINCE_REST), 10_000_000);
+					return reply(c, "insomnia " + p.getScoreboardName());
+				})))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));

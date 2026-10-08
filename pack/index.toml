@@ -30,7 +30,7 @@ hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
 [[files]]
 file = "config/cobblemon_move_tutor/server.toml"
-hash = "ef096cb312fcbd77bf4c0d89c56ff1d981b7d5c0092be3548ae1c8fd1f02da3e"
+hash = "8ffb1ada7438796dfdc6844ef14c0df98aa739dc303f1ee02b4c141478023b8f"
 
 [[files]]
 file = "config/cobblemonraiddens/common.json5"
@@ -919,12 +919,108 @@ file = "config/openloader/packs/mipack/data/cobblemon/tags/block/natural.json"
 hash = "90273f37a231cca88dd57bf97a2c87571fb5993b7f63b22a56c432b043765d6b"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemonoutbreaks/outbreaks/pumpkaboo_outbreak.json"
+hash = "1391cf3e4eb00f22e428178d44ad5ea17cebe19e60f3c59d2073f22e02af2fc8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemonoutbreaks/outbreaks/spiritomb_outbreak.json"
+hash = "170e4600899dbf325c0537f279a2092a1e5157a15673835d0dd32a96bfa90e86"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mega_showdown/worldgen/structure_set/mega_site.json"
 hash = "1073462c4f234bb246a4738410af8b9c1ea39468560c532a9b74d630b8c00539"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_structure/trial_chambers.json"
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/function/altar.mcfunction"
+hash = "f3343474aa98dcd045a3cf507399b2c2e18493aaf6c84b76a2f8c4668aaf41c0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier1.json"
+hash = "3767bbc334cd13c984207980f6d5fd5799030fc4c3ad9a3bde7b37ff8554333b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier2.json"
+hash = "069c5aa6fcd88b6ab5052b8264df49e0c16a1f2ba5c69ca99b72d14286a1115b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier3.json"
+hash = "ddb866c0411a35e78208c12ef2234060eb949476726c67c4c76daec8c7cdfcfc"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier4.json"
+hash = "bf0903d92c354cd94ccd845439af06004a2877bad16df93bd0bb75cfac679ae4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier4_jackpot.json"
+hash = "896a863bba7cbc02a876e2c0e23f9f4603bbbadbb388a94bdd8ee115617e94d4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/apricorn.json"
+hash = "de02f52e420c685a29d57cbac64e53f8d85b2feb63d61f2e750d9789e1d95569"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/ball2.json"
+hash = "096e055a55fffc9bf48030bc5ef6b057fa110959cee69903b5665bb4365bb449"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/ball3.json"
+hash = "28346d5ef7bb7e796c31989ff15677618bceff3b0694ac3739b1d9fc3090738d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/boost.json"
+hash = "10e121e84775db07a3f03f35160ce6c875181ee57f8f728c099bbb57a356d2e3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/bottle_cap.json"
+hash = "be37604f5fc3064da47b0f634a1713efc19f7c2cd63fb5cb7c4184ac155adc8b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/evo_item.json"
+hash = "b265fff3177ce5d8373b883305ab2ae9a6c031ecafb56321336e5c6ce28edb57"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/evo_stone.json"
+hash = "162057ef73b931283cc5eccbb599c40f19e107c900c2f2657fefcc6c2d60a1a2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/feather.json"
+hash = "2ab573d2319681372736ed1cb05a61ec5bd8415079359254cdbc0255c5beb3df"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/gem.json"
+hash = "58ba4e56918ee75ef4e0965006d1dbf9afa8a9948528ae294d65991b6d029ac8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/held1.json"
+hash = "9a15ca8e2695d8858b4b7eb772e217ee5c6eee4c7cbe291c921dd524a876043f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/held2.json"
+hash = "ca60d4f4f61539df7323c2f19314901f12175c89708984a743796c53ce56d9c2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/mint.json"
+hash = "0b30b1fc58562b096f9270daa5baa39c7097e7b07a2e2dc1947e0c8c5dd6fb54"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/status.json"
+hash = "3f927e756114cf408aa62060d1308490cf4d7ea554a3a10b6fdc15fbdb75d5d0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/tera.json"
+hash = "e35f259b0cdf25869e7efd59af2dda4e5e74c5c98a52c2854044e2227d5ef9af"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/vitamin.json"
+hash = "6b502ad4d6c427b9a6219bc8d8c2ae9d0328bb79de0dc1756db0f1a6b3d87164"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/z.json"
+hash = "9be48f42e2cb66cbe1ec87c93bfdf0fceacc47baff84f47cb03df655be76fc43"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/raid/boss/alcremie_gmax.json"
@@ -2223,6 +2319,11 @@ hash = "dd9c84c3f22e37ee533990585112642b5c9a7ede61d29e5d13330a99b9a48b02"
 metafile = true
 
 [[files]]
+file = "mods/cobbledex-rei-emi-jei.pw.toml"
+hash = "8d32d84853cea0a70c4fc44ec518f73d3728b5fb03f28dcc99a8afa471a89e2f"
+metafile = true
+
+[[files]]
 file = "mods/cobbledollars.pw.toml"
 hash = "b61d3783e85f963d6235bf86e0d09a3f9e0030634654b07327600ca6b939d627"
 metafile = true
@@ -2230,6 +2331,16 @@ metafile = true
 [[files]]
 file = "mods/cobblefurnies.pw.toml"
 hash = "4ea6079e726435a8a9ecc92824c9bd2e0636495a4d73f8641e014cd5060c4d45"
+metafile = true
+
+[[files]]
+file = "mods/cobbleloots.pw.toml"
+hash = "fd7e488a3f8cdbcd2d1b60ddbc7dd7ff5bc138aeaf7593b129c3f13e2e1d3d14"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-battle-extras.pw.toml"
+hash = "1f6bd7e37ebe8275d02b9d5ec4037121dfbc236bd47f3b0b5f5e75cf598b620a"
 metafile = true
 
 [[files]]
@@ -2250,6 +2361,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-exp.-all.pw.toml"
 hash = "502c96511d48818edbb193ea3651ca38b03f17fc352ca404090f346496d72c11"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-mass-outbreaks.pw.toml"
+hash = "087953c18820c0d7f3cbcb37adee3882fe9a9a3b6869e139623c154497c80b79"
 metafile = true
 
 [[files]]
@@ -2285,6 +2401,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-pokerus.pw.toml"
 hash = "f108a0ffd2cb929d2e4839e26129806d5f8aa67758ff141eb657fafe4fa1b255"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-shiny-rarities.pw.toml"
+hash = "a7ca01c870ca22b87e0453538b095965802ffcec3eae02f68cff2ce69d7550aa"
 metafile = true
 
 [[files]]
@@ -2494,7 +2615,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "62e605bea3677dcc13e453413a3451df811bcd7ab63dbf3f8f592a277bc00053"
+hash = "64dbf3d8fa477c28184fa2bd4a9e67a0f4bc2c34c9de93aea57d606989207f09"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -2537,6 +2658,11 @@ hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
 metafile = true
 
 [[files]]
+file = "mods/only-bottle-caps.pw.toml"
+hash = "54dd5fe4300d3362565cb234f1365b3fe018f03f3a03ce7af1f39f29207cebcc"
+metafile = true
+
+[[files]]
 file = "mods/open-loader.pw.toml"
 hash = "5ea6f9fdefad7193d99da78fd4aebb62957ff5ae749bc3ea67abbe7272bcac63"
 metafile = true
@@ -2559,6 +2685,11 @@ metafile = true
 [[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
+metafile = true
+
+[[files]]
+file = "mods/pokeblocks.pw.toml"
+hash = "5db32bd841fda8547d27e6c74ca4c11ea9a50285fbade0bed654deb8b5e48db0"
 metafile = true
 
 [[files]]
@@ -2639,6 +2770,11 @@ metafile = true
 [[files]]
 file = "mods/stendhal.pw.toml"
 hash = "8cd4c8bc9d0b3a0059f870c04b0fa273c32812c34e56340d3fa66c5b79cc965e"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "8e009ac87710fbd8f5990285d36ab2b4755e932664ca1bcb9cdfac116d6e3b6d"
 metafile = true
 
 [[files]]

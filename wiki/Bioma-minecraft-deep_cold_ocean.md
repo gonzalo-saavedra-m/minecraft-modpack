@@ -1,14 +1,14 @@
-# Deep Cold Ocean
+# Océano frío profundo
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:deep_cold_ocean` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Océano](Zonas.md#océano), [Océano frío](Zonas.md#océano-frío), [Océano profundo](Zonas.md#océano-profundo)
-- **Estructuras que se generan aquí:** [Fishing Boat: Deep Ocean (Cobblemon)](Estructuras.md#fishing-boat-deep-ocean-cobblemon), [Habitats: Drifting Icebergs (Cobblemon)](Estructuras.md#habitats-drifting-icebergs-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Monumento oceánico](Estructuras.md#monumento-oceánico), [Ocean Ruin Cold (Minecraft)](Estructuras.md#ocean-ruin-cold-minecraft), [Ruined Portal Ocean (Minecraft)](Estructuras.md#ruined-portal-ocean-minecraft), [Shipwreck (Minecraft)](Estructuras.md#shipwreck-minecraft), [Shipwreck Coves: Lush Shipwreck Cove (Cobblemon)](Estructuras.md#shipwreck-coves-lush-shipwreck-cove-cobblemon), [Shipwreck Coves: Magma Shipwreck Cove (Cobblemon)](Estructuras.md#shipwreck-coves-magma-shipwreck-cove-cobblemon), [Shipwreck Coves: Submerged Shipwreck Cove (Cobblemon)](Estructuras.md#shipwreck-coves-submerged-shipwreck-cove-cobblemon)
+- **Estructuras que se generan aquí:** [Bote de pesca: océano profundo (Cobblemon)](Estructuras.md#bote-de-pesca-océano-profundo-cobblemon), [Calas del naufragio: de magma (Cobblemon)](Estructuras.md#calas-del-naufragio-de-magma-cobblemon), [Calas del naufragio: frondosa (Cobblemon)](Estructuras.md#calas-del-naufragio-frondosa-cobblemon), [Calas del naufragio: sumergida (Cobblemon)](Estructuras.md#calas-del-naufragio-sumergida-cobblemon), [Hábitats: Drifting Icebergs (Cobblemon)](Estructuras.md#hábitats-drifting-icebergs-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Monumento oceánico](Estructuras.md#monumento-oceánico), [Naufragio (Minecraft)](Estructuras.md#naufragio-minecraft), [Portal en ruinas (océano) (Minecraft)](Estructuras.md#portal-en-ruinas-océano-minecraft), [Ruinas oceánicas frías (Minecraft)](Estructuras.md#ruinas-oceánicas-frías-minecraft)
 
 ## Pokémon (84)
 

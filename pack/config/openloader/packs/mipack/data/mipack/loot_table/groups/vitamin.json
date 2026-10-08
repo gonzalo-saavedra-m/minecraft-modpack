@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:hp_up"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:protein"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:iron"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:calcium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:zinc"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:carbos"
+        }
+      ]
+    }
+  ]
+}

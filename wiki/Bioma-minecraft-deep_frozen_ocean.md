@@ -1,14 +1,14 @@
-# Deep Frozen Ocean
+# Océano helado profundo
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:deep_frozen_ocean` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Océano](Zonas.md#océano), [Océano helado](Zonas.md#océano-helado), [Océano profundo](Zonas.md#océano-profundo)
-- **Estructuras que se generan aquí:** [Fishing Boat: Deep Ocean (Cobblemon)](Estructuras.md#fishing-boat-deep-ocean-cobblemon), [Habitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#habitats-carved-ice-spikes-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Monumento oceánico](Estructuras.md#monumento-oceánico), [Ocean Ruin Cold (Minecraft)](Estructuras.md#ocean-ruin-cold-minecraft), [Ruined Portal Ocean (Minecraft)](Estructuras.md#ruined-portal-ocean-minecraft), [Shipwreck (Minecraft)](Estructuras.md#shipwreck-minecraft)
+- **Estructuras que se generan aquí:** [Bote de pesca: océano profundo (Cobblemon)](Estructuras.md#bote-de-pesca-océano-profundo-cobblemon), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Monumento oceánico](Estructuras.md#monumento-oceánico), [Naufragio (Minecraft)](Estructuras.md#naufragio-minecraft), [Portal en ruinas (océano) (Minecraft)](Estructuras.md#portal-en-ruinas-océano-minecraft), [Ruinas oceánicas frías (Minecraft)](Estructuras.md#ruinas-oceánicas-frías-minecraft)
 
 ## Pokémon (96)
 

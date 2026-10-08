@@ -1,14 +1,14 @@
-# Hot Shrubland
+# Matorrales Calientes
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:hot_shrubland` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Bug Mound (Cobblemon)](Estructuras.md#habitats-bug-mound-cobblemon), [Habitats: Oak Wildfire Scar (Cobblemon)](Estructuras.md#habitats-oak-wildfire-scar-cobblemon), [Habitats: Parched Peat Bog (Cobblemon)](Estructuras.md#habitats-parched-peat-bog-cobblemon), [Habitats: Sandpit Clearing (Cobblemon)](Estructuras.md#habitats-sandpit-clearing-cobblemon), [Habitats: Sunflowerbed Clearing (Cobblemon)](Estructuras.md#habitats-sunflowerbed-clearing-cobblemon), [Habitats: Sunscorched Clearing (Cobblemon)](Estructuras.md#habitats-sunscorched-clearing-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Mineshaft Acacia (YUNG's Better Mineshafts)](Estructuras.md#mineshaft-acacia-yungs-better-mineshafts), [Ruins: Luna Henge Ruins (Cobblemon)](Estructuras.md#ruins-luna-henge-ruins-cobblemon), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Bug Mound (Cobblemon)](Estructuras.md#hábitats-bug-mound-cobblemon), [Hábitats: Oak Wildfire Scar (Cobblemon)](Estructuras.md#hábitats-oak-wildfire-scar-cobblemon), [Hábitats: Parched Peat Bog (Cobblemon)](Estructuras.md#hábitats-parched-peat-bog-cobblemon), [Hábitats: Sandpit Clearing (Cobblemon)](Estructuras.md#hábitats-sandpit-clearing-cobblemon), [Hábitats: Sunflowerbed Clearing (Cobblemon)](Estructuras.md#hábitats-sunflowerbed-clearing-cobblemon), [Hábitats: Sunscorched Clearing (Cobblemon)](Estructuras.md#hábitats-sunscorched-clearing-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Mina: acacia (YUNG's Better Mineshafts)](Estructuras.md#mina-acacia-yungs-better-mineshafts), [Ruinas: Luna Henge Ruins (Cobblemon)](Estructuras.md#ruinas-luna-henge-ruins-cobblemon)
 
 ## Pokémon (130)
 

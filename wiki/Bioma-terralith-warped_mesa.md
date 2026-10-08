@@ -1,14 +1,14 @@
-# Warped Mesa
+# Mesa deformada
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:warped_mesa` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Arenoso](Zonas.md#arenoso), [Badlands](Zonas.md#badlands), [Islas](Zonas.md#islas), [Mágico](Zonas.md#mágico), [Árido](Zonas.md#árido)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Badlands Shaded Rock (Cobblemon)](Estructuras.md#habitats-badlands-shaded-rock-cobblemon), [Habitats: Fae Mounds (Cobblemon)](Estructuras.md#habitats-fae-mounds-cobblemon), [Habitats: Meteorite Impact (Cobblemon)](Estructuras.md#habitats-meteorite-impact-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ruins: Sunscorched Shaded Ruins (Cobblemon)](Estructuras.md#ruins-sunscorched-shaded-ruins-cobblemon), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Badlands Shaded Rock (Cobblemon)](Estructuras.md#hábitats-badlands-shaded-rock-cobblemon), [Hábitats: Fae Mounds (Cobblemon)](Estructuras.md#hábitats-fae-mounds-cobblemon), [Hábitats: Meteorite Impact (Cobblemon)](Estructuras.md#hábitats-meteorite-impact-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Ruinas: Sunscorched Shaded Ruins (Cobblemon)](Estructuras.md#ruinas-sunscorched-shaded-ruins-cobblemon)
 
 ## Pokémon (171)
 

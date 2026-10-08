@@ -1,14 +1,14 @@
-# Abyssal Chasm
+# Fosa abisal
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `alexscaves:abyssal_chasm` · Alex's Caves
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Abyssal Chasm (Alex's Caves)](Zonas.md#abyssal-chasm-alexs-caves), [Océano](Zonas.md#océano), [Océano profundo](Zonas.md#océano-profundo)
-- **Estructuras que se generan aquí:** [Abyssal Ruins (Alex's Caves)](Estructuras.md#abyssal-ruins-alexs-caves), [Fishing Boat: Deep Ocean (Cobblemon)](Estructuras.md#fishing-boat-deep-ocean-cobblemon), [Monumento oceánico](Estructuras.md#monumento-oceánico), [Ocean Trench (Alex's Caves)](Estructuras.md#ocean-trench-alexs-caves), [Ruined Portal Ocean (Minecraft)](Estructuras.md#ruined-portal-ocean-minecraft), [Shipwreck (Minecraft)](Estructuras.md#shipwreck-minecraft)
+- **Estructuras que se generan aquí:** [Bote de pesca: océano profundo (Cobblemon)](Estructuras.md#bote-de-pesca-océano-profundo-cobblemon), [Fosa oceánica (Alex's Caves)](Estructuras.md#fosa-oceánica-alexs-caves), [Monumento oceánico](Estructuras.md#monumento-oceánico), [Naufragio (Minecraft)](Estructuras.md#naufragio-minecraft), [Portal en ruinas (océano) (Minecraft)](Estructuras.md#portal-en-ruinas-océano-minecraft), [Ruinas abisales (Alex's Caves)](Estructuras.md#ruinas-abisales-alexs-caves)
 
 ## Pokémon (80)
 

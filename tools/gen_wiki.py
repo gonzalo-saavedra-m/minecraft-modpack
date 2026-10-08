@@ -5,7 +5,7 @@ Uso: python3 tools/gen_wiki.py [carpeta de un server con el pack instalado]  (de
 Los spawns efectivos se arman como los carga el juego: por ruta de archivo, mipack pisa a ATM x MSD y ATM pisa a los
 mods. Genera Pokemon.md, Zonas.md, Dimensiones.md (con una página por dimensión y sus biomas) y Estructuras.md.
 """
-import json, re, sys, zipfile
+import json, re, subprocess, sys, zipfile
 from collections import defaultdict
 from pathlib import Path
 
@@ -108,7 +108,7 @@ def pretty(raw):
     return raw.lstrip('#').split(':')[-1].replace('is_', '').replace('_', ' ').replace('/', ': ')
 
 def zone_name(raw):
-    return ZONES.get(raw) or BIOME_NAMES.get(raw) or pretty(raw)
+    return ZONES.get(raw) or BIOME_NAMES_ES.get(raw) or BIOME_NAMES.get(raw) or pretty(raw)
 
 GENS = [(1, 151), (152, 251), (252, 386), (387, 493), (494, 649), (650, 721), (722, 809), (810, 905), (906, 1025)]
 
@@ -142,7 +142,24 @@ def load(read):
     except ValueError:
         return None
 
+def biome_names(lang):
+    return {f'{k.split(".")[1]}:{".".join(k.split(".")[2:])}'.replace('.', '/'): v
+            for k, v in lang.items() if k.startswith('biome.') and k.count('.') >= 2}
+
+def vanilla_es():
+    """es_es de Minecraft (el server no trae idiomas): se baja de los assets de Mojang."""
+    get = lambda url: json.loads(subprocess.run(['curl', '-sf', url], capture_output=True, check=True).stdout)
+    try:
+        man = get('https://piston-meta.mojang.com/mc/game/version_manifest_v2.json')
+        ver = get(next(v['url'] for v in man['versions'] if v['id'] == '1.21.1'))
+        h = get(ver['assetIndex']['url'])['objects']['minecraft/lang/es_es.json']['hash']
+        return get(f'https://resources.download.minecraft.net/{h[:2]}/{h}')
+    except (subprocess.CalledProcessError, StopIteration, KeyError):
+        print('aviso: sin es_es de Minecraft, los biomas vanilla quedan en inglés')
+        return {}
+
 files, presets, species, NAMES, BIOME_NAMES = {}, {}, {}, {}, {}
+BIOME_NAMES_ES = biome_names(vanilla_es())
 biome_tags, struct_tags = defaultdict(set), defaultdict(set)
 biomes, structures = set(), {}
 for src in sources:
@@ -169,11 +186,11 @@ for src in sources:
             if d.get('replace'):
                 tags[f'{m[1]}:{path}'].clear()
             tags[f'{m[1]}:{path}'] |= {v['id'] if isinstance(v, dict) else v for v in d.get('values', [])}
-        elif n.endswith('lang/en_us.json'):
+        elif n.endswith(('lang/en_us.json', 'lang/es_es.json', 'lang/es_mx.json')):
             d = load(read) or {}
-            NAMES.update({k.split('.')[2]: v for k, v in d.items() if k.startswith('cobblemon.species.') and k.endswith('.name')})
-            BIOME_NAMES.update({f'{k.split(".")[1]}:{".".join(k.split(".")[2:])}'.replace('.', '/'): v
-                                for k, v in d.items() if k.startswith('biome.') and k.count('.') >= 2})
+            if n.endswith('en_us.json'):
+                NAMES.update({k.split('.')[2]: v for k, v in d.items() if k.startswith('cobblemon.species.') and k.endswith('.name')})
+            (BIOME_NAMES if n.endswith('en_us.json') else BIOME_NAMES_ES).update(biome_names(d))
 
 def expand(ref, tags, seen=()):
     """'#tag' o id (o lista) -> conjunto de ids."""
@@ -196,7 +213,7 @@ def dimension(b):
     return 'Nether' if b in nether else 'End' if b in end else 'Overworld'
 
 def biome_name(b):
-    return BIOME_NAMES.get(b) or pretty(b).title()
+    return BIOME_NAMES_ES.get(b) or BIOME_NAMES.get(b) or pretty(b).title()
 
 def biome_page(b):
     return 'Bioma-' + b.replace(':', '-').replace('/', '-') + '.md'
@@ -207,11 +224,25 @@ def biome_link(b):
 presets = {k: (load(r) or {}).get('condition') or {} for k, r in presets.items()}
 dex = {k: (load(r) or {}).get('nationalPokedexNumber', 9999) for k, r in species.items()}
 
+STRUCT_ES = {'Abandoned Tower': 'Torre abandonada', 'Abyssal Ruins': 'Ruinas abisales', 'Acid Pit': 'Pozo de ácido', 'Ancient Temple': 'Templo antiguo', 'Ancient Tomb': 'Tumba antigua', 'Archaeological Site': 'Sitio arqueológico', 'Azelfstructure': 'Santuario de Azelf', 'Bell Tower': 'Torre Campana', 'Berry House': 'Casa de las bayas', 'Bronze Dungeon': 'Mazmorra de bronce', 'Buried Treasure': 'Tesoro enterrado', 'Burned Tower': 'Torre Quemada', 'Cake Cave': 'Cueva de pastel', 'Desert Outpost': 'Puesto del desierto', 'Desert Ruins': 'Ruinas del desierto', 'Dino Bowl': 'Hondonada de dinosaurios', 'Distorteddungeonnormalpokeball': 'Mazmorra distorsionada', 'Donut Arch': 'Arco de dona', 'Dragon Skeleton': 'Esqueleto de dragón', 'Dragons Den': 'Guarida Dragón', 'Ferrocave': 'Ferrocueva', 'Fishing Boat: Beach': 'Bote de pesca: playa', 'Fishing Boat: Deep Ocean': 'Bote de pesca: océano profundo', 'Fishing Boat: Warm Ocean': 'Bote de pesca: océano cálido', 'Fishing Hut': 'Cabaña de pesca', 'Forbidden Castle': 'Castillo prohibido', 'Forlorn Bridge': 'Puente desolado', 'Forlorn Canyon': 'Cañón desolado', 'Fortified Desert Village': 'Aldea fortificada del desierto', 'Fortified Village': 'Aldea fortificada', 'Gingerbread Town': 'Pueblo de jengibre', 'Giratinaroom': 'Sala de Giratina', 'Glacial Hut': 'Cabaña glacial', 'Gold Dungeon': 'Mazmorra de oro', 'Igloo': 'Iglú', 'Infernal Altar': 'Altar infernal', 'Island Cave': 'Cueva de la isla', 'Kurt House': 'Casa de Kurt', 'Large Aercloud': 'Gran aeronube', 'Licowitch Tower': 'Torre de la bruja de regaliz', 'Mage Complex': 'Complejo de magos', 'Mage Tower': 'Torre de mago', 'Mage Tower Autumn': 'Torre de mago (otoño)', 'Mage Tower Spring': 'Torre de mago (primavera)', 'Mage Tower Summer': 'Torre de mago (verano)', 'Mage Tower Winter': 'Torre de mago (invierno)', 'Mega Site': 'Megasitio', 'Megaroid': 'Megaroide', 'Mespritstructure': 'Santuario de Mesprit', 'Nether Reactor': 'Reactor del Nether', 'Observatory': 'Observatorio', 'Ocean Ruin Cold': 'Ruinas oceánicas frías', 'Ocean Ruin Warm': 'Ruinas oceánicas cálidas', 'Ocean Trench': 'Fosa oceánica', 'Origin Tomb': 'Tumba del origen', 'Outskirt Stand': 'Puesto de las afueras', 'Pharmacy': 'Farmacia', 'Pipeline': 'Tubería', 'Quartz Kitchen': 'Cocina de cuarzo', 'Rift': 'Grieta', 'Ruined Lab': 'Laboratorio en ruinas', 'Ruined Portal': 'Portal en ruinas', 'Ruined Portal Desert': 'Portal en ruinas (desierto)', 'Ruined Portal Jungle': 'Portal en ruinas (jungla)', 'Ruined Portal Mountain': 'Portal en ruinas (montaña)', 'Ruined Portal Nether': 'Portal en ruinas (Nether)', 'Ruined Portal Ocean': 'Portal en ruinas (océano)', 'Ruined Portal Swamp': 'Portal en ruinas (pantano)', 'Sanctum': 'Santuario', 'Shipwreck': 'Naufragio', 'Shipwreck Beached': 'Naufragio varado', 'Silver Dungeon': 'Mazmorra de plata', 'Skeleton Dungeon': 'Mazmorra de esqueletos', 'Sky Pillar': 'Pilar Celeste', 'Small Dungeon': 'Mazmorra pequeña', 'Small Nether Dungeon': 'Mazmorra pequeña del Nether', 'Soda Bottle': 'Botella de soda', 'Spearpillar': 'Columna Lanza', 'Spider Dungeon': 'Mazmorra de arañas', 'Spire': 'Aguja', 'Sprout Tower': 'Torre Bellsprout', 'Stronghold': 'Fortaleza (stronghold)', 'Suerebe': 'Suerebe', 'Underground Cabin': 'Cabaña subterránea', 'Uxiestructure': 'Santuario de Uxie', 'Valley Lodge': 'Refugio del valle', 'Volcano': 'Volcán', 'Wishing Weald': 'Bosque de los Deseos', 'Witch Hut': 'Cabaña de bruja', 'Zombie Dungeon': 'Mazmorra de zombis', 'Underground: Frosted Dungeon': 'Subterráneo: mazmorra helada', 'Underground: Giant Bee Hive': 'Subterráneo: colmena gigante', 'Underground: Mining Outpost': 'Subterráneo: puesto minero', 'Underground: Oak Cabin': 'Subterráneo: cabaña de roble', 'Underground: Old Refinery': 'Subterráneo: refinería vieja', 'Underground: Sunken Tower': 'Subterráneo: torre hundida', 'Shipwreck Coves: Lush Shipwreck Cove': 'Calas del naufragio: frondosa', 'Shipwreck Coves: Magma Shipwreck Cove': 'Calas del naufragio: de magma', 'Shipwreck Coves: Submerged Shipwreck Cove': 'Calas del naufragio: sumergida'}
+STRUCT_PREFIX_ES = {'Ruins: ': 'Ruinas: ', 'Habitats: ': 'Hábitats: ', 'Rubble ': 'Escombros: ', 'Mineshaft ': 'Mina: '}
+STRUCT_WORDS_ES = {'Desert': 'desierto', 'Forest': 'bosque', 'Jungle': 'jungla', 'Mesa': 'mesa', 'Mountain': 'montaña', 'Taiga': 'taiga', 'Acacia': 'acacia', 'Dripstone': 'espeleotemas', 'Ice': 'hielo', 'Lush': 'frondosa', 'Mushroom': 'hongos', 'Oak': 'roble', 'Overgrown': 'cubierta de vegetación', 'Red Desert': 'desierto rojo', 'Spruce': 'abeto', 'Spruce Snowy': 'abeto nevado'}
+
+def struct_es(title):
+    """Nombre en español de una estructura de mod (sin traducción en sus lang): diccionario, si no prefijo + palabra."""
+    if title in STRUCT_ES:
+        return STRUCT_ES[title]
+    for en, es in STRUCT_PREFIX_ES.items():
+        if title.startswith(en):
+            rest = title[len(en):]
+            return es + STRUCT_WORDS_ES.get(rest, rest)
+    return title
+
 # --- Estructuras: biomas donde se generan ---
 STRUCT_GROUP = {}
 for sid, spec in structures.items():
     STRUCT_GROUP[sid] = STRUCTURES.get(sid) or ('Aldeas' if sid.startswith('minecraft:village_') else
-                                                 f'{pretty(sid).title()} ({MODS.get(sid.split(":")[0], sid.split(":")[0])})')
+                                                 f'{struct_es(pretty(sid).title())} ({MODS.get(sid.split(":")[0], sid.split(":")[0])})')
 struct_biomes = {sid: expand(spec, biome_tags) & biomes for sid, spec in structures.items()}
 active = {sid for sid, bs in struct_biomes.items() if bs and sid not in REPLACED}
 
@@ -287,7 +318,7 @@ def mons_line(keys):
 
 HEADER = ('Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, '
           'Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.\n\n'
-          '[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)\n')
+          '[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)\n')
 WIKI.mkdir(exist_ok=True)
 for old in [*WIKI.glob('Biomas*.md'), *WIKI.glob('Bioma-*.md'), *WIKI.glob('Pokemon*.md')]:
     old.unlink()

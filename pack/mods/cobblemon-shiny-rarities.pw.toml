@@ -1,0 +1,13 @@
+name = "Cobblemon Shiny Rarities"
+filename = "cobblemon_shiny_rarities-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jYjYV1Jb/versions/xT70mKtT/cobblemon_shiny_rarities-0.3.0.jar"
+hash-format = "sha512"
+hash = "2ac5873b7ce8d2d2f2527353e620881bd74a4c512cb6d32899431e369f748e18baa8814fb5a81e69fc87348b08af050a4acf4ed15cee939f463335647025140e"
+
+[update]
+[update.modrinth]
+mod-id = "jYjYV1Jb"
+version = "xT70mKtT"

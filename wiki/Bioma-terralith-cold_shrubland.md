@@ -1,14 +1,14 @@
-# Cold Shrubland
+# Matorrales Frios
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:cold_shrubland` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Matorrales](Zonas.md#matorrales), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada), [Tundra](Zonas.md#tundra)
-- **Estructuras que se generan aquí:** [Aldeas](Estructuras.md#aldeas), [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#habitats-carved-ice-spikes-cobblemon), [Iglú](Estructuras.md#iglú), [Island Cave (Cobblemon Extra Structures)](Estructuras.md#island-cave-cobblemon-extra-structures), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Mineshaft Spruce Snowy (YUNG's Better Mineshafts)](Estructuras.md#mineshaft-spruce-snowy-yungs-better-mineshafts), [Rubble Taiga (Terralith)](Estructuras.md#rubble-taiga-terralith), [Ruins: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruins-frozen-gimmi-tower-cobblemon), [Ruins: Hidden Bunker Ruins (Cobblemon)](Estructuras.md#ruins-hidden-bunker-ruins-cobblemon), [Ruins: Sol Henge Ruins (Cobblemon)](Estructuras.md#ruins-sol-henge-ruins-cobblemon), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves)
+- **Estructuras que se generan aquí:** [Aldeas](Estructuras.md#aldeas), [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Cueva de la isla (Cobblemon Extra Structures)](Estructuras.md#cueva-de-la-isla-cobblemon-extra-structures), [Escombros: taiga (Terralith)](Estructuras.md#escombros-taiga-terralith), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Iglú](Estructuras.md#iglú), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Mina: abeto nevado (YUNG's Better Mineshafts)](Estructuras.md#mina-abeto-nevado-yungs-better-mineshafts), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon), [Ruinas: Hidden Bunker Ruins (Cobblemon)](Estructuras.md#ruinas-hidden-bunker-ruins-cobblemon), [Ruinas: Sol Henge Ruins (Cobblemon)](Estructuras.md#ruinas-sol-henge-ruins-cobblemon)
 
 ## Pokémon (112)
 

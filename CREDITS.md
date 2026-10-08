@@ -45,11 +45,15 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [CobbleCuisine](https://modrinth.com/project/cobblecuisine) | fyre520, tredevelops, EasyMochi | MIT |
 | [CobbleDollars [Cobblemon Addon]](https://modrinth.com/project/cobbledollars) | Hazuriel | All-Rights-Reserved |
 | [CobbleFurnies](https://modrinth.com/project/cobblefurnies) | LunazStudios | MIT |
+| [Cobbleloots: Loot Balls and More!](https://modrinth.com/project/cobbleloots) | Ripio | MIT |
 | [Cobblemon](https://modrinth.com/project/cobblemon) | BlazingBRO, Mallowu, NickImpact, Brotatsun64, SamyTheGil, MJB-coolness, Tyzillion, mvthwus, whatsy, Mallowuu, Valirus, Apion, drewlordybuilds, plastered_crab, addy_bromide, Waldleufer, Erusel, BlackSpirit, Bwavii, Glitch_Ratt, TotallyNotAHobo, SamIr0n, EikoBiko, Gesteyy, gingledoof0, virtuositas, complacentdev, Carmendarr, Charzard4261, lilpebs, FrankTheFarmer, Dynamite2pt0, giodude1580, MoeBoy76, Kenji_64, Veraxiel, Sarge54125, heaveninvoid_, SilverBerr1, Rogerregoat, Jakotens, Wi2tert, Hysako_, Azooreh, dhi_holo, QriviateA, whoisvoxel, duckyquackington1, JPAKx4, Myslippy, Sterrezo, RedGenesectNinja, nickaholic, negocio, KleeHubertus, Torchmarrow, maashous, Genotype, 321retrogamer, boyfriends, JoeSeff, DoctorWafflePhD, JadedTeal, Hiroku, HexeChroma, TyzillionCBMN, spg | MPL-2.0 |
 | [Cobblemon - Exp. All](https://modrinth.com/project/cobblemon-exp.-all) | Axel-WF | MPL-2.0 |
+| [Cobblemon Battle Extras](https://modrinth.com/project/cobblemon-battle-extras) | Raguto | All-Rights-Reserved |
 | [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
 | [Cobblemon EvoNotify](https://modrinth.com/project/cobblemon-evonotify) | Arimil | MIT |
+| [Cobblemon Info for REI / JEI / EMI](https://modrinth.com/project/cobbledex-rei-emi-jei) | Akkiruk | MIT |
+| [Cobblemon Mass Outbreaks](https://modrinth.com/project/cobblemon-mass-outbreaks) | Scouter567 | MIT |
 | [Cobblemon Move Tutor](https://modrinth.com/project/cobblemon-move-tutor) | Adammatthiesen | MIT |
 | [Cobblemon Pasture Loot](https://modrinth.com/project/cobblemon-pasture-loot) | DrEmixam | AGPL-3.0-or-later |
 | [Cobblemon Pasture Loot Fix](https://modrinth.com/project/cobblemon-pasture-loot-fix) | kolius990 | AGPL-3.0-or-later |
@@ -57,6 +61,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon Pokemon Badges](https://modrinth.com/project/cobblemon-pokemon-badges) | Jamesssssssssssssss | All-Rights-Reserved |
 | [Cobblemon Pokerus](https://modrinth.com/project/cobblemon-pokerus) | tmetcalfe89 | MIT |
 | [Cobblemon Raid Dens](https://modrinth.com/project/cobblemonraiddens) | necroso1 | MIT |
+| [Cobblemon Shiny Rarities](https://modrinth.com/project/cobblemon-shiny-rarities) | Casper003, thatrobin, narsmedia | MIT |
 | [Cobblemon Tim Core](https://modrinth.com/project/cobblemon-tim-core) | tmetcalfe89 | MIT |
 | [Cobblemon True Pickup](https://modrinth.com/project/cobblemon-true-pickup) | zmoonmaru | MIT |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/cobblemonextrastructures) | Roi_Pasteque | All-Rights-Reserved |
@@ -103,10 +108,12 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [NetherPortalFix](https://modrinth.com/project/netherportalfix) | BlayTheNinth | All-Rights-Reserved |
 | [Not Enough Animations](https://modrinth.com/project/not-enough-animations) | tr7zw | tr7zw-Protective-License |
 | [Nullscape](https://modrinth.com/project/nullscape) | catter1, runcows, Starmute, TeraBuildsStuff | Stardust-Labs-License |
+| [Only Bottle Caps](https://modrinth.com/project/only-bottle-caps) | ? | CC-BY-ND-4.0 |
 | [Open Loader](https://modrinth.com/project/open-loader) | Darkhax | LGPL-2.1-only |
 | [oωo (owo-lib)](https://modrinth.com/project/owo-lib) | BasiqueEvangelist, chyzman, Blodhgarm, glisco | MIT |
 | [Particle Rain](https://modrinth.com/project/particle-rain) | PigCart | MIT |
 | [Particular ✨](https://modrinth.com/project/particular) | Chai | LGPL-3.0-only |
+| [Pokeblocks](https://modrinth.com/project/pokeblocks) | MrShawn, MelloMatt | CC-BY-NC-4.0 |
 | [Pokemon Fly Transitions](https://modrinth.com/project/pokemon-fly-transitions) | LevelsFR | All-Rights-Reserved |
 | [Presence Footsteps](https://modrinth.com/project/presence-footsteps) | Sollace | Polyform-Shield-1.0 |
 | [Prickle](https://modrinth.com/project/prickle) | Darkhax | LGPL-2.1-only |
@@ -123,6 +130,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Soft Imprints](https://modrinth.com/project/snow-imprints) | nNined | MIT |
 | [spark](https://modrinth.com/project/spark) | lucko | GPL-3.0-only |
 | [Stendhal](https://modrinth.com/project/stendhal) | NebSpacefarer | CC-BY-NC-ND-4.0 |
+| [SuperMartijn642's Config Lib](https://modrinth.com/project/supermartijn642s-config-lib) | SuperMartijn642 | All-Rights-Reserved |
 | [Tectonic](https://modrinth.com/project/tectonic) | Apollo, DawnKiro | MIT |
 | [TerraBlender](https://modrinth.com/project/terrablender) | Adubbz | LGPL-3.0-only |
 | [Terralith](https://modrinth.com/project/terralith) | Apollo, catter1, Starmute | Stardust-Labs-License |

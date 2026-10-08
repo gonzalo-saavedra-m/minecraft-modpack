@@ -1,0 +1,464 @@
+{
+  "aether:chests/dungeon/bronze/bronze_dungeon_loot": {
+    "table": "mipack:chests/tier2"
+  },
+  "aether:chests/dungeon/bronze/bronze_dungeon_reward": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "aether:chests/dungeon/bronze/bronze_dungeon_treasure": {
+    "table": "mipack:chests/tier3"
+  },
+  "aether:chests/dungeon/gold/gold_dungeon_reward": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "aether:chests/dungeon/gold/gold_dungeon_treasure": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "aether:chests/dungeon/silver/silver_dungeon_loot": {
+    "table": "mipack:chests/tier3"
+  },
+  "aether:chests/dungeon/silver/silver_dungeon_reward": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "aether:chests/dungeon/silver/silver_dungeon_treasure": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "aether:chests/ruined_portal": {
+    "table": "mipack:chests/tier2"
+  },
+  "alexscaves:chests/abyssal_ruins": {
+    "table": "mipack:chests/tier3"
+  },
+  "alexscaves:chests/caveman_house": {
+    "table": "mipack:chests/tier1"
+  },
+  "alexscaves:chests/forlorn_ruins": {
+    "table": "mipack:chests/tier3"
+  },
+  "alexscaves:chests/gingerbread_town": {
+    "table": "mipack:chests/tier2"
+  },
+  "alexscaves:chests/licowitch_tower": {
+    "table": "mipack:chests/tier3"
+  },
+  "alexscaves:chests/licowitch_tower_secret": {
+    "table": "mipack:chests/tier4"
+  },
+  "alexscaves:chests/magnetic_ruins": {
+    "table": "mipack:chests/tier3"
+  },
+  "alexscaves:chests/toxic_ruins": {
+    "table": "mipack:chests/tier3"
+  },
+  "alexscaves:chests/witch_hut": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/food_storage": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/lab": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/library": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/pharaoh_hidden": {
+    "table": "mipack:chests/tier4"
+  },
+  "betterdeserttemples:chests/pot": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/statue": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/storage": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/tomb": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdeserttemples:chests/tomb_pharaoh": {
+    "table": "mipack:chests/tier4"
+  },
+  "betterdeserttemples:chests/wardrobe": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterdungeons:skeleton_dungeon/chests/common": {
+    "table": "mipack:chests/tier2"
+  },
+  "betterdungeons:small_dungeon/chests/loot_piles": {
+    "table": "mipack:chests/tier2"
+  },
+  "betterdungeons:small_nether_dungeon/chests/common": {
+    "table": "mipack:chests/tier2"
+  },
+  "betterdungeons:spider_dungeon/chests/egg_room": {
+    "table": "mipack:chests/tier2"
+  },
+  "betterdungeons:zombie_dungeon/chests/common": {
+    "table": "mipack:chests/tier2"
+  },
+  "betterdungeons:zombie_dungeon/chests/tombstone": {
+    "table": "mipack:chests/tier2"
+  },
+  "betterfortresses:chests/beacon": {
+    "table": "mipack:chests/tier4"
+  },
+  "betterfortresses:chests/extra": {
+    "table": "mipack:chests/tier3",
+    "items": [
+      {
+        "item": "cobblemon:malicious_armor",
+        "chance": 0.45
+      }
+    ]
+  },
+  "betterfortresses:chests/hall": {
+    "table": "mipack:chests/tier3",
+    "items": [
+      {
+        "item": "cobblemon:malicious_armor",
+        "chance": 0.45
+      }
+    ]
+  },
+  "betterfortresses:chests/keep": {
+    "table": "mipack:chests/tier3",
+    "items": [
+      {
+        "item": "cobblemon:malicious_armor",
+        "chance": 0.45
+      }
+    ]
+  },
+  "betterfortresses:chests/obsidian": {
+    "table": "mipack:chests/tier4"
+  },
+  "betterfortresses:chests/puzzle": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterfortresses:chests/quarters": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterfortresses:chests/storage": {
+    "table": "mipack:chests/tier3",
+    "items": [
+      {
+        "item": "cobblemon:malicious_armor",
+        "chance": 0.45
+      }
+    ]
+  },
+  "betterfortresses:chests/worship": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterjungletemples:chests/campsite": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterjungletemples:chests/treasure": {
+    "table": "mipack:chests/tier4"
+  },
+  "betteroceanmonuments:chests/upper_side_chamber": {
+    "table": "mipack:chests/tier4"
+  },
+  "betterstrongholds:chests/armoury": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/common": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/crypt": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/grand_library": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/library_md": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/mess": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/prison_lg": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/trap": {
+    "table": "mipack:chests/tier3"
+  },
+  "betterstrongholds:chests/treasure": {
+    "table": "mipack:chests/tier4"
+  },
+  "betterwitchhuts:chests/hut_0": {
+    "table": "mipack:chests/tier3"
+  },
+  "deeperdarker:chests/ancient_temple_apex": {
+    "table": "mipack:chests/tier4"
+  },
+  "deeperdarker:chests/ancient_temple_basement": {
+    "table": "mipack:chests/tier3"
+  },
+  "deeperdarker:chests/ancient_temple_fountain": {
+    "table": "mipack:chests/tier3"
+  },
+  "deeperdarker:chests/ancient_temple_secret": {
+    "table": "mipack:chests/tier4"
+  },
+  "deeperdarker:chests/ancient_temple_storage": {
+    "table": "mipack:chests/tier3"
+  },
+  "deeperdarker:chests/crystallized_amber": {
+    "table": "mipack:chests/tier3"
+  },
+  "incendium:cvill/blacksmith": {
+    "table": "mipack:chests/tier2"
+  },
+  "incendium:cvill/butcher": {
+    "table": "mipack:chests/tier1"
+  },
+  "incendium:cvill/farmer": {
+    "table": "mipack:chests/tier1"
+  },
+  "incendium:cvill/low": {
+    "table": "mipack:chests/tier1"
+  },
+  "incendium:cvill/lumberjack": {
+    "table": "mipack:chests/tier1"
+  },
+  "incendium:cvill/medium": {
+    "table": "mipack:chests/tier2"
+  },
+  "incendium:cvill/wood": {
+    "table": "mipack:chests/tier1"
+  },
+  "incendium:quartz_flats/kitchen_basic": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/abandoned_mineshaft": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/ancient_city": {
+    "table": "mipack:chests/tier4"
+  },
+  "minecraft:chests/ancient_city_center": {
+    "table": "mipack:chests/tier4"
+  },
+  "minecraft:chests/ancient_city_ice_box": {
+    "table": "mipack:chests/tier4"
+  },
+  "minecraft:chests/bastion_bridge": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/bastion_hoglin_stable": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/bastion_other": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/bastion_treasure": {
+    "table": "mipack:chests/tier4"
+  },
+  "minecraft:chests/buried_treasure": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/desert_pyramid": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/end_city_treasure": {
+    "table": "mipack:chests/tier4_jackpot"
+  },
+  "minecraft:chests/igloo_chest": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/jungle_temple": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/nether_bridge": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/pillager_outpost": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/ruined_portal": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/shipwreck_supply": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/shipwreck_treasure": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/simple_dungeon": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/stronghold_corridor": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/stronghold_crossing": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/stronghold_library": {
+    "table": "mipack:chests/tier3"
+  },
+  "minecraft:chests/underwater_ruin_big": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/underwater_ruin_small": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/village/village_armorer": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/village/village_butcher": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_cartographer": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_desert_house": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_fisher": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_fletcher": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_mason": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/village/village_plains_house": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_savanna_house": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_shepherd": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_snowy_house": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_taiga_house": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_tannery": {
+    "table": "mipack:chests/tier1"
+  },
+  "minecraft:chests/village/village_temple": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/village/village_toolsmith": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/village/village_weaponsmith": {
+    "table": "mipack:chests/tier2"
+  },
+  "minecraft:chests/woodland_mansion": {
+    "table": "mipack:chests/tier4"
+  },
+  "terralith:desert_outpost": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:igloo": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:spire/common": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:spire/rare": {
+    "table": "mipack:chests/tier3"
+  },
+  "terralith:underground/chest": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/desert/archer": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/desert/attic": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/butcher": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/cartographer": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/fisherman": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/food": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/generic": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/generic_low": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/junk": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/library": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/desert/mason": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/desert/shepherd": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/desert/smith": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/desert/smith/expert": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/desert/smith/novice": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/fortified/archer": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/fortified/attic": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/butcher": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/cartographer": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/fisherman": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/food": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/generic": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/generic_low": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/junk": {
+    "table": "mipack:chests/tier1"
+  },
+  "terralith:village/fortified/library": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/fortified/mason": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/fortified/smith": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/fortified/smith/expert": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:village/fortified/smith/novice": {
+    "table": "mipack:chests/tier2"
+  },
+  "terralith:witch_hut": {
+    "table": "mipack:chests/tier3"
+  }
+}

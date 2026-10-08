@@ -25,8 +25,13 @@ cmd "mrtest give mrtA pikachu level=50" >/dev/null; cmd "mrtest give mrtB eevee 
 cmd "mrtest pvp mrtA mrtB" >/dev/null; sleep 3; cmd "mrtest act mrtB forfeit" >/dev/null; sleep 4
 check "rendirse sano no mata" "$(cmd 'mrtest status mrtB')" "libre, vivo=true"
 
-# 2. Perder sin Pokémon en pie: muere (Carpet desconecta al jugador falso muerto)
+# 2. PvP sin Pokémon en pie: no muere
 cmd "mrtest pvp mrtA mrtB" >/dev/null; sleep 3; cmd "mrtest hp mrtB 0" >/dev/null; cmd "mrtest act mrtB forfeit" >/dev/null; sleep 4
+check "perder PvP no mata" "$(cmd 'mrtest status mrtB')" "vivo=true"
+
+# 2b. Contra un salvaje sin Pokémon en pie: muere (Carpet desconecta al jugador falso muerto)
+cmd "mrtest hp mrtB 50" >/dev/null; cmd "mrtest wild mrtB rattata level=5" >/dev/null; sleep 3
+cmd "mrtest hp mrtB 0" >/dev/null; cmd "mrtest act mrtB forfeit" >/dev/null; sleep 4
 check "quedarse sin Pokémon mata" "$(cmd 'mrtest status mrtB')" "No player was found"
 
 # 3. Abeja de colmena -> Combee
@@ -56,3 +61,17 @@ check "spawner configurado con Brock" "$(cmd 'data get block 4 200 -2 TrainerIds
 cmd "setblock 5 200 -2 minecraft:redstone_block" >/dev/null; sleep 10
 check "spawner invoca a Brock" "$(cmd 'execute if entity @e[type=rctmod:trainer,name="Leader Brock"]')" "Test passed"
 cmd "kill @e[type=rctmod:trainer]" >/dev/null; cmd "player mrtD kill" >/dev/null
+
+# 7. Sin dormir: en vez de phantoms llegan Drowzee, Hypno, Munna, Musharna o Misdreavus. Como los phantoms: de noche,
+#    sobre el nivel del mar, cielo abierto y con una chance por intento cada 1-2 min (en fácil tarda unos minutos)
+cmd "fill 98 199 98 106 199 106 minecraft:stone" >/dev/null
+cmd "player mrtF spawn at 102 200 102" >/dev/null; cmd "mrtest insomnia mrtF" >/dev/null; cmd "time set midnight" >/dev/null
+dream=""; i=0
+while [ $i -lt 30 ] && ! echo "$dream" | grep -q "Test passed"; do
+  sleep 15; i=$((i + 1)); dream=""
+  for sp in drowzee hypno munna musharna misdreavus; do
+    dream="$dream$(cmd "execute if entity @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:$sp\"}}]")"; done
+done
+check "Pokémon del insomnio" "$dream" "Test passed"
+check "sin phantoms" "$(cmd 'execute if entity @e[type=minecraft:phantom]')" "Test failed"
+cmd "time set noon" >/dev/null; cmd "player mrtF kill" >/dev/null

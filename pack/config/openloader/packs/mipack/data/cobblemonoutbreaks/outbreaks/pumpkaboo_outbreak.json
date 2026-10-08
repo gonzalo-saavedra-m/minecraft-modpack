@@ -1,0 +1,53 @@
+{
+  "spawn_settings": {
+    "outbreak_min_y": 10000,
+    "outbreak_max_y": 10000,
+    "biome_settings": {
+      "biome": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:flower_forest"
+      ]
+    }
+  },
+  "gate_timer": 36000,
+  "species_data": {
+    "pokemon": "pumpkaboo",
+    "wave_data": {
+      "waves": 4,
+      "spawns_per_wave": 4
+    },
+    "species_shiny_data": {
+      "shiny_choice": "config",
+      "shiny_chance": 1024.0
+    },
+    "pokemon_rarity": "rare"
+  },
+  "rewards": {
+    "item_rewards": [
+      {
+        "item_reward": {
+          "id": "cobblemon:rare_candy",
+          "count": 1
+        },
+        "chance": 1.0
+      },
+      {
+        "item_reward": {
+          "id": "cobblemon:rare_candy",
+          "count": 1
+        },
+        "chance": 1.0
+      }
+    ],
+    "experience_reward": 0
+  },
+  "algorithms": {
+    "level_algorithm": {
+      "type": "cobblemonoutbreaks:random"
+    },
+    "spawn_algorithm": {
+      "type": "cobblemonoutbreaks:open_field"
+    }
+  }
+}

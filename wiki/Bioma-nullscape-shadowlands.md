@@ -2,13 +2,13 @@
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `nullscape:shadowlands` · Nullscape
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Zonas a las que pertenece:** [End](Zonas.md#end)
-- **Estructuras que se generan aquí:** [Ciudad del End](Estructuras.md#ciudad-del-end), [Dragon Skeleton (Nullscape)](Estructuras.md#dragon-skeleton-nullscape), [Rift (Nullscape)](Estructuras.md#rift-nullscape)
+- **Estructuras que se generan aquí:** [Ciudad del End](Estructuras.md#ciudad-del-end), [Esqueleto de dragón (Nullscape)](Estructuras.md#esqueleto-de-dragón-nullscape), [Grieta (Nullscape)](Estructuras.md#grieta-nullscape)
 
 ## Pokémon (29)
 

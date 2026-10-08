@@ -85,6 +85,13 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 | 2026-10-08 | **Sin mobs del Aether** ("pokemon only"), jefes incluidos. Sus mazmorras quedan para poblar con Pokémon más adelante. **Los exclusivos de Candy solo en Candy** (fuera del Aether) | Verificado: 0 mobs `aether:*` guardados |
 | 2026-10-08 | **Paradójicos verificados en vivo en Primordial**: Brute Bonnet de día, Iron Jugulis de noche | — |
 | 2026-10-08 | El server puede **colgarse al apagar** (un hilo `pool-2-thread-1` de algún mod no se cierra). `ops/stop.sh` lo mata si ya guardó; en AWS, `TimeoutStopSec` de systemd | — |
+| 2026-10-08 | **Loot Pokémon por dificultad del cofre** (`tools/gen_loot.py`): 4 niveles (casas de aldea → herrería/mina/naufragio → templos/stronghold/fortaleza → ciudad antigua/End/tesoros YUNG) + premio raro (Cápsula/Parche de habilidad, Chapa de oro, Beast Ball, Master Ball: 25 % en T4, 100 % en End y recompensas del Aether). Aditivo vía `mipack-rules` (no reemplaza tablas, a diferencia del DP de COBBLEVERSE). 146 tablas, incluidas las YUNG. Armadura Aciaga al 45 % en la fortaleza YUNG. + Only Bottle Caps | Verificado por muestreo de cofres de cada nivel |
+| 2026-10-08 | **Morir al perder: todos menos PvP y raids** (Raid Dens no soporta muertes en su dimensión) | `test-rules.sh` #2 y #2b |
+| 2026-10-08 | **Insomnio:** quien no duerme 3+ días recibe Drowzee, Hypno, Munna, Musharna o Misdreavus en vez de phantoms | `test-rules.sh` #7 (Munna a los 210 s) |
+| 2026-10-08 | **Leche:** nativa en Cobblemon: cubeta a un Miltank (o Bouffalant, Gogoat, Skiddo hembra) **propio** da leche; botella da Moomoo Milk | Decisión abierta cerrada |
+| 2026-10-08 | **Más addons:** Battle Extras, Pokeblocks, Shiny Rarities, Cobbledex (EMI), Cobbleloots, **Mass Outbreaks** (Scouter; Cobblemon 1.8 no trae brotes y el de Raguto está roto con 1.8). Brotes de Spiritomb y Pumpkaboo desactivados (son exclusivos). Tutor: 5000 / 50000 los movimientos huevo | — |
+| 2026-10-08 | **Altar de la Liga:** `function mipack:altar` arma 8 Trainer Spawners con palanca; se corre una vez en el spawn del mundo final | — |
+| 2026-10-08 | **Wiki en español** donde se pueda: biomas con el es_es de cada mod (vanilla: es_es de Mojang) y estructuras con diccionario propio. Páginas nuevas: Raids y Viajes | — |
 | 2026-10-08 | **Megapiedras más accesibles:** Mega Sites cada ~24 chunks (antes 32) y **mapas del tesoro** en los cofres de las minas: Mapa del Megasitio (12 %) y del Megaroide (8 %) | Verificado: 8 mapas en 30 cofres, todos con destino |
 | 2026-10-08 | **Líderes, Alto Mando y campeones de More Radical Trainers en el altar** (son parte de una serie): peso 0 y un signature item único de su tipo (cristal Z, tabla, disco, gema o baya; todos se craftean, cultivan o salen de alfas). 111 entrenadores clave en total | `tools/gen_rct.py`; Roxanne aparece con su Litostal Z |
 | 2026-10-08 | **EXP a todo el equipo**: Cobblemon - Exp. All (accesorio, 50 % al resto del equipo; compatible con Fix Pokemon Experience). **Objetos gastados en combate no vuelven** (como en los juegos) | — |
@@ -134,16 +141,16 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 `python3 tools/gen_wiki.py test-server`; si se actualiza RCT: `python3 tools/gen_rct.py`. Commit y `git push`.
 
 **Pendiente (en este orden sugerido):**
-1. ~~Gameplay~~ (08-oct). Queda: altar de Trainer Spawners en el spawn del mundo de producción; página de Raids y de
-   Waystones en la wiki; probar en cliente PFT y la UI de los addons.
+1. ~~Gameplay~~ (08-oct). Queda (Gonzalo): probar en cliente PFT y la UI de los addons. Al crear el mundo final:
+   `function mipack:altar` en el spawn.
 2. ~~Addons ❓~~ (08-oct).
 3. **Reglas en config:** gamerules en la función `load` de `mipack` (keepInventory, `doPatrolSpawning`,
    `doTraderSpawning`, `doInsomnia`); mecanismo de "sin hambre" (barra llena sin saturación).
 4. **Spawns en estructuras:** mineshafts (Excadrill, Pokémon que excavan, Gimmighoul) quitándolos de las cuevas
    genéricas; pool de la ciudad antigua (Sinistea, Honedge, Litwick…); poblar las mazmorras del Aether y las estructuras
    de Extra Structures que quedaron sin su Pokémon fijo.
-5. **Loot:** tesoro enterrado con Monedas Antiguas; reinyectar la Armadura Aciaga en la fortaleza YUNG; loot Pokémon en
-   ciudad antigua y templos; ítems de otros mods si sirven.
+5. ~~Loot~~ (08-oct). **Siguiente: el End** (¿Moog's End Structures sobre Nullscape? + spawns en biomas/estructuras del
+   End). Después, pregenerar.
 6. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
 7. **Paso 5 (al final):** inventario y QoL.
 8. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack
@@ -151,9 +158,6 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 
 **Decisiones abiertas:**
 - Qué mod deja vivo el hilo `pool-2-thread-1` al apagar (hoy `ops/stop.sh` fuerza el cierre).
-- Leche sin vacas (lana, cuero y plumas ya salen de Pokémon con Wild/Pasture Loot).
-- Si morir al perder aplica a salvajes, entrenadores y PvP (hoy: todos).
-- Traducir al español los nombres de estructuras y biomas de otros mods en la wiki.
 
 ## Plan fin de semana (10–11 oct 2026)
 

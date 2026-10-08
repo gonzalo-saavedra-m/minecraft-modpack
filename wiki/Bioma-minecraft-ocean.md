@@ -1,14 +1,14 @@
-# Ocean
+# Océano
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:ocean` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Océano](Zonas.md#océano)
-- **Estructuras que se generan aquí:** [Habitats: Deep Sea Spire (Cobblemon)](Estructuras.md#habitats-deep-sea-spire-cobblemon), [Habitats: Drifting Icebergs (Cobblemon)](Estructuras.md#habitats-drifting-icebergs-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ocean Ruin Cold (Minecraft)](Estructuras.md#ocean-ruin-cold-minecraft), [Ruined Portal Ocean (Minecraft)](Estructuras.md#ruined-portal-ocean-minecraft), [Shipwreck (Minecraft)](Estructuras.md#shipwreck-minecraft)
+- **Estructuras que se generan aquí:** [Hábitats: Deep Sea Spire (Cobblemon)](Estructuras.md#hábitats-deep-sea-spire-cobblemon), [Hábitats: Drifting Icebergs (Cobblemon)](Estructuras.md#hábitats-drifting-icebergs-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Naufragio (Minecraft)](Estructuras.md#naufragio-minecraft), [Portal en ruinas (océano) (Minecraft)](Estructuras.md#portal-en-ruinas-océano-minecraft), [Ruinas oceánicas frías (Minecraft)](Estructuras.md#ruinas-oceánicas-frías-minecraft)
 
 ## Pokémon (74)
 

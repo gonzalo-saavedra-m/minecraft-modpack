@@ -1,14 +1,14 @@
-# Swamp
+# Pantano
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:swamp` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano)
-- **Estructuras que se generan aquí:** [Cabaña de bruja](Estructuras.md#cabaña-de-bruja), [Círculo de brujas](Estructuras.md#círculo-de-brujas), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Mineshaft Oak (YUNG's Better Mineshafts)](Estructuras.md#mineshaft-oak-yungs-better-mineshafts), [Ruined Portal Swamp (Minecraft)](Estructuras.md#ruined-portal-swamp-minecraft), [Ruins: Mossy Oubliette Ruins (Cobblemon)](Estructuras.md#ruins-mossy-oubliette-ruins-cobblemon), [Ruins: Rooted Gimmi Tower (Cobblemon)](Estructuras.md#ruins-rooted-gimmi-tower-cobblemon), [Skeleton Dungeon (YUNG's Better Dungeons)](Estructuras.md#skeleton-dungeon-yungs-better-dungeons), [Small Dungeon (YUNG's Better Dungeons)](Estructuras.md#small-dungeon-yungs-better-dungeons), [Spider Dungeon (YUNG's Better Dungeons)](Estructuras.md#spider-dungeon-yungs-better-dungeons), [Stronghold](Estructuras.md#stronghold), [Witch Hut (Terralith)](Estructuras.md#witch-hut-terralith), [Zombie Dungeon (YUNG's Better Dungeons)](Estructuras.md#zombie-dungeon-yungs-better-dungeons)
+- **Estructuras que se generan aquí:** [Cabaña de bruja (Terralith)](Estructuras.md#cabaña-de-bruja-terralith), [Cabaña de bruja](Estructuras.md#cabaña-de-bruja), [Círculo de brujas](Estructuras.md#círculo-de-brujas), [Mazmorra de arañas (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-arañas-yungs-better-dungeons), [Mazmorra de esqueletos (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-esqueletos-yungs-better-dungeons), [Mazmorra de zombis (YUNG's Better Dungeons)](Estructuras.md#mazmorra-de-zombis-yungs-better-dungeons), [Mazmorra pequeña (YUNG's Better Dungeons)](Estructuras.md#mazmorra-pequeña-yungs-better-dungeons), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Mina: roble (YUNG's Better Mineshafts)](Estructuras.md#mina-roble-yungs-better-mineshafts), [Portal en ruinas (pantano) (Minecraft)](Estructuras.md#portal-en-ruinas-pantano-minecraft), [Ruinas: Mossy Oubliette Ruins (Cobblemon)](Estructuras.md#ruinas-mossy-oubliette-ruins-cobblemon), [Ruinas: Rooted Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-rooted-gimmi-tower-cobblemon), [Stronghold](Estructuras.md#stronghold)
 
 ## Pokémon (110)
 

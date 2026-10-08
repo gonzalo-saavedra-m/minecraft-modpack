@@ -1,14 +1,14 @@
-# Lukewarm Ocean
+# Océano tibio
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:lukewarm_ocean` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Océano](Zonas.md#océano), [Océano templado](Zonas.md#océano-templado)
-- **Estructuras que se generan aquí:** [Habitats: Deep Sea Spire (Cobblemon)](Estructuras.md#habitats-deep-sea-spire-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ocean Ruin Warm (Minecraft)](Estructuras.md#ocean-ruin-warm-minecraft), [Ruined Portal Ocean (Minecraft)](Estructuras.md#ruined-portal-ocean-minecraft), [Shipwreck (Minecraft)](Estructuras.md#shipwreck-minecraft), [Sky Pillar (Cobblemon Extra Structures)](Estructuras.md#sky-pillar-cobblemon-extra-structures)
+- **Estructuras que se generan aquí:** [Hábitats: Deep Sea Spire (Cobblemon)](Estructuras.md#hábitats-deep-sea-spire-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Naufragio (Minecraft)](Estructuras.md#naufragio-minecraft), [Pilar Celeste (Cobblemon Extra Structures)](Estructuras.md#pilar-celeste-cobblemon-extra-structures), [Portal en ruinas (océano) (Minecraft)](Estructuras.md#portal-en-ruinas-océano-minecraft), [Ruinas oceánicas cálidas (Minecraft)](Estructuras.md#ruinas-oceánicas-cálidas-minecraft)
 
 ## Pokémon (80)
 

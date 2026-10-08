@@ -1,14 +1,14 @@
-# Mirage Isles
+# Islas Espejismo
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:mirage_isles` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Bosques](Zonas.md#bosques), [Hongos](Zonas.md#hongos), [Islas](Zonas.md#islas), [Mágico](Zonas.md#mágico), [Templado](Zonas.md#templado)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Berry Patch (Cobblemon)](Estructuras.md#habitats-berry-patch-cobblemon), [Habitats: Fae Mounds (Cobblemon)](Estructuras.md#habitats-fae-mounds-cobblemon), [Habitats: Freshwater Pond (Cobblemon)](Estructuras.md#habitats-freshwater-pond-cobblemon), [Habitats: Fungal Dwelling (Cobblemon)](Estructuras.md#habitats-fungal-dwelling-cobblemon), [Mage Tower (Terralith)](Estructuras.md#mage-tower-terralith), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ruins: Temperate Gimmi Tower (Cobblemon)](Estructuras.md#ruins-temperate-gimmi-tower-cobblemon), [Ruins: Toppled Pillars Ruins (Cobblemon)](Estructuras.md#ruins-toppled-pillars-ruins-cobblemon), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Berry Patch (Cobblemon)](Estructuras.md#hábitats-berry-patch-cobblemon), [Hábitats: Fae Mounds (Cobblemon)](Estructuras.md#hábitats-fae-mounds-cobblemon), [Hábitats: Freshwater Pond (Cobblemon)](Estructuras.md#hábitats-freshwater-pond-cobblemon), [Hábitats: Fungal Dwelling (Cobblemon)](Estructuras.md#hábitats-fungal-dwelling-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Ruinas: Temperate Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-temperate-gimmi-tower-cobblemon), [Ruinas: Toppled Pillars Ruins (Cobblemon)](Estructuras.md#ruinas-toppled-pillars-ruins-cobblemon), [Torre de mago (Terralith)](Estructuras.md#torre-de-mago-terralith)
 
 ## Pokémon (227)
 

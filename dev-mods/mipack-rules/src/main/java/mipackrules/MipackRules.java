@@ -5,6 +5,10 @@ import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.mojang.logging.LogUtils;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.EnumSet;
 import java.util.Map;
 import java.util.Set;
@@ -38,7 +42,9 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.loot.LootPool;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.level.storage.loot.entries.NestedLootTable;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import org.slf4j.Logger;
 
@@ -95,6 +101,19 @@ public class MipackRules implements ModInitializer {
 					.add(LootItem.lootTableItem(BuiltInRegistries.ITEM.get(HEART)))
 					.when(LootItemRandomChanceCondition.randomChance(chance)));
 		});
+		// Loot Pokémon por dificultad del cofre (tools/gen_loot.py genera mipack_loot.json y las tablas mipack:chests/*)
+		JsonObject loot = readLootInjections();
+		LootTableEvents.MODIFY.register((key, table, source, registries) -> {
+			if (!loot.has(key.location().toString())) return;
+			JsonObject inj = loot.getAsJsonObject(key.location().toString());
+			if (inj.has("table")) table.withPool(LootPool.lootPool().add(NestedLootTable.lootTableReference(
+					ResourceKey.create(Registries.LOOT_TABLE, ResourceLocation.parse(inj.get("table").getAsString())))));
+			if (inj.has("items")) for (var e : inj.getAsJsonArray("items")) {
+				var item = BuiltInRegistries.ITEM.get(ResourceLocation.parse(e.getAsJsonObject().get("item").getAsString()));
+				table.withPool(LootPool.lootPool().add(LootItem.lootTableItem(item))
+						.when(LootItemRandomChanceCondition.randomChance(e.getAsJsonObject().get("chance").getAsFloat())));
+			}
+		});
 		LootTableEvents.MODIFY.register((key, table, source, registries) -> {
 			if (!key.location().equals(MINESHAFT_CHEST)) return;
 			MEGA_MAPS.forEach((structure, chance) -> table.withPool(LootPool.lootPool()
@@ -106,10 +125,13 @@ public class MipackRules implements ModInitializer {
 					.when(LootItemRandomChanceCondition.randomChance(chance))));
 		});
 
-		// Muere quien pierde con todos sus Pokémon debilitados; rendirse no mata
+		// Muere quien pierde con todos sus Pokémon debilitados; rendirse no mata. El PvP y las raids no matan (Raid
+		// Dens no soporta muertes en su dimensión)
 		CobblemonEvents.BATTLE_VICTORY.subscribe(event -> {
+			if (event.getBattle().isPvP()) return;
 			for (var loser : event.getLosers()) {
 				if (loser instanceof PlayerBattleActor actor && actor.getEntity() instanceof ServerPlayer player
+						&& !player.level().dimension().location().getNamespace().equals("cobblemonraiddens")
 						&& actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0)) {
 					// Al tick siguiente, con la batalla ya cerrada
 					LOGGER.info("{} perdió la batalla sin Pokémon en pie: muere", player.getScoreboardName());
@@ -132,6 +154,12 @@ public class MipackRules implements ModInitializer {
 		var species = pokemon.getPokemon().getSpecies();
 		return !FIXED_OK_SPECIES.contains(species.getResourceIdentifier().getPath())
 				&& species.getLabels().stream().noneMatch(FIXED_OK_LABELS::contains);
+	}
+
+	private static JsonObject readLootInjections() {
+		var in = MipackRules.class.getResourceAsStream("/mipack_loot.json");
+		if (in == null) return new JsonObject();
+		return JsonParser.parseReader(new InputStreamReader(in, StandardCharsets.UTF_8)).getAsJsonObject();
 	}
 
 	private static void placeStructureWaystone(ServerPlayer player) {
@@ -193,10 +221,22 @@ public class MipackRules implements ModInitializer {
 	 * (nivel 1-24, como su spawn en Cobblemon).
 	 */
 	public static Entity replacement(Entity blocked, ServerLevel level) {
-		if (blocked.getType() != EntityType.BEE) return null;
-		var combee = PokemonProperties.Companion.parse("combee level=" + level.random.nextIntBetweenInclusive(1, 24))
-				.createEntity(level);
-		combee.moveTo(blocked.getX(), blocked.getY(), blocked.getZ(), blocked.getYRot(), 0);
-		return combee;
+		String props;
+		if (blocked.getType() == EntityType.BEE) props = "combee level=" + level.random.nextIntBetweenInclusive(1, 24);
+		else if (blocked.getType() == EntityType.PHANTOM) props = INSOMNIA[level.random.nextInt(INSOMNIA.length)];
+		else return null;
+		var pokemon = PokemonProperties.Companion.parse(props).createEntity(level);
+		double y = blocked.getType() == EntityType.PHANTOM  // el phantom nace en el aire: el Pokémon, en el suelo
+				? level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, blocked.getBlockX(), blocked.getBlockZ()) : blocked.getY();
+		pokemon.moveTo(blocked.getX(), y, blocked.getZ(), blocked.getYRot(), 0);
+		return pokemon;
 	}
+
+	/**
+	 * Quien no duerme en 3+ días: en vez de phantoms le llegan Pokémon que comen o traen sueños (Drowzee y Hypno se
+	 * comen los sueños; Munna y Musharna, el humo de los sueños). Aparecen en el suelo bajo el
+	 * lugar del phantom.
+	 */
+	private static final String[] INSOMNIA = {"drowzee level=20", "drowzee level=25", "hypno level=30", "munna level=25",
+			"musharna level=35", "misdreavus level=30"};
 }

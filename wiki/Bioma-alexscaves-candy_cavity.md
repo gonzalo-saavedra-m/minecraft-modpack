@@ -1,14 +1,14 @@
-# Candy Cavity
+# Cavidad dulce
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `alexscaves:candy_cavity` · Alex's Caves
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Candy Cavity (Alex's Caves)](Zonas.md#candy-cavity-alexs-caves), [Mágico](Zonas.md#mágico)
-- **Estructuras que se generan aquí:** [Cake Cave (Alex's Caves)](Estructuras.md#cake-cave-alexs-caves), [Donut Arch (Alex's Caves)](Estructuras.md#donut-arch-alexs-caves), [Gingerbread Town (Alex's Caves)](Estructuras.md#gingerbread-town-alexs-caves), [Habitats: Fae Mounds (Cobblemon)](Estructuras.md#habitats-fae-mounds-cobblemon), [Licowitch Tower (Alex's Caves)](Estructuras.md#licowitch-tower-alexs-caves), [Soda Bottle (Alex's Caves)](Estructuras.md#soda-bottle-alexs-caves)
+- **Estructuras que se generan aquí:** [Arco de dona (Alex's Caves)](Estructuras.md#arco-de-dona-alexs-caves), [Botella de soda (Alex's Caves)](Estructuras.md#botella-de-soda-alexs-caves), [Cueva de pastel (Alex's Caves)](Estructuras.md#cueva-de-pastel-alexs-caves), [Hábitats: Fae Mounds (Cobblemon)](Estructuras.md#hábitats-fae-mounds-cobblemon), [Pueblo de jengibre (Alex's Caves)](Estructuras.md#pueblo-de-jengibre-alexs-caves), [Torre de la bruja de regaliz (Alex's Caves)](Estructuras.md#torre-de-la-bruja-de-regaliz-alexs-caves)
 
 ## Pokémon (40)
 

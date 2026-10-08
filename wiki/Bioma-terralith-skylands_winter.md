@@ -1,14 +1,14 @@
-# Skylands (Winter)
+# Islas del Cielo (Invierno)
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:skylands_winter` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
-- **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado), [Skylands (Winter)](Zonas.md#skylands-winter)
-- **Estructuras que se generan aquí:** [Habitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#habitats-carved-ice-spikes-cobblemon), [Habitats: Fae Mounds (Cobblemon)](Estructuras.md#habitats-fae-mounds-cobblemon), [Habitats: Spruce Wildfire Scar (Cobblemon)](Estructuras.md#habitats-spruce-wildfire-scar-cobblemon), [Mage Tower Winter (Terralith)](Estructuras.md#mage-tower-winter-terralith), [Ruins: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruins-frozen-gimmi-tower-cobblemon)
+- **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas del Cielo (Invierno)](Zonas.md#islas-del-cielo-invierno), [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado)
+- **Estructuras que se generan aquí:** [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Hábitats: Fae Mounds (Cobblemon)](Estructuras.md#hábitats-fae-mounds-cobblemon), [Hábitats: Spruce Wildfire Scar (Cobblemon)](Estructuras.md#hábitats-spruce-wildfire-scar-cobblemon), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon), [Torre de mago (invierno) (Terralith)](Estructuras.md#torre-de-mago-invierno-terralith)
 
 ## Pokémon (113)
 

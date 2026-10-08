@@ -1,14 +1,14 @@
-# Alpha Islands (Winter)
+# Islas Alfas (Invierno)
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `terralith:alpha_islands_winter` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Bosque nevado](Zonas.md#bosque-nevado), [Bosques](Zonas.md#bosques), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas](Zonas.md#islas), [Nevado](Zonas.md#nevado), [Templado](Zonas.md#templado)
-- **Estructuras que se generan aquí:** [Dragons Den (Cobblemon Extra Structures)](Estructuras.md#dragons-den-cobblemon-extra-structures), [Habitats: Berry Patch (Cobblemon)](Estructuras.md#habitats-berry-patch-cobblemon), [Habitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#habitats-carved-ice-spikes-cobblemon), [Habitats: Freshwater Pond (Cobblemon)](Estructuras.md#habitats-freshwater-pond-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ruins: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruins-frozen-gimmi-tower-cobblemon), [Ruins: Temperate Gimmi Tower (Cobblemon)](Estructuras.md#ruins-temperate-gimmi-tower-cobblemon), [Ruins: Toppled Pillars Ruins (Cobblemon)](Estructuras.md#ruins-toppled-pillars-ruins-cobblemon), [Underground Cabin (Alex's Caves)](Estructuras.md#underground-cabin-alexs-caves)
+- **Estructuras que se generan aquí:** [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Berry Patch (Cobblemon)](Estructuras.md#hábitats-berry-patch-cobblemon), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Hábitats: Freshwater Pond (Cobblemon)](Estructuras.md#hábitats-freshwater-pond-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon), [Ruinas: Temperate Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-temperate-gimmi-tower-cobblemon), [Ruinas: Toppled Pillars Ruins (Cobblemon)](Estructuras.md#ruinas-toppled-pillars-ruins-cobblemon)
 
 ## Pokémon (157)
 

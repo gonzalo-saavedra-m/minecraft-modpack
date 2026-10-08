@@ -1,14 +1,14 @@
-# Beach
+# Playa
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
-[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md)
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md)
 
 `minecraft:beach` · Minecraft
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Costa](Zonas.md#costa), [Playas](Zonas.md#playas)
-- **Estructuras que se generan aquí:** [Buried Treasure (Minecraft)](Estructuras.md#buried-treasure-minecraft), [Fishing Boat: Beach (Cobblemon)](Estructuras.md#fishing-boat-beach-cobblemon), [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ruined Portal (Minecraft)](Estructuras.md#ruined-portal-minecraft), [Shipwreck Beached (Minecraft)](Estructuras.md#shipwreck-beached-minecraft)
+- **Estructuras que se generan aquí:** [Bote de pesca: playa (Cobblemon)](Estructuras.md#bote-de-pesca-playa-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Naufragio varado (Minecraft)](Estructuras.md#naufragio-varado-minecraft), [Portal en ruinas (Minecraft)](Estructuras.md#portal-en-ruinas-minecraft), [Tesoro enterrado (Minecraft)](Estructuras.md#tesoro-enterrado-minecraft)
 
 ## Pokémon (63)
 
