@@ -144,4 +144,4 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0383 | <a id="groudon"></a>Groudon | [Badlands](Zonas.md#badlands)<br>[Nether: páramo](Zonas.md#nether-páramo)<br>[Volcánico](Zonas.md#volcánico) | ultra raro | 70–70 |
 | 0384 | <a id="rayquaza"></a>Rayquaza | [Aether](Zonas.md#aether) (de día)<br>[Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) (de día) | ultra raro | 70–70 |
 | 0385 | <a id="jirachi"></a>Jirachi | [End](Zonas.md#end) — en [Jardín mítico (Moog's End Structures)](Estructuras.md#jardín-mítico-moogs-end-structures)<br>[Montañas](Zonas.md#montañas) | ultra raro | 60–60 |
-| 0386 | <a id="deoxys"></a>Deoxys **Exclusivo** | [End](Zonas.md#end) — en [Monolito (Moog's End Structures)](Estructuras.md#monolito-moogs-end-structures) | ultra raro | 70–70 |
+| 0386 | <a id="deoxys"></a>Deoxys **Exclusivo** | [End](Zonas.md#end)<br>[End](Zonas.md#end) — en [Monolito (Moog's End Structures)](Estructuras.md#monolito-moogs-end-structures) | ultra raro | 70–70 |

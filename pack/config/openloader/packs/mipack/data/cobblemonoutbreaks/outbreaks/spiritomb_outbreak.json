@@ -1,10 +1,10 @@
 {
   "spawn_settings": {
-    "outbreak_min_y": 10000,
-    "outbreak_max_y": 10000,
+    "outbreak_min_y": -63,
+    "outbreak_max_y": 255,
     "biome_settings": {
       "biome": [
-        "minecraft:deep_dark"
+        "minecraft:the_void"
       ]
     }
   },

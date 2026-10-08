@@ -162,6 +162,11 @@ ULTRA_BEASTS = {'nihilego', 'celesteela', 'kartana', 'xurkitree', 'buzzwole', 'p
 EXCLUSIVE |= ULTRA_BEASTS
 # Legendarios del espacio que ATM pone en cualquier bioma del End: ahí solo en su estructura (sus otros spawns quedan)
 END_LEGENDARIES = {'deoxys', 'giratina', 'jirachi', 'necrozma', 'eternatus'}
+# Los que por lore también rondan todo el End (Deoxys llega en meteoritos, Necrozma viaja por el Ultraespacio) y los
+# que ATM ya pone en todo el End: ahí se quedan, pero con peso 10 veces menor que en su estructura (regla: un legendario
+# de zona amplia aparece menos que el de su lugar específico)
+END_ROAMING = {'deoxys', 'necrozma', 'koraidon', 'miraidon'}
+ROAM_WEIGHT = 1.0  # en estructura: 10
 STRONG = ULTRA_BEASTS | END_LEGENDARIES | {'cosmog'}
 # Zonas especiales difíciles de encontrar: ahí los exclusivos conservan sus spawns (como el Nether)
 SPECIAL_ZONES = ('#cobblemon:nether/', 'clumpedindistortionworld:')
@@ -255,9 +260,11 @@ for z in sources:
                 c['biomes'], s['bucket'], changed = [PRIMORDIAL], PRIMORDIAL_BUCKET[kind], True
                 if 'level' in s:
                     s['level'] = bump(s['level'])
+            elif any(k in END_ROAMING for k in ks) and c.get('biomes') == ['#cobblemon:is_end']:
+                s['weight'], changed = ROAM_WEIGHT, True
             elif any(k in END_LEGENDARIES for k in ks) and c.get('biomes') == ['#cobblemon:is_end']:
                 changed = True
-                continue  # legendario del End: ahora en su estructura (END_STRUCTURES)
+                continue  # legendario del End: solo en su estructura (END_STRUCTURES)
             elif any(k in EXCLUSIVE for k in ks) and not keep_exclusive(s, ks):
                 changed = True
                 continue  # entrada genérica de una especie exclusiva: fuera

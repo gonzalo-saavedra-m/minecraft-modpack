@@ -920,11 +920,11 @@ hash = "90273f37a231cca88dd57bf97a2c87571fb5993b7f63b22a56c432b043765d6b"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemonoutbreaks/outbreaks/pumpkaboo_outbreak.json"
-hash = "1391cf3e4eb00f22e428178d44ad5ea17cebe19e60f3c59d2073f22e02af2fc8"
+hash = "bfa9fb356f70505e96eac863161a910c3479e5891dd0824e53bd1541def5b361"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemonoutbreaks/outbreaks/spiritomb_outbreak.json"
-hash = "170e4600899dbf325c0537f279a2092a1e5157a15673835d0dd32a96bfa90e86"
+hash = "79cf7baaf42a8a1126ed1280b43384b565d1840b2daf8a7ab517efe99ce9d379"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mega_showdown/worldgen/structure_set/mega_site.json"
@@ -1755,8 +1755,16 @@ file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/lege
 hash = "b5cfc9117286b30f9b57953e336f924c93e0d59779cc4f4deeb24bc356f8fc99"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/koraidon.json"
+hash = "0f9fb42fb76d2aaf70be56a8fc69bc9eb363756cbc6b976f60ca83779f000134"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/miraidon.json"
+hash = "f8b2a299fe2576fd2aaedc8da536c523e121918faa4dbde2fadda5919f40cb38"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/necrozma.json"
-hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+hash = "444b62e93566c5314de1e87f40deacf4a14e222afb853d598d44fccee4466ad4"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/spectrier.json"
@@ -1776,7 +1784,7 @@ hash = "830c81cb2526d3a680bf100dd3af62f2c01312882d1eb86ca720d76968a38d39"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/mythical/deoxys.json"
-hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+hash = "41d639a087bad41f324cc96c61b41c2e91ff542e29f964fb62a07527ef8b7b54"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/mythical/jirachi.json"

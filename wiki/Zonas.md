@@ -142,7 +142,7 @@ Una zona es un grupo de biomas que usa Cobblemon para decidir qué Pokémon apar
 
 - **End:** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
 
-**Pokémon (14):** [Unown](Pokemon-Gen-2.md#unown), [Beldum](Pokemon-Gen-3.md#beldum), [Metang](Pokemon-Gen-3.md#metang), [Metagross](Pokemon-Gen-3.md#metagross), [Solosis](Pokemon-Gen-5.md#solosis), [Duosion](Pokemon-Gen-5.md#duosion), [Reuniclus](Pokemon-Gen-5.md#reuniclus), [Elgyem](Pokemon-Gen-5.md#elgyem), [Beheeyem](Pokemon-Gen-5.md#beheeyem), [Inkay](Pokemon-Gen-6.md#inkay), [Malamar](Pokemon-Gen-6.md#malamar), [Minior](Pokemon-Gen-7.md#minior), [Koraidon](Pokemon-Gen-9.md#koraidon), [Miraidon](Pokemon-Gen-9.md#miraidon)
+**Pokémon (16):** [Unown](Pokemon-Gen-2.md#unown), [Beldum](Pokemon-Gen-3.md#beldum), [Metang](Pokemon-Gen-3.md#metang), [Metagross](Pokemon-Gen-3.md#metagross), [Deoxys](Pokemon-Gen-3.md#deoxys), [Solosis](Pokemon-Gen-5.md#solosis), [Duosion](Pokemon-Gen-5.md#duosion), [Reuniclus](Pokemon-Gen-5.md#reuniclus), [Elgyem](Pokemon-Gen-5.md#elgyem), [Beheeyem](Pokemon-Gen-5.md#beheeyem), [Inkay](Pokemon-Gen-6.md#inkay), [Malamar](Pokemon-Gen-6.md#malamar), [Minior](Pokemon-Gen-7.md#minior), [Necrozma](Pokemon-Gen-7.md#necrozma), [Koraidon](Pokemon-Gen-9.md#koraidon), [Miraidon](Pokemon-Gen-9.md#miraidon)
 
 ## Espesura de raicielo
 
