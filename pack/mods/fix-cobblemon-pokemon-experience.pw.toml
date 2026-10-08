@@ -1,0 +1,13 @@
+name = "Fix Cobblemon Pokemon Experience"
+filename = "fix_cobblemon_pokemon_experience-1.2.0+1.21.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UsGc71LY/versions/OjZ0T9Yy/fix_cobblemon_pokemon_experience-1.2.0%2B1.21.1-fabric.jar"
+hash-format = "sha512"
+hash = "b6887ee831d55b11448a8825f0ba78c647d0ccec2e8f1399656b1737cf71ab43d0f9383d5d04d566188aa6803ca766cd5c35be047611f95c0c0911efa073b49e"
+
+[update]
+[update.modrinth]
+mod-id = "UsGc71LY"
+version = "OjZ0T9Yy"

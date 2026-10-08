@@ -8,9 +8,12 @@ import com.mojang.logging.LogUtils;
 import java.util.EnumSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.WeakHashMap;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.TickTask;
 import net.minecraft.server.level.ServerLevel;
@@ -43,8 +46,20 @@ public class MipackRules implements ModInitializer {
 			ResourceLocation.parse("minecraft:chests/ancient_city_center"), 1.0f,
 			ResourceLocation.parse("minecraft:chests/ancient_city"), 0.08f);
 
+	/** Entrenador de RCT. Los del mundo sin combatir este tiempo desaparecen (el despawn de RCT exige que nadie los vea). */
+	private static final ResourceLocation RCT_TRAINER = ResourceLocation.parse("rctmod:trainer");
+	private static final int TRAINER_IDLE_TICKS = 5 * 60 * 20;
+	private static final Map<Entity, Integer> TRAINER_LAST_BATTLE = new WeakHashMap<>();
+
 	@Override
 	public void onInitialize() {
+		ServerTickEvents.END_SERVER_TICK.register(server -> {
+			if (server.getTickCount() % 100 != 0) return;
+			for (ServerLevel level : server.getAllLevels())
+				for (Entity e : level.getAllEntities())
+					if (isIdleWildTrainer(e)) e.discard();
+		});
+
 		LootTableEvents.MODIFY.register((key, table, source, registries) -> {
 			Float chance = HEART_CHANCE.get(key.location());
 			if (chance == null || !BuiltInRegistries.ITEM.containsKey(HEART)) return;
@@ -79,6 +94,18 @@ public class MipackRules implements ModInitializer {
 		var species = pokemon.getPokemon().getSpecies();
 		return !FIXED_OK_SPECIES.contains(species.getResourceIdentifier().getPath())
 				&& species.getLabels().stream().noneMatch(FIXED_OK_LABELS::contains);
+	}
+
+	/**
+	 * Entrenador de RCT del mundo (ni persistente ni de un Trainer Spawner, que le pone HomePos) que lleva
+	 * TRAINER_IDLE_TICKS sin combatir. El contador se reinicia al cargar el chunk.
+	 */
+	private static boolean isIdleWildTrainer(Entity e) {
+		if (!RCT_TRAINER.equals(BuiltInRegistries.ENTITY_TYPE.getKey(e.getType()))) return false;
+		CompoundTag tag = e.saveWithoutId(new CompoundTag());
+		if (tag.getBoolean("Persistent") || tag.contains("HomePos")) return false;
+		if (tag.getBoolean("InBattle")) TRAINER_LAST_BATTLE.put(e, e.tickCount);
+		return e.tickCount - TRAINER_LAST_BATTLE.getOrDefault(e, 0) > TRAINER_IDLE_TICKS;
 	}
 
 	public static boolean isSpawner(BlockState state) {

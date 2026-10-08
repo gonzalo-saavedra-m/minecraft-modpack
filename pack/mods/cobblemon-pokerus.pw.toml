@@ -1,0 +1,13 @@
+name = "Cobblemon Pokerus"
+filename = "pokerus-fabric-1.8.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DHb4dWwO/versions/GcUDYMLk/pokerus-fabric-1.8.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "5ba7ca64c420cf4bac12534c140d58c4778fc8bf7fd6bc0a0ac6eb126c3713101e4647b07fc4bcbe0245cc36610e31783eb532b86c63e264442e3723ee25129e"
+
+[update]
+[update.modrinth]
+mod-id = "DHb4dWwO"
+version = "GcUDYMLk"

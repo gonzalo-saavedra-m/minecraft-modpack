@@ -41,11 +41,16 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [CIT Resewn](https://modrinth.com/project/cit-resewn) | shsupercm | MIT |
 | [Cloth Config API](https://modrinth.com/project/cloth-config) | shedaniel | LGPL-3.0-only |
 | [Clumps](https://modrinth.com/project/clumps) | jaredlll08 | MIT |
+| [CobbleDollars [Cobblemon Addon]](https://modrinth.com/project/cobbledollars) | Hazuriel | All-Rights-Reserved |
 | [Cobblemon](https://modrinth.com/project/cobblemon) | BlazingBRO, Mallowu, NickImpact, Brotatsun64, SamyTheGil, MJB-coolness, Tyzillion, mvthwus, whatsy, Mallowuu, Valirus, Apion, drewlordybuilds, plastered_crab, addy_bromide, Waldleufer, Erusel, BlackSpirit, Bwavii, Glitch_Ratt, TotallyNotAHobo, SamIr0n, EikoBiko, Gesteyy, gingledoof0, virtuositas, complacentdev, Carmendarr, Charzard4261, lilpebs, FrankTheFarmer, Dynamite2pt0, giodude1580, MoeBoy76, Kenji_64, Veraxiel, Sarge54125, heaveninvoid_, SilverBerr1, Rogerregoat, Jakotens, Wi2tert, Hysako_, Azooreh, dhi_holo, QriviateA, whoisvoxel, duckyquackington1, JPAKx4, Myslippy, Sterrezo, RedGenesectNinja, nickaholic, negocio, KleeHubertus, Torchmarrow, maashous, Genotype, 321retrogamer, boyfriends, JoeSeff, DoctorWafflePhD, JadedTeal, Hiroku, HexeChroma, TyzillionCBMN, spg | MPL-2.0 |
 | [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
+| [Cobblemon EvoNotify](https://modrinth.com/project/cobblemon-evonotify) | Arimil | MIT |
+| [Cobblemon Pokemon Badges](https://modrinth.com/project/cobblemon-pokemon-badges) | Jamesssssssssssssss | All-Rights-Reserved |
+| [Cobblemon Pokerus](https://modrinth.com/project/cobblemon-pokerus) | tmetcalfe89 | MIT |
 | [Cobblemon Raid Dens](https://modrinth.com/project/cobblemonraiddens) | necroso1 | MIT |
 | [Cobblemon Tim Core](https://modrinth.com/project/cobblemon-tim-core) | tmetcalfe89 | MIT |
+| [Cobblemon True Pickup](https://modrinth.com/project/cobblemon-true-pickup) | zmoonmaru | MIT |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/cobblemonextrastructures) | Roi_Pasteque | All-Rights-Reserved |
 | [Cobblemon: Mega Showdown](https://modrinth.com/project/cobblemon-mega-showdown) | YajatKaul, HeyImBlue, sanji1, Treynami, Narenhate, Provismet, Lvnatic | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT |
@@ -61,8 +66,10 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Enchantment Descriptions](https://modrinth.com/project/enchantment-descriptions) | Darkhax | LGPL-2.1-only |
 | [Entity Culling](https://modrinth.com/project/entityculling) | vicisacat, Pelotrio, tr7zw | tr7zw-Protective-License |
 | [Fabric API](https://modrinth.com/project/fabric-api) | Player7457, modmuss50 | Apache-2.0 |
+| [Fabric Language Kotlin](https://modrinth.com/project/fabric-language-kotlin) | Player7457, modmuss50 | Apache-2.0 |
 | [Falling Leaves](https://modrinth.com/project/fallingleaves) | randommcsomethin, Fourmisain, BrekiTomasson | MIT |
 | [FerriteCore](https://modrinth.com/project/ferrite-core) | malte0811 | MIT |
+| [Fix Cobblemon Pokemon Experience](https://modrinth.com/project/fix-cobblemon-pokemon-experience) | Madgique | LGPL-3.0-only |
 | [Forge Config API Port](https://modrinth.com/project/forge-config-api-port) | Fuzs | MPL-2.0 |
 | [Geckolib](https://modrinth.com/project/geckolib) | DerToaster98, mchorse, KyoSleep, Gecko, ZigyTheBird, Tslat | MIT |
 | [ImmediatelyFast](https://modrinth.com/project/immediatelyfast) | RaphiMC | LGPL-3.0-or-later |
@@ -81,6 +88,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Mod Menu](https://modrinth.com/project/modmenu) | gniftygnome, Prospector, modmuss50 | MIT |
 | [ModernFix](https://modrinth.com/project/modernfix) | embeddedt | LGPL-3.0-only |
 | [Monsters in the Closet](https://modrinth.com/project/monsters-in-the-closet) | Minenash | MIT |
+| [More Radical Trainers: SV](https://modrinth.com/project/more-radical-trainers) | fyre520 | MIT |
 | [Navas ZA Megas](https://modrinth.com/project/navas-zamega) | natusue233, sishengruyu, GrenCobblemon, hugoarts, Sevonents, Radowkage, sanji1, YajatKaul, Narenhate | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [NetherPortalFix](https://modrinth.com/project/netherportalfix) | BlayTheNinth | All-Rights-Reserved |
 | [Not Enough Animations](https://modrinth.com/project/not-enough-animations) | tr7zw | tr7zw-Protective-License |
@@ -91,7 +99,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Particular ✨](https://modrinth.com/project/particular) | Chai | LGPL-3.0-only |
 | [Presence Footsteps](https://modrinth.com/project/presence-footsteps) | Sollace | Polyform-Shield-1.0 |
 | [Prickle](https://modrinth.com/project/prickle) | Darkhax | LGPL-2.1-only |
-| [Rad Gyms [Cobblemon]](https://modrinth.com/project/rad-gyms) | Gitoido, wundati | GPL-3.0-only |
 | [Radical Cobblemon Trainers](https://modrinth.com/project/rctmod) | hd42 | MCOML |
 | [Radical Cobblemon Trainers API](https://modrinth.com/project/rctapi) | hd42 | MCOML |
 | [Reese's Sodium Options](https://modrinth.com/project/reeses-sodium-options) | FlashyReese | MIT |
@@ -147,3 +154,5 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | Nombre | Autores | Licencia |
 |---|---|---|
 | [AllTheMons x Mega Showdown](https://modrinth.com/project/allthemons-x-mega-showdown-legacy) | HeyImBlue, Narenhate, Lvnatic, Bwavii, easy_____, BlaziumHydro, Raspix, Genotype, Wi2tert, kylbrez, IzetyXX, RedRibbonz, marcustars, El-Pigeon, YaBoiBruno, nady3, bonanca, ARaccoonNamedFish, aki4hiro, Lenkagari, quinn284 | AllTheMons-License-v3.2 |
+| [LegendaryRaidDens [Cobblemon]](https://modrinth.com/project/legendaryraiddens-cobblemon) | ceezun | All-Rights-Reserved |
+| [RCT Badges - Cobblemon Pokemon Badges](https://modrinth.com/project/rct-badges-cobblemonpokemonbadges) | hd42 | LGPL-3.0-or-later |

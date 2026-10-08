@@ -9,5 +9,8 @@ otros mods (salvo aldeanos).
   estructuras y Pokémon.
 - [Estructuras](Estructuras.md): dónde se generan, qué Pokémon nacen dentro y legendarios fijos.
 - [Liga](Liga.md): qué ítem invoca a cada líder, Alto Mando y campeón de RCT en el Trainer Spawner.
+- [Megas](Megas.md): Piedra activadora, Megapulsera, cómo megaevolucionar y la receta de cada megapiedra.
+- [Crianza](Crianza.md): cómo criar en el Corral, qué se hereda y cómo sacar shinies con el método Masuda.
 
-Las páginas se generan con `python3 tools/gen_wiki.py` (Liga: `tools/gen_rct.py`); no se editan a mano.
+Las páginas se generan con `python3 tools/gen_wiki.py` (Liga: `tools/gen_rct.py`, Megas: `tools/gen_megas.py`); no se editan a mano. Crianza
+se escribe a mano.

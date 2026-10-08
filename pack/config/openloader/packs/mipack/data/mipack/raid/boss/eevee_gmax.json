@@ -1,0 +1,27 @@
+{
+  "pokemon": {
+    "species": "eevee",
+    "moves": [
+      "bite",
+      "swift",
+      "quickattack",
+      [
+        "tm_coverage",
+        "offensive_tm",
+        "move_any"
+      ]
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "NORMAL",
+  "weight": 10.0,
+  "raid_feature": "DYNAMAX",
+  "boss": {
+    "custom_properties": [
+      {
+        "name": "dynamax_form",
+        "value": "gmax"
+      }
+    ]
+  }
+}

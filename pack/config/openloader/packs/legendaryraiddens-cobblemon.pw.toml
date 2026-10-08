@@ -1,0 +1,13 @@
+name = "LegendaryRaidDens [Cobblemon]"
+filename = "CRDLEGENDARY.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mJqzBQWl/versions/XiZU6MBe/CRDLEGENDARY.zip"
+hash-format = "sha512"
+hash = "51853d760b779572bf12060b854c6f19087b4537c2965f750d7cd53a63dcf42745f8f4742d0088b4af553072312c8b195ab2746267aec712024d87fa00a839bb"
+
+[update]
+[update.modrinth]
+mod-id = "mJqzBQWl"
+version = "XiZU6MBe"

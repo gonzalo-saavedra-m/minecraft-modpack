@@ -1,0 +1,23 @@
+{
+  "pokemon": {
+    "species": "pikachu",
+    "moves": [
+      "spark",
+      "feint",
+      "thundershock",
+      "quickattack"
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "ELECTRIC",
+  "weight": 10.0,
+  "raid_feature": "DYNAMAX",
+  "boss": {
+    "custom_properties": [
+      {
+        "name": "dynamax_form",
+        "value": "gmax"
+      }
+    ]
+  }
+}

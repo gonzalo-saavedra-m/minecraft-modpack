@@ -1,0 +1,13 @@
+name = "Cobblemon EvoNotify"
+filename = "evonotify-fabric-1.21.1-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JCkt9KNl/versions/UT6wWCXL/evonotify-fabric-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "f471c92864adfc3ec109abf920722371be68212bd0d35bf010b384db8056d1f13bc513518dab6260f6d45f0dade1a98514681674b536d5dce1d251b63374a710"
+
+[update]
+[update.modrinth]
+mod-id = "JCkt9KNl"
+version = "UT6wWCXL"

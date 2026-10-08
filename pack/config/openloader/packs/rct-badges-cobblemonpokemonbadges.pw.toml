@@ -1,0 +1,13 @@
+name = "RCT Badges - Cobblemon Pokemon Badges"
+filename = "RCT-Badges-CobblemonPokemonBadges-0.15+1.1.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3w9Vewuj/versions/pDsbqEcN/RCT-Badges-CobblemonPokemonBadges-0.15%2B1.1.2.zip"
+hash-format = "sha512"
+hash = "c6397e36cee06cc4286f703b029430c3f0dbb465f27e20dbab72947ee192c31d79b4d0f0d0e1a33512398e537e98d8b38d8605c2501c41e78dc906649b5ec2f0"
+
+[update]
+[update.modrinth]
+mod-id = "3w9Vewuj"
+version = "pDsbqEcN"

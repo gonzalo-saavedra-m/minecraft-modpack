@@ -42,6 +42,11 @@ hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
 metafile = true
 
 [[files]]
+file = "config/openloader/packs/legendaryraiddens-cobblemon.pw.toml"
+hash = "9b0e39fe0f9d0950bd305f0dfce76bbb007d0898dd3497d1c7dd2321b2b631ca"
+metafile = true
+
+[[files]]
 file = "config/openloader/packs/mipack/CREDITS.md"
 hash = "1a5ca82f32f281ed32242c7f9102abdaedd2d571b2acf3d47bdd777c4a1faa77"
 
@@ -906,6 +911,126 @@ file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_st
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/alcremie_gmax.json"
+hash = "3149cad10de7fbbb73e78273223441c78106f1b3fadee3e6771002cd1b501ab1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/appletun_gmax.json"
+hash = "c15aa348add9d5848623a2b2b9814aff357c6f9a79beaebd9681e2615db1898a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/blastoise_gmax.json"
+hash = "0fe255e32e16e256fea3a8acbaa1db7c2cb95a2dae35df413ad54a9bf548d202"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/butterfree_gmax.json"
+hash = "52b7e6aaccf374f8803357dda847c8242391c89cac147c498c186e12693b8646"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/centiskorch_gmax.json"
+hash = "462d53bbc397bd9489cfd87f13576e47b5627760f5dd27ab6515cfb860ae5fb9"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/charizard_gmax.json"
+hash = "be4c8f56c6e7b2b40d4f61c35657a03077f52462a0b01e2d8c33f31cb26875e5"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/cinderace_gmax.json"
+hash = "f992f479814781b5d97c7bf360ad7e2f99476ba5de0f2b98c4a916c06fe63b48"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/coalossal_gmax.json"
+hash = "5af56aa0942ffdf5c07691dd02de2fe2e64e144c9c83355f04b4f6f38a7c5371"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/copperajah_gmax.json"
+hash = "49bc1eff07f36f1e8b3ed24b0d12a64cfbbf9c84a6cb0618428fe6397bfd9243"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/corviknight_gmax.json"
+hash = "93e58c32ad71b8d23ebeeef62b5050923b00d72c6845dc3d56a1aee54a77cf85"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/drednaw_gmax.json"
+hash = "5603c95ec4a8bf0cf028cd7b37bfad3f03160b63512775c1b2c61fa6b5722721"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/duraludon_gmax.json"
+hash = "a9e682e99946dfb42af7599a355273c041e6ef2655ee8eaf12291c15c0a5fec2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/eevee_gmax.json"
+hash = "c4ca4911d6205e12086a0f92177570587ca290d048f547c658315a7a7a042744"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/flapple_gmax.json"
+hash = "b10c6d73a3f7a6e750102b8eaf3311487cb3e25a99bb0d2894a2f34d1722c21e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/garbodor_gmax.json"
+hash = "f2d25b44607c0ef07068753edaf061d638ae38895bf79e886cbb6e9e1e9f159c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/gengar_gmax.json"
+hash = "2e9d952499a54478f91669839f2cb4ea33973e39ebf04014df65fe324a6fc994"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/grimmsnarl_gmax.json"
+hash = "60462e6cf6d0217dede169676978e42e99789e6250a806fa4e20dae6a9b5dd5d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/hatterene_gmax.json"
+hash = "e010b794195a10989975aa1d060eb8e705db3edd0df19c5449708d31228c720d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/inteleon_gmax.json"
+hash = "d2485a8006364e50d5ca34db4be3cbdb91a5f8c44ec06d92c2b626a8af6d4e25"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/kingler_gmax.json"
+hash = "b9d82c339c0c8556c571f3ba7d5fb4ba76db1bbeccfaea0bffe8910fcfd7120e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/lapras_gmax.json"
+hash = "fa487d8911003e85bdea5d95ea9ed741f9532365a6586b10df1511fe0012e60c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/machamp_gmax.json"
+hash = "6267d41ab9f4c92b57083b6256ff23c536c2442183e87c2e749c0ed61070d0f3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/meowth_gmax.json"
+hash = "c9dc97b9d18fe8a88d3ca13e17d9f6177e3b43b2f19d5e5ae073ba752c3d5d10"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/pikachu_gmax.json"
+hash = "6900e3da71de25dd229d506bee818fcaebdf8c17ac6066d9e24b533c1423f406"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/rillaboom_gmax.json"
+hash = "8ceda79915e15fd0048b6180d24a3689294012edfe0b17f462d0e4250bf79383"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/sandaconda_gmax.json"
+hash = "2fd245308b3e249014b72cd10d1cd4ff6889a8fcb9f25f4e0d7086d2abcc11ce"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/snorlax_gmax.json"
+hash = "5e7bc7477c530ba2930564e6ff9c64fca37de5bd81357f6ef651944a69c49622"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss/venusaur_gmax.json"
+hash = "e68934de701368ce3f0222106c84eae2e392c1a8068384b20de5264a749f3f35"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/dmax.json"
+hash = "cf90f251ac2b24d52142b73006d2a9c083fd05503d65190440fd83bbe3f0d2d6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/tera.json"
+hash = "a33f67f35c927117afc1a41d49ff311c96368a735a286ba6eba4fbec42ea424d"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/rayquaza.json"
 hash = "f74ea10afc22b743e036c66a5fbf74afecc5516f4794c44ec647b634b55b780a"
 
@@ -1262,8 +1387,17 @@ file = "config/openloader/packs/mipack/pack.mcmeta"
 hash = "ef04d9805f64e6aad2d37070cd033b74cac3f3ffdbee4a112c9b57bc0e726c20"
 
 [[files]]
+file = "config/openloader/packs/rct-badges-cobblemonpokemonbadges.pw.toml"
+hash = "860c49bdd3c673c8e0756a30bbb087470db55295b757772c6bac5bec713465f2"
+metafile = true
+
+[[files]]
 file = "config/openloader/resources/Cobblemon-Tips-3.0.zip"
 hash = "b53eaa9beaca3a27b3bd5ab62e9422cfd0c2bdc88d54602563dbfcf59fb93aa7"
+
+[[files]]
+file = "config/rctmod-server.toml"
+hash = "471195dcf09af6c97eb4ebd372645afdaac994d3890b99aa3e1905fe51789237"
 
 [[files]]
 file = "config/yosbr/config/ali/ali_common.json"
@@ -1783,6 +1917,11 @@ hash = "fe84e2227c405bf9b735f01f307a01768784b9d49df82a13ecda3d3b6d198507"
 metafile = true
 
 [[files]]
+file = "mods/cobbledollars.pw.toml"
+hash = "b61d3783e85f963d6235bf86e0d09a3f9e0030634654b07327600ca6b939d627"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "c1a356984efffe74b6e503e8830eb77b4ad48015c45c57c27c5bbb78db8214a8"
 metafile = true
@@ -1793,13 +1932,33 @@ hash = "fe662efbb33a0ecd8a0c7097e8e695305f151f3f233f87597764bb822e8a6381"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-evonotify.pw.toml"
+hash = "95317bc1b02ee76693d1f489e63ccd4525bbc4a79f627d0b53e7506fdd0cdeba"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokemon-badges.pw.toml"
+hash = "f9fca804b47d62948dc79c800723fa4e2e8d114171af6c19c901a59b99fbb073"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pokerus.pw.toml"
+hash = "f108a0ffd2cb929d2e4839e26129806d5f8aa67758ff141eb657fafe4fa1b255"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "734d47a5b2e5745c2eb1259daeb30001b6729014c5ecc234f868e6fa720eab10"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-true-pickup.pw.toml"
+hash = "cd8bc1488031f73e4566a883ae9a5666884c0d8d79af50274f23dc86c596f55d"
 metafile = true
 
 [[files]]
@@ -1893,6 +2052,11 @@ hash = "9645e76b2915aa43b0918e1ef20e1c01b64ba9073e35c8bcd70cf34af8ab604e"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
+metafile = true
+
+[[files]]
 file = "mods/fallingleaves.pw.toml"
 hash = "ad4e8689c50fedd770fb5cf28561edbd41f6b483bcfd6e3dd3d0c337789c0110"
 metafile = true
@@ -1900,6 +2064,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
+metafile = true
+
+[[files]]
+file = "mods/fix-cobblemon-pokemon-experience.pw.toml"
+hash = "221c924b777fd9ccdaaa402e63a948f332a16eee419c2a6f543f1381baadae85"
 metafile = true
 
 [[files]]
@@ -1979,7 +2148,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "7d75f63bbf288e5c9b9794d1ac5694d7022944a82624c5ae2f66fa1815b77f8b"
+hash = "af72f92d76eca60c718b04f4aecf6d18c3e77dcf4ca31fe387fca90bf22e01a1"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -1994,6 +2163,11 @@ metafile = true
 [[files]]
 file = "mods/monsters-in-the-closet.pw.toml"
 hash = "0220080e63da514cdfd5ff73355572eba1ebb0202951e12f95740ce413912fb2"
+metafile = true
+
+[[files]]
+file = "mods/more-radical-trainers.pw.toml"
+hash = "070cd04c1d52b913c95837f3cdfd4cb2781cc5528389dd5c23efc86935f92f5f"
 metafile = true
 
 [[files]]
@@ -2049,11 +2223,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "122659d423e8fe5c47b4121bf382e5ceea0ea2c644cd0a08d577cf58ef55d495"
-metafile = true
-
-[[files]]
-file = "mods/rad-gyms.pw.toml"
-hash = "aad89cd7c8293622f6e58c83a080d004a064f45ccdb84c8e93bd235b0ff5b534"
 metafile = true
 
 [[files]]

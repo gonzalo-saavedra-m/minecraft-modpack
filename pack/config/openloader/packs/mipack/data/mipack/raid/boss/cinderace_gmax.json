@@ -1,0 +1,30 @@
+{
+  "pokemon": {
+    "species": "cinderace",
+    "moves": [
+      "doubleedge",
+      "bounce",
+      [
+        "move_primary",
+        "move_any"
+      ],
+      [
+        "tm_coverage",
+        "offensive_tm",
+        "move_any"
+      ]
+    ]
+  },
+  "raid_tier": "TIER_FIVE",
+  "raid_type": "FIRE",
+  "weight": 10.0,
+  "raid_feature": "DYNAMAX",
+  "boss": {
+    "custom_properties": [
+      {
+        "name": "dynamax_form",
+        "value": "gmax"
+      }
+    ]
+  }
+}
