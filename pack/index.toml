@@ -795,11 +795,11 @@ hash = "d2082cb70b4a31897b86da8972df3dd5939645ccdba436d339f9157501c6568e"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/ironboulder.json"
-hash = "5d2f93695273d4a5f8d1c7f3cad28a77462ba2285ff99ad88930ba8b67efedfe"
+hash = "d053b6d99e090929716e6b97fc713e3a7291e8a057d99d4b4346a1446edaf6d4"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/ironjugulis.json"
-hash = "ee57e074b7e435f4918a6a9d75192010513e7de92661f70a5c0b4138495f1b11"
+hash = "45095409100e3239535089eab46e6ecdfe0444fe360707392dffb685376ce279"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/witch_huts/0509_purrloin.json"

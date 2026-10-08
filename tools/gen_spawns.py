@@ -213,6 +213,7 @@ for f in (MIPACK / 'data/mipack/spawn_pool_world').glob('iron*.json'):
     d = json.loads(f.read_text())
     for s in d['spawns']:
         s['condition']['biomes'], s['bucket'] = [PRIMORDIAL], PRIMORDIAL_BUCKET['paradox']
+        s['level'] = {'ironjugulis': '50-85', 'ironboulder': '70-90'}.get(s['pokemon'].split()[0], s['level'])  # como sus pares con +10
     f.write_text(json.dumps(d, indent=2) + '\n')
 
 for biome, entries in BIOMES.items():
