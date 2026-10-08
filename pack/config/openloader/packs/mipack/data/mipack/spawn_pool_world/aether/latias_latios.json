@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-aether-latias",
+      "pokemon": "latias min_perfect_ivs=3",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65",
+      "weight": 1.5,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#aether:is_aether"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether-latios",
+      "pokemon": "latios min_perfect_ivs=3",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65",
+      "weight": 1.5,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#aether:is_aether"
+        ]
+      }
+    }
+  ]
+}

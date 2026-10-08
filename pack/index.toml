@@ -919,6 +919,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/tags/block/natural.json"
 hash = "90273f37a231cca88dd57bf97a2c87571fb5993b7f63b22a56c432b043765d6b"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/tags/worldgen/biome/is_sky.json"
+hash = "65e1929ee60ba9e08d6f9b8893721a4c1f5ea23a2220683389388e47c3a9c862"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemonoutbreaks/outbreaks/pumpkaboo_outbreak.json"
 hash = "bfa9fb356f70505e96eac863161a910c3479e5891dd0824e53bd1541def5b361"
 
@@ -1145,6 +1149,10 @@ hash = "cf90f251ac2b24d52142b73006d2a9c083fd05503d65190440fd83bbe3f0d2d6"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/tera.json"
 hash = "a33f67f35c927117afc1a41d49ff311c96368a735a286ba6eba4fbec42ea424d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/latias_latios.json"
+hash = "78a65dec57422f9f65a383f389bf7035c994860d705fae8767f9b7ac2ebdebe1"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/rayquaza.json"

@@ -138,8 +138,8 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0377 | <a id="regirock"></a>Regirock **Exclusivo** | [Desierto](Zonas.md#desierto) | ultra raro | 70–70 |
 | 0378 | <a id="regice"></a>Regice **Exclusivo** | [Océano helado](Zonas.md#océano-helado) (pesca) | ultra raro | 70–70 |
 | 0379 | <a id="registeel"></a>Registeel **Exclusivo** | [Montañas](Zonas.md#montañas) | ultra raro | 70–70 |
-| 0380 | <a id="latias"></a>Latias **Exclusivo** | [Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) | ultra raro | 65–65 |
-| 0381 | <a id="latios"></a>Latios **Exclusivo** | [Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) | ultra raro | 65–65 |
+| 0380 | <a id="latias"></a>Latias | [Aether](Zonas.md#aether)<br>[Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) | ultra raro | 65–65 |
+| 0381 | <a id="latios"></a>Latios | [Aether](Zonas.md#aether)<br>[Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) | ultra raro | 65–65 |
 | 0382 | <a id="kyogre"></a>Kyogre **Exclusivo** | [Océano](Zonas.md#océano) (pesca) | ultra raro | 70–70 |
 | 0383 | <a id="groudon"></a>Groudon | [Badlands](Zonas.md#badlands)<br>[Nether: páramo](Zonas.md#nether-páramo)<br>[Volcánico](Zonas.md#volcánico) | ultra raro | 70–70 |
 | 0384 | <a id="rayquaza"></a>Rayquaza | [Aether](Zonas.md#aether) (de día)<br>[Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma) (de día) | ultra raro | 70–70 |
