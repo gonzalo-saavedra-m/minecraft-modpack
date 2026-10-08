@@ -1,4 +1,4 @@
-"""Genera en mipack los spawns de los biomas de Alex's Caves (RESEARCH §7.1, docs/research-spawns-alexs-caves.md).
+"""Genera en mipack los spawns de los biomas de Alex's Caves y de la Otherside (Deeper and Darker) (RESEARCH §7.1, docs/research-spawns-alexs-caves.md).
 
 Uso: python3 tools/gen_spawns.py [carpeta de un server con mods/ y config/openloader/packs/]  (default: test-server/)
 
@@ -21,7 +21,7 @@ AC = 'alexscaves:'
 
 # (pokemon, bucket, niveles o None = los de Cobblemon, extras). Extras: 'agua' = submerged, 'noche' = timeRange night
 BIOMES = {
-    'magnetic_caves': [
+    AC + 'magnetic_caves': [
         ('magnemite', 'common', '8-33'), ('magneton', 'uncommon', '30-47'), ('magnezone', 'rare', '42-54'),
         ('nosepass', 'common', '13-38'), ('probopass', 'rare', '33-53'),
         ('klink', 'common', '5-30'), ('klang', 'uncommon', '38-44'), ('klinklang', 'rare', '49-52'),
@@ -38,7 +38,7 @@ BIOMES = {
         ('togedemaru', 'uncommon', '19-44'), ('durant', 'uncommon', '23-48'),
         ('duraludon', 'rare', '27-54'), ('archaludon', 'ultra-rare', '35-60'),
     ],
-    'toxic_caves': [
+    AC + 'toxic_caves': [
         ('grimer', 'common', '8-33'), ('muk', 'uncommon', '38-50'),
         ('grimer alolan', 'uncommon', '8-33'), ('muk alolan', 'rare', '38-50'),
         ('koffing', 'common', '9-34'), ('weezing', 'uncommon', '35-49'),
@@ -53,7 +53,7 @@ BIOMES = {
         ('varoom', 'uncommon', '5-30'), ('revavroom', 'rare', None),
         ('wooper paldean', 'uncommon', '1-21'), ('clodsire', 'rare', None),
     ],
-    'abyssal_chasm': [
+    AC + 'abyssal_chasm': [
         ('chinchou', 'common', '8-33', 'agua'), ('lanturn', 'uncommon', '27-46', 'agua'),
         ('relicanth', 'uncommon', '24-49', 'agua'), ('clamperl', 'uncommon', '10-35', 'agua'),
         ('huntail', 'uncommon', '30-49', 'agua'), ('gorebyss', 'uncommon', '30-49', 'agua'),
@@ -66,7 +66,7 @@ BIOMES = {
         ('octillery', 'uncommon', '25-48', 'agua'),
         ('corsola galarian', 'uncommon', '16-41', 'agua'), ('cursola', 'rare', None, 'agua'),
     ],
-    'forlorn_hollows': [
+    AC + 'forlorn_hollows': [
         ('gastly', 'common', '6-31'), ('haunter', 'uncommon', None), ('gengar', 'rare', None),
         ('sableye', 'uncommon', '13-38'), ('spiritomb', 'rare', '24-49'), ('mimikyu', 'rare', '23-48'),
         ('zorua', 'uncommon', '8-33'), ('zoroark', 'rare', None),
@@ -84,7 +84,7 @@ BIOMES = {
         ('morelull', 'uncommon', '4-29'), ('shiinotic', 'rare', None),
         ('murkrow', 'uncommon', '16-41'), ('honchkrow', 'rare', None),
     ],
-    'candy_cavity': [
+    AC + 'candy_cavity': [
         ('swirlix', 'common', '9-34'), ('slurpuff', 'uncommon', None),
         ('milcery', 'common', '2-27'), ('alcremie', 'uncommon', '22-50'),
         ('spritzee', 'uncommon', '9-34'), ('aromatisse', 'rare', None),
@@ -104,12 +104,30 @@ BIOMES = {
         ('skwovet', 'common', '5-30'), ('greedent', 'uncommon', None),
     ],
 }
+DD = 'deeperdarker:'
+# Otherside (Deeper and Darker, se entra desde la ciudad antigua): exclusivos de nivel altísimo (decidido el 08-oct)
+BIOMES.update({
+    DD + 'echoing_forest': [
+        ('phantump', 'common', '70-85'), ('trevenant', 'uncommon', '80-95'),
+        ('pumpkaboo', 'common', '70-85'), ('gourgeist', 'uncommon', '80-95')],
+    DD + 'overcast_columns': [
+        ('drifloon', 'common', '70-85'), ('drifblim', 'uncommon', '80-95'),
+        ('dreepy', 'rare', '70-80'), ('drakloak', 'rare', '80-90'), ('dragapult', 'ultra-rare', '90-100')],
+    DD + 'blooming_caverns': [
+        ('sinistea', 'common', '70-85'), ('polteageist', 'uncommon', '80-95'),
+        ('greavard', 'common', '70-85'), ('houndstone', 'uncommon', '80-95')],
+    DD + 'deeplands': [
+        ('absol', 'uncommon', '75-90'),
+        ('deino', 'rare', '70-80'), ('zweilous', 'rare', '80-90'), ('hydreigon', 'ultra-rare', '90-100')],
+})
+OTHERSIDE_EXCLUSIVE = {e[0] for b, v in BIOMES.items() if b.startswith(DD) for e in v}
+
 # Solo nacen en su bioma de Alex's Caves (más estructuras, ciudades y Nether). Decidido el 08-oct.
 EXCLUSIVE = {'voltorb', 'electrode', 'grimer', 'muk', 'grimer alolan', 'muk alolan', 'koffing', 'weezing',
              'trubbish', 'garbodor', 'spiritomb', 'woobat', 'swoobat', 'milcery', 'alcremie', 'swirlix',
-             'slurpuff', 'relicanth'}
+             'slurpuff', 'relicanth'} | OTHERSIDE_EXCLUSIVE
 # Tags genéricos por los que se cuelan especies ajenas: solo nacen ahí las de la lista del bioma
-CLEAN = {'#cobblemon:is_magical': 'candy_cavity', '#cobblemon:is_spooky': 'forlorn_hollows'}
+CLEAN = {'#cobblemon:is_magical': AC + 'candy_cavity', '#cobblemon:is_spooky': AC + 'forlorn_hollows'}
 PRIMORDIAL = AC + 'primordial_caves'
 PRIMORDIAL_BUCKET = {'fossil': 'common', 'paradox': 'uncommon'}
 DEFAULT_LEVEL = {'common': '5-30', 'uncommon': '20-40', 'rare': '30-50', 'ultra-rare': '40-60'}
@@ -159,7 +177,8 @@ def keep_exclusive(spawn):
         any(str(b).startswith('#cobblemon:nether/') for b in c.get('biomes', []))
 
 # Limpia lo generado antes (por si una especie dejó de estar en la config)
-for d in ('data/cobblemon/spawn_pool_world', 'data/special_spawns', 'data/mipack/spawn_pool_world/alexscaves'):
+for d in ('data/cobblemon/spawn_pool_world', 'data/special_spawns', 'data/mipack/spawn_pool_world/alexscaves',
+          'data/mipack/spawn_pool_world/deeperdarker'):
     shutil.rmtree(MIPACK / d, ignore_errors=True)
 
 def write(rel, data):
@@ -197,7 +216,7 @@ for z in (cobblemon, atm):
                     anti.add(PRIMORDIAL)
                 for tag, biome in CLEAN.items():
                     if tag in c.get('biomes', []) and not any(k in in_biome[biome] for k in ks):
-                        anti.add(AC + biome)
+                        anti.add(biome)
                 if anti:
                     a = s.setdefault('anticondition', {})
                     a['biomes'] = sorted(set(a.get('biomes', [])) | anti)
@@ -219,14 +238,15 @@ for f in (MIPACK / 'data/mipack/spawn_pool_world').glob('iron*.json'):
 for biome, entries in BIOMES.items():
     spawns = []
     for pokemon, bucket, lvl, *extra in entries:
-        s = {'id': f'mipack-{biome}-{pokemon.replace(" ", "-")}', 'pokemon': pokemon, 'type': 'pokemon',
+        s = {'id': f'mipack-{biome.split(":")[1]}-{pokemon.replace(" ", "-")}', 'pokemon': pokemon, 'type': 'pokemon',
              'spawnablePositionType': 'submerged' if 'agua' in extra else 'grounded', 'bucket': bucket,
-             'level': bump(lvl or levels.get(pokemon) or DEFAULT_LEVEL[bucket]), 'weight': 10.0,
-             'condition': {'biomes': [AC + biome]}}
+             'level': (bump if biome.startswith(AC) else str)(lvl or levels.get(pokemon) or DEFAULT_LEVEL[bucket]),
+             'weight': 10.0,
+             'condition': {'biomes': [biome]}}
         if 'noche' in extra:
             s['condition']['timeRange'] = 'night'
         spawns.append(s)
-    write(f'data/mipack/spawn_pool_world/alexscaves/{biome}.json',
+    write(f'data/mipack/spawn_pool_world/{biome.replace(":", "/")}.json',
           {'enabled': True, 'neededInstalledMods': [], 'neededUninstalledMods': [], 'spawns': spawns})
 
 # Suelo de Primordial como "natural" (preset natural de los fósiles)

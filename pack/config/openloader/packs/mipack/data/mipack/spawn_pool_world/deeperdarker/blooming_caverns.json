@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-blooming_caverns-sinistea",
+      "pokemon": "sinistea",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "70-85",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:blooming_caverns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-blooming_caverns-polteageist",
+      "pokemon": "polteageist",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "80-95",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:blooming_caverns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-blooming_caverns-greavard",
+      "pokemon": "greavard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "70-85",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:blooming_caverns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-blooming_caverns-houndstone",
+      "pokemon": "houndstone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "80-95",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:blooming_caverns"
+        ]
+      }
+    }
+  ]
+}

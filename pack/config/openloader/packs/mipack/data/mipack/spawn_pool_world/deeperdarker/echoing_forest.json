@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-echoing_forest-phantump",
+      "pokemon": "phantump",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "70-85",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:echoing_forest"
+        ]
+      }
+    },
+    {
+      "id": "mipack-echoing_forest-trevenant",
+      "pokemon": "trevenant",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "80-95",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:echoing_forest"
+        ]
+      }
+    },
+    {
+      "id": "mipack-echoing_forest-pumpkaboo",
+      "pokemon": "pumpkaboo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "70-85",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:echoing_forest"
+        ]
+      }
+    },
+    {
+      "id": "mipack-echoing_forest-gourgeist",
+      "pokemon": "gourgeist",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "80-95",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:echoing_forest"
+        ]
+      }
+    }
+  ]
+}

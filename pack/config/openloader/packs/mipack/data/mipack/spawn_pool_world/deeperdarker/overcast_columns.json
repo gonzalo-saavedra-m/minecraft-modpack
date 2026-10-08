@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-overcast_columns-drifloon",
+      "pokemon": "drifloon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "70-85",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:overcast_columns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-overcast_columns-drifblim",
+      "pokemon": "drifblim",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "80-95",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:overcast_columns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-overcast_columns-dreepy",
+      "pokemon": "dreepy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "70-80",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:overcast_columns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-overcast_columns-drakloak",
+      "pokemon": "drakloak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "80-90",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:overcast_columns"
+        ]
+      }
+    },
+    {
+      "id": "mipack-overcast_columns-dragapult",
+      "pokemon": "dragapult",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "90-100",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "deeperdarker:overcast_columns"
+        ]
+      }
+    }
+  ]
+}
