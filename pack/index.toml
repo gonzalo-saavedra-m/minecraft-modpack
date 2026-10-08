@@ -190,6 +190,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0110_weez
 hash = "3f938602872c7037cf718ebd8c1a4546c0dfea5e6f46161c67a7fe9f958eb907"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0113_chansey.json"
+hash = "de1101a13a90a50b53b5d57c3279d769cac719372c823e89535e260644598c21"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0118_goldeen.json"
 hash = "19c0d82510d37bf30c09eb8a9248ba23d7c051bb81b7de0ba7f23d036d52f322"
 
@@ -270,6 +274,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0197_umbr
 hash = "3a3d61fad3d220fcc8986bec3166ff16276f8ab6f0926650a7b1791e23145011"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0242_blissey.json"
+hash = "542c215db057e235d5a5b3490f820c7ec235c21df7bf53a290062aa7182e084b"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0280_ralts.json"
 hash = "1d801ea3fa511bc949f71fec67d25b64dc450c041b85be124265578302b8cac7"
 
@@ -284,6 +292,14 @@ hash = "605169fbe5e6d04a3c140eb3de2a498ea78a52563fb54bccc3eaac65256faea9"
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0298_azurill.json"
 hash = "1e8b432142580f1e4dc58772843f3952c687889564403515373f3baf92b1ad4e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0333_swablu.json"
+hash = "5a35651a1e725b366489952b3935776f8bd3dff71c1e7b285e92c9e4f0c8b3b7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0334_altaria.json"
+hash = "377c55d1a4554048808209d1af2c8e0fcd65cd2c5e1318c0fe6e3382c5893ee6"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0345_lileep.json"
@@ -302,6 +318,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0348_arma
 hash = "e312a9ebfd9f5270538a61571f3202c634f4f70805dcdae5071caf26f3fe9b36"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0351_castform.json"
+hash = "db42abc6c65ffdfe6d1f174acf2524c2b0381e26e924982cc529c2fd04ce9185"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0358_chimecho.json"
 hash = "bae7f1178ae04044f9385b3505142ec9e879b6521ce61ac7836f778e615922de"
 
@@ -312,6 +332,18 @@ hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0369_relicanth.json"
 hash = "4883651a6dc26d7fc12c00b1f3944a3ac5898e25db0a86dc57af8c24234ebb65"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0371_bagon.json"
+hash = "4a453429c4180887194ad208bdc6e00bb371343062d40d6d081cf98bec0fdb29"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0372_shelgon.json"
+hash = "23319ad3657ded94fa912b115e9110d5572d02e92863b78bb62960bc62754f79"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0373_salamence.json"
+hash = "f7cd725fbf02951030a91e365087a20e55052acc03cb12b3cfa8f8a1682b9be8"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0408_cranidos.json"
@@ -332,6 +364,10 @@ hash = "3d7ffe762c8b816b7240f0c2075e5fe7ca18e34fcc24a1d818317e4cfe99c28c"
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0433_chingling.json"
 hash = "130e3dcb95b128fb27a2543cbdea4c4aa26cd80484405e755b6e69484a403903"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0440_happiny.json"
+hash = "db1926b8e9a5e9fa89baef5ddcc6920d54958e8f975941ab844f25fd33cde508"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0442_spiritomb.json"
@@ -614,6 +650,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/011
 hash = "9a1f4c45b04a6dc2342894cecdd44c3aa736339958d31961e5505918bdc1d616"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0113_chansey_herd.json"
+hash = "aa475833f59b5eb226c3358ba6dab661fd8e60624d3a76c9ccff8151faa502f7"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0133_eeveelution_alpha.json"
 hash = "3b502b36cc8823d1d1da9d6319e7cfa35f84507bd024480072970b6f89b755cb"
 
@@ -638,12 +678,24 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/016
 hash = "fa00b42316749dd0bf137d374a4271ea6d3a0c7e527ff3e756a1d780f4c2609b"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0242_blissey_alpha.json"
+hash = "127326fe42f95deb0f2d77bbc230e2fa31aec2c7e12169e0a8ddbfe0e7cc7e93"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0280_ralts_herd.json"
 hash = "bc3170139f31c5e7aa8b36c07cbb43f9d152ca9c3866bec47871ffa4fcd7fd06"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0282_gardevoir_0475_gallade_alpha.json"
 hash = "962d29c5615ed258376901f4547ba8adb177b281c88365804d97ce9bd57e18df"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0333_swablu_herd.json"
+hash = "1a926cf34f54f1088218d7683db46c28fc36b0ca30a016b655242b921310f4a9"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0334_altaria_alpha.json"
+hash = "3879a5c8fb8b356be6d5d2fb8a264c2881301aa579ed726618448f24ee3d8860"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0358_chimecho_alpha.json"
@@ -664,6 +716,10 @@ hash = "bd0f1c81157ed2a05fa956d6e3b4198fb051a73e4dda4559b5cd16384deab44a"
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0369_relicanth_herd.json"
 hash = "116018fc2bf379bfea17c974c5637150e9a7f0d180c559f6df90b420dc63110f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0373_salamence_alpha.json"
+hash = "7e665478d7ea2cad3ccc53b30dccd96fd0fc972e59d103c5afc453fb58b39748"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0425_drifloon_herd.json"
@@ -1527,6 +1583,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "fe84e2227c405bf9b735f01f307a01768784b9d49df82a13ecda3d3b6d198507"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-distortion-world.pw.toml"
+hash = "fe662efbb33a0ecd8a0c7097e8e695305f151f3f233f87597764bb822e8a6381"
 metafile = true
 
 [[files]]

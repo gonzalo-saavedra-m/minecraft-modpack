@@ -126,6 +126,12 @@ OTHERSIDE_EXCLUSIVE = {e[0] for b, v in BIOMES.items() if b.startswith(DD) for e
 EXCLUSIVE = {'voltorb', 'electrode', 'grimer', 'muk', 'grimer alolan', 'muk alolan', 'koffing', 'weezing',
              'trubbish', 'garbodor', 'spiritomb', 'woobat', 'swoobat', 'milcery', 'alcremie', 'swirlix',
              'slurpuff', 'relicanth'} | OTHERSIDE_EXCLUSIVE
+# Exclusivos del Aether (decidido el 08-oct): conservan solo sus spawns del Aether (y estructuras)
+AETHER_EXCLUSIVE = {'bagon', 'shelgon', 'salamence', 'castform', 'swablu', 'altaria', 'happiny', 'chansey', 'blissey'}
+EXCLUSIVE |= AETHER_EXCLUSIVE
+# Zonas especiales difíciles de encontrar: ahí los exclusivos conservan sus spawns (como el Nether)
+SPECIAL_ZONES = ('#cobblemon:nether/', 'clumpedindistortionworld:')
+
 # Tags genéricos por los que se cuelan especies ajenas: solo nacen ahí las de la lista del bioma
 CLEAN = {'#cobblemon:is_magical': AC + 'candy_cavity', '#cobblemon:is_spooky': AC + 'forlorn_hollows'}
 PRIMORDIAL = AC + 'primordial_caves'
@@ -140,6 +146,9 @@ def bump(level):
 
 cobblemon = zipfile.ZipFile(next((SERVER / 'mods').glob('Cobblemon-fabric-*.jar')))
 atm = zipfile.ZipFile(next((SERVER / 'config/openloader/packs').glob('ATM x MSD*.zip')))
+# Todos los que traen spawns (Mega Showdown, Distortion World…), para que ninguna exclusividad se escape
+sources = [zipfile.ZipFile(j) for j in sorted((SERVER / 'mods').glob('*.jar'))
+           if any('/spawn_pool_world/' in n for n in zipfile.ZipFile(j).namelist())] + [atm]
 
 def key(pokemon):
     """'grimer alolan level=5' -> 'grimer alolan'. Un region_bias la vuelve otra variante (no coincide)."""
@@ -165,16 +174,19 @@ levels = {}  # niveles de Cobblemon por especie, para las entradas sin nivel pro
 
 # Presets que apuntan a estructuras (ancient_city, ocean_ruins…): sus entradas son de estructura
 structure_presets = set()
-for z in (cobblemon, atm):
+for z in sources:
     for n in z.namelist():
         if '/spawn_detail_presets/' in n and n.endswith('.json'):
             if (json.loads(z.read(n)).get('condition') or {}).get('structures'):
                 structure_presets.add(Path(n).stem)
 
-def keep_exclusive(spawn):
+def keep_exclusive(spawn, ks):
     c, presets = spawn.get('condition') or {}, set(spawn.get('presets', []))
+    biomes = [str(b) for b in c.get('biomes', [])]
+    if any(k in AETHER_EXCLUSIVE for k in ks):
+        return any('aether' in b for b in biomes) or bool(c.get('structures'))
     return bool(c.get('structures')) or bool(presets & (structure_presets | {'urban'})) or \
-        any(str(b).startswith('#cobblemon:nether/') for b in c.get('biomes', []))
+        any(b.startswith(SPECIAL_ZONES) for b in biomes)
 
 # Limpia lo generado antes (por si una especie dejó de estar en la config)
 for d in ('data/cobblemon/spawn_pool_world', 'data/special_spawns', 'data/mipack/spawn_pool_world/alexscaves',
@@ -187,7 +199,7 @@ def write(rel, data):
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
 
 written = 0
-for z in (cobblemon, atm):
+for z in sources:
     for n in z.namelist():
         if '/spawn_pool_world/' not in n or not n.endswith('.json'):
             continue
@@ -207,9 +219,12 @@ for z in (cobblemon, atm):
                 c['biomes'], s['bucket'], changed = [PRIMORDIAL], PRIMORDIAL_BUCKET[kind], True
                 if 'level' in s:
                     s['level'] = bump(s['level'])
-            elif any(k in EXCLUSIVE for k in ks) and not keep_exclusive(s):
+            elif any(k in EXCLUSIVE for k in ks) and not keep_exclusive(s, ks):
                 changed = True
                 continue  # entrada genérica de una especie exclusiva: fuera
+            elif any(k in AETHER_EXCLUSIVE for k in ks) and any('aether' in str(b) for b in c.get('biomes', [])):
+                c['biomes'] = [b for b in c['biomes'] if 'aether' in str(b)]  # lista mixta: solo lo del Aether
+                changed = True
             else:
                 anti = set()
                 if not c.get('biomes'):

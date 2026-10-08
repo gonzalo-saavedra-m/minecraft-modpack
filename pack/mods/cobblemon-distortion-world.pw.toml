@@ -1,0 +1,13 @@
+name = "Cobblemon Distortion World"
+filename = "clumpedindistortionworld-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Su5oRlVu/versions/Qdb360Ne/clumpedindistortionworld-1.0.3.jar"
+hash-format = "sha512"
+hash = "f7a65b7053eb81361cf0ea372e42bc8fe314d0b1729befa2ed9270685f8016650f71a6e21d0d8821a3fd252d2dae5cadc4bdff56a0e7bfaaa134a0ebece46195"
+
+[update]
+[update.modrinth]
+mod-id = "Su5oRlVu"
+version = "Qdb360Ne"
