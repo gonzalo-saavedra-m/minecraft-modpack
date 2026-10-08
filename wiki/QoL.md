@@ -61,3 +61,6 @@ y hay versiones con habilidades especiales. Atajos: abrir la mochila, alternar t
 | [Dynamic Crosshair](https://modrinth.com/mod/dynamiccrosshair) | Mira que cambia según lo que apuntas |
 | [Better Ping Display](https://modrinth.com/mod/better-ping-display-fabric) | Ping en números en la lista de jugadores |
 | [Tips](https://modrinth.com/mod/tips) | Consejos en las pantallas de carga |
+| [Show My Maps](https://modrinth.com/mod/show-my-maps) | Ver qué muestra un mapa en su ícono, sin tenerlo en la mano |
+| [KeyVision](https://modrinth.com/mod/keyvision) | Teclado visual en Controles: qué tecla hace qué, conflictos, reasignar tocando la tecla |
+| [AFK Cinematics](https://modrinth.com/mod/afk-cinematics) | Si quedas AFK, la cámara hace tomas cinematográficas |

@@ -2387,6 +2387,11 @@ hash = "e71c04679ff75573cd8ef1003eb167830f794b8979f2bdd3c99d28793f2918b0"
 metafile = true
 
 [[files]]
+file = "mods/afk-cinematics.pw.toml"
+hash = "16ce60801c6b55f586bd35b8885fc336fbdf88fc7a160893e2f5b5620736822a"
+metafile = true
+
+[[files]]
 file = "mods/alexs-caves-refabricated.pw.toml"
 hash = "b6b1a442fd264f2322985aaa6ba0eda747d03a7bcb700c434d95c271293a1a86"
 metafile = true
@@ -2737,6 +2742,11 @@ hash = "6cf5f9343bc771e5edc9b4852e0f4a7e453d87f3a38f7e3b2b3628bd6ca33591"
 metafile = true
 
 [[files]]
+file = "mods/keyvision.pw.toml"
+hash = "f920e3828ddd4eeca39ebf0c1f60d96b899165fb597432f125f3c1d35f0b7b67"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "c4e45594c8d1ab3dacc3b49142f16fb253178dd31d97cc917bf4a4d54f21e081"
 metafile = true
@@ -2903,6 +2913,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "9c30553415e8f35e17cbfc760cd125a7dc603a611f261a153b52ef65138cb519"
+metafile = true
+
+[[files]]
+file = "mods/show-my-maps.pw.toml"
+hash = "d11cc892d22100fc8ebe2f87f3c7ddb3eb0bea7c4a19ad551de7d87491e73fdf"
 metafile = true
 
 [[files]]

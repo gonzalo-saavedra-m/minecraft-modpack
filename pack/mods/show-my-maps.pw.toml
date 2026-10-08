@@ -1,0 +1,13 @@
+name = "Show My Maps"
+filename = "SHOW_MY_MAPS-1.1.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ANHah0JE/versions/k79HCr2P/SHOW_MY_MAPS-1.1.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "f017eaa56d59be6a33313e709669c66e951aa11721e0c78df68296177cf4dff3d7002a78051700b2d20b9852e545e34ffac724566f3a30692db4db11323bc3b3"
+
+[update]
+[update.modrinth]
+mod-id = "ANHah0JE"
+version = "k79HCr2P"

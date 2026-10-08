@@ -1,0 +1,13 @@
+name = "KeyVision"
+filename = "castmod-fabric-1.21.1-0.5.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OirRngPn/versions/tcLA8e5R/castmod-fabric-1.21.1-0.5.0.jar"
+hash-format = "sha512"
+hash = "acf9b7664a14ca5683bc843389aeea29b63b31ac0bec48cb5f3277fefb24b9ad954ee887b0874006709880b5df8bded401aec3fce7b25f4667457889618fde55"
+
+[update]
+[update.modrinth]
+mod-id = "OirRngPn"
+version = "tcLA8e5R"
