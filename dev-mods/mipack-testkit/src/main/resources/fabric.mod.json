@@ -1,0 +1,11 @@
+{
+	"schemaVersion": 1,
+	"id": "mipacktestkit",
+	"version": "${version}",
+	"name": "mipack testkit",
+	"description": "SOLO PARA PRUEBAS, no va en el pack. Comandos /mrtest para armar batallas con jugadores falsos (Carpet).",
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": { "main": ["mipacktestkit.MipackTestkit"] },
+	"depends": { "minecraft": "1.21.1", "cobblemon": ">=1.8.1", "fabric-api": "*" }
+}

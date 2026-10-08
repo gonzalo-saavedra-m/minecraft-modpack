@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "betterwitchhuts:witch_hut",
+          "betterwitchhuts:witch_circle"
+        ]
+      },
+      "id": "liepard-8-yung",
+      "level": "20-45",
+      "pokemon": "liepard",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 60.0,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    }
+  ]
+}

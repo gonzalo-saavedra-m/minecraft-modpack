@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "betterwitchhuts:witch_hut",
+          "betterwitchhuts:witch_circle"
+        ]
+      },
+      "id": "purrloin-8-yung",
+      "level": "3-28",
+      "pokemon": "purrloin",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 540.0,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    }
+  ]
+}

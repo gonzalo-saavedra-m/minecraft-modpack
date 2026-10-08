@@ -1,0 +1,12 @@
+{
+  "condition": {
+    "minY": 62,
+    "structures": [
+      "minecraft:pillager_outpost",
+      "minecraft:swamp_hut",
+      "minecraft:mansion",
+      "betterwitchhuts:witch_hut",
+      "betterwitchhuts:witch_circle"
+    ]
+  }
+}

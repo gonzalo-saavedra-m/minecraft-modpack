@@ -1,0 +1,13 @@
+name = "mipack"
+author = "gonzalo"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b307ef00740b5950ec247da3baa018bb705f6c03a0c6561573a2d1d5802fab3d"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.21.1"

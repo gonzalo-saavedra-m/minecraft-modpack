@@ -1,0 +1,17 @@
+# Servidores y mundos: se regeneran con ops/sync.sh y tools/test-server.sh
+server/
+test-server/
+# Respaldo local de lo que se sacó del pack oficial
+attic/
+# Mods propios con repo aparte
+dev-mods/minecraft-rpg/
+dev-mods/minecraft-utility-mods/
+# Gradle
+build/
+.gradle/
+dev-mods/*/libs/
+dev-mods/*/run/
+# Varios
+.DS_Store
+__pycache__/
+pokedex.csv

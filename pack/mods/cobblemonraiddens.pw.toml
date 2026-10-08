@@ -1,0 +1,13 @@
+name = "Cobblemon Raid Dens"
+filename = "cobblemonraiddens-fabric-0.13.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GebWh45l/versions/aFuImAaR/cobblemonraiddens-fabric-0.13.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "b476789f6738c7ccf7485935f70e43c3973dd5084b20793a1806fa3206d5b57855ba306e36c758fcf6ccff509bc49c85828b39b587f94eded97cb2341a705ba8"
+
+[update]
+[update.modrinth]
+mod-id = "GebWh45l"
+version = "aFuImAaR"

@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "betterwitchhuts:witch_hut",
+          "betterwitchhuts:witch_circle"
+        ]
+      },
+      "id": "hattrem-2-yung",
+      "level": "32-37",
+      "pokemon": "hattrem",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.9,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}

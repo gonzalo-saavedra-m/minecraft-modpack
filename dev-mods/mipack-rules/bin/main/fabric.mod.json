@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "mipackrules",
+	"version": "${version}",
+	"name": "mipack rules",
+	"description": "Reglas del server: sin spawners, sin mobs de Minecraft (salvo aldeanos; las abejas pasan a ser Combee), sin dragón del End y quedarte sin Pokémon en batalla te mata. En el cliente, recarga los shaders de Iris cuando caen los FPS o la VRAM libre.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["mipackrules.MipackRules"],
+		"client": ["mipackrules.IrisAutoReload"]
+	},
+	"mixins": ["mipackrules.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.16",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"cobblemon": ">=1.8.1"
+	}
+}

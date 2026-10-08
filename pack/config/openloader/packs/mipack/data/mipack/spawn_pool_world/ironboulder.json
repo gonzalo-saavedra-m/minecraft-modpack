@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ironboulder-1T",
+      "pokemon": "ironboulder min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "60-80",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

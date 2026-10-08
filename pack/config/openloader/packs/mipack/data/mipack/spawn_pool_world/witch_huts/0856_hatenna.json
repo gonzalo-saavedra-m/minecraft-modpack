@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "betterwitchhuts:witch_hut",
+          "betterwitchhuts:witch_circle"
+        ]
+      },
+      "id": "hatenna-2-yung",
+      "level": "2-27",
+      "pokemon": "hatenna",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 9.0,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}
