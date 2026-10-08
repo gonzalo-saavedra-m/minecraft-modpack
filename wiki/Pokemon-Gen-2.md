@@ -108,5 +108,5 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0247 | <a id="pupitar"></a>Pupitar **Exclusivo** | [Montañas](Zonas.md#montañas)<br>[Montañas](Zonas.md#montañas) (bajo tierra) | raro, ultra raro | 30–54 |
 | 0248 | <a id="tyranitar"></a>Tyranitar **Exclusivo** | [Montañas](Zonas.md#montañas)<br>[Montañas](Zonas.md#montañas) (bajo tierra) | raro, ultra raro | 55–60 |
 | 0249 | <a id="lugia"></a>Lugia **Exclusivo** | [Océano](Zonas.md#océano) — en [Monumento oceánico](Estructuras.md#monumento-oceánico) (en el agua) | ultra raro | 70–70 |
-| 0250 | <a id="hooh"></a>Ho-Oh | [Floral](Zonas.md#floral)<br>[Llanuras](Zonas.md#llanuras) | ultra raro | 70–70 |
+| 0250 | <a id="hooh"></a>Ho-Oh | [Aether](Zonas.md#aether) (de día)<br>[Floral](Zonas.md#floral)<br>[Llanuras](Zonas.md#llanuras) | ultra raro | 70–70 |
 | 0251 | <a id="celebi"></a>Celebi **Exclusivo** | [Bosques](Zonas.md#bosques) (de noche) | ultra raro | 60–60 |

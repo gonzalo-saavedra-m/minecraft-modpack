@@ -157,11 +157,11 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0638 | <a id="cobalion"></a>Cobalion **Exclusivo** | [Bosques](Zonas.md#bosques) | ultra raro | 60–60 |
 | 0639 | <a id="terrakion"></a>Terrakion **Exclusivo** | [Bosques](Zonas.md#bosques) | ultra raro | 60–60 |
 | 0640 | <a id="virizion"></a>Virizion **Exclusivo** | [Bosques](Zonas.md#bosques) | ultra raro | 60–60 |
-| 0641 | <a id="tornadus"></a>Tornadus **Exclusivo** | [Llanuras](Zonas.md#llanuras) | ultra raro | 50–70 |
-| 0642 | <a id="thundurus"></a>Thundurus **Exclusivo** | [Llanuras](Zonas.md#llanuras) | ultra raro | 50–70 |
+| 0641 | <a id="tornadus"></a>Tornadus | [Aether](Zonas.md#aether)<br>[Llanuras](Zonas.md#llanuras) | ultra raro | 50–70 |
+| 0642 | <a id="thundurus"></a>Thundurus | [Aether](Zonas.md#aether)<br>[Llanuras](Zonas.md#llanuras) | ultra raro | 50–70 |
 | 0643 | <a id="reshiram"></a>Reshiram **Exclusivo** | [Nether: basalto](Zonas.md#nether-basalto) | ultra raro | 70–70 |
 | 0644 | <a id="zekrom"></a>Zekrom **Exclusivo** | [Montañas](Zonas.md#montañas) | ultra raro | 70–70 |
-| 0645 | <a id="landorus"></a>Landorus **Exclusivo** | [Sabana](Zonas.md#sabana) | ultra raro | 50–70 |
+| 0645 | <a id="landorus"></a>Landorus | [Aether](Zonas.md#aether)<br>[Sabana](Zonas.md#sabana) | ultra raro | 50–70 |
 | 0646 | <a id="kyurem"></a>Kyurem **Exclusivo** | [Glaciar](Zonas.md#glaciar) | ultra raro | 70–70 |
 | 0647 | <a id="keldeo"></a>Keldeo **Exclusivo** | [Pantano](Zonas.md#pantano) | ultra raro | 60–60 |
 | 0648 | <a id="meloetta"></a>Meloetta **Exclusivo** | [Floral](Zonas.md#floral) | ultra raro | 50–50 |
