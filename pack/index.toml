@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alexscaves_biome_generation/candy_cavity.json"
+hash = "1eb75371ee8f59e4b2fdfced11d772b19db7a7d1babed093c7089ffdc0bb5438"
+
+[[files]]
+file = "config/alexscaves_biome_generation/forlorn_hollows.json"
+hash = "49d3b7c2e0ab4efd8992df6914b20633a0cb48280763776f32c93bc7fc217c41"
+
+[[files]]
+file = "config/alexscaves_biome_generation/magnetic_caves.json"
+hash = "63c3cb72671c05a8e8af4ede3317295997e595abba6eac053c8183bcb73cb67f"
+
+[[files]]
+file = "config/alexscaves_biome_generation/toxic_caves.json"
+hash = "db16d8a0895f5412b27baff3a474b8aa4eb86809f9ef397ec80f2e890300fe19"
+
+[[files]]
 file = "config/betterdeserttemples-fabric-1_21.toml"
 hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
@@ -612,8 +628,8 @@ hash = "d80fb6fb00e0807a2f38319cbfa32ee526d2da8c164e88dfb3eea3e4e97de70c"
 metafile = true
 
 [[files]]
-file = "mods/almanac.pw.toml"
-hash = "50f65b35629e21361de165adcbfe0f14f1fd37d23916a899236078a60d85fff6"
+file = "mods/alexs-caves-refabricated.pw.toml"
+hash = "b6b1a442fd264f2322985aaa6ba0eda747d03a7bcb700c434d95c271293a1a86"
 metafile = true
 
 [[files]]
@@ -829,11 +845,6 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "9125501fc8cb9b72e3ef08310dc9e172031c0d37ca76e4c2fb948939d8a8c23b"
-metafile = true
-
-[[files]]
-file = "mods/lmd.pw.toml"
-hash = "74733d8709f17c00e121a130e4ce2fb1d789942ed32a1da103e6247597545764"
 metafile = true
 
 [[files]]
