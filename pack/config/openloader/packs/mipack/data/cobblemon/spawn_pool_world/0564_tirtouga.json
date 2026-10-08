@@ -13,7 +13,7 @@
         "minSkyLight": 0
       },
       "id": "tirtouga-1",
-      "level": "15-40",
+      "level": "25-50",
       "pokemon": "tirtouga",
       "presets": [
         "natural"
@@ -32,7 +32,7 @@
         "minSkyLight": 0
       },
       "id": "tirtouga-2",
-      "level": "15-40",
+      "level": "25-50",
       "pokemon": "tirtouga",
       "presets": [
         "water"

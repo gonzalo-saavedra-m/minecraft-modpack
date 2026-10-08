@@ -1,0 +1,44 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "5-24",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "milcery",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "24-46",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "pokemon": "alcremie",
+          "weight": 10.0
+        }
+      ],
+      "id": "milcery-herd-4",
+      "levelRange": "2-50",
+      "maxHerdSize": 4,
+      "presets": [
+        "mansion_dining"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 4.0
+    }
+  ]
+}

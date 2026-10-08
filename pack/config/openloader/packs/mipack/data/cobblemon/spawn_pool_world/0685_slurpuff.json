@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "id": "slurpuff-4",
+      "level": "29-48",
+      "pokemon": "slurpuff",
+      "presets": [
+        "mansion_dining"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 1.5,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}

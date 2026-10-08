@@ -1,0 +1,525 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-magnetic_caves-magnemite",
+      "pokemon": "magnemite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-magneton",
+      "pokemon": "magneton",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-57",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-magnezone",
+      "pokemon": "magnezone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "52-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-nosepass",
+      "pokemon": "nosepass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "23-48",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-probopass",
+      "pokemon": "probopass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "43-63",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-klink",
+      "pokemon": "klink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-klang",
+      "pokemon": "klang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "48-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-klinklang",
+      "pokemon": "klinklang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "59-62",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-bronzor",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-bronzong",
+      "pokemon": "bronzong",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "43-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-beldum",
+      "pokemon": "beldum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-metang",
+      "pokemon": "metang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-geodude-alolan",
+      "pokemon": "geodude alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-graveler-alolan",
+      "pokemon": "graveler alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-49",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-golem-alolan",
+      "pokemon": "golem alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "44-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-tynamo",
+      "pokemon": "tynamo",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-eelektrik",
+      "pokemon": "eelektrik",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "49-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-eelektross",
+      "pokemon": "eelektross",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "49-62",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-joltik",
+      "pokemon": "joltik",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "17-42",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-galvantula",
+      "pokemon": "galvantula",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "46-57",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-ferroseed",
+      "pokemon": "ferroseed",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-41",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-ferrothorn",
+      "pokemon": "ferrothorn",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "50-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-aron",
+      "pokemon": "aron",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-lairon",
+      "pokemon": "lairon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-aggron",
+      "pokemon": "aggron",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "52-63",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-voltorb",
+      "pokemon": "voltorb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-electrode",
+      "pokemon": "electrode",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-elekid",
+      "pokemon": "elekid",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-46",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-electabuzz",
+      "pokemon": "electabuzz",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-electivire",
+      "pokemon": "electivire",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-grubbin",
+      "pokemon": "grubbin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-charjabug",
+      "pokemon": "charjabug",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-vikavolt",
+      "pokemon": "vikavolt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "50-70",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-togedemaru",
+      "pokemon": "togedemaru",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-durant",
+      "pokemon": "durant",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-58",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-duraludon",
+      "pokemon": "duraludon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "37-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-magnetic_caves-archaludon",
+      "pokemon": "archaludon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "45-70",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ]
+      }
+    }
+  ]
+}

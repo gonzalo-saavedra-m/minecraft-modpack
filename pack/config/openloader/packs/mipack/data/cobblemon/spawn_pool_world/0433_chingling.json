@@ -1,0 +1,78 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "chingling-1",
+      "level": "4-29",
+      "pokemon": "chingling",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 2.6,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "chingling-2",
+      "level": "4-29",
+      "pokemon": "chingling",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 7.8,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:bell"
+        ],
+        "timeRange": "night"
+      },
+      "id": "chingling-3",
+      "level": "4-29",
+      "pokemon": "chingling",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 130.0
+    }
+  ]
+}

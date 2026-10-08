@@ -13,7 +13,7 @@
         "minSkyLight": 0
       },
       "id": "carracosta-1",
-      "level": "37-50",
+      "level": "47-60",
       "pokemon": "carracosta",
       "presets": [
         "natural"
@@ -32,7 +32,7 @@
         "minSkyLight": 0
       },
       "id": "carracosta-2",
-      "level": "37-50",
+      "level": "47-60",
       "pokemon": "carracosta",
       "presets": [
         "water"

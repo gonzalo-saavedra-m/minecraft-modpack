@@ -1,0 +1,518 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-forlorn_hollows-gastly",
+      "pokemon": "gastly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-haunter",
+      "pokemon": "haunter",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-gengar",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "46-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-spiritomb",
+      "pokemon": "spiritomb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-mimikyu",
+      "pokemon": "mimikyu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "33-58",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-zorua",
+      "pokemon": "zorua",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-zoroark",
+      "pokemon": "zoroark",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-61",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-zorua-hisuian",
+      "pokemon": "zorua hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-zoroark-hisuian",
+      "pokemon": "zoroark hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-61",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-noibat",
+      "pokemon": "noibat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-noivern",
+      "pokemon": "noivern",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "58-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-zubat",
+      "pokemon": "zubat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-golbat",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-crobat",
+      "pokemon": "crobat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "51-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-woobat",
+      "pokemon": "woobat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "17-42",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-swoobat",
+      "pokemon": "swoobat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "47-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-dusknoir",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "51-63",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-shuppet",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "47-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-misdreavus",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-mismagius",
+      "pokemon": "mismagius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "49-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-litwick",
+      "pokemon": "litwick",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-lampent",
+      "pokemon": "lampent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "51-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-chandelure",
+      "pokemon": "chandelure",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "51-62",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-venonat",
+      "pokemon": "venonat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-venomoth",
+      "pokemon": "venomoth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "41-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-cascoon",
+      "pokemon": "cascoon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-49",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-dustox",
+      "pokemon": "dustox",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-49",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-mothim",
+      "pokemon": "mothim",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-morelull",
+      "pokemon": "morelull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "14-39",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-shiinotic",
+      "pokemon": "shiinotic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-murkrow",
+      "pokemon": "murkrow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "mipack-forlorn_hollows-honchkrow",
+      "pokemon": "honchkrow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "46-61",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    }
+  ]
+}

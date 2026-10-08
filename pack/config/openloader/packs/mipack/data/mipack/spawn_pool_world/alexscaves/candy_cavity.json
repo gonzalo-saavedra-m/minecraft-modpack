@@ -1,0 +1,567 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-candy_cavity-swirlix",
+      "pokemon": "swirlix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-slurpuff",
+      "pokemon": "slurpuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "39-58",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-milcery",
+      "pokemon": "milcery",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-alcremie",
+      "pokemon": "alcremie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-spritzee",
+      "pokemon": "spritzee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "19-44",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-aromatisse",
+      "pokemon": "aromatisse",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-snubbull",
+      "pokemon": "snubbull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-granbull",
+      "pokemon": "granbull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "33-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-cleffa",
+      "pokemon": "cleffa",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-clefairy",
+      "pokemon": "clefairy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "27-42",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-clefable",
+      "pokemon": "clefable",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "37-58",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-togepi",
+      "pokemon": "togepi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-togetic",
+      "pokemon": "togetic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-togekiss",
+      "pokemon": "togekiss",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "46-65",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-igglybuff",
+      "pokemon": "igglybuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-31",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-jigglypuff",
+      "pokemon": "jigglypuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-37",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-wigglytuff",
+      "pokemon": "wigglytuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "32-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-applin",
+      "pokemon": "applin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-36",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-flapple",
+      "pokemon": "flapple",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "31-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-appletun",
+      "pokemon": "appletun",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "31-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-dipplin",
+      "pokemon": "dipplin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-hydrapple",
+      "pokemon": "hydrapple",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "39-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-fidough",
+      "pokemon": "fidough",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-dachsbun",
+      "pokemon": "dachsbun",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-58",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-vanillite",
+      "pokemon": "vanillite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-41",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-vanillish",
+      "pokemon": "vanillish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-vanilluxe",
+      "pokemon": "vanilluxe",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "57-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-bounsweet",
+      "pokemon": "bounsweet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-31",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-steenee",
+      "pokemon": "steenee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "28-39",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-tsareena",
+      "pokemon": "tsareena",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "38-61",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-teddiursa",
+      "pokemon": "teddiursa",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-ursaring",
+      "pokemon": "ursaring",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-combee",
+      "pokemon": "combee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-vespiquen",
+      "pokemon": "vespiquen",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-cutiefly",
+      "pokemon": "cutiefly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-ribombee",
+      "pokemon": "ribombee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-lickitung",
+      "pokemon": "lickitung",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-49",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-lickilicky",
+      "pokemon": "lickilicky",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "44-62",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-skwovet",
+      "pokemon": "skwovet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "id": "mipack-candy_cavity-greedent",
+      "pokemon": "greedent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "34-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    }
+  ]
+}

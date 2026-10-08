@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "id": "swirlix-4",
+      "level": "9-34",
+      "pokemon": "swirlix",
+      "presets": [
+        "mansion_dining"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 28.5,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}

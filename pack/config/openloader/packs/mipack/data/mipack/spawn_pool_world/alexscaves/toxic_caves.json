@@ -1,0 +1,371 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-toxic_caves-grimer",
+      "pokemon": "grimer",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-muk",
+      "pokemon": "muk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "48-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-grimer-alolan",
+      "pokemon": "grimer alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-muk-alolan",
+      "pokemon": "muk alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "48-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-koffing",
+      "pokemon": "koffing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-weezing",
+      "pokemon": "weezing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-trubbish",
+      "pokemon": "trubbish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-garbodor",
+      "pokemon": "garbodor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "46-57",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-gulpin",
+      "pokemon": "gulpin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-37",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-swalot",
+      "pokemon": "swalot",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-skrelp",
+      "pokemon": "skrelp",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "17-42",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-dragalge",
+      "pokemon": "dragalge",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "58-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-stunky",
+      "pokemon": "stunky",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-43",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-skuntank",
+      "pokemon": "skuntank",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "44-58",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-croagunk",
+      "pokemon": "croagunk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-toxicroak",
+      "pokemon": "toxicroak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "47-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-toxel",
+      "pokemon": "toxel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-toxtricity",
+      "pokemon": "toxtricity",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-salandit",
+      "pokemon": "salandit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "17-42",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-salazzle",
+      "pokemon": "salazzle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-glimmet",
+      "pokemon": "glimmet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-glimmora",
+      "pokemon": "glimmora",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-63",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-varoom",
+      "pokemon": "varoom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-revavroom",
+      "pokemon": "revavroom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-wooper-paldean",
+      "pokemon": "wooper paldean",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-31",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-toxic_caves-clodsire",
+      "pokemon": "clodsire",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ]
+      }
+    }
+  ]
+}

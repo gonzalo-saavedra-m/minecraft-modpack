@@ -1,0 +1,97 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_volcanic",
+          "alexscaves:forlorn_hollows"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "chimecho-1",
+      "level": "24-46",
+      "pokemon": "chimecho",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 7.4,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "id": "chimecho-2",
+      "level": "24-46",
+      "pokemon": "chimecho",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 22.2,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:bell"
+        ],
+        "timeRange": "night"
+      },
+      "id": "chimecho-3",
+      "level": "24-46",
+      "pokemon": "chimecho",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 370.0,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}

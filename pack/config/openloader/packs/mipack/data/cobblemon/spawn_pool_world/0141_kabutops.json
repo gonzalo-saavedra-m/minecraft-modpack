@@ -13,7 +13,7 @@
         "minSkyLight": 0
       },
       "id": "kabutops-1",
-      "level": "40-50",
+      "level": "50-60",
       "pokemon": "kabutops",
       "presets": [
         "natural"
@@ -32,7 +32,7 @@
         "minSkyLight": 0
       },
       "id": "kabutops-2",
-      "level": "40-50",
+      "level": "50-60",
       "pokemon": "kabutops",
       "presets": [
         "water"

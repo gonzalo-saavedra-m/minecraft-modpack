@@ -1,0 +1,102 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "27-46",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "relicanth",
+          "weight": 80.0
+        }
+      ],
+      "id": "relicanth-herd-2",
+      "levelRange": "24-49",
+      "maxHerdSize": 6,
+      "presets": [
+        "water",
+        "ocean_ruins"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon-herd",
+      "weight": 1000.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "27-46",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "relicanth",
+          "weight": 80.0
+        }
+      ],
+      "id": "relicanth-herd-4",
+      "levelRange": "24-49",
+      "maxHerdSize": 6,
+      "presets": [
+        "water",
+        "ocean_ruins"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon-herd",
+      "weight": 1000.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "27-46",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "relicanth",
+          "weight": 80.0
+        }
+      ],
+      "id": "relicanth-herd-5",
+      "levelRange": "24-49",
+      "maxHerdSize": 6,
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "type": "pokemon-herd",
+      "weight": 10.0
+    }
+  ]
+}

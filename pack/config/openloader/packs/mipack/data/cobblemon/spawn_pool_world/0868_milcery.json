@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "id": "milcery-4",
+      "level": "2-27",
+      "pokemon": "milcery",
+      "presets": [
+        "mansion_dining"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 15.2,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 1.25
+      }
+    }
+  ]
+}

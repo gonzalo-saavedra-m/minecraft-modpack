@@ -6,7 +6,8 @@
     {
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_freezing"
+          "#cobblemon:is_freezing",
+          "alexscaves:forlorn_hollows"
         ]
       },
       "bucket": "common",
