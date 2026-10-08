@@ -64,3 +64,14 @@ y hay versiones con habilidades especiales. Atajos: abrir la mochila, alternar t
 | [Show My Maps](https://modrinth.com/mod/show-my-maps) | Ver qué muestra un mapa en su ícono, sin tenerlo en la mano |
 | [KeyVision](https://modrinth.com/mod/keyvision) | Teclado visual en Controles: qué tecla hace qué, conflictos, reasignar tocando la tecla |
 | [AFK Cinematics](https://modrinth.com/mod/afk-cinematics) | Si quedas AFK, la cámara hace tomas cinematográficas |
+| [Catch Rate Display](https://modrinth.com/mod/catch-rate-display) | % de captura en vivo y comparación entre Poké Balls |
+| [More Cobblemon Tweaks](https://modrinth.com/mod/more-cobblemon-tweaks) | IVs y shiny en el tooltip de los huevos, IVs en el PC, autocompletar en la búsqueda del PC |
+| [Rider's Call](https://modrinth.com/mod/cobblemon-riders-call) | Una tecla llama a tu montura y te sube |
+| [Spawn Notification](https://modrinth.com/mod/cobblemon-spawn-notification) | Aviso en el chat cuando aparece un shiny o un legendario cerca |
+| [Move Inspector](https://modrinth.com/mod/cobblemon-move-inspector) | Detalle de cada movimiento en combate |
+| [PokéNav](https://modrinth.com/mod/cobblemon-pokenav) | Radar para buscar especies |
+| [Jade](https://modrinth.com/mod/jade) | Qué bloque o entidad estás mirando |
+| [Ping Wheel](https://modrinth.com/mod/ping-wheel) | Marcar lugares para los amigos |
+| [MapSyncer](https://modrinth.com/mod/mapsyncer-for-xaeroworldmap) | El mapa de Xaero se comparte: lo que explora cualquiera aparece en el mapa de todos |
+| [E19 Cobblemon Minimap Icons](https://modrinth.com/resourcepack/e19_cobblemon_minimap_icons) | Íconos de Pokémon en el minimapa (resource pack) |
+| [Default Options](https://modrinth.com/mod/default-options) | Opciones y teclas por defecto del pack |

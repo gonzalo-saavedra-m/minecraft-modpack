@@ -62,6 +62,12 @@ cmd "setblock 5 200 -2 minecraft:redstone_block" >/dev/null; sleep 10
 check "spawner invoca a Brock" "$(cmd 'execute if entity @e[type=rctmod:trainer,name="Leader Brock"]')" "Test passed"
 cmd "kill @e[type=rctmod:trainer]" >/dev/null; cmd "player mrtD kill" >/dev/null
 
+# 6b. Los Pokémon no se dañan fuera de combate; /kill sí los saca
+cmd "spawnpokemonat 2 200 -1 rattata level=10" >/dev/null; sleep 1
+cmd "damage @e[type=cobblemon:pokemon,limit=1,sort=nearest,x=2,y=200,z=-1] 50 minecraft:generic" >/dev/null; sleep 1
+check "Pokémon sin daño fuera de combate" "$(cmd 'execute if entity @e[type=cobblemon:pokemon,x=2,y=200,z=-1,distance=..3]')" "Test passed"
+check "/kill sí elimina Pokémon" "$(cmd 'kill @e[type=cobblemon:pokemon,x=2,y=200,z=-1,distance=..3]')" "Killed"
+
 # 7. Sin dormir: en vez de phantoms llegan Drowzee, Hypno, Munna, Musharna o Misdreavus. Como los phantoms: de noche,
 #    sobre el nivel del mar, cielo abierto y con una chance por intento cada 1-2 min (en fácil tarda unos minutos)
 cmd "fill 98 199 98 106 199 106 minecraft:stone" >/dev/null

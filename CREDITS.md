@@ -52,27 +52,33 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon - Exp. All](https://modrinth.com/project/cobblemon-exp.-all) | Axel-WF | MPL-2.0 |
 | [Cobblemon Battle Extras](https://modrinth.com/project/cobblemon-battle-extras) | Raguto | All-Rights-Reserved |
 | [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
+| [Cobblemon Catch Rate Display](https://modrinth.com/project/catch-rate-display) | Akkiruk | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
 | [Cobblemon EvoNotify](https://modrinth.com/project/cobblemon-evonotify) | Arimil | MIT |
 | [Cobblemon Info for REI / JEI / EMI](https://modrinth.com/project/cobbledex-rei-emi-jei) | Akkiruk | MIT |
 | [Cobblemon Mass Outbreaks](https://modrinth.com/project/cobblemon-mass-outbreaks) | Scouter567 | MIT |
+| [Cobblemon Move Inspector](https://modrinth.com/project/cobblemon-move-inspector) | Starlotte | MIT |
 | [Cobblemon Move Tutor](https://modrinth.com/project/cobblemon-move-tutor) | Adammatthiesen | MIT |
 | [Cobblemon Pasture Loot](https://modrinth.com/project/cobblemon-pasture-loot) | DrEmixam | AGPL-3.0-or-later |
 | [Cobblemon Pasture Loot Fix](https://modrinth.com/project/cobblemon-pasture-loot-fix) | kolius990 | AGPL-3.0-or-later |
 | [Cobblemon PC Plus](https://modrinth.com/project/cobblemon-pc-plus) | gingerbreadcat4 | All-Rights-Reserved |
 | [Cobblemon Pokemon Badges](https://modrinth.com/project/cobblemon-pokemon-badges) | Jamesssssssssssssss | All-Rights-Reserved |
+| [Cobblemon PokeNav](https://modrinth.com/project/cobblemon-pokenav) | gatekeep06, MeAlam1 | MPL-2.0 |
 | [Cobblemon Pokerus](https://modrinth.com/project/cobblemon-pokerus) | tmetcalfe89 | MIT |
 | [Cobblemon Raid Dens](https://modrinth.com/project/cobblemonraiddens) | necroso1 | MIT |
 | [Cobblemon Shiny Rarities](https://modrinth.com/project/cobblemon-shiny-rarities) | Casper003, thatrobin, narsmedia | MIT |
+| [Cobblemon Spawn Notification](https://modrinth.com/project/cobblemon-spawn-notification) | tmetcalfe89 | MIT |
 | [Cobblemon Tim Core](https://modrinth.com/project/cobblemon-tim-core) | tmetcalfe89 | MIT |
 | [Cobblemon True Pickup](https://modrinth.com/project/cobblemon-true-pickup) | zmoonmaru | MIT |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/cobblemonextrastructures) | Roi_Pasteque | All-Rights-Reserved |
 | [Cobblemon: Mega Showdown](https://modrinth.com/project/cobblemon-mega-showdown) | YajatKaul, HeyImBlue, sanji1, Treynami, Narenhate, Provismet, Lvnatic | MEGA-SHOWDOWN-LICENSE-v2.1 |
+| [Cobblemon: Rider's Call](https://modrinth.com/project/cobblemon-riders-call) | JoStar233 | All-Rights-Reserved |
 | [Cobblemon: Wild Loot](https://modrinth.com/project/cobblemon-wild-loot) | lucyazalea | AGPL-3.0-or-later |
 | [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT |
 | [Crafting Tweaks](https://modrinth.com/project/crafting-tweaks) | BlayTheNinth | All-Rights-Reserved |
 | [CraftPresence](https://modrinth.com/project/craftpresence) | CDAGaming | MIT |
 | [Deeper and Darker](https://modrinth.com/project/deeperdarker) | ang-xd, nitrodynamite18, Pedro270707, NewJumper | AGPL-3.0-only |
+| [Default Options](https://modrinth.com/project/default-options) | BlayTheNinth | All-Rights-Reserved |
 | [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/project/dungeons-and-taverns-ancient-city-overhaul) | MiziraGamez, NovaWostra | All-Rights-Reserved |
 | [Dynamic Crosshair](https://modrinth.com/project/dynamiccrosshair) | Crendgrim | LGPL-3.0-only |
 | [EMI](https://modrinth.com/project/emi) | Emi, exaptations | MIT |
@@ -94,6 +100,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [InvMove](https://modrinth.com/project/invmove) | PieKing1215 | LGPL-3.0-only |
 | [InvMoveCompats](https://modrinth.com/project/invmovecompats) | PieKing1215 | LGPL-3.0-only |
 | [Iris Shaders](https://modrinth.com/project/iris) | IMS, coderbot | LGPL-3.0-only |
+| [Jade 🔍](https://modrinth.com/project/jade) | Snownee | CC-BY-NC-SA-4.0 |
 | [Just Enough Effect Descriptions (JEED)](https://modrinth.com/project/just-enough-effect-descriptions-jeed) | MehVahdJukaar | All-Rights-Reserved |
 | [Just Enough Items (JEI)](https://modrinth.com/project/jei) | mezz | MIT |
 | [KeyVision](https://modrinth.com/project/keyvision) | KriP1oH | MIT |
@@ -103,6 +110,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Lithium](https://modrinth.com/project/lithium) | jellysquid3, 2No2Name | LGPL-3.0-only |
 | [Lithostitched](https://modrinth.com/project/lithostitched) | Apollo | MIT |
 | [Make Bubbles Pop](https://modrinth.com/project/make_bubbles_pop) | Tschipcraft | Custom-License |
+| [MapSyncer-for-XaeroWorldmap](https://modrinth.com/project/mapsyncer-for-xaeroworldmap) | RuoChennn | LGPL-3.0-only |
 | [Matthiesen Core](https://modrinth.com/project/matthiesen-core) | Adammatthiesen | MIT |
 | [MES - Moog's End Structures](https://modrinth.com/project/mes-moogs-end-structures) | FinnDog_123, joshieman | LGPL-3.0-only |
 | [Mod Menu](https://modrinth.com/project/modmenu) | gniftygnome, Prospector, modmuss50 | MIT |
@@ -110,6 +118,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Monsters in the Closet](https://modrinth.com/project/monsters-in-the-closet) | Minenash | MIT |
 | [Moog's Structure Lib (moogs_structures)](https://modrinth.com/project/moogs-structure-lib) | FinnDog_123 | LGPL-3.0-only |
 | [More Radical Trainers: SV](https://modrinth.com/project/more-radical-trainers) | fyre520 | MIT |
+| [MoreCobblemonTweaks](https://modrinth.com/project/more-cobblemon-tweaks) | justahuman-xd | GPL-3.0-only |
 | [Navas ZA Megas](https://modrinth.com/project/navas-zamega) | natusue233, sishengruyu, GrenCobblemon, hugoarts, Sevonents, Radowkage, sanji1, YajatKaul, Narenhate | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [NetherPortalFix](https://modrinth.com/project/netherportalfix) | BlayTheNinth | All-Rights-Reserved |
 | [Not Enough Animations](https://modrinth.com/project/not-enough-animations) | tr7zw | tr7zw-Protective-License |
@@ -119,6 +128,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [oωo (owo-lib)](https://modrinth.com/project/owo-lib) | BasiqueEvangelist, chyzman, Blodhgarm, glisco | MIT |
 | [Particle Rain](https://modrinth.com/project/particle-rain) | PigCart | MIT |
 | [Particular ✨](https://modrinth.com/project/particular) | Chai | LGPL-3.0-only |
+| [Ping Wheel](https://modrinth.com/project/ping-wheel) | Luken, RXJpaw | MIT |
 | [Pokeblocks](https://modrinth.com/project/pokeblocks) | MrShawn, MelloMatt | CC-BY-NC-4.0 |
 | [Pokemon Fly Transitions](https://modrinth.com/project/pokemon-fly-transitions) | LevelsFR | All-Rights-Reserved |
 | [Presence Footsteps](https://modrinth.com/project/presence-footsteps) | Sollace | Polyform-Shield-1.0 |
@@ -171,6 +181,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 
 | Nombre | Autores | Licencia |
 |---|---|---|
+| [E19 - Cobblemon Minimap Icons](https://modrinth.com/project/e19_cobblemon_minimap_icons) | Emery319 | MPL-2.0 |
 | [Motschen's Better Leaves](https://modrinth.com/project/better-leaves) | Motschen | MIT |
 
 ### Shaders

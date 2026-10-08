@@ -14,7 +14,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.WeakHashMap;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.minecraft.tags.DamageTypeTags;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
@@ -85,6 +87,11 @@ public class MipackRules implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// Los Pokémon solo se dañan en combate (eso lo maneja Cobblemon por dentro, no como daño a la entidad): fuera
+		// de combate nada los lastima (caídas, lava, golpes, mobs). /kill y el vacío sí, para poder limpiar
+		ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) ->
+				!(entity instanceof PokemonEntity) || source.is(DamageTypeTags.BYPASSES_INVULNERABILITY));
+
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
 				for (ServerPlayer player : server.getPlayerList().getPlayers()) placeStructureWaystone(player);

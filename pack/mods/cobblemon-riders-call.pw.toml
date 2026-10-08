@@ -1,0 +1,13 @@
+name = "Cobblemon: Rider's Call"
+filename = "cobblemon-riders-call-fabric-1.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cQIJ55ax/versions/O5vus54N/cobblemon-riders-call-fabric-1.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "2c508d77a34f3fb7d6ceb92d73d21fa428d2fb89d4bcab4856542cba0222957d83085c92fcdcce37711f44378cdf7c7db48fd233557e02a31793f0a02d6f8b5c"
+
+[update]
+[update.modrinth]
+mod-id = "cQIJ55ax"
+version = "O5vus54N"

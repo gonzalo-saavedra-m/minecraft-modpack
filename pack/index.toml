@@ -2452,6 +2452,11 @@ hash = "0b3f5077664c6c6a37f2f8b511c7d5f69afad78c707803a9ace94b0fbddab1e1"
 metafile = true
 
 [[files]]
+file = "mods/catch-rate-display.pw.toml"
+hash = "aab58784abf7244373810eff5b06a8f870cbdc9c951fa6afaed0e2015291263f"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "14f64df0e72502d7f3a375eb92061c904dc68f8f415e7591a6345ccc12cfaba2"
 metafile = true
@@ -2532,6 +2537,11 @@ hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-move-inspector.pw.toml"
+hash = "4e76f090124a1b285a0ab9b09e3233c2f381ebdde6bc329c41a2c1b613ed6a0c"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-move-tutor.pw.toml"
 hash = "d60225534ac2b4a5396e856928add62521108db0b5066534ceae7bed8aec4e9d"
 metafile = true
@@ -2557,13 +2567,28 @@ hash = "f9fca804b47d62948dc79c800723fa4e2e8d114171af6c19c901a59b99fbb073"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "beef877ae05ddf412ce68470a80c59fa7fcf66e4eea2aaecdf267e84925c6822"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-pokerus.pw.toml"
 hash = "f108a0ffd2cb929d2e4839e26129806d5f8aa67758ff141eb657fafe4fa1b255"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-riders-call.pw.toml"
+hash = "88901d9e6679cd16ca0a5a4488758e563088ca7ba87ef1a76913c1b4b909340c"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-shiny-rarities.pw.toml"
 hash = "a7ca01c870ca22b87e0453538b095965802ffcec3eae02f68cff2ce69d7550aa"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-spawn-notification.pw.toml"
+hash = "2f0ad24b30bf511025f8adfe3e3db5b95823e7a35239e43c62090af5cda04f2c"
 metafile = true
 
 [[files]]
@@ -2614,6 +2639,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "d056036f71ac0fe66147f415e0142c1fd8889c065b7f1e5880ad3d46c583136f"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "dd17d79aae1c76edd58a5c8e51951da43acd431872a9c7c8fde82f327f0865a4"
 metafile = true
 
 [[files]]
@@ -2732,6 +2762,11 @@ hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "fd56a0cff0fa0172c35309f52e7bf76731abde661b03977bc8380bba687cbe98"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "d2a89adee4c1945d2199a4f865b88b7e6d0fd886bb5aa1b51d37cbbbd7d980c7"
 metafile = true
@@ -2777,6 +2812,11 @@ hash = "f531a8ee70e9d78ee62a84e3fd18088070dcf8f2cee2384a8aabed16dbfafe6c"
 metafile = true
 
 [[files]]
+file = "mods/mapsyncer-for-xaeroworldmap.pw.toml"
+hash = "695e54f951198bc54c14cbea1ca5a7f80adb2dc06c227f03eb861a54efbf4b1b"
+metafile = true
+
+[[files]]
 file = "mods/matthiesen-core.pw.toml"
 hash = "c79a63c28d4be2d3c0e7886b27ed0bf65d1c1a48ab6b677be22e6a3d27262004"
 metafile = true
@@ -2788,7 +2828,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "489c3c3080c444438752998b96aba05e57e4970e209a80051abe17863b99c699"
+hash = "f3444dd8abd11e6011c901d055ff1898e66d71a8570cac76481f0d521707ea6b"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -2808,6 +2848,11 @@ metafile = true
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
 hash = "58049e59a4d1e664f5af786ee857cddd47ca5b5e11dbc215b58c272969b6042b"
+metafile = true
+
+[[files]]
+file = "mods/more-cobblemon-tweaks.pw.toml"
+hash = "25871bf8dc2e0d9f329b685c118464b4103977c7bf2f1b980f74c8f13b2caa3d"
 metafile = true
 
 [[files]]
@@ -2858,6 +2903,11 @@ metafile = true
 [[files]]
 file = "mods/particular.pw.toml"
 hash = "9bceeadea46405d869a5b781efb109ac9fd7b4455c9c536092ccc93a135bad96"
+metafile = true
+
+[[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "4ccbb6584b31d773a90bed3ccaf9704eeec840d3f4e33953b1b7757db6c743f8"
 metafile = true
 
 [[files]]
@@ -3092,7 +3142,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
-hash = "c3fbe392c5ad5e0d5bf03673b91ba352fc4489ff0d3f3e02714e2d6bfd949a22"
+hash = "610e5e08a034d7fdda17d17f37853c1abf19f94425e0a831ced52fccb6ccb063"
+metafile = true
+
+[[files]]
+file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "af0b126cddc976becb8411d97ba35fd6c99586adf27dc813380843011f42423c"
 metafile = true
 
 [[files]]
