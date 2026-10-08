@@ -1,0 +1,18 @@
+# River
+
+Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
+
+[Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md)
+
+`minecraft:river` · Minecraft
+
+- **Dimensión:** [Overworld](Dimension-Overworld.md)
+- **Zonas a las que pertenece:** [Agua dulce](Zonas.md#agua-dulce), [Ríos](Zonas.md#ríos)
+- **Estructuras que se generan aquí:** [Mega Site (Mega Showdown)](Estructuras.md#mega-site-mega-showdown), [Megaroid (Mega Showdown)](Estructuras.md#megaroid-mega-showdown), [Ruined Portal (Minecraft)](Estructuras.md#ruined-portal-minecraft)
+
+## Pokémon (69)
+
+[Squirtle](Pokemon-Gen-1.md#squirtle), [Wartortle](Pokemon-Gen-1.md#wartortle), [Blastoise](Pokemon-Gen-1.md#blastoise), [Psyduck](Pokemon-Gen-1.md#psyduck), [Golduck](Pokemon-Gen-1.md#golduck), [Poliwag](Pokemon-Gen-1.md#poliwag), [Poliwhirl](Pokemon-Gen-1.md#poliwhirl), [Poliwrath](Pokemon-Gen-1.md#poliwrath), [Slowpoke](Pokemon-Gen-1.md#slowpoke), [Goldeen](Pokemon-Gen-1.md#goldeen), [Seaking](Pokemon-Gen-1.md#seaking), [Magikarp](Pokemon-Gen-1.md#magikarp), [Gyarados](Pokemon-Gen-1.md#gyarados), [Eevee](Pokemon-Gen-1.md#eevee), [Vaporeon](Pokemon-Gen-1.md#vaporeon), [Marill](Pokemon-Gen-2.md#marill), [Azumarill](Pokemon-Gen-2.md#azumarill), [Politoed](Pokemon-Gen-2.md#politoed), [Yanma](Pokemon-Gen-2.md#yanma), [Surskit](Pokemon-Gen-3.md#surskit), [Masquerain](Pokemon-Gen-3.md#masquerain), [Azurill](Pokemon-Gen-3.md#azurill), [Volbeat](Pokemon-Gen-3.md#volbeat), [Illumise](Pokemon-Gen-3.md#illumise), [Gulpin](Pokemon-Gen-3.md#gulpin), [Swalot](Pokemon-Gen-3.md#swalot), [Barboach](Pokemon-Gen-3.md#barboach), [Whiscash](Pokemon-Gen-3.md#whiscash), [Corphish](Pokemon-Gen-3.md#corphish), [Crawdaunt](Pokemon-Gen-3.md#crawdaunt), [Bidoof](Pokemon-Gen-4.md#bidoof), [Bibarel](Pokemon-Gen-4.md#bibarel), [Buizel](Pokemon-Gen-4.md#buizel), [Floatzel](Pokemon-Gen-4.md#floatzel), [Yanmega](Pokemon-Gen-4.md#yanmega), [Uxie](Pokemon-Gen-4.md#uxie), [Mesprit](Pokemon-Gen-4.md#mesprit), [Azelf](Pokemon-Gen-4.md#azelf), [Panpour](Pokemon-Gen-5.md#panpour), [Simipour](Pokemon-Gen-5.md#simipour), [Tympole](Pokemon-Gen-5.md#tympole), [Palpitoad](Pokemon-Gen-5.md#palpitoad), [Seismitoad](Pokemon-Gen-5.md#seismitoad), [Basculin](Pokemon-Gen-5.md#basculin), [Ducklett](Pokemon-Gen-5.md#ducklett), [Swanna](Pokemon-Gen-5.md#swanna), [Pawniard](Pokemon-Gen-5.md#pawniard), [Bisharp](Pokemon-Gen-5.md#bisharp), [Froakie](Pokemon-Gen-6.md#froakie), [Frogadier](Pokemon-Gen-6.md#frogadier), [Greninja](Pokemon-Gen-6.md#greninja), [Vivillon](Pokemon-Gen-6.md#vivillon), [Dewpider](Pokemon-Gen-7.md#dewpider), [Araquanid](Pokemon-Gen-7.md#araquanid), [Minior](Pokemon-Gen-7.md#minior), [Chewtle](Pokemon-Gen-8.md#chewtle), [Drednaw](Pokemon-Gen-8.md#drednaw), [Cramorant](Pokemon-Gen-8.md#cramorant), [Arrokuda](Pokemon-Gen-8.md#arrokuda), [Barraskewda](Pokemon-Gen-8.md#barraskewda), [Basculegion](Pokemon-Gen-8.md#basculegion), [Quaxly](Pokemon-Gen-9.md#quaxly), [Quaxwell](Pokemon-Gen-9.md#quaxwell), [Quaquaval](Pokemon-Gen-9.md#quaquaval), [Tadbulb](Pokemon-Gen-9.md#tadbulb), [Bellibolt](Pokemon-Gen-9.md#bellibolt), [Bombirdier](Pokemon-Gen-9.md#bombirdier), [Kingambit](Pokemon-Gen-9.md#kingambit), [Munkidori](Pokemon-Gen-9.md#munkidori)
+
+Además, todos los de la zona [Overworld (cualquier bioma)](Zonas.md#overworld-cualquier-bioma).
+
