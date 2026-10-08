@@ -36,15 +36,19 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Better Ping Display [Fabric]](https://modrinth.com/project/better-ping-display-fabric) | vladmarica | MIT |
 | [Better Third Person](https://modrinth.com/project/better-third-person) | Socolio | All-Rights-Reserved |
 | [Bookshelf](https://modrinth.com/project/bookshelf-lib) | Darkhax | LGPL-2.1-only |
+| [Catch Indicator [Cobblemon Addon]](https://modrinth.com/project/catch-indicator) | LevelsFR | All-Rights-Reserved |
 | [Chunky](https://modrinth.com/project/chunky) | pop4959 | GPL-3.0-only |
 | [CIT Resewn](https://modrinth.com/project/cit-resewn) | shsupercm | MIT |
 | [Cloth Config API](https://modrinth.com/project/cloth-config) | shedaniel | LGPL-3.0-only |
 | [Clumps](https://modrinth.com/project/clumps) | jaredlll08 | MIT |
 | [Cobblemon](https://modrinth.com/project/cobblemon) | BlazingBRO, Mallowu, NickImpact, Brotatsun64, SamyTheGil, MJB-coolness, Tyzillion, mvthwus, whatsy, Mallowuu, Valirus, Apion, drewlordybuilds, plastered_crab, addy_bromide, Waldleufer, Erusel, BlackSpirit, Bwavii, Glitch_Ratt, TotallyNotAHobo, SamIr0n, EikoBiko, Gesteyy, gingledoof0, virtuositas, complacentdev, Carmendarr, Charzard4261, lilpebs, FrankTheFarmer, Dynamite2pt0, giodude1580, MoeBoy76, Kenji_64, Veraxiel, Sarge54125, heaveninvoid_, SilverBerr1, Rogerregoat, Jakotens, Wi2tert, Hysako_, Azooreh, dhi_holo, QriviateA, whoisvoxel, duckyquackington1, JPAKx4, Myslippy, Sterrezo, RedGenesectNinja, nickaholic, negocio, KleeHubertus, Torchmarrow, maashous, Genotype, 321retrogamer, boyfriends, JoeSeff, DoctorWafflePhD, JadedTeal, Hiroku, HexeChroma, TyzillionCBMN, spg | MPL-2.0 |
+| [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
 | [Cobblemon Raid Dens](https://modrinth.com/project/cobblemonraiddens) | necroso1 | MIT |
+| [Cobblemon Tim Core](https://modrinth.com/project/cobblemon-tim-core) | tmetcalfe89 | MIT |
 | [Cobblemon: Extra Structures](https://modrinth.com/project/cobblemonextrastructures) | Roi_Pasteque | All-Rights-Reserved |
 | [Cobblemon: Mega Showdown](https://modrinth.com/project/cobblemon-mega-showdown) | YajatKaul, HeyImBlue, sanji1, Treynami, Narenhate, Provismet, Lvnatic | MEGA-SHOWDOWN-LICENSE-v2.1 |
+| [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT |
 | [Crafting Tweaks](https://modrinth.com/project/crafting-tweaks) | BlayTheNinth | All-Rights-Reserved |
 | [CraftPresence](https://modrinth.com/project/craftpresence) | CDAGaming | MIT |
 | [Deeper and Darker](https://modrinth.com/project/deeperdarker) | ang-xd, nitrodynamite18, Pedro270707, NewJumper | AGPL-3.0-only |
@@ -59,6 +63,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Fabric API](https://modrinth.com/project/fabric-api) | Player7457, modmuss50 | Apache-2.0 |
 | [Falling Leaves](https://modrinth.com/project/fallingleaves) | randommcsomethin, Fourmisain, BrekiTomasson | MIT |
 | [FerriteCore](https://modrinth.com/project/ferrite-core) | malte0811 | MIT |
+| [Forge Config API Port](https://modrinth.com/project/forge-config-api-port) | Fuzs | MPL-2.0 |
 | [Geckolib](https://modrinth.com/project/geckolib) | DerToaster98, mchorse, KyoSleep, Gecko, ZigyTheBird, Tslat | MIT |
 | [ImmediatelyFast](https://modrinth.com/project/immediatelyfast) | RaphiMC | LGPL-3.0-or-later |
 | [Incendium Legacy](https://modrinth.com/project/incendium) | catter1, limesplatus, ReiTheGoat01, destroyer077, Rennen_Rig, Starmute | Stardust-Labs-License |
@@ -76,6 +81,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Mod Menu](https://modrinth.com/project/modmenu) | gniftygnome, Prospector, modmuss50 | MIT |
 | [ModernFix](https://modrinth.com/project/modernfix) | embeddedt | LGPL-3.0-only |
 | [Monsters in the Closet](https://modrinth.com/project/monsters-in-the-closet) | Minenash | MIT |
+| [Navas ZA Megas](https://modrinth.com/project/navas-zamega) | natusue233, sishengruyu, GrenCobblemon, hugoarts, Sevonents, Radowkage, sanji1, YajatKaul, Narenhate | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [NetherPortalFix](https://modrinth.com/project/netherportalfix) | BlayTheNinth | All-Rights-Reserved |
 | [Not Enough Animations](https://modrinth.com/project/not-enough-animations) | tr7zw | tr7zw-Protective-License |
 | [Nullscape](https://modrinth.com/project/nullscape) | catter1, runcows, Starmute, TeraBuildsStuff | Stardust-Labs-License |
@@ -85,6 +91,9 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Particular ✨](https://modrinth.com/project/particular) | Chai | LGPL-3.0-only |
 | [Presence Footsteps](https://modrinth.com/project/presence-footsteps) | Sollace | Polyform-Shield-1.0 |
 | [Prickle](https://modrinth.com/project/prickle) | Darkhax | LGPL-2.1-only |
+| [Rad Gyms [Cobblemon]](https://modrinth.com/project/rad-gyms) | Gitoido, wundati | GPL-3.0-only |
+| [Radical Cobblemon Trainers](https://modrinth.com/project/rctmod) | hd42 | MCOML |
+| [Radical Cobblemon Trainers API](https://modrinth.com/project/rctapi) | hd42 | MCOML |
 | [Reese's Sodium Options](https://modrinth.com/project/reeses-sodium-options) | FlashyReese | MIT |
 | [Satin Free Wakes](https://modrinth.com/project/satin-free-wakes) | commander | GPL-3.0-only |
 | [ScalableLux](https://modrinth.com/project/scalablelux) | ishland | LGPL-3.0-only |

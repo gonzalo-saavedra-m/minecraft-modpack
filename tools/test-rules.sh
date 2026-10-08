@@ -44,3 +44,15 @@ cmd "kill @e[type=minecraft:creeper]" >/dev/null
 cmd "player mrtC spawn at 0 90 0 facing 0 0 in minecraft:the_end" >/dev/null; sleep 30
 check "sin dragón" "$(cmd 'execute in minecraft:the_end if entity @e[type=minecraft:ender_dragon]')" "Test failed"
 cmd "player mrtA kill" >/dev/null; cmd "player mrtC kill" >/dev/null
+
+# 6. Liga (tools/gen_rct.py): el Trainer Spawner con Piedra dura + redstone invoca a Brock aunque no aparezca en el mundo.
+#    La redstone va al costado: arriba del spawner tiene que haber 2 de aire (ahí aparece el entrenador)
+cmd "player mrtD spawn at 0 200 -2" >/dev/null; cmd "mrtest give mrtD geodude level=12" >/dev/null
+cmd "rctmod player set series radicalred mrtD" >/dev/null
+cmd "setblock 4 200 -2 rctmod:trainer_spawner" >/dev/null; cmd "setblock 4 199 -2 minecraft:stone" >/dev/null
+cmd "item replace entity mrtD weapon.mainhand with cobblemon:hard_stone" >/dev/null
+cmd "player mrtD look at 4.5 200.5 -1.5" >/dev/null; cmd "player mrtD use once" >/dev/null; sleep 1
+check "spawner configurado con Brock" "$(cmd 'data get block 4 200 -2 TrainerIds')" "leader_brock"
+cmd "setblock 5 200 -2 minecraft:redstone_block" >/dev/null; sleep 10
+check "spawner invoca a Brock" "$(cmd 'execute if entity @e[type=rctmod:trainer,name="Leader Brock"]')" "Test passed"
+cmd "kill @e[type=rctmod:trainer]" >/dev/null; cmd "player mrtD kill" >/dev/null

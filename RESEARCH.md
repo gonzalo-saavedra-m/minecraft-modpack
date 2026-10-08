@@ -85,6 +85,10 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 | 2026-10-08 | **Sin mobs del Aether** ("pokemon only"), jefes incluidos. Sus mazmorras quedan para poblar con Pokémon más adelante. **Los exclusivos de Candy solo en Candy** (fuera del Aether) | Verificado: 0 mobs `aether:*` guardados |
 | 2026-10-08 | **Paradójicos verificados en vivo en Primordial**: Brute Bonnet de día, Iron Jugulis de noche | — |
 | 2026-10-08 | El server puede **colgarse al apagar** (un hilo `pool-2-thread-1` de algún mod no se cierra). `ops/stop.sh` lo mata si ya guardó; en AWS, `TimeoutStopSec` de systemd | — |
+| 2026-10-08 | **Gameplay al pack:** RCT 0.19.2 (+ RCT API, Forge Config API Port), Cobbreeding 2.4.0 (Masuda x4 por defecto), Navas ZA Megas (megas del DLC de Z-A: Darkrai, Heatran, Magearna, Zeraora, Zygarde, Tatsugiri y Floette Eterna, con recetas de sus megapiedras), Capture XP (+ Tim Core), Catch Indicator (cliente) y Rad Gyms 0.5.0 | Cargan sin errores. Rad Gyms: entradas en el mundo (`#rad_gyms:gym_entrance`), sin probar por dentro |
+| 2026-10-08 | **Liga: 45 entrenadores clave con `spawnWeightFactor: 0`** (24 líderes, 16 Alto Mando y 5 campeones; los `title_defense` opcionales de Unbound siguen en el mundo). Generado con `tools/gen_rct.py`, que también escribe `wiki/Liga.md` (ítem de cada uno) | Verificado: 100 spawns forzados en pradera de montaña sin Brock; el Trainer Spawner con Piedra dura + redstone lo invoca (`test-rules.sh` #6). El spawner **no mira el peso, el bioma, la hora ni los requisitos** (código decompilado): solo el tope de 60 entrenadores y que no haya otro igual a ≤500 bloques. La redstone va al costado, no arriba. Falkner, Bugsy, etc. de Johto son entrenadores comunes (grupo `leader`, tipo `normal`), no son de ninguna Liga |
+| 2026-10-08 | **Raid Dens 1/512 chunks** en el Overworld (antes 1/256) y **`dynamaxAnywhere=true`** | `pack/config/cobblemonraiddens/common.json5`, `pack/config/mega_showdown/config.json` |
+| 2026-10-08 | **Megas verificadas:** el megaroid trae 1 `keystone_ore` (y=-25) y el mega_site 1 `mega_stone_crystal` | En `test-server`, a 522 y 701 bloques del spawn |
 | 2026-10-08 | **Cobblemon Distortion World 1.0.3** (con el "Glizzious Orb"). Se descubre solo: la Columna Lanza sale en montañas y se entra hablando con Cyrus. Sus spawns de fantasmas (incluido Spiritomb) se conservan: es zona especial, como el Nether | Verificado: Columna Lanza a 737 bloques, Cyrus en la estructura (no lo bloquea `mipack-rules`) |
 | 2026-10-08 | **Exclusivos del Aether**: Bagon/Shelgon/Salamence, Castform, Swablu/Altaria y Happiny/Chansey/Blissey (conservan solo sus spawns del Aether y de estructuras). Dratini no: se pesca | `tools/gen_spawns.py` ahora lee los spawns de todos los mods |
 | 2026-10-08 | **Wiki en `wiki/`** (Markdown) en un repo privado de GitHub. Primero la lista de Pokémon, después los biomas | Las wikis de GitHub en repos privados exigen plan pago |
@@ -115,11 +119,11 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 
 **Cómo retomar:** `ops/start.sh test-server` / `ops/stop.sh test-server`; después de tocar spawns:
 `python3 tools/gen_spawns.py test-server`, `packwiz refresh` en `pack/`, `tools/test-server.sh`; wiki:
-`python3 tools/gen_wiki.py test-server`. Commit y `git push`.
+`python3 tools/gen_wiki.py test-server`; si se actualiza RCT: `python3 tools/gen_rct.py`. Commit y `git push`.
 
 **Pendiente (en este orden sugerido):**
-1. **Gameplay:** RCT (Liga con Trainer Spawners, `spawnWeightFactor: 0`, límite de nivel), Cobbreeding, Navas ZA Megas,
-   addons de captura. Verificar Megas (keystone en `mega_site`/`megaroid`, paso 7).
+1. ~~Gameplay~~ y ~~Raid Dens~~ (hecho 08-oct). Queda: construir la Liga en la base (en juego) y, si sirve,
+   more-radical-trainers, badges y las raids Tera/Dynamax/Mega (datapacks de jefes del Discord de Raid Dens).
 2. **Addons ❓ de a uno** (paso 6): CobbleDollars (economía), Cobblemon PC Plus, Battle Extras, CobbleCuisine, etc.
 3. **Reglas en config:** gamerules en la función `load` de `mipack` (keepInventory, `doPatrolSpawning`,
    `doTraderSpawning`, `doInsomnia`); mecanismo de "sin hambre" (barra llena sin saturación).
@@ -128,10 +132,9 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
    de Extra Structures que quedaron sin su Pokémon fijo.
 5. **Loot:** tesoro enterrado con Monedas Antiguas; reinyectar la Armadura Aciaga en la fortaleza YUNG; loot Pokémon en
    ciudad antigua y templos; ítems de otros mods si sirven.
-6. **Raid Dens:** bajar la frecuencia (decidido "menos que el default").
-7. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
-8. **Paso 5 (al final):** inventario y QoL.
-9. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack
+6. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
+7. **Paso 5 (al final):** inventario y QoL.
+8. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack
    (CDN) y el pre-launch de Prism.
 
 **Decisiones abiertas:**

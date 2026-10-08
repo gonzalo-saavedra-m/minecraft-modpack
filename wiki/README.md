@@ -8,5 +8,6 @@ otros mods (salvo aldeanos).
 - [Dimensiones](Dimensiones.md): cómo llegar a cada una y sus biomas. Cada bioma tiene su página con sus zonas,
   estructuras y Pokémon.
 - [Estructuras](Estructuras.md): dónde se generan, qué Pokémon nacen dentro y legendarios fijos.
+- [Liga](Liga.md): qué ítem invoca a cada líder, Alto Mando y campeón de RCT en el Trainer Spawner.
 
-Las páginas se generan con `python3 tools/gen_wiki.py`; no se editan a mano.
+Las páginas se generan con `python3 tools/gen_wiki.py` (Liga: `tools/gen_rct.py`); no se editan a mano.
