@@ -260,7 +260,7 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (3):** [Gothita](Pokemon-Gen-5.md#gothita), [Gothorita](Pokemon-Gen-5.md#gothorita), [Gothitelle](Pokemon-Gen-5.md#gothitelle)
+- **Pokémon que nacen dentro (4):** [Giratina](Pokemon-Gen-4.md#giratina), [Gothita](Pokemon-Gen-5.md#gothita), [Gothorita](Pokemon-Gen-5.md#gothorita), [Gothitelle](Pokemon-Gen-5.md#gothitelle)
 
 ## Cocina de cuarzo (Incendium)
 
@@ -701,7 +701,7 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (3):** [Cutiefly](Pokemon-Gen-7.md#cutiefly), [Ribombee](Pokemon-Gen-7.md#ribombee), [Comfey](Pokemon-Gen-7.md#comfey)
+- **Pokémon que nacen dentro (4):** [Jirachi](Pokemon-Gen-3.md#jirachi), [Cutiefly](Pokemon-Gen-7.md#cutiefly), [Ribombee](Pokemon-Gen-7.md#ribombee), [Comfey](Pokemon-Gen-7.md#comfey)
 
 ## Laboratorio en ruinas (Incendium)
 
@@ -813,7 +813,7 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (2):** [Minior](Pokemon-Gen-7.md#minior), [Blacephalon](Pokemon-Gen-7.md#blacephalon)
+- **Pokémon que nacen dentro (3):** [Minior](Pokemon-Gen-7.md#minior), [Necrozma](Pokemon-Gen-7.md#necrozma), [Blacephalon](Pokemon-Gen-7.md#blacephalon)
 
 ## Mina: abeto (YUNG's Better Mineshafts)
 
@@ -925,7 +925,7 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (2):** [Unown](Pokemon-Gen-2.md#unown), [Sigilyph](Pokemon-Gen-5.md#sigilyph)
+- **Pokémon que nacen dentro (3):** [Unown](Pokemon-Gen-2.md#unown), [Deoxys](Pokemon-Gen-3.md#deoxys), [Sigilyph](Pokemon-Gen-5.md#sigilyph)
 
 ## Monumento oceánico
 
@@ -1696,7 +1696,7 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (1):** [Xurkitree](Pokemon-Gen-7.md#xurkitree)
+- **Pokémon que nacen dentro (2):** [Xurkitree](Pokemon-Gen-7.md#xurkitree), [Eternatus](Pokemon-Gen-8.md#eternatus)
 
 ## Tubería (Incendium)
 
@@ -1730,7 +1730,7 @@ Solo las que se generan en este pack. Sin spawners ni mobs: los Pokémon fijos s
 
 - **Dimensión:** [End](Dimension-End.md)
 - **Biomas (8):** [Crystal Peaks](Bioma-nullscape-crystal_peaks.md), [El End](Bioma-minecraft-the_end.md), [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md), [El End (zona elevada)](Bioma-minecraft-end_highlands.md), [El End (zona media)](Bioma-minecraft-end_midlands.md), [El End (zona árida)](Bioma-minecraft-end_barrens.md), [Shadowlands](Bioma-nullscape-shadowlands.md), [Void Barrens](Bioma-nullscape-void_barrens.md)
-- **Pokémon que nacen dentro (1):** [Celesteela](Pokemon-Gen-7.md#celesteela)
+- **Pokémon que nacen dentro (2):** [Cosmog](Pokemon-Gen-7.md#cosmog), [Celesteela](Pokemon-Gen-7.md#celesteela)
 
 ## Volcán (Alex's Caves)
 

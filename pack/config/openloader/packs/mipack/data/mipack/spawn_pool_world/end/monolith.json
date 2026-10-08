@@ -4,6 +4,23 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "mipack-end-monolith-deoxys",
+      "pokemon": "deoxys min_perfect_ivs=3",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:monolith"
+        ]
+      }
+    },
+    {
       "id": "mipack-end-monolith-sigilyph",
       "pokemon": "sigilyph",
       "type": "pokemon",

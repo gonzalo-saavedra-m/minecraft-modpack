@@ -12,11 +12,11 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 
 | Bioma | Zonas | Estructuras | Pokémon |
 |---|---|---|---|
-| [Crystal Peaks](Bioma-nullscape-crystal_peaks.md) | [End](Zonas.md#end) | 25 | 19 |
-| [El End](Bioma-minecraft-the_end.md) | [End](Zonas.md#end) | 25 | 19 |
-| [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md) | [End](Zonas.md#end) | 25 | 19 |
-| [El End (zona elevada)](Bioma-minecraft-end_highlands.md) | [End](Zonas.md#end) | 25 | 19 |
-| [El End (zona media)](Bioma-minecraft-end_midlands.md) | [End](Zonas.md#end) | 25 | 19 |
-| [El End (zona árida)](Bioma-minecraft-end_barrens.md) | [End](Zonas.md#end) | 25 | 19 |
-| [Shadowlands](Bioma-nullscape-shadowlands.md) | [End](Zonas.md#end) | 27 | 19 |
-| [Void Barrens](Bioma-nullscape-void_barrens.md) | [End](Zonas.md#end) | 25 | 19 |
+| [Crystal Peaks](Bioma-nullscape-crystal_peaks.md) | [End](Zonas.md#end) | 25 | 14 |
+| [El End](Bioma-minecraft-the_end.md) | [End](Zonas.md#end) | 25 | 14 |
+| [El End (islas pequeñas)](Bioma-minecraft-small_end_islands.md) | [End](Zonas.md#end) | 25 | 14 |
+| [El End (zona elevada)](Bioma-minecraft-end_highlands.md) | [End](Zonas.md#end) | 25 | 14 |
+| [El End (zona media)](Bioma-minecraft-end_midlands.md) | [End](Zonas.md#end) | 25 | 14 |
+| [El End (zona árida)](Bioma-minecraft-end_barrens.md) | [End](Zonas.md#end) | 25 | 14 |
+| [Shadowlands](Bioma-nullscape-shadowlands.md) | [End](Zonas.md#end) | 27 | 14 |
+| [Void Barrens](Bioma-nullscape-void_barrens.md) | [End](Zonas.md#end) | 25 | 14 |

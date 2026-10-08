@@ -36,6 +36,23 @@
           "mes:astral_meteorite"
         ]
       }
+    },
+    {
+      "id": "mipack-end-astral_meteorite-necrozma",
+      "pokemon": "necrozma min_perfect_ivs=3",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "mes:astral_meteorite"
+        ]
+      }
     }
   ]
 }

@@ -1192,7 +1192,7 @@ hash = "61a3879618b99462e344f265af25cf943863e3facc84233af647933920d9346c"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/astral_meteorite.json"
-hash = "4f4dccfeb368b81ade3dbead5a2b02aba12307231ba013ed8c599acceac57c65"
+hash = "e2c69050329458b9853001fffde826b20fff88b4c4378ced2e1d464b3e61a051"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/enderbloom_grove.json"
@@ -1207,6 +1207,10 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/enderwat
 hash = "30eba5bfafa60d7ff009d5709af5e58463372c093c3acb678fcfd556c2f02af0"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/enderwatch_tower_eternatus.json"
+hash = "17e0a88126ff5b7a9afe2b656bfb6844838ccf0940edca6d72bec96a6f523708"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/endscraps.json"
 hash = "b914c5fb224c21f1635dd09918ed15b0b473be5205dbdb98a2d5db9eed8a75d1"
 
@@ -1216,7 +1220,7 @@ hash = "8dfffb0da190f08feb617ce86c508d95e603b51c99126a1f9d74329758472daa"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/monolith.json"
-hash = "eac23295191d971b8f874b274837ef8bef023de1d05e55a32509e99584074c6e"
+hash = "245815f5f9a1f3563a649e5d18b808343d4769e31619d8fc2f74ba0c5b4d2cb1"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/mystical_archway.json"
@@ -1224,11 +1228,15 @@ hash = "633eaa4ceef3b99c114dd9ce6a8576d97cc387adab0c9efc39f5add8eecf1e7f"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/mythic_garden.json"
-hash = "ea1e92afce80393b3e14cf4b277e3f90565e9ed65567476799e77af22adc027f"
+hash = "32ab813748dbf0543f0488920e92ad6b58b209c492352d2c58bc19291ebea29a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/mythic_garden_cutiefly.json"
+hash = "61a42a0b8281d8d3e196fa3c4ede9c21b01ed8f69b27e946f4e73950479ff541"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/phantom_citadel.json"
-hash = "d777d7b53deb06e1eb02feb70a9a0e3ed3beedc04606f1a1d46029650c746008"
+hash = "649f9996baa88156932ae1a455c2726eb5d4f1b3ec7d0ec941f438b4ce813f5b"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/ruined_pillar.json"
@@ -1237,6 +1245,10 @@ hash = "d17cd68943407e32179187a938107068b73a5278402b36296d9f862ca32d1a33"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/ships.json"
 hash = "f261533dfe23f82a4f0aa1acf234ecee8f7fe2e6ba64b95ae2a1134bf0af6165"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/end/starlight_voyager.json"
+hash = "80b036c7e4875742954bce2001e918b396351b95856ab81e33845b4f84a16286"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/ironboulder.json"
@@ -1735,6 +1747,18 @@ file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/single/leader_v
 hash = "d7a43e5524f5e1df12d8725f64a9e3a8cc55f58729a2f95e4af68f8e568af9f0"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/eternatus.json"
+hash = "b5cfc9117286b30f9b57953e336f924c93e0d59779cc4f4deeb24bc356f8fc99"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/giratina.json"
+hash = "b5cfc9117286b30f9b57953e336f924c93e0d59779cc4f4deeb24bc356f8fc99"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/necrozma.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/spectrier.json"
 hash = "0b479941ceacb5bc4fed2783f45d9903d3f13d7ecbd30366aa6141d6eb7341e3"
 
@@ -1749,6 +1773,14 @@ hash = "e9de9c36c82e9a78feafee66ae9cf4ffab5560b1fa5a0f1aa138fcefb577398c"
 [[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/zamazenta.json"
 hash = "830c81cb2526d3a680bf100dd3af62f2c01312882d1eb86ca720d76968a38d39"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/mythical/deoxys.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/mythical/jirachi.json"
+hash = "e2a65a197f35a5b8191e520830c97598e77c40c68bf50187c3e8e592e4bfa287"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/paradox/brutebonnet.json"

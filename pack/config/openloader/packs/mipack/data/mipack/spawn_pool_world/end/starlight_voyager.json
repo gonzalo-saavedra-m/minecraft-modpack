@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mipack-end-mythic_garden-jirachi",
-      "pokemon": "jirachi min_perfect_ivs=3",
+      "id": "mipack-end-starlight_voyager-cosmog",
+      "pokemon": "cosmog min_perfect_ivs=3",
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
-      "level": "60",
+      "level": "10-36",
       "weight": 10.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_end"
         ],
         "structures": [
-          "mes:mythic_garden"
+          "mes:starlight_voyager"
         ]
       }
     }

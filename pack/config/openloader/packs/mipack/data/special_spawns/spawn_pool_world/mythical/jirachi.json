@@ -4,19 +4,27 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mipack-end-mythic_garden-jirachi",
+      "id": "jirachi-1T",
       "pokemon": "jirachi min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "60",
-      "weight": 10.0,
+      "weight": 2.0,
+      "weightMultiplier": {
+        "multiplier": 4.0,
+        "condition": {
+          "timeRange": "morning"
+        }
+      },
       "condition": {
+        "canSeeSky": true,
         "biomes": [
-          "#cobblemon:is_end"
-        ],
-        "structures": [
-          "mes:mythic_garden"
+          "#cobblemon:is_mountain"
         ]
       }
     }

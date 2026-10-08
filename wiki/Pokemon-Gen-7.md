@@ -77,7 +77,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0786 | <a id="tapulele"></a>Tapu Lele | [Floral](Zonas.md#floral)<br>[Islas](Zonas.md#islas)<br>[Playas](Zonas.md#playas) | ultra raro | 60–60 |
 | 0787 | <a id="tapubulu"></a>Tapu Bulu | [Bosques](Zonas.md#bosques)<br>[Islas](Zonas.md#islas)<br>[Playas](Zonas.md#playas) | ultra raro | 60–60 |
 | 0788 | <a id="tapufini"></a>Tapu Fini | [Islas](Zonas.md#islas)<br>[Océano](Zonas.md#océano)<br>[Playas](Zonas.md#playas) | ultra raro | 60–60 |
-| 0789 | <a id="cosmog"></a>Cosmog **Exclusivo** | [Deep dark](Zonas.md#deep-dark) (bajo tierra) | ultra raro | 10–36 |
+| 0789 | <a id="cosmog"></a>Cosmog | [Deep dark](Zonas.md#deep-dark) (bajo tierra)<br>[End](Zonas.md#end) — en [Viajero de luz estelar (Moog's End Structures)](Estructuras.md#viajero-de-luz-estelar-moogs-end-structures) | ultra raro | 10–36 |
 | 0790 | <a id="cosmoem"></a>Cosmoem | Sin spawn natural (evolución, crianza o evento) | — | — |
 | 0791 | <a id="solgaleo"></a>Solgaleo | Sin spawn natural (evolución, crianza o evento) | — | — |
 | 0792 | <a id="lunala"></a>Lunala | Sin spawn natural (evolución, crianza o evento) | — | — |
@@ -88,7 +88,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0797 | <a id="celesteela"></a>Celesteela **Exclusivo** | [End](Zonas.md#end) — en [Nave gigante (Moog's End Structures)](Estructuras.md#nave-gigante-moogs-end-structures), [Nave gigante (básica) (Moog's End Structures)](Estructuras.md#nave-gigante-básica-moogs-end-structures), [Nave gigante (pizarra) (Moog's End Structures)](Estructuras.md#nave-gigante-pizarra-moogs-end-structures), [Nave gigante (pizarra) 2 (Moog's End Structures)](Estructuras.md#nave-gigante-pizarra-2-moogs-end-structures), [Nave gigante (pizarra) 3 (Moog's End Structures)](Estructuras.md#nave-gigante-pizarra-3-moogs-end-structures), [Nave gigante estrellada (Moog's End Structures)](Estructuras.md#nave-gigante-estrellada-moogs-end-structures), [Nave gigante estrellada (pizarra) (Moog's End Structures)](Estructuras.md#nave-gigante-estrellada-pizarra-moogs-end-structures), [Nave gigante estrellada 2 (Moog's End Structures)](Estructuras.md#nave-gigante-estrellada-2-moogs-end-structures), [Viajero de luz estelar (Moog's End Structures)](Estructuras.md#viajero-de-luz-estelar-moogs-end-structures) | raro | 50–70 |
 | 0798 | <a id="kartana"></a>Kartana **Exclusivo** | [End](Zonas.md#end) — en [Santuario del manuscrito (Moog's End Structures)](Estructuras.md#santuario-del-manuscrito-moogs-end-structures) | raro | 50–70 |
 | 0799 | <a id="guzzlord"></a>Guzzlord **Exclusivo** | [End](Zonas.md#end) — en [Chatarra del End (Moog's End Structures)](Estructuras.md#chatarra-del-end-moogs-end-structures) | raro | 50–70 |
-| 0800 | <a id="necrozma"></a>Necrozma **Exclusivo** | [End](Zonas.md#end) | ultra raro | 70–70 |
+| 0800 | <a id="necrozma"></a>Necrozma **Exclusivo** | [End](Zonas.md#end) — en [Meteorito astral (Moog's End Structures)](Estructuras.md#meteorito-astral-moogs-end-structures) | ultra raro | 70–70 |
 | 0801 | <a id="magearna"></a>Magearna **Exclusivo** | [Floral](Zonas.md#floral) (de día)<br>[Floral](Zonas.md#floral) (de noche) | ultra raro | 60–80 |
 | 0802 | <a id="marshadow"></a>Marshadow **Exclusivo** | [Deep dark](Zonas.md#deep-dark) (bajo tierra) | ultra raro | 70–70 |
 | 0803 | <a id="poipole"></a>Poipole **Exclusivo** | [End](Zonas.md#end) — en [Arco místico (Moog's End Structures)](Estructuras.md#arco-místico-moogs-end-structures) | raro | 20–40 |

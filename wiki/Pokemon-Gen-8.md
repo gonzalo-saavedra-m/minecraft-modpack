@@ -90,7 +90,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0887 | <a id="dragapult"></a>Dragapult **Exclusivo** | [Otherside: Overcast Columns](Zonas.md#otherside-overcast-columns) | ultra raro | 90–100 |
 | 0888 | <a id="zacian"></a>Zacian **Exclusivo** | [Tenebroso](Zonas.md#tenebroso) | ultra raro | 70–70 |
 | 0889 | <a id="zamazenta"></a>Zamazenta **Exclusivo** | [Tenebroso](Zonas.md#tenebroso) | ultra raro | 70–70 |
-| 0890 | <a id="eternatus"></a>Eternatus **Exclusivo** | [End](Zonas.md#end) | ultra raro | 80–80 |
+| 0890 | <a id="eternatus"></a>Eternatus **Exclusivo** | [End](Zonas.md#end) — en [Torre vigía del End (Moog's End Structures)](Estructuras.md#torre-vigía-del-end-moogs-end-structures) | ultra raro | 80–80 |
 | 0891 | <a id="kubfu"></a>Kubfu **Exclusivo** | [Bambú](Zonas.md#bambú) | ultra raro | 10–30 |
 | 0892 | <a id="urshifu"></a>Urshifu | Sin spawn natural (evolución, crianza o evento) | — | — |
 | 0893 | <a id="zarude"></a>Zarude **Exclusivo** | [Jungla](Zonas.md#jungla) | ultra raro | 60–60 |

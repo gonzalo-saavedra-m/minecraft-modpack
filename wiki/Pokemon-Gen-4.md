@@ -110,7 +110,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 | 0484 | <a id="palkia"></a>Palkia | [Cumbres escarpadas](Zonas.md#cumbres-escarpadas)<br>[Picos](Zonas.md#picos) | ultra raro | 70–70 |
 | 0485 | <a id="heatran"></a>Heatran | [Badlands](Zonas.md#badlands) (bajo tierra)<br>[Nether: páramo](Zonas.md#nether-páramo) (en el agua)<br>[Volcánico](Zonas.md#volcánico) | ultra raro | 70–70 |
 | 0486 | <a id="regigigas"></a>Regigigas **Exclusivo** | [Arenoso](Zonas.md#arenoso) — en [Aldeas](Estructuras.md#aldeas) | ultra raro | 70–70 |
-| 0487 | <a id="giratina"></a>Giratina **Exclusivo** | [End](Zonas.md#end) | ultra raro | 70–70 |
+| 0487 | <a id="giratina"></a>Giratina **Exclusivo** | [End](Zonas.md#end) — en [Ciudadela fantasma (Moog's End Structures)](Estructuras.md#ciudadela-fantasma-moogs-end-structures) | ultra raro | 70–70 |
 | 0488 | <a id="cresselia"></a>Cresselia **Exclusivo** | [Floral](Zonas.md#floral) (de noche) | ultra raro | 70–70 |
 | 0489 | <a id="phione"></a>Phione **Exclusivo** | [Océano](Zonas.md#océano) (pesca) | raro | 10–10 |
 | 0490 | <a id="manaphy"></a>Manaphy **Exclusivo** | [Océano](Zonas.md#océano) (pesca) | ultra raro | 60–60 |

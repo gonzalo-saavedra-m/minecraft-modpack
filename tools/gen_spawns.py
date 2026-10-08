@@ -144,18 +144,25 @@ END_STRUCTURES = {  # estructuras -> [(pokemon, bucket, niveles)]
     (MES + 'enderbloom_grove', MES + 'placid_prairie'): [('pheromosa', 'rare', '50-70')],
     (MES + 'endscraps',): [('guzzlord', 'rare', '50-70')],                # chatarra: se come todo
     (MES + 'ruined_pillar', MES + 'enderpin_spikes'): [('stakataka', 'rare', '50-70')],  # muro de piedras
-    (MES + 'astral_meteorite',): [('blacephalon', 'rare', '50-70'), ('minior', 'common', '30-50')],
+    (MES + 'astral_meteorite',): [('blacephalon', 'rare', '50-70'), ('minior', 'common', '30-50'),
+                                  ('necrozma', 'ultra-rare', '70')],         # llegó desde el Ultraespacio
     (MES + 'mystical_archway',): [('poipole', 'rare', '20-40'), ('naganadel', 'ultra-rare', '50-70'),
                                   ('hoopa', 'ultra-rare', '70')],             # aros y portales
-    (MES + 'phantom_citadel',): [('gothita', 'common', '20-35'), ('gothorita', 'uncommon', '32-45'),
+    (MES + 'phantom_citadel',): [('giratina', 'ultra-rare', '70'), ('gothita', 'common', '20-35'), ('gothorita', 'uncommon', '32-45'),
                                  ('gothitelle', 'rare', '41-60')],            # antes en la ciudad del End (quitada)
-    (MES + 'monolith',): [('sigilyph', 'uncommon', '30-50'), ('unown', 'common', '20-40')],
+    (MES + 'monolith',): [('deoxys', 'ultra-rare', '70'), ('sigilyph', 'uncommon', '30-50'), ('unown', 'common', '20-40')],
+    (MES + 'enderwatch_tower',): [('eternatus', 'ultra-rare', '80')],       # la Torre Rose
+    (MES + 'starlight_voyager',): [('cosmog', 'ultra-rare', '10-36')],      # la "nebulosa"; sigue en el Deep Dark
+    (MES + 'mythic_garden',): [('jirachi', 'ultra-rare', '60')],             # el mítico de los deseos
     (MES + 'mythic_garden', MES + 'enderskog'): [('cutiefly', 'common', '20-35'), ('ribombee', 'uncommon', '30-50'),
                                                  ('comfey', 'uncommon', '30-50')],
 }
 ULTRA_BEASTS = {'nihilego', 'celesteela', 'kartana', 'xurkitree', 'buzzwole', 'pheromosa', 'guzzlord', 'stakataka',
                 'blacephalon', 'poipole', 'naganadel'}
 EXCLUSIVE |= ULTRA_BEASTS
+# Legendarios del espacio que ATM pone en cualquier bioma del End: ahí solo en su estructura (sus otros spawns quedan)
+END_LEGENDARIES = {'deoxys', 'giratina', 'jirachi', 'necrozma', 'eternatus'}
+STRONG = ULTRA_BEASTS | END_LEGENDARIES | {'cosmog'}
 # Zonas especiales difíciles de encontrar: ahí los exclusivos conservan sus spawns (como el Nether)
 SPECIAL_ZONES = ('#cobblemon:nether/', 'clumpedindistortionworld:')
 
@@ -248,6 +255,9 @@ for z in sources:
                 c['biomes'], s['bucket'], changed = [PRIMORDIAL], PRIMORDIAL_BUCKET[kind], True
                 if 'level' in s:
                     s['level'] = bump(s['level'])
+            elif any(k in END_LEGENDARIES for k in ks) and c.get('biomes') == ['#cobblemon:is_end']:
+                changed = True
+                continue  # legendario del End: ahora en su estructura (END_STRUCTURES)
             elif any(k in EXCLUSIVE for k in ks) and not keep_exclusive(s, ks):
                 changed = True
                 continue  # entrada genérica de una especie exclusiva: fuera
@@ -286,7 +296,9 @@ for f in (MIPACK / 'data/mipack/spawn_pool_world').glob('celesteela.json'):
 shutil.rmtree(MIPACK / 'data/mipack/spawn_pool_world/end', ignore_errors=True)
 for structs, entries in END_STRUCTURES.items():
     name = structs[0].split(':')[1].replace('mega_ship', 'ships')
-    spawns = [{'id': f'mipack-end-{name}-{p}', 'pokemon': p + (' min_perfect_ivs=3' if p in ULTRA_BEASTS else ''),
+    if (MIPACK / f'data/mipack/spawn_pool_world/end/{name}.json').exists():
+        name += '_' + entries[0][0]  # misma estructura en dos grupos
+    spawns = [{'id': f'mipack-end-{name}-{p}', 'pokemon': p + (' min_perfect_ivs=3' if p in STRONG else ''),
                'type': 'pokemon', 'spawnablePositionType': 'grounded', 'bucket': b, 'level': lvl, 'weight': 10.0,
                'condition': {'biomes': ['#cobblemon:is_end'], 'structures': list(structs)}} for p, b, lvl in entries]
     write(f'data/mipack/spawn_pool_world/end/{name}.json',
