@@ -128,7 +128,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Only Bottle Caps](https://modrinth.com/project/only-bottle-caps) | ? | CC-BY-ND-4.0 |
 | [Open Loader](https://modrinth.com/project/open-loader) | Darkhax | LGPL-2.1-only |
 | [oωo (owo-lib)](https://modrinth.com/project/owo-lib) | BasiqueEvangelist, chyzman, Blodhgarm, glisco | MIT |
-| [Particle Rain](https://modrinth.com/project/particle-rain) | PigCart | MIT |
 | [Particular ✨](https://modrinth.com/project/particular) | Chai | LGPL-3.0-only |
 | [Ping Wheel](https://modrinth.com/project/ping-wheel) | Luken, RXJpaw | MIT |
 | [Pokeblocks](https://modrinth.com/project/pokeblocks) | MrShawn, MelloMatt | CC-BY-NC-4.0 |
