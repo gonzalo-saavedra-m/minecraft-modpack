@@ -2537,11 +2537,6 @@ hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-move-inspector.pw.toml"
-hash = "4e76f090124a1b285a0ab9b09e3233c2f381ebdde6bc329c41a2c1b613ed6a0c"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-move-tutor.pw.toml"
 hash = "d60225534ac2b4a5396e856928add62521108db0b5066534ceae7bed8aec4e9d"
 metafile = true

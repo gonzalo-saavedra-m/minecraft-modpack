@@ -57,7 +57,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon EvoNotify](https://modrinth.com/project/cobblemon-evonotify) | Arimil | MIT |
 | [Cobblemon Info for REI / JEI / EMI](https://modrinth.com/project/cobbledex-rei-emi-jei) | Akkiruk | MIT |
 | [Cobblemon Mass Outbreaks](https://modrinth.com/project/cobblemon-mass-outbreaks) | Scouter567 | MIT |
-| [Cobblemon Move Inspector](https://modrinth.com/project/cobblemon-move-inspector) | Starlotte | MIT |
 | [Cobblemon Move Tutor](https://modrinth.com/project/cobblemon-move-tutor) | Adammatthiesen | MIT |
 | [Cobblemon Pasture Loot](https://modrinth.com/project/cobblemon-pasture-loot) | DrEmixam | AGPL-3.0-or-later |
 | [Cobblemon Pasture Loot Fix](https://modrinth.com/project/cobblemon-pasture-loot-fix) | kolius990 | AGPL-3.0-or-later |

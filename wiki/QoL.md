@@ -68,7 +68,6 @@ y hay versiones con habilidades especiales. Atajos: abrir la mochila, alternar t
 | [More Cobblemon Tweaks](https://modrinth.com/mod/more-cobblemon-tweaks) | IVs y shiny en el tooltip de los huevos, IVs en el PC, autocompletar en la búsqueda del PC |
 | [Rider's Call](https://modrinth.com/mod/cobblemon-riders-call) | Una tecla llama a tu montura y te sube |
 | [Spawn Notification](https://modrinth.com/mod/cobblemon-spawn-notification) | Aviso en el chat cuando aparece un shiny o un legendario cerca |
-| [Move Inspector](https://modrinth.com/mod/cobblemon-move-inspector) | Detalle de cada movimiento en combate |
 | [PokéNav](https://modrinth.com/mod/cobblemon-pokenav) | Radar para buscar especies |
 | [Jade](https://modrinth.com/mod/jade) | Qué bloque o entidad estás mirando |
 | [Ping Wheel](https://modrinth.com/mod/ping-wheel) | Marcar lugares para los amigos |
