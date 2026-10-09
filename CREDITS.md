@@ -151,7 +151,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Stack to Nearby Chests](https://modrinth.com/project/stack-to-nearby-chests) | xiaocihua | LGPL-3.0-only |
 | [Stendhal](https://modrinth.com/project/stendhal) | NebSpacefarer | CC-BY-NC-ND-4.0 |
 | [SuperMartijn642's Config Lib](https://modrinth.com/project/supermartijn642s-config-lib) | SuperMartijn642 | All-Rights-Reserved |
-| [Tectonic](https://modrinth.com/project/tectonic) | Apollo, DawnKiro | MIT |
 | [TerraBlender](https://modrinth.com/project/terrablender) | Adubbz | LGPL-3.0-only |
 | [Terralith](https://modrinth.com/project/terralith) | Apollo, catter1, Starmute | Stardust-Labs-License |
 | [Text Placeholder API](https://modrinth.com/project/placeholder-api) | Patbox | LGPL-3.0-only |

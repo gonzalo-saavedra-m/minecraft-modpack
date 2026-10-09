@@ -9,22 +9,6 @@ file = "config/PastureLoot.json"
 hash = "3977d805b89bfafb218166a973d137e7a3f47595a20cffde975dd2a9d8edad21"
 
 [[files]]
-file = "config/alexscaves_biome_generation/candy_cavity.json"
-hash = "1eb75371ee8f59e4b2fdfced11d772b19db7a7d1babed093c7089ffdc0bb5438"
-
-[[files]]
-file = "config/alexscaves_biome_generation/forlorn_hollows.json"
-hash = "49d3b7c2e0ab4efd8992df6914b20633a0cb48280763776f32c93bc7fc217c41"
-
-[[files]]
-file = "config/alexscaves_biome_generation/magnetic_caves.json"
-hash = "63c3cb72671c05a8e8af4ede3317295997e595abba6eac053c8183bcb73cb67f"
-
-[[files]]
-file = "config/alexscaves_biome_generation/toxic_caves.json"
-hash = "db16d8a0895f5412b27baff3a474b8aa4eb86809f9ef397ec80f2e890300fe19"
-
-[[files]]
 file = "config/betterdeserttemples-fabric-1_21.toml"
 hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
@@ -3023,11 +3007,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "8e009ac87710fbd8f5990285d36ab2b4755e932664ca1bcb9cdfac116d6e3b6d"
-metafile = true
-
-[[files]]
-file = "mods/tectonic.pw.toml"
-hash = "f1bfac1c5060b9e0ec9166de25bce8305d16dee48fb31583380567c37ee6b349"
 metafile = true
 
 [[files]]

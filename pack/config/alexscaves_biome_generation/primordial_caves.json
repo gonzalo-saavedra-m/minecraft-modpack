@@ -1,14 +1,14 @@
 {
   "disabled_completely": false,
-  "distance_from_spawn": 400,
-  "alexscaves_rarity_offset": 0,
+  "distance_from_spawn": 450,
+  "alexscaves_rarity_offset": 1,
   "continentalness": [
     -0.1,
     1.0
   ],
   "depth": [
-    0.2,
-    1.0
+    0.15,
+    1.5
   ],
   "dimensions": [
     "minecraft:overworld"
