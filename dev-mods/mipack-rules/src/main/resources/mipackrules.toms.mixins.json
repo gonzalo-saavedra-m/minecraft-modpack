@@ -1,0 +1,7 @@
+{
+	"required": false,
+	"package": "mipackrules.mixin.toms",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["BlockInventoryAccessMixin"],
+	"injectors": { "defaultRequire": 0 }
+}

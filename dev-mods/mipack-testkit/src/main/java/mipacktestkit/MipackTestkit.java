@@ -28,6 +28,7 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -47,6 +48,9 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest acdepth <x> <z> <radio>   a cuántos bloques bajo el suelo empiezan los biomas de Alex's Caves
  * /mrtest fit <x> <z>               relieve del terreno (sin la estructura) bajo cada estructura del chunk
  * /mrtest hollow <x> <z>            huecos de aire bajo la superficie en la huella de cada estructura (¿flota?)
+ * /mrtest terminal <x> <y> <z>      lo que ve un Storage Terminal de Tom's (ítem: cantidad), como al abrirlo
+ * /mrtest connector <x> <y> <z>     bloques que toma un Inventory Connector de Tom's y conectores enlazados
+ * /mrtest pull <x> <y> <z> <ítem> <n>  saca n de ese ítem por el Storage Terminal (como un clic) y dice cuántos salieron
  */
 public class MipackTestkit implements ModInitializer {
 	@Override
@@ -107,6 +111,18 @@ public class MipackTestkit implements ModInitializer {
 				.then(literal("hollow").then(argument("x", IntegerArgumentType.integer()).then(argument("z", IntegerArgumentType.integer())
 						.executes(c -> reply(c, hollow(c.getSource().getLevel(),
 								IntegerArgumentType.getInteger(c, "x"), IntegerArgumentType.getInteger(c, "z")))))))
+				.then(literal("terminal").then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.executes(c -> reply(c, terminal(c.getSource().getLevel(),
+								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
+				.then(literal("connector").then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.executes(c -> reply(c, connector(c.getSource().getLevel(),
+								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
+				.then(literal("pull").then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.then(argument("item", net.minecraft.commands.arguments.item.ItemArgument.item(registry))
+						.then(argument("n", IntegerArgumentType.integer(1)).executes(c -> reply(c, pull(c.getSource().getLevel(),
+								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"),
+								net.minecraft.commands.arguments.item.ItemArgument.getItem(c, "item").createItemStack(1, false),
+								IntegerArgumentType.getInteger(c, "n"))))))))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));
@@ -225,6 +241,54 @@ public class MipackTestkit implements ModInitializer {
 					.append(" subterraneas=").append(under).append(" destapadas=").append(exposed).append(";");
 		}
 		return out.toString();
+	}
+
+	// Tom's Simple Storage por reflexión (no es dependencia de compilación): fuerza el recálculo que hace al abrirlo
+	private static String terminal(ServerLevel level, BlockPos pos) {
+		var be = level.getBlockEntity(pos);
+		if (be == null) return "terminal " + pos.toShortString() + ": no hay block entity";
+		try {
+			var f = be.getClass().getDeclaredField("updateItems"); f.setAccessible(true); f.setBoolean(be, true);
+			be.getClass().getMethod("updateServer").invoke(be);
+			var stacks = (Map<?, ?>) be.getClass().getMethod("getStacks").invoke(be);
+			var out = new TreeMap<String, Long>();
+			for (Object v : stacks.values()) {
+				var st = (net.minecraft.world.item.ItemStack) v.getClass().getMethod("getStack").invoke(v);
+				long q = ((Number) v.getClass().getMethod("getQuantity").invoke(v)).longValue();
+				out.merge(BuiltInRegistries.ITEM.getKey(st.getItem()).toString(), q, Long::sum);
+			}
+			return "terminal " + pos.toShortString() + ": " + out;
+		} catch (ReflectiveOperationException e) {
+			return "terminal " + pos.toShortString() + ": " + be.getClass().getName() + " " + e;
+		}
+	}
+
+	private static String connector(ServerLevel level, BlockPos pos) {
+		var be = level.getBlockEntity(pos);
+		if (be == null) return "connector " + pos.toShortString() + ": no hay block entity";
+		try {
+			var blocks = (List<?>) be.getClass().getMethod("getConnectedBlocks").invoke(be);
+			var linked = (java.util.Collection<?>) be.getClass().getMethod("getConnectedConnectors").invoke(be);
+			var invs = (java.util.Collection<?>) be.getClass().getMethod("getConnectedInventories").invoke(be);
+			return "connector " + pos.toShortString() + ": bloques=" + blocks.stream().map(b -> ((BlockPos) b).toShortString()).toList()
+					+ " inventarios=" + invs.size() + " enlazados=" + linked.size();
+		} catch (ReflectiveOperationException e) {
+			return "connector " + pos.toShortString() + ": " + be.getClass().getName() + " " + e;
+		}
+	}
+
+	private static String pull(ServerLevel level, BlockPos pos, net.minecraft.world.item.ItemStack item, int n)
+			throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+		var be = level.getBlockEntity(pos);
+		try {
+			var sis = Class.forName("com.tom.storagemod.inventory.StoredItemStack", true, be.getClass().getClassLoader());
+			Object pedido = sis.getConstructor(net.minecraft.world.item.ItemStack.class).newInstance(item);
+			Object sacado = be.getClass().getMethod("pullStack", sis, long.class).invoke(be, pedido, (long) n);
+			long q = sacado == null ? 0 : ((Number) sis.getMethod("getQuantity").invoke(sacado)).longValue();
+			return "pull " + pos.toShortString() + ": salieron " + q;
+		} catch (ReflectiveOperationException e) {
+			return "pull " + pos.toShortString() + ": " + e;
+		}
 	}
 
 	private static String status(ServerPlayer p) {

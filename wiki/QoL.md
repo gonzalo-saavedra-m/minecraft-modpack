@@ -18,9 +18,8 @@ Mods para no perder tiempo ordenando cofres ni buscando cosas. Los atajos se con
 
 Los cofres siguen siendo cofres normales: si alguien guarda desordenado, el terminal igual lo encuentra.
 
-**Ojo: un solo Inventory Connector por red.** El conector ya toma todos los cofres que se tocan entre sí (hasta 16
-bloques). Si pones un conector por cofre, el terminal cuenta los mismos cofres varias veces y muestra cantidades
-multiplicadas (al sacar, salen las reales). Para cofres lejanos, usa Inventory Cable, no otro conector.
+**Con un Inventory Connector basta:** toma todos los cofres que se tocan entre sí (hasta 16 bloques). Poner más no
+hace daño. Para cofres lejanos, usa Inventory Cable.
 
 ## Mochilas
 

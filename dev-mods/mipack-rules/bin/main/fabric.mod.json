@@ -10,7 +10,7 @@
 		"main": ["mipackrules.MipackRules"],
 		"client": ["mipackrules.IrisAutoReload"]
 	},
-	"mixins": ["mipackrules.mixins.json"],
+	"mixins": ["mipackrules.mixins.json", "mipackrules.toms.mixins.json"],
 	"depends": {
 		"fabricloader": ">=0.16",
 		"minecraft": "1.21.1",
