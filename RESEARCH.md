@@ -18,7 +18,7 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 - **Especies:** Cobblemon 1.8.1 + Mega Showdown + **AllTheMons x Mega Showdown v4.0** da
   **1022/1025** especies con modelo. Faltan Celesteela, Iron Jugulis e Iron Boulder.
 - **Inventario:** Tom's Simple Storage (terminal con buscador sobre cofres vanilla, sin energía) + Stack to
-  Nearby Chests + Traveler's Backpack.
+  Nearby Chests + Sophisticated Backpacks y Storage (mochilas y cofres con mejoras).
 - **Dimensiones extra:** Aether, Eternal Starlight y Distortion World, más una dimensión propia por datapack
   (por ejemplo, una "Zona Safari").
 - **Mundo:** Terralith para el Overworld (Tectonic fuera, ver 2026-10-08), Incendium para el Nether y Nullscape para el End. Todos
@@ -29,6 +29,7 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 
 | Fecha | Decisión | Motivo |
 |---|---|---|
+| 2026-10-09 | **Sophisticated Backpacks + Sophisticated Storage en vez de Traveler's Backpack** (port no oficial de Salandora para Fabric: Backpacks 3.23.4.3.106, Storage 1.3.7.9.139, Core 1.2.9.21.168; las mismas versiones que COBBLEVERSE 1.7.42, con `forge-config-api-port` que ya estaba). Mochilas y cofres con niveles y las mismas mejoras. Config por defecto, salvo `config/sophisticatedbackpacks-common.toml` con `chestLootEnabled = false` (sin mochilas en el botín de cofres, como COBBLEVERSE). Se borró el mundo de prueba `cb1` (tenía una Traveler's Backpack) | Port sin dueño oficial: si aparece un bug, lo arreglamos nosotros (como con Tom's). Probado headless (`/mrtest terminal`, `pull` y el nuevo `/mrtest place`): cofre doble real (ítem con `double_chest`: la mitad principal guarda 54 espacios y la otra delega en ella) + cofre simple con 1 y 3 conectores → 18 de 18, sin contar doble; `pull` de 16 saca 16 y quedan 2. Ojo: con `setblock` los cofres no se unen; además, los jugadores de Carpet no colocan bloques en este pack |
 | 2026-10-09 | **Resource pack `fixes`** (`config/openloader/resources/fixes/`; OpenLoader lo carga como obligatorio y siempre activo en el cliente). (1) `cobblemon-additions:pokemon_spawner` y `pokemon_trial_spawner` se veían como el cubo morado-negro y con el nombre sin traducir: el mod se registra como `cobblemon-additions`, pero trae los assets en `assets/bca/`. Se copiaron sus blockstates, sus modelos de ítem y los nombres. (2) Partículas morado-negro de `pokeblocks:gigantic_pokedoll_shiny_cubchoo_animated`: el modelo apuntaba a `pokedoll_shiny_cubchoo_animated_texture`, pero el archivo se llama `pokedoll_cubchoo_animated_shiny_texture` | Auditoría de **todos** los ítems y bloques de mods (3766 y 1909, sacados del registro real con scarpet `item_list()`/`block_list()`): `tools/check_textures.py` + un workflow de triage con verificación adversarial. No hubo más problemas reales. Los que el script sigue marcando están revisados y no se ven en el juego: caras `#missing` tapadas en `heart_of_iron`, `quarry` y `decoration_table`; a `track_arrow` le falta el modelo padre, pero solo deja un warning en el log. Para repetirla: `ops/sync.sh client <carpeta>` + volcado del registro + el script. **Sin ver en el cliente** |
 | 2026-10-09 | **Arreglo propio del conteo de Tom's Simple Storage con cofres dobles** (`mipack-rules`, mixin opcional sobre `PlatformInventoryAccess$BlockInventoryAccess.get`). Bug: conectores que se tocan quedan enlazados y la terminal cuenta el cofre doble una vez por conector (3 cofres a mano = doble + suelto con 3 conectores → 15 en vez de 5). Tom's filtra repetidos por el `Storage` de Fabric, y Fabric arma uno nuevo para el cofre doble en cada consulta; el mixin entrega el mismo para las dos mitades durante el tick. Upstream: tom5454/Toms-Storage#306 (abierto; la 2.4.2 no lo arregla en Fabric). Se reemplaza el aviso de la wiki "un solo conector por red" | Reproducido headless con `/mrtest terminal` (Tom's 2.4.2): sin el mixin 10–15, con el mixin 5 en los 7 casos (cofres sueltos, doble, doble + suelto, 1 a 3 conectores, con y sin cable). `/mrtest pull`: salen 3 y luego 2 de 5, cofre y terminal cuadran |
 | 2026-10-09 | **Worldgen: se queda Terralith + YUNG's Cave Biomes + Alex's Caves (sin Tectonic), con dos ajustes.** (1) **Alex's Caves más abajo y solo tierra adentro:** en los 5 biomas de tierra, profundidad mínima +0,25 (~32 bloques; 1/128 por bloque) y continentalidad mínima 0,05 (antes -0,1: con Terralith eso los metía bajo el océano y la costa). Abyssal sin cambios: con Terralith la continentalidad no sigue a los océanos (con ≤-0,3 o ≤-0,45 se vuelve rarísimo y aun así cae bajo desiertos), así que sigue abriendo algún pozo en tierra (Gonzalo: se acepta, queda así). (2) **Pirámide de la jungla de YUNG con adaptación al terreno** (`mipack`: `yungsapi:custom`, `top: carve`, `bottom: bury`, kernel 24, como las fortalezas YUNG; `max_distance_from_center` 116 porque distancia + kernel/2 ≤ 128). Venía con `none` y Terralith le deja 20–50 bloques de desnivel. Medido con `/mrtest acdepth|fit|hollow` (mipack-testkit) | Semilla 424242, 4 zonas × 6 biomas. Antes: Primordial y Toxic afloraban bajo el océano (hasta 723 de 869 columnas con el suelo dentro del bioma) y en ríos. Después: la cueva queda 24–76 bloques bajo el suelo (mediana) y en los 4 puntos malos ya no hay cueva; solo aflora Toxic bajo un río congelado (60 columnas). Las cuevas quedan a 400–4000 bloques. Pirámides de jungla (5): tierra encima de 2.600–36.800 bloques a ~260 (9.500 la de 50 de desnivel), 0 cámaras subterráneas destapadas, flotan igual que antes (1–2 %). Pirámide del desierto, cabañas y monumento: terreno parejo, sin cambios |
@@ -169,13 +170,7 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 6. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
 7. **QoL** (en curso, 08-oct): inventario y mochilas hechos; falta el resto de §3.4 si se quiere.
 8. **Almacenamiento y estructuras** (pedido 09-oct):
-   - **Más capacidad en cofres y mochilas.** Idea: mochilas con mejoras (parches/upgrades) y las mismas mejoras en
-     los cofres, tipo Sophisticated Backpacks + Sophisticated Storage. Ojo: Sinytra Connector va al revés (corre mods
-     Fabric en NeoForge); de NeoForge → Fabric solo hay ports no oficiales (Sophisticated Backpacks, ver §3.3) o
-     Kilt (experimental) **[NV]**. Alternativas a revisar: Reinforced Chests / Expanded Storage, y si Traveler's
-     Backpack se puede agrandar por config.
-     COBBLEVERSE 1.7.42 trae **Sophisticated Backpacks 3.23.4 + Sophisticated Storage 1.3.7 en Fabric** (con
-     sophisticatedcore): mochilas y cofres con las mismas mejoras. Es el camino directo.
+   - ~~**Más capacidad en cofres y mochilas.**~~ (09-oct: Sophisticated Backpacks + Storage en vez de Traveler's, ver Decisiones).
    - ~~**Bug:** en la interfaz de cofres las cantidades se ven aumentadas~~ (09-oct: Tom's con cofres dobles; arreglado en `mipack-rules`, ver Decisiones).
    - El quick stack tipo Terraria (Stack to Nearby Chests) **gusta mucho**: se queda.
    - **Aldeas estilo Pokémon** (revisado el 09-oct en el `.mrpack` 1.7.42): salen de **Cobblemon Additions** (`bca`,
@@ -225,7 +220,7 @@ Orden pensado para que cada paso se pueda probar antes de pasar al siguiente.
    - Probar con `/spawnpokemon celesteela`, etc.
 4. **Mundo:** agregar Terralith, Tectonic, YUNG's Cave Biomes, Incendium y Nullscape. Crear un mundo nuevo y
    hacer `/locate biome` en algunos biomas para revisar spawns.
-5. **Inventario y QoL:** Tom's Simple Storage, Stack to Nearby Chests, Traveler's Backpack y el resto de §3.3
+5. **Inventario y QoL:** Tom's Simple Storage, Stack to Nearby Chests, Sophisticated Backpacks + Storage y el resto de §3.3
    y §3.4.
 6. **Addons ❓:** sumarlos de a uno, mirando el log.
 7. **Megas:** en un mundo de prueba, `/locate structure mega_showdown:mega_site` y `:megaroid`, ir y
@@ -360,7 +355,7 @@ ServerCore solo valen la pena en un servidor dedicado. Pregenerar el mundo con *
 | **Cofre con buscador** | **Tom's Simple Storage** 2.4.2: Storage Terminal con barra de búsqueda sobre cofres **vanilla** conectados, sin energía, con versión inalámbrica. Está en COBBLEVERSE | Refined Storage 2 (más técnico) · Chest Search Bar (busca dentro de un cofre, solo cliente) · Chest Tracker / Where Is It (recuerdan qué hay dónde) · InvSearch (nuevo) |
 | Guardar rápido en cofres cercanos | **Stack to Nearby Chests** (quick stack estilo Terraria) | Sorted (muy nuevo) |
 | Ordenar el inventario | **Inventory Essentials** o Mouse Tweaks | Inventory Profiles Next (completo, pesado de configurar) · Mouse Wheelie · Client Sort |
-| Mochila | **Traveler's Backpack** 10.1.39 (activo, oficial en Fabric) | Sophisticated Backpacks (port no oficial, sin updates desde ago-2025) · Inmis · Backpacks! |
+| Mochila y cofres con mejoras | **Sophisticated Backpacks + Sophisticated Storage** (port no oficial de Salandora; Backpacks sin updates desde ago-2025, Storage y Core desde dic-2025; los bugs los arreglamos nosotros). Están en COBBLEVERSE | Traveler's Backpack 10.1.39 (oficial en Fabric; estuvo en el pack hasta el 09-oct) · Inmis · Backpacks! |
 | Almacenamiento masivo | Storage Drawers | Reinforced Chests |
 | PC de Pokémon | Cobblemon PC Plus · Box Link | |
 

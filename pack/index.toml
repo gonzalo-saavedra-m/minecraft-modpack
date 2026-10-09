@@ -1996,6 +1996,10 @@ file = "config/rctmod-server.toml"
 hash = "471195dcf09af6c97eb4ebd372645afdaac994d3890b99aa3e1905fe51789237"
 
 [[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "9b5ee63cbd89e3bd726f2da756a586faa8a120f3e11d4ab49c476583eef61593"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "a8d06a55ac6232b03faf550b12c175b02dd1307326ba25b41d6ab75830231bfa"
 
@@ -3071,6 +3075,21 @@ hash = "869af67848bf3b9ba4384bc9fb0cbe303d35263bd8de75eeabcba796edf4d7c6"
 metafile = true
 
 [[files]]
+file = "mods/sophisticatedbackpacks.pw.toml"
+hash = "a4eebb2bda9daccc5444b8bd2d91f4ee8ce2325dd51436cb785ca33530b98ecd"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedcore.pw.toml"
+hash = "693fdc79c18086a2a939b45de97ca918d895d5a4247d2a0bba94bf53661bc705"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedstorage.pw.toml"
+hash = "f2feec4a404ea1ebff1cbc8ef801d074fc8c4a528af064fd9c125f5c9e57c824"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "9bdd041fb29ab003ef5bb1f0ba53516847e32e3010a3fce247f743fc98e08a6b"
 metafile = true
@@ -3113,11 +3132,6 @@ metafile = true
 [[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "ee103bf45111c2cd7ea2d9b31087867dd4b0d07a4b7dad7b138a4ae506127b37"
-metafile = true
-
-[[files]]
-file = "mods/travelersbackpack.pw.toml"
-hash = "76c319b18147464969222ce63823f32ea49d87e337d6c82b20568efe0ef2f331"
 metafile = true
 
 [[files]]

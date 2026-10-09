@@ -101,7 +101,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Inventory Essentials](https://modrinth.com/project/inventory-essentials) | BlayTheNinth | All-Rights-Reserved |
 | [InvMove](https://modrinth.com/project/invmove) | PieKing1215 | LGPL-3.0-only |
 | [InvMoveCompats](https://modrinth.com/project/invmovecompats) | PieKing1215 | LGPL-3.0-only |
-| [Iris Shaders](https://modrinth.com/project/iris) | IMS, coderbot | LGPL-3.0-only |
+| [Iris Shaders](https://modrinth.com/project/iris) | coderbot, IMS | LGPL-3.0-only |
 | [Jade 🔍](https://modrinth.com/project/jade) | Snownee | CC-BY-NC-SA-4.0 |
 | [Just Enough Effect Descriptions (JEED)](https://modrinth.com/project/just-enough-effect-descriptions-jeed) | MehVahdJukaar | All-Rights-Reserved |
 | [Just Enough Items (JEI)](https://modrinth.com/project/jei) | mezz | MIT |
@@ -148,6 +148,9 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Sodium Extra](https://modrinth.com/project/sodium-extra) | FlashyReese | LGPL-3.0-only |
 | [Sodium Shadowy Path Blocks (SSPB)](https://modrinth.com/project/sodium-shadowy-path-blocks) | Rynnavinx | LGPL-3.0-only |
 | [Soft Imprints](https://modrinth.com/project/snow-imprints) | nNined | MIT |
+| [Sophisticated Backpacks (Unoffical Fabric port)](https://modrinth.com/project/sophisticated-backpacks-(unoffical-fabric-port)) | Salandora | LGPL-3.0-only |
+| [Sophisticated Core (Unofficial Fabric port)](https://modrinth.com/project/sophisticated-core-(unofficial-fabric-port)) | Salandora | LGPL-3.0-only |
+| [Sophisticated Storage (Unofficial Fabric port)](https://modrinth.com/project/sophisticated-storage-(unofficial-fabric-port)) | Salandora | LGPL-3.0-only |
 | [spark](https://modrinth.com/project/spark) | lucko | GPL-3.0-only |
 | [Stack to Nearby Chests](https://modrinth.com/project/stack-to-nearby-chests) | xiaocihua | LGPL-3.0-only |
 | [Stendhal](https://modrinth.com/project/stendhal) | NebSpacefarer | CC-BY-NC-ND-4.0 |
@@ -155,11 +158,10 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [TerraBlender](https://modrinth.com/project/terrablender) | Adubbz | LGPL-3.0-only |
 | [Terralith](https://modrinth.com/project/terralith) | Apollo, catter1, Starmute | Stardust-Labs-License |
 | [Text Placeholder API](https://modrinth.com/project/placeholder-api) | Patbox | LGPL-3.0-only |
-| [The Aether](https://modrinth.com/project/aether) | bconlon1, sunsette, Blodhgarm, alphamode, baguchi, Katie-Payn, HugoPayn, Drullkus, Jaryt, reetamb, Burning-Cactus, raptor494, MistaJub, NAPPUS | Custom |
+| [The Aether](https://modrinth.com/project/aether) | baguchi, alphamode, Katie-Payn, Blodhgarm, bconlon1, sunsette, HugoPayn, Jaryt, Burning-Cactus, raptor494, reetamb, Drullkus, MistaJub, NAPPUS | Custom |
 | [Tips](https://modrinth.com/project/tips) | Darkhax | LGPL-2.1-only |
 | [Tom's Simple Storage Mod](https://modrinth.com/project/toms-storage) | tom5454 | MIT |
 | [ToolTipFix](https://modrinth.com/project/tooltipfix) | kyrptonaught | MIT |
-| [Traveler's Backpack](https://modrinth.com/project/travelersbackpack) | Tiviacz1337 | LGPL-3.0-only |
 | [UniLib](https://modrinth.com/project/unilib) | CDAGaming | MIT |
 | [Very Many Players (Fabric)](https://modrinth.com/project/vmp-fabric) | ishland | MIT |
 | [Visuality](https://modrinth.com/project/visuality) | PinkGoosik | MIT |

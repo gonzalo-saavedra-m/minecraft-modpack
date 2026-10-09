@@ -21,12 +21,16 @@ Los cofres siguen siendo cofres normales: si alguien guarda desordenado, el term
 **Con un Inventory Connector basta:** toma todos los cofres que se tocan entre sí (hasta 16 bloques). Poner más no
 hace daño. Para cofres lejanos, usa Inventory Cable.
 
-## Mochilas
+## Mochilas y cofres con mejoras
 
-**Traveler's Backpack**: mochilas que se llevan puestas (espacio extra, dos tanques de líquido y un saco de dormir).
-Se craftea con cuero, hilo, un cofre, dos tanques y un saco de dormir; el cuero sale de Miltank, Tauros, Ponyta…
-y el hilo y la lana de Pokémon (ver [Crianza](Crianza.md) y la página de cada Pokémon). Se mejoran con más capas
-y hay versiones con habilidades especiales. Atajos: abrir la mochila, alternar tanque y cambiar herramienta.
+**Sophisticated Backpacks**: mochilas con mejoras. Se craftea con 4 cuero, 4 hilo y un cofre (hilo, cuero, hilo /
+hilo, cofre, hilo / cuero, cuero, cuero); el cuero sale de Miltank, Tauros, Ponyta… y el hilo de Pokémon (ver
+[Crianza](Crianza.md) y la página de cada Pokémon). Se sube de nivel (cobre → hierro → oro → diamante → netherite)
+para tener más espacio y más ranuras de mejora. Las mejoras van en esas ranuras: recoger ítems del suelo, imán,
+filtro, reponer, comer solo, fundir, crafteo, apilar más por espacio, entre otras.
+
+**Sophisticated Storage**: cofres, barriles y cajas de shulker con los mismos niveles y casi las mismas mejoras que
+las mochilas. Dos cofres juntos forman un cofre doble. Funcionan con Tom's Simple Storage igual que los normales.
 
 ## Ordenar y mover ítems
 
@@ -41,7 +45,8 @@ y hay versiones con habilidades especiales. Atajos: abrir la mochila, alternar t
 | Mod | Para qué |
 |---|---|
 | [Tom's Simple Storage](https://modrinth.com/mod/toms-storage) | Terminal con buscador sobre cofres conectados |
-| [Traveler's Backpack](https://modrinth.com/mod/travelersbackpack) | Mochilas |
+| [Sophisticated Backpacks](https://modrinth.com/mod/iHtpVwJL) | Mochilas con mejoras |
+| [Sophisticated Storage](https://modrinth.com/mod/ouNrBQtq) | Cofres y barriles con niveles y mejoras |
 | [Inventory Essentials](https://modrinth.com/mod/inventory-essentials) | Ordenar y mover ítems |
 | [Stack to Nearby Chests](https://modrinth.com/mod/stack-to-nearby-chests) | Guardar y reponer desde cofres cercanos |
 | [Crafting Tweaks](https://modrinth.com/mod/crafting-tweaks) | Botones para rotar, balancear y vaciar la mesa de crafteo |

@@ -51,6 +51,7 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest terminal <x> <y> <z>      lo que ve un Storage Terminal de Tom's (ítem: cantidad), como al abrirlo
  * /mrtest connector <x> <y> <z>     bloques que toma un Inventory Connector de Tom's y conectores enlazados
  * /mrtest pull <x> <y> <z> <ítem> <n>  saca n de ese ítem por el Storage Terminal (como un clic) y dice cuántos salieron
+ * /mrtest place <jugador> <x> <y> <z>  usa el ítem de su mano sobre la cara de arriba de ese bloque, como un clic derecho
  */
 public class MipackTestkit implements ModInitializer {
 	@Override
@@ -123,6 +124,10 @@ public class MipackTestkit implements ModInitializer {
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"),
 								net.minecraft.commands.arguments.item.ItemArgument.getItem(c, "item").createItemStack(1, false),
 								IntegerArgumentType.getInteger(c, "n"))))))))
+				.then(literal("place").then(argument("player", EntityArgument.player())
+						.then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.executes(c -> reply(c, place(EntityArgument.getPlayer(c, "player"),
+								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos")))))))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));
@@ -275,6 +280,15 @@ public class MipackTestkit implements ModInitializer {
 		} catch (ReflectiveOperationException e) {
 			return "connector " + pos.toShortString() + ": " + be.getClass().getName() + " " + e;
 		}
+	}
+
+	// Carpet no siempre logra colocar (player use once no hace nada en este pack); esto va directo por useOn
+	private static String place(net.minecraft.server.level.ServerPlayer p, BlockPos pos) {
+		var hit = new net.minecraft.world.phys.BlockHitResult(net.minecraft.world.phys.Vec3.atCenterOf(pos).add(0, 0.5, 0),
+				net.minecraft.core.Direction.UP, pos, false);
+		var r = p.getMainHandItem().useOn(new net.minecraft.world.item.context.UseOnContext(p,
+				net.minecraft.world.InteractionHand.MAIN_HAND, hit));
+		return "place " + pos.above().toShortString() + ": " + r;
 	}
 
 	private static String pull(ServerLevel level, BlockPos pos, net.minecraft.world.item.ItemStack item, int n)
