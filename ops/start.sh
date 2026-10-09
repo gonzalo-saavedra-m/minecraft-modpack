@@ -8,3 +8,5 @@ cd "${1:-$OPS/../server}"
 tail -f /dev/null > in.fifo & echo $! > tail.pid
 nohup "$JAVA" -Xmx6G -jar fabric-server.jar nogui < in.fifo > console.log 2>&1 &
 echo $! > server.pid
+# En el Mac: no dormir mientras el server corre (con la pantalla apagada el Mac se suspendía y botaba a los jugadores)
+command -v caffeinate >/dev/null && nohup caffeinate -ims -w "$(cat server.pid)" >/dev/null 2>&1 &
