@@ -29,6 +29,8 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 
 | Fecha | Decisión | Motivo |
 |---|---|---|
+| 2026-10-09 | **Worldgen: se queda Terralith + YUNG's Cave Biomes + Alex's Caves (sin Tectonic), con dos ajustes.** (1) **Alex's Caves más abajo y solo tierra adentro:** en los 5 biomas de tierra, profundidad mínima +0,25 (~32 bloques; 1/128 por bloque) y continentalidad mínima 0,05 (antes -0,1: con Terralith eso los metía bajo el océano y la costa). Abyssal sin cambios: con Terralith la continentalidad no sigue a los océanos (con ≤-0,3 o ≤-0,45 se vuelve rarísimo y aun así cae bajo desiertos), así que sigue abriendo algún pozo en tierra (Gonzalo: se acepta, queda así). (2) **Pirámide de la jungla de YUNG con adaptación al terreno** (`mipack`: `yungsapi:custom`, `top: carve`, `bottom: bury`, kernel 24, como las fortalezas YUNG; `max_distance_from_center` 116 porque distancia + kernel/2 ≤ 128). Venía con `none` y Terralith le deja 20–50 bloques de desnivel. Medido con `/mrtest acdepth|fit|hollow` (mipack-testkit) | Semilla 424242, 4 zonas × 6 biomas. Antes: Primordial y Toxic afloraban bajo el océano (hasta 723 de 869 columnas con el suelo dentro del bioma) y en ríos. Después: la cueva queda 24–76 bloques bajo el suelo (mediana) y en los 4 puntos malos ya no hay cueva; solo aflora Toxic bajo un río congelado (60 columnas). Las cuevas quedan a 400–4000 bloques. Pirámides de jungla (5): tierra encima de 2.600–36.800 bloques a ~260 (9.500 la de 50 de desnivel), 0 cámaras subterráneas destapadas, flotan igual que antes (1–2 %). Pirámide del desierto, cabañas y monumento: terreno parejo, sin cambios |
+| 2026-10-09 | **Aldeas Pokémon: Cobblemon Additions 4.2.1** (`bca`, las de COBBLEVERSE). Reemplaza todas las aldeas vanilla; fuera también las fortificadas de Terralith (tags de bioma vacíos). En `mipack`: las 11 aldeas `bca` (sin su cabaña de bruja) en `#minecraft:village`, así siguen los spawns de aldea de Cobblemon y el tutor de movimientos; y `#minecraft:village` en `mipack:has_waystone` (waystone por aldea) | Headless, semilla 424242: aldea `bca:village/dark_small` con waystone, Move Tutor, Enfermera Joy y 51 Pokémon; `/locate` no encuentra aldeas vanilla ni fortificadas |
 | 2026-10-08 | **ScalableLux** (motor de luz, `both`) agregado. Descartados Structure Layout Optimizer y zfastnoise: solo aceleran la generación de mundo (que se pregenera una vez) y cada uno trae una librería extra | Benchmark headless, mismo seed, pregen r300 (1.521 chunks): base 43 s / 735 MB; +ScalableLux 34 s / +2 MB; +SLO 34 s / +8 MB. Una sola corrida por variante: hay ruido |
 | 2026-10-08 | **Sin Tutorial World ni Cherished Worlds:** el tutorial del pack oficial (103 MB) se le copiaba a cada cliente, y Cherished Worlds solo servía para dejarlo fijado arriba en la lista de mundos. El eye candy (Particular, Particle Rain, Visuality, Falling Leaves, Wakes, Snow Imprints, Make Bubbles Pop, Ambient Environment, Presence Footsteps) **se queda** | El mundo quedó en `attic/yosbr-saves` |
 | 2026-10-08 | **El juego es Cobblemon, no combate vanilla:** sin Wither, sin dragón y sin PvP como norma (pegarle a un amigo se puede si el server lo permite, pero no se diseña para eso). Fuera Enhanced Attack Indicator, Swing Through y Bad Wither No Cookie | Dragón y Wither ya los bloquea `mipack-rules`. **[NV]** Wither armado a mano: el spawn se cancela, pero probablemente se gastan las calaveras y la arena de almas |
@@ -164,7 +166,34 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
    Aether + Otherside; medir MES).
 6. **Verificar en vivo:** Toxic, Forlorn y Abyssal (no probados), Pokémon del Mundo Distorsión, enlaces de la wiki en GitHub.
 7. **QoL** (en curso, 08-oct): inventario y mochilas hechos; falta el resto de §3.4 si se quiere.
-8. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack
+8. **Almacenamiento y estructuras** (pedido 09-oct):
+   - **Más capacidad en cofres y mochilas.** Idea: mochilas con mejoras (parches/upgrades) y las mismas mejoras en
+     los cofres, tipo Sophisticated Backpacks + Sophisticated Storage. Ojo: Sinytra Connector va al revés (corre mods
+     Fabric en NeoForge); de NeoForge → Fabric solo hay ports no oficiales (Sophisticated Backpacks, ver §3.3) o
+     Kilt (experimental) **[NV]**. Alternativas a revisar: Reinforced Chests / Expanded Storage, y si Traveler's
+     Backpack se puede agrandar por config.
+     COBBLEVERSE 1.7.42 trae **Sophisticated Backpacks 3.23.4 + Sophisticated Storage 1.3.7 en Fabric** (con
+     sophisticatedcore): mochilas y cofres con las mismas mejoras. Es el camino directo.
+   - **Bug:** en la interfaz de cofres las cantidades se ven aumentadas (reproducir y ver qué mod lo causa).
+   - El quick stack tipo Terraria (Stack to Nearby Chests) **gusta mucho**: se queda.
+   - **Aldeas estilo Pokémon** (revisado el 09-oct en el `.mrpack` 1.7.42): salen de **Cobblemon Additions** (`bca`,
+     Strikebyte, para el server Brocraft; ARR en Modrinth). Trae 9 aldeas (normal/oscura/lucha × chica/media/grande +
+     cabaña de bruja) con Pokécenter, PokéMart, battlepad, department store, academia y NPCs (Enfermera Joy, tenderos
+     que venden por CobbleDollars). Requiere Cobblemon y CobbleDollars; Waystones, Terralith y Sophisticated Backpacks
+     son opcionales. La 4.2.1 (ene-2026, 1.21.1, "Cobblemon 1.7.1+") suma aldeas de hielo; **no está probada con
+     Cobblemon 1.8.1 [NV]**. COBBLEVERSE usa la 4.1.6 y le pisa `villages.json` para mezclar 5 vanilla (peso 1 c/u) con
+     las `bca` (peso 34), y le reemplaza NBTs (Pokécenter, PokéMart, tenderos).
+     **Hecho el 09-oct** (ver Decisiones). Queda abierto el punto 4. Plan original:
+     1. Instalar la 4.2.1 y dejar **solo aldeas `bca`** (su `villages.json` ya no trae las vanilla). Fuera las aldeas
+        fortificadas de Terralith (`terralith:rare_village`).
+     2. **Agregar `#bca:villages` a `#minecraft:village`** en `mipack`. Sin esto se pierden los 259 spawns de
+        aldea de Cobblemon y **el tutor de movimientos** (su spawn pide `#minecraft:village`; solo le queda el de
+        "atril cerca"). COBBLEVERSE no lo hace.
+     3. **Waystone por aldea:** las `bca` no traen; agregar `#bca:villages` a `mipack:has_waystone`.
+     4. `bca` también pisa `swamp_huts` con su cabaña de bruja: decidir entre esa y la de YUNG.
+     5. Probar en headless: `/locate structure bca:village/default_mid`, que aparezcan el tutor, el waystone y los
+        spawns de aldea, y que las tiendas cobren en CobbleDollars.
+9. **Al final de todo:** pregenerar el mundo de producción en local (Chunky) y subirlo; hosting AWS, publicar el pack
    (CDN) y el pre-launch de Prism.
 
 **Decisiones abiertas:**

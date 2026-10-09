@@ -14,23 +14,23 @@ hash = "cd7f65f58821fc457b605e56a556effb761f27fd9cb0d8336a0b20f4dd3e7697"
 
 [[files]]
 file = "config/alexscaves_biome_generation/candy_cavity.json"
-hash = "393c003d28426a1d908161e954e0a9caa46e479a4b1f56eb17f20b72b14d0838"
+hash = "9e0f5ec8ffeda67ad018a4d5c9660f02c554e3279c3d6bf327e136d6811cbe45"
 
 [[files]]
 file = "config/alexscaves_biome_generation/forlorn_hollows.json"
-hash = "7bb842a33fb55042ab38e09719f09f3840f4d622ae5671da459a75bb958a8ba7"
+hash = "2ee7daf588d82095f86bd91ccb566cb1771d95af1f537c675d7b17a9e8408736"
 
 [[files]]
 file = "config/alexscaves_biome_generation/magnetic_caves.json"
-hash = "432d1cb768f7b4e6104b5697f5b38094c63a354cbfec66745e81160473f3a698"
+hash = "77d6529305a3a531019d7041729013e20c2ed2c51cb63560a51d2b696f682fe4"
 
 [[files]]
 file = "config/alexscaves_biome_generation/primordial_caves.json"
-hash = "e459021039f6e0356d7b9ef29297661cf14b4a947852b3a25624379e90dcfb28"
+hash = "28d09189c9a07ad6c3d821d8b0e1dbf9971b85195b937bc14bb13574502015c4"
 
 [[files]]
 file = "config/alexscaves_biome_generation/toxic_caves.json"
-hash = "15f430e7b7cca130010f9a180363b5a38dbf21791101beb4a0579d8305143f8b"
+hash = "1259709301e7d6f0deeeb0f8b18546dd20bb93e5281d5d16ecfca29d86ec84a1"
 
 [[files]]
 file = "config/betterdeserttemples-fabric-1_21.toml"
@@ -145,6 +145,10 @@ hash = "7b41606aa3f628c4b457190306f0d1d21fc843f0b56f7b99af3a9f3e5fce055f"
 [[files]]
 file = "config/openloader/packs/mipack/data/betterdeserttemples/tags/worldgen/biome/has_structure/better_desert_temple.json"
 hash = "acc06888f023974ee1636a99e7f173742eb81cd71bd726a2e2318100a43f790f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/betterjungletemples/worldgen/structure/jungle_temple.json"
+hash = "47a7da1b14697ddf6b38ece0b53e44a6a6a99a68ece5268d0184df844aeb5607"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_detail_presets/illager_structures.json"
@@ -959,6 +963,10 @@ file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_st
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/structure/village.json"
+hash = "fc58dc069e1e6407f20f6b5d6ab53535c7e9e52ce74a5f42630531adc3eabd21"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/function/altar.mcfunction"
 hash = "f3343474aa98dcd045a3cf507399b2c2e18493aaf6c84b76a2f8c4668aaf41c0"
 
@@ -1328,7 +1336,7 @@ hash = "9638641173fa020a3721a872341ecd18cb23cd99e2cbd4db8ea7bdb5744b134c"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/has_waystone.json"
-hash = "edc7c39de8eabd066acfbcf602dbc62efe5656b093ee6e5e5e8992c14554657b"
+hash = "89f341e53c259945766313d8f1dc949cfbfe34581af93a124312ec44a5f0c626"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/mega_site_maps.json"
@@ -1935,6 +1943,14 @@ file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/ultr
 hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/terralith/tags/worldgen/biome/has_structure/fortified_desert_village.json"
+hash = "78211ca3f4a5f24669bc16b1132aa4dcd29c3d053564742f1728da77430c372b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/terralith/tags/worldgen/biome/has_structure/fortified_village.json"
+hash = "78211ca3f4a5f24669bc16b1132aa4dcd29c3d053564742f1728da77430c372b"
+
+[[files]]
 file = "config/openloader/packs/mipack/pack.mcmeta"
 hash = "ef04d9805f64e6aad2d37070cd033b74cac3f3ffdbee4a112c9b57bc0e726c20"
 
@@ -2515,6 +2531,11 @@ metafile = true
 [[files]]
 file = "mods/cobbleloots.pw.toml"
 hash = "fd7e488a3f8cdbcd2d1b60ddbc7dd7ff5bc138aeaf7593b129c3f13e2e1d3d14"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-additions.pw.toml"
+hash = "ade2bd4db7d5a79135cc492d72dbe72e21af5d704dfb88e6dc7622b684da31dd"
 metafile = true
 
 [[files]]

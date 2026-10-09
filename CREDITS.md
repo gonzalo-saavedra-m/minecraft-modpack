@@ -50,6 +50,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobbleloots: Loot Balls and More!](https://modrinth.com/project/cobbleloots) | Ripio | MIT |
 | [Cobblemon](https://modrinth.com/project/cobblemon) | BlazingBRO, Mallowu, NickImpact, Brotatsun64, SamyTheGil, MJB-coolness, Tyzillion, mvthwus, whatsy, Mallowuu, Valirus, Apion, drewlordybuilds, plastered_crab, addy_bromide, Waldleufer, Erusel, BlackSpirit, Bwavii, Glitch_Ratt, TotallyNotAHobo, SamIr0n, EikoBiko, Gesteyy, gingledoof0, virtuositas, complacentdev, Carmendarr, Charzard4261, lilpebs, FrankTheFarmer, Dynamite2pt0, giodude1580, MoeBoy76, Kenji_64, Veraxiel, Sarge54125, heaveninvoid_, SilverBerr1, Rogerregoat, Jakotens, Wi2tert, Hysako_, Azooreh, dhi_holo, QriviateA, whoisvoxel, duckyquackington1, JPAKx4, Myslippy, Sterrezo, RedGenesectNinja, nickaholic, negocio, KleeHubertus, Torchmarrow, maashous, Genotype, 321retrogamer, boyfriends, JoeSeff, DoctorWafflePhD, JadedTeal, Hiroku, HexeChroma, TyzillionCBMN, spg | MPL-2.0 |
 | [Cobblemon - Exp. All](https://modrinth.com/project/cobblemon-exp.-all) | Axel-WF | MPL-2.0 |
+| [Cobblemon additions](https://modrinth.com/project/cobblemon-additions) | strikebyte | All-Rights-Reserved |
 | [Cobblemon Battle Extras](https://modrinth.com/project/cobblemon-battle-extras) | Raguto | All-Rights-Reserved |
 | [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
 | [Cobblemon Catch Rate Display](https://modrinth.com/project/catch-rate-display) | Akkiruk | MIT |
