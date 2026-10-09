@@ -82,6 +82,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Default Options](https://modrinth.com/project/default-options) | BlayTheNinth | All-Rights-Reserved |
 | [Dungeons and Taverns Ancient City Overhaul](https://modrinth.com/project/dungeons-and-taverns-ancient-city-overhaul) | MiziraGamez, NovaWostra | All-Rights-Reserved |
 | [Dynamic Crosshair](https://modrinth.com/project/dynamiccrosshair) | Crendgrim | LGPL-3.0-only |
+| [EasyAuth](https://modrinth.com/project/easyauth) | NikitaCartes | MIT |
 | [EMI](https://modrinth.com/project/emi) | Emi, exaptations | MIT |
 | [EMI Enchanting](https://modrinth.com/project/emi-enchanting) | fzzyhmstrs | MIT |
 | [EMI Ores](https://modrinth.com/project/emi-ores) | abbie | LGPL-3.0-only |
@@ -143,6 +144,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [ServerCore](https://modrinth.com/project/servercore) | Wesley1808 | MIT |
 | [Show My Maps](https://modrinth.com/project/show-my-maps) | DragonX1901 | MIT |
 | [Shulker Box Tooltip](https://modrinth.com/project/shulkerboxtooltip) | MisterPeModder | MIT |
+| [Skin Restorer](https://modrinth.com/project/skinrestorer) | Lionarius | MIT |
 | [Sodium](https://modrinth.com/project/sodium) | IMS, jellysquid3, douira | Polyform-Shield-1.0.0 |
 | [Sodium Extra](https://modrinth.com/project/sodium-extra) | FlashyReese | LGPL-3.0-only |
 | [Sodium Shadowy Path Blocks (SSPB)](https://modrinth.com/project/sodium-shadowy-path-blocks) | Rynnavinx | LGPL-3.0-only |

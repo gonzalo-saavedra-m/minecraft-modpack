@@ -2662,6 +2662,11 @@ hash = "08154559c426512b546b5c270c6ab01cdabc09dad78b693e1213f5539e15f56c"
 metafile = true
 
 [[files]]
+file = "mods/easyauth.pw.toml"
+hash = "985a013ba46e3bd74803205625fe92a47cee16138db6beddd6c49980e2474ebc"
+metafile = true
+
+[[files]]
 file = "mods/emi-enchanting.pw.toml"
 hash = "1f9cd4e83ced98ba9f8ccff164ce108990e1e8f8f8205b6c549f7db26f1d8c11"
 metafile = true
@@ -2983,6 +2988,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "83b5a1c0b39aa94492a13f319c097ff8e7e55a6718e287e5d73b32f7500f1727"
+metafile = true
+
+[[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "85b3fe3ded796c65745ca36d905718896271cc2f6d6c49f8e4d5c9f26ebe2aea"
 metafile = true
 
 [[files]]
