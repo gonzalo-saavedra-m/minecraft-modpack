@@ -1964,6 +1964,34 @@ file = "config/openloader/resources/Cobblemon-Tips-3.0.zip"
 hash = "b53eaa9beaca3a27b3bd5ab62e9422cfd0c2bdc88d54602563dbfcf59fb93aa7"
 
 [[files]]
+file = "config/openloader/resources/fixes/assets/cobblemon-additions/blockstates/pokemon_spawner.json"
+hash = "2fffef7e5067e2cbf4b7862cc4b1791302ea2aa7a5f21dfd943733d4db366cbe"
+
+[[files]]
+file = "config/openloader/resources/fixes/assets/cobblemon-additions/blockstates/pokemon_trial_spawner.json"
+hash = "b2ca333b22284b2affab69200f24955388059f9a8422b88f16cfb9b77cdb6b4d"
+
+[[files]]
+file = "config/openloader/resources/fixes/assets/cobblemon-additions/lang/en_us.json"
+hash = "3866b2264e2e4752d084ddb301df8e35e01c49ce53376c936fe60685d22bb313"
+
+[[files]]
+file = "config/openloader/resources/fixes/assets/cobblemon-additions/models/item/pokemon_spawner.json"
+hash = "98ebff11cde836eb3f6dc5b5abbab9e6b5ea22ccac9e8affbc5b68136d13e4a4"
+
+[[files]]
+file = "config/openloader/resources/fixes/assets/cobblemon-additions/models/item/pokemon_trial_spawner.json"
+hash = "94212ce2c34c6aaa4a5156557c97feacb62822e1540f651813f77abf421cd1b7"
+
+[[files]]
+file = "config/openloader/resources/fixes/assets/pokeblocks/models/block/gigantic_pokedoll_shiny_cubchoo_animated.json"
+hash = "bc69c202e33ada7409808ea1a827da0c6c8a3aa13540a52b7eef8b47c1e45760"
+
+[[files]]
+file = "config/openloader/resources/fixes/pack.mcmeta"
+hash = "7f6977ddc7f28f2321b7ba21ffe6df10a882adaf95ab0bfd9b474b60c5c005a5"
+
+[[files]]
 file = "config/rctmod-server.toml"
 hash = "471195dcf09af6c97eb4ebd372645afdaac994d3890b99aa3e1905fe51789237"
 
