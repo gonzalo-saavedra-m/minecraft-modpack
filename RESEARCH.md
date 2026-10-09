@@ -155,8 +155,8 @@ corresponden al estado al 2026-10-06. Lo marcado **[NV]** no está verificado: h
 1. ~~Gameplay~~ (08-oct). Queda (Gonzalo): probar en cliente PFT y la UI de los addons. Al crear el mundo final:
    `function mipack:altar` en el spawn.
 2. ~~Addons ❓~~ (08-oct).
-3. **Reglas en config:** gamerules en la función `load` de `mipack` (keepInventory, `doPatrolSpawning`,
-   `doTraderSpawning`, `doInsomnia`); mecanismo de "sin hambre" (barra llena sin saturación).
+3. **Reglas en config:** ~~gamerules en la función `load` de `mipack`~~ (08-oct: `mipack:load` con keepInventory,
+   `doPatrolSpawning`, `doTraderSpawning`, `doInsomnia`). Falta: mecanismo de "sin hambre" (barra llena sin saturación).
 4. **Spawns en estructuras:** mineshafts (Excadrill, Pokémon que excavan, Gimmighoul) quitándolos de las cuevas
    genéricas; pool de la ciudad antigua (Sinistea, Honedge, Litwick…); poblar las mazmorras del Aether y las estructuras
    de Extra Structures que quedaron sin su Pokémon fijo.

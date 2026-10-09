@@ -9,6 +9,30 @@ file = "config/PastureLoot.json"
 hash = "3977d805b89bfafb218166a973d137e7a3f47595a20cffde975dd2a9d8edad21"
 
 [[files]]
+file = "config/alexscaves_biome_generation/abyssal_chasm.json"
+hash = "cd7f65f58821fc457b605e56a556effb761f27fd9cb0d8336a0b20f4dd3e7697"
+
+[[files]]
+file = "config/alexscaves_biome_generation/candy_cavity.json"
+hash = "393c003d28426a1d908161e954e0a9caa46e479a4b1f56eb17f20b72b14d0838"
+
+[[files]]
+file = "config/alexscaves_biome_generation/forlorn_hollows.json"
+hash = "7bb842a33fb55042ab38e09719f09f3840f4d622ae5671da459a75bb958a8ba7"
+
+[[files]]
+file = "config/alexscaves_biome_generation/magnetic_caves.json"
+hash = "432d1cb768f7b4e6104b5697f5b38094c63a354cbfec66745e81160473f3a698"
+
+[[files]]
+file = "config/alexscaves_biome_generation/primordial_caves.json"
+hash = "e459021039f6e0356d7b9ef29297661cf14b4a947852b3a25624379e90dcfb28"
+
+[[files]]
+file = "config/alexscaves_biome_generation/toxic_caves.json"
+hash = "15f430e7b7cca130010f9a180363b5a38dbf21791101beb4a0579d8305143f8b"
+
+[[files]]
 file = "config/betterdeserttemples-fabric-1_21.toml"
 hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
@@ -923,6 +947,10 @@ file = "config/openloader/packs/mipack/data/mega_showdown/worldgen/structure_set
 hash = "1073462c4f234bb246a4738410af8b9c1ea39468560c532a9b74d630b8c00539"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/minecraft/tags/function/load.json"
+hash = "f51cf0fb631874b35a4f6c73fb5ed29e7113228c065c36030c43ef21b83ad43e"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/minecraft/tags/worldgen/biome/has_structure/end_city.json"
 hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
@@ -933,6 +961,10 @@ hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/function/altar.mcfunction"
 hash = "f3343474aa98dcd045a3cf507399b2c2e18493aaf6c84b76a2f8c4668aaf41c0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/function/load.mcfunction"
+hash = "56d33e00f0e672f1f76e1a25dfa7e020a278803554e310e8a258364d8a2ce614"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/loot_table/chests/tier1.json"
