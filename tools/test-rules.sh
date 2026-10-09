@@ -34,12 +34,17 @@ cmd "mrtest hp mrtB 50" >/dev/null; cmd "mrtest wild mrtB rattata level=5" >/dev
 cmd "mrtest hp mrtB 0" >/dev/null; cmd "mrtest act mrtB forfeit" >/dev/null; sleep 4
 check "quedarse sin Pokémon mata" "$(cmd 'mrtest status mrtB')" "No player was found"
 
-# 3. Abeja de colmena -> Combee
+# 3. Abeja de colmena -> Combee (de día; la abeja sale cuando quiere: se espera hasta 30 s)
+cmd "setblock 3 200 0 minecraft:air" >/dev/null   # si quedó una colmena de antes, setblock no cambia su contenido
 cmd "setblock 3 200 0 minecraft:beehive[facing=east]{bees:[{entity_data:{id:\"minecraft:bee\"},min_ticks_in_hive:0,ticks_in_hive:0}]}" >/dev/null
-sleep 8
+combee=""; i=0
+while [ $i -lt 10 ] && ! echo "$combee" | grep -q "Test passed"; do
+  sleep 3; i=$((i + 1))
+  combee=$(cmd 'execute positioned 3 200 0 if entity @e[type=cobblemon:pokemon,distance=..16,nbt={Pokemon:{Species:"cobblemon:combee"}}]')
+done
 check "sin abejas" "$(cmd 'execute if entity @e[type=minecraft:bee]')" "Test failed"
 check "colmena vacía" "$(cmd 'data get block 3 200 0 bees')" "block data: \[\]"
-check "Combee junto a la colmena" "$(cmd 'execute positioned 3 200 0 if entity @e[type=cobblemon:pokemon,distance=..16,nbt={Pokemon:{Species:"cobblemon:combee"}}]')" "Test passed"
+check "Combee junto a la colmena" "$combee" "Test passed"
 
 # 4. /summon simple permitido (motivo COMMAND)
 check "creeper por /summon permitido" "$(cmd 'summon minecraft:creeper 5 200 2')" "Summoned"
@@ -62,11 +67,15 @@ cmd "setblock 5 200 -2 minecraft:redstone_block" >/dev/null; sleep 10
 check "spawner invoca a Brock" "$(cmd 'execute if entity @e[type=rctmod:trainer,name="Leader Brock"]')" "Test passed"
 cmd "kill @e[type=rctmod:trainer]" >/dev/null; cmd "player mrtD kill" >/dev/null
 
-# 6b. Los Pokémon no se dañan fuera de combate; /kill sí los saca
+# 6b. Pokémon con dueño: sin daño fuera de combate. Salvajes: se pueden matar a mano
 cmd "spawnpokemonat 2 200 -1 rattata level=10" >/dev/null; sleep 1
-cmd "damage @e[type=cobblemon:pokemon,limit=1,sort=nearest,x=2,y=200,z=-1] 50 minecraft:generic" >/dev/null; sleep 1
-check "Pokémon sin daño fuera de combate" "$(cmd 'execute if entity @e[type=cobblemon:pokemon,x=2,y=200,z=-1,distance=..3]')" "Test passed"
-check "/kill sí elimina Pokémon" "$(cmd 'kill @e[type=cobblemon:pokemon,x=2,y=200,z=-1,distance=..3]')" "Killed"
+cmd "damage @e[type=cobblemon:pokemon,limit=1,nbt={Pokemon:{Species:\"cobblemon:rattata\"}}] 50 minecraft:generic" >/dev/null; sleep 4  # animación de desmayo
+check "salvaje se puede matar a mano" "$(cmd 'execute if entity @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:rattata"}}]')" "Test failed"
+cmd "player mrtG spawn at 0 200 -6" >/dev/null; cmd "fill -1 199 -7 4 199 -5 minecraft:stone" >/dev/null
+cmd "mrtest give mrtG geodude level=10" >/dev/null; cmd "mrtest sendout mrtG" >/dev/null; sleep 2
+cmd "damage @e[type=cobblemon:pokemon,limit=1,nbt={Pokemon:{Species:\"cobblemon:geodude\"}}] 500 minecraft:generic" >/dev/null; sleep 1
+check "Pokémon de un jugador sin daño" "$(cmd 'execute if entity @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:geodude"}}]')" "Test passed"
+cmd "player mrtG kill" >/dev/null
 
 # 7. Sin dormir: en vez de phantoms llegan Drowzee, Hypno, Munna, Musharna o Misdreavus. Como los phantoms: de noche,
 #    sobre el nivel del mar, cielo abierto y con una chance por intento cada 1-2 min (en fácil tarda unos minutos)

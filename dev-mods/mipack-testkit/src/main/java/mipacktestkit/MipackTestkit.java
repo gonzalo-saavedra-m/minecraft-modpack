@@ -75,6 +75,13 @@ public class MipackTestkit implements ModInitializer {
 					p.getStats().setValue(p, net.minecraft.stats.Stats.CUSTOM.get(net.minecraft.stats.Stats.TIME_SINCE_REST), 10_000_000);
 					return reply(c, "insomnia " + p.getScoreboardName());
 				})))
+				// Saca al primer Pokémon del equipo al mundo (para probar reglas sobre Pokémon con dueño)
+				.then(literal("sendout").then(argument("player", EntityArgument.player()).executes(c -> {
+					var p = EntityArgument.getPlayer(c, "player");
+					var pk = PlayerExtensionsKt.party(p).get(0);
+					pk.sendOut(p.serverLevel(), p.position().add(2, 0, 0), null, e -> kotlin.Unit.INSTANCE);
+					return reply(c, "sendout " + p.getScoreboardName() + ": " + pk.getSpecies().getName());
+				})))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));

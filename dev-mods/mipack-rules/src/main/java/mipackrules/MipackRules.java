@@ -87,10 +87,12 @@ public class MipackRules implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// Los Pokémon solo se dañan en combate (eso lo maneja Cobblemon por dentro, no como daño a la entidad): fuera
-		// de combate nada los lastima (caídas, lava, golpes, mobs). /kill y el vacío sí, para poder limpiar
+		// Los Pokémon con dueño (de un jugador: equipo, sacados o en el corral; o de un entrenador) solo se dañan en
+		// combate, que Cobblemon maneja por dentro: fuera de combate nada los lastima. Los salvajes, como siempre.
+		// /kill y el vacío sí, para poder limpiar
 		ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) ->
-				!(entity instanceof PokemonEntity) || source.is(DamageTypeTags.BYPASSES_INVULNERABILITY));
+				!(entity instanceof PokemonEntity p && !p.getPokemon().isWild())
+						|| source.is(DamageTypeTags.BYPASSES_INVULNERABILITY));
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))

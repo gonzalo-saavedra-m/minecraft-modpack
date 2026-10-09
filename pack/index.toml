@@ -2627,6 +2627,11 @@ hash = "3854c4dfa29acdbd3377a28cd35d3f4408bf2730d42f4f937b2ddeaaff0a1c00"
 metafile = true
 
 [[files]]
+file = "mods/configurable.pw.toml"
+hash = "0d842517b64a166b23f33031a77f93f7159a2d9dc5644633f5dceb7b1ad7882c"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "9fbc006e8d4d3633c3841a6415ff0ecb1da037cd5ed68d2444f6702e8bfad582"
 metafile = true
@@ -2828,7 +2833,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "f3444dd8abd11e6011c901d055ff1898e66d71a8570cac76481f0d521707ea6b"
+hash = "5f01918b602dbfc40d07d1be324acd5e7b97af7c63aa1e7938a4db23b51161b0"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -2863,6 +2868,11 @@ metafile = true
 [[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "c55a705b886cfec789b438e41357f0aae83a7987b70364661ee3563530571fdf"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "9065a177da3baa026216d869cf7a3362f0d392b3a0dad2c4aeeac2d1befa7c9b"
 metafile = true
 
 [[files]]

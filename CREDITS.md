@@ -75,6 +75,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon: Rider's Call](https://modrinth.com/project/cobblemon-riders-call) | JoStar233 | All-Rights-Reserved |
 | [Cobblemon: Wild Loot](https://modrinth.com/project/cobblemon-wild-loot) | lucyazalea | AGPL-3.0-or-later |
 | [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT |
+| [Configurable](https://modrinth.com/project/configurable) | Bawnorton | MIT |
 | [Crafting Tweaks](https://modrinth.com/project/crafting-tweaks) | BlayTheNinth | All-Rights-Reserved |
 | [CraftPresence](https://modrinth.com/project/craftpresence) | CDAGaming | MIT |
 | [Deeper and Darker](https://modrinth.com/project/deeperdarker) | ang-xd, nitrodynamite18, Pedro270707, NewJumper | AGPL-3.0-only |
@@ -120,6 +121,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [More Radical Trainers: SV](https://modrinth.com/project/more-radical-trainers) | fyre520 | MIT |
 | [MoreCobblemonTweaks](https://modrinth.com/project/more-cobblemon-tweaks) | justahuman-xd | GPL-3.0-only |
 | [Navas ZA Megas](https://modrinth.com/project/navas-zamega) | natusue233, sishengruyu, GrenCobblemon, hugoarts, Sevonents, Radowkage, sanji1, YajatKaul, Narenhate | MEGA-SHOWDOWN-LICENSE-v2.1 |
+| [Neruina - Ticking Entity Fixer](https://modrinth.com/project/neruina) | Bawnorton | MIT |
 | [NetherPortalFix](https://modrinth.com/project/netherportalfix) | BlayTheNinth | All-Rights-Reserved |
 | [Not Enough Animations](https://modrinth.com/project/not-enough-animations) | tr7zw | tr7zw-Protective-License |
 | [Nullscape](https://modrinth.com/project/nullscape) | catter1, runcows, Starmute, TeraBuildsStuff | Stardust-Labs-License |
