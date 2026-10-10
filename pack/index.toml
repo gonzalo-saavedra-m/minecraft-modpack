@@ -38,7 +38,7 @@ hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
 [[files]]
 file = "config/cobbleloots.json"
-hash = "1d07f548e6e54b994219dd7d0b9990a9ec7a9b29f62c030110a52a5932d2c0b9"
+hash = "28b669c0421e69b49443557716e5cf8db400895599c88a3c81d02d8b78baf077"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -2970,7 +2970,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "3b9466def4824f3db9e22d649f2d2e959e74be0e982466fc336931bc3457d1c5"
+hash = "ccd55e1ed7b1df06cd1e5612cbe229b4fafc12d07cad4d2fed9872f9597e6785"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

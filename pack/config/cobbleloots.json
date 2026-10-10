@@ -15,7 +15,9 @@
   "generation_chance": 0.017,
   "generation_attempts_per_chunk": 2,
   "generation_chunk_cap": 4,
-  "generation_disabled_dimensions": [],
+  "generation_disabled_dimensions": [
+    "aether:the_aether"
+  ],
   "spawning_enabled": true,
   "spawning_chance": 0.08,
   "spawning_cooldown_min": 6000,

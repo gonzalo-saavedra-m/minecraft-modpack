@@ -2,6 +2,6 @@
 	"required": true,
 	"package": "mipackrules.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": ["BlockStateBaseMixin", "EndDragonFightMixin", "MobMixin", "ServerLevelMixin", "WorldGenRegionMixin"],
+	"mixins": ["BlockStateBaseMixin", "EndDragonFightMixin", "MobMixin", "ServerLevelMixin", "ServerPlayerMixin", "WorldGenRegionMixin"],
 	"injectors": { "defaultRequire": 1 }
 }
