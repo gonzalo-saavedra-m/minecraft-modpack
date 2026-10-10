@@ -4,12 +4,14 @@ import com.cobblemon.mod.common.api.events.CobblemonEvents;
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
+import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.mojang.logging.LogUtils;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.EnumSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.WeakHashMap;
@@ -24,6 +26,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.Block;
@@ -50,11 +53,14 @@ import net.minecraft.world.level.storage.loot.entries.NestedLootTable;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import org.slf4j.Logger;
 
-/** Reglas del server (RESEARCH §13.2b): sin spawners, sin mobs de Minecraft y quedarte sin Pokémon te mata. */
+/** Reglas del server (RESEARCH §13.2b): sin spawners, sin mobs de Minecraft, sin hambre y quedarte sin Pokémon te mata. */
 public class MipackRules implements ModInitializer {
 	private static final Logger LOGGER = LogUtils.getLogger();
-	/** Mods cuyos mobs no aparecen solos (RESEARCH §13.2b): Minecraft, Alex's Caves, Deeper and Darker y Aether (pokemon only). */
-	private static final Set<String> BLOCKED_NAMESPACES = Set.of("minecraft", "alexscaves", "deeperdarker", "aether");
+	/**
+	 * Mods cuyos mobs no aparecen solos (RESEARCH §13.2b): Minecraft, Alex's Caves, Deeper and Darker, Aether y YUNG's
+	 * Cave Biomes (Sand Snapper, Ice Cube) (pokemon only).
+	 */
+	private static final Set<String> BLOCKED_NAMESPACES = Set.of("minecraft", "alexscaves", "deeperdarker", "aether", "yungscavebiomes");
 	/** Mobs de esos mods que sí aparecen solos. */
 	private static final Set<EntityType<?>> ALLOWED_TYPES = Set.of(EntityType.VILLAGER);
 	/** Spawns hechos a propósito por un jugador u operador: siempre se permiten. */
@@ -80,6 +86,25 @@ public class MipackRules implements ModInitializer {
 	private static final TagKey<Structure> HAS_WAYSTONE = TagKey.create(Registries.STRUCTURE, ResourceLocation.parse("mipack:has_waystone"));
 	private static final ResourceLocation WAYSTONE = ResourceLocation.parse("waystones:waystone");
 
+	/** Bloques de mazmorra del Aether que sin jefe quedarían irrompibles (BlockStateBaseMixin). */
+	public static final TagKey<Block> DUNGEON_UNLOCKED = TagKey.create(Registries.BLOCK, ResourceLocation.parse("mipack:aether_dungeon_unlocked"));
+
+	/**
+	 * Jefe de cada mazmorra del Aether → legendario de las nubes que lo reemplaza al generarse, con el tier de la
+	 * mazmorra: bronce Tornadus o Thundurus 50, plata Enamorus 60, oro Landorus 70. Vencerlo o capturarlo da la llave
+	 * del cofre del tesoro (antes la soltaba el jefe).
+	 */
+	private static final Map<String, String[]> DUNGEON_GUARDIANS = Map.of(
+			"aether:slider", new String[]{"tornadus level=50 min_perfect_ivs=3", "thundurus level=50 min_perfect_ivs=3"},
+			"aether:valkyrie_queen", new String[]{"enamorus level=60 min_perfect_ivs=3"},
+			"aether:sun_spirit", new String[]{"landorus level=70 min_perfect_ivs=3"});
+	private static final Map<String, String> DUNGEON_KEYS = Map.of("aether:slider", "aether:bronze_dungeon_key",
+			"aether:valkyrie_queen", "aether:silver_dungeon_key", "aether:sun_spirit", "aether:gold_dungeon_key");
+	private static final String DUNGEON_KEY_DATA = "mipack_dungeon_key";
+	/** Lugar del guardián: si se aleja más de GUARDIAN_LEASH bloques (salvaje y fuera de combate), vuelve a su sala. */
+	private static final String DUNGEON_HOME_DATA = "mipack_dungeon_home";
+	private static final double GUARDIAN_LEASH = 8;
+
 	/** Entrenador de RCT. Los del mundo sin combatir este tiempo desaparecen (el despawn de RCT exige que nadie los vea). */
 	private static final ResourceLocation RCT_TRAINER = ResourceLocation.parse("rctmod:trainer");
 	private static final int TRAINER_IDLE_TICKS = 5 * 60 * 20;
@@ -95,12 +120,19 @@ public class MipackRules implements ModInitializer {
 						|| source.is(DamageTypeTags.BYPASSES_INVULNERABILITY));
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
+			// Sin hambre (RESEARCH §13.2b): barra llena y sin saturación, así la vida se regenera lenta (1/2 ❤ cada 4 s)
+			for (ServerPlayer player : server.getPlayerList().getPlayers()) {
+				player.getFoodData().setFoodLevel(20);
+				player.getFoodData().setSaturation(0);
+			}
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
 				for (ServerPlayer player : server.getPlayerList().getPlayers()) placeStructureWaystone(player);
 			if (server.getTickCount() % 100 != 0) return;
 			for (ServerLevel level : server.getAllLevels())
-				for (Entity e : level.getAllEntities())
+				for (Entity e : level.getAllEntities()) {
 					if (isIdleWildTrainer(e)) e.discard();
+					if (e instanceof PokemonEntity p) leashGuardian(p);
+				}
 		});
 
 		LootTableEvents.MODIFY.register((key, table, source, registries) -> {
@@ -134,6 +166,13 @@ public class MipackRules implements ModInitializer {
 					.when(LootItemRandomChanceCondition.randomChance(chance))));
 		});
 
+		// Guardián de mazmorra del Aether: capturarlo o debilitarlo da la llave del cofre del tesoro (una sola vez)
+		CobblemonEvents.POKEMON_CAPTURED.subscribe(event -> giveDungeonKey(event.getPokemon(), List.of(event.getPlayer())));
+		CobblemonEvents.BATTLE_FAINTED.subscribe(event -> {
+			var pokemon = event.getKilled().getEffectedPokemon();
+			if (pokemon.isWild()) giveDungeonKey(pokemon, event.getBattle().getPlayers());
+		});
+
 		// Muere quien pierde con todos sus Pokémon debilitados; rendirse no mata. El PvP y las raids no matan (Raid
 		// Dens no soporta muertes en su dimensión)
 		CobblemonEvents.BATTLE_VICTORY.subscribe(event -> {
@@ -163,6 +202,38 @@ public class MipackRules implements ModInitializer {
 		var species = pokemon.getPokemon().getSpecies();
 		return !FIXED_OK_SPECIES.contains(species.getResourceIdentifier().getPath())
 				&& species.getLabels().stream().noneMatch(FIXED_OK_LABELS::contains);
+	}
+
+	/** Legendario que reemplaza al jefe de una mazmorra del Aether (o null si no es jefe). No desaparece solo. */
+	public static Entity dungeonGuardian(Entity boss, ServerLevel level) {
+		String id = BuiltInRegistries.ENTITY_TYPE.getKey(boss.getType()).toString();
+		String[] options = DUNGEON_GUARDIANS.get(id);
+		if (options == null) return null;
+		PokemonEntity pokemon = PokemonProperties.Companion.parse(options[level.random.nextInt(options.length)]).createEntity(level);
+		pokemon.getPokemon().getPersistentData().putString(DUNGEON_KEY_DATA, DUNGEON_KEYS.get(id));
+		pokemon.getPokemon().getPersistentData().putLong(DUNGEON_HOME_DATA, boss.blockPosition().asLong());
+		pokemon.moveTo(boss.getX(), boss.getY(), boss.getZ(), boss.getYRot(), 0);
+		pokemon.setPersistenceRequired();
+		LOGGER.info("Guardián de mazmorra {} en {} (en vez de {})",
+				pokemon.getPokemon().getSpecies().getName(), pokemon.blockPosition(), id);
+		return pokemon;
+	}
+
+	private static void leashGuardian(PokemonEntity pokemon) {
+		CompoundTag data = pokemon.getPokemon().getPersistentData();
+		if (!data.contains(DUNGEON_HOME_DATA) || !pokemon.getPokemon().isWild() || pokemon.isBattling()) return;
+		BlockPos home = BlockPos.of(data.getLong(DUNGEON_HOME_DATA));
+		if (pokemon.blockPosition().closerThan(home, GUARDIAN_LEASH)) return;
+		pokemon.getNavigation().stop();
+		pokemon.teleportTo(home.getX() + 0.5, home.getY(), home.getZ() + 0.5);
+	}
+
+	private static void giveDungeonKey(Pokemon pokemon, List<ServerPlayer> players) {
+		CompoundTag data = pokemon.getPersistentData();
+		if (!data.contains(DUNGEON_KEY_DATA)) return;
+		var key = BuiltInRegistries.ITEM.get(ResourceLocation.parse(data.getString(DUNGEON_KEY_DATA)));
+		data.remove(DUNGEON_KEY_DATA);
+		for (ServerPlayer player : players) player.getInventory().placeItemBackInInventory(new ItemStack(key));
 	}
 
 	private static JsonObject readLootInjections() {

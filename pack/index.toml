@@ -37,6 +37,14 @@ file = "config/betterdeserttemples-fabric-1_21.toml"
 hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
 [[files]]
+file = "config/cobbleloots.json"
+hash = "1d07f548e6e54b994219dd7d0b9990a9ec7a9b29f62c030110a52a5932d2c0b9"
+
+[[files]]
+file = "config/cobblemon/main.json"
+hash = "08aa77db7f35eb82fafca76343b2e0703763458dc8d10123eaf200716ef69016"
+
+[[files]]
 file = "config/cobblemon_move_tutor/server.toml"
 hash = "8ffb1ada7438796dfdc6844ef14c0df98aa739dc303f1ee02b4c141478023b8f"
 
@@ -535,6 +543,18 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0823_corv
 hash = "ce931fc5bb390686d719148864b8e45f9ed87d8c6a0a1988936428b04e338c0c"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0837_rolycoly.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0838_carkol.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0839_coalossal.json"
+hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/0854_sinistea.json"
 hash = "babb5b7d0b3da908d69e96a60c00c5571613754c99247c062cd79e7819297f85"
 
@@ -855,6 +875,10 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/082
 hash = "6525771450467e600aed2460a1a01a6547412ed71f5b0c46efd4062336b6a5b7"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0839_coalossal_alpha.json"
+hash = "fac703cc8ce64b712f15e130f4b2233414028f6cee0c52565f8cc682e29e4090"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/herds/0854_sinistea_herd.json"
 hash = "0aa573a0fda44c5d8558a93e131cf0209505fab2f17c1392a28c36166370ac16"
 
@@ -919,6 +943,14 @@ file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/houndston
 hash = "622fc634f5516d248ebbd373e8451a230e684d590b0282dda8735bd06fe8fed7"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/swamp_hut_pokemon.json"
+hash = "5482ca665dd323b734039d441de60948488bab92fa639cabe59d0fcb52a27af6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/cobblemon/spawn_pool_world/village_pokemon.json"
+hash = "aaad1ee0daa00f6867960a250ddf72ac68cc3cda0f0226e7783a31d56de3cba3"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/species_additions/generation7/celesteela.json"
 hash = "8bd68493bd5491c2f3195b43ef865fbc820d1ec2b71e44628323f56f02c34c4f"
 
@@ -932,7 +964,7 @@ hash = "3415ae968fbebdcc34ca43e900dc87f4353e490fe84b83204e82a0c7354c0d14"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/tags/block/natural.json"
-hash = "90273f37a231cca88dd57bf97a2c87571fb5993b7f63b22a56c432b043765d6b"
+hash = "f26e61cf6592a7607dce2698fc7d5fc12c0a5910a5e7cc1d62d483a3320033b3"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/cobblemon/tags/worldgen/biome/is_sky.json"
@@ -949,6 +981,10 @@ hash = "79cf7baaf42a8a1126ed1280b43384b565d1840b2daf8a7ab517efe99ce9d379"
 [[files]]
 file = "config/openloader/packs/mipack/data/mega_showdown/worldgen/structure_set/mega_site.json"
 hash = "1073462c4f234bb246a4738410af8b9c1ea39468560c532a9b74d630b8c00539"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/minecraft/tags/block/mineable/pickaxe.json"
+hash = "d87c690415ef79dd4fbe98ff2100056c95cf3c42d1017eade4fc8e72c82770b0"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/minecraft/tags/function/load.json"
@@ -1184,7 +1220,7 @@ hash = "78a65dec57422f9f65a383f389bf7035c994860d705fae8767f9b7ac2ebdebe1"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/legendarios_del_cielo.json"
-hash = "24a182e88eb6ae75d1f29ce994e2039a07f0b8563829074c903ef381e8aa03dc"
+hash = "a53bd24c4bab398b5988ec71814f7a28be09d6502ad0d34c5b87507643d88b84"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/rayquaza.json"
@@ -1303,6 +1339,26 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/ironjugulis.
 hash = "45095409100e3239535089eab46e6ecdfe0444fe360707392dffb685376ce279"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/aether_bronze_dungeon.json"
+hash = "563217319a2d56dba73a04f6214c58d6f33f061ced48f7b110e4258e0383da7c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/aether_gold_dungeon.json"
+hash = "86e9110976d22d573d4733217e126f29a160ce4bdd027e2cd28ddf8ab1018069"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/aether_silver_dungeon.json"
+hash = "e5c7a18cea3c279865e3b3e6ba4faf97fc8b1b6960d79a077c9aa3ff850c4926"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ancient_city.json"
+hash = "e0759b38637616c88c5095f55e9d6ea0c28bbd4a2cb6f452cbe874536a634458"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/mineshaft.json"
+hash = "6561ea2d8849ef05dd20d801213da91d6ac743225f152480245f3ebc4bc11d72"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/witch_huts/0509_purrloin.json"
 hash = "af5ca0400c819ef3f627f90eb3cc5be2f5bf776d9391033a6a4b8aff79690a60"
 
@@ -1333,6 +1389,18 @@ hash = "17526468f96991152b20fc585a3b3af47ce326988973b38731983129a6d14840"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/witch_huts/0858_hatterene_alpha.json"
 hash = "9638641173fa020a3721a872341ecd18cb23cd99e2cbd4db8ea7bdb5744b134c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/yungscavebiomes/frosted_caves.json"
+hash = "5402f2382dc0258538c61b04d516b1b27c9cbc505d9c8a881c177af93973132c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/yungscavebiomes/lost_caves.json"
+hash = "56eded0e483f5a937dc42b08b95135866ee9366f1cc2868b3b6522f658a21070"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/tags/block/aether_dungeon_unlocked.json"
+hash = "f1366b4d853d7161098e94d1f737c7f064db3a5f7f26474498bdc8aca8c43445"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/has_waystone.json"
@@ -2353,7 +2421,7 @@ hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
 
 [[files]]
 file = "config/yosbr/config/xaero/minimap/default_radar_categories_client.json"
-hash = "cd69d198136600024c570149621c9147b6da9b29bd5ae779e7a126a6ce7aec83"
+hash = "8523eadd8e4332bcbc371090ca4a81e54cd4a2145be08cb94d7bd4bbdc69ec29"
 
 [[files]]
 file = "config/yosbr/config/xaero/minimap/default_radar_categories_server.json"
@@ -2397,7 +2465,7 @@ hash = "83135065e7eb9129f251c9af2267497dbda6488af34a5dbbd3325255632fb61d"
 
 [[files]]
 file = "config/yosbr/config/xaerominimap_entities.json"
-hash = "8f8976f0492655693d17262e994831636110a42b98dad1d3cacd6be1c91bd62a"
+hash = "9e348edc5854345d514e430081f7dde8ea00b3447a4147db4d448f9d457ddc33"
 
 [[files]]
 file = "config/yosbr/config/xaeropatreon.txt"
@@ -2902,7 +2970,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "f52062fbf88aebe51361b71e386870de8176de3bda16e558c4609f02b8688d77"
+hash = "3b9466def4824f3db9e22d649f2d2e959e74be0e982466fc336931bc3457d1c5"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

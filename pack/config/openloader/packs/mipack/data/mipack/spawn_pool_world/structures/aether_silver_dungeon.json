@@ -1,0 +1,160 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-aether_silver_dungeon-squirtle",
+      "pokemon": "squirtle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-totodile",
+      "pokemon": "totodile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-mudkip",
+      "pokemon": "mudkip",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-piplup",
+      "pokemon": "piplup",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-oshawott",
+      "pokemon": "oshawott",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-froakie",
+      "pokemon": "froakie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-popplio",
+      "pokemon": "popplio",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-sobble",
+      "pokemon": "sobble",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_silver_dungeon-quaxly",
+      "pokemon": "quaxly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:silver_dungeon"
+        ]
+      }
+    }
+  ]
+}

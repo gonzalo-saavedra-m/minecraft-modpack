@@ -1,0 +1,935 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-mineshaft-gastly",
+      "pokemon": "gastly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-haunter",
+      "pokemon": "haunter",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-gengar",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-dusknoir",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "41-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-litwick",
+      "pokemon": "litwick",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-lampent",
+      "pokemon": "lampent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "41-46",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-chandelure",
+      "pokemon": "chandelure",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "41-52",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-honedge",
+      "pokemon": "honedge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-33",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-doublade",
+      "pokemon": "doublade",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-shuppet",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-spinarak",
+      "pokemon": "spinarak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-ariados",
+      "pokemon": "ariados",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-joltik",
+      "pokemon": "joltik",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-galvantula",
+      "pokemon": "galvantula",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-47",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-tarountula",
+      "pokemon": "tarountula",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-21",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-spidops",
+      "pokemon": "spidops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-ekans",
+      "pokemon": "ekans",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-arbok",
+      "pokemon": "arbok",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-45",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-seviper",
+      "pokemon": "seviper",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-46",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-silicobra",
+      "pokemon": "silicobra",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-sandaconda",
+      "pokemon": "sandaconda",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-51",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-onix",
+      "pokemon": "onix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "14-39",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-steelix",
+      "pokemon": "steelix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-dunsparce",
+      "pokemon": "dunsparce",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "17-42",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-dudunsparce",
+      "pokemon": "dudunsparce",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "32-52",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-rolycoly",
+      "pokemon": "rolycoly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-24",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-carkol",
+      "pokemon": "carkol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-41",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-mineshaft-coalossal",
+      "pokemon": "coalossal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:mineshaft"
+        ],
+        "maxY": 40,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:abyssal_chasm",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows",
+          "alexscaves:magnetic_caves",
+          "alexscaves:primordial_caves",
+          "alexscaves:toxic_caves"
+        ]
+      }
+    }
+  ]
+}

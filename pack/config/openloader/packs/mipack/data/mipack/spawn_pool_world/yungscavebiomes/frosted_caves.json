@@ -1,0 +1,553 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-frosted_caves-snorunt",
+      "pokemon": "snorunt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-glalie",
+      "pokemon": "glalie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "42-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-froslass",
+      "pokemon": "froslass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-spheal",
+      "pokemon": "spheal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-sealeo",
+      "pokemon": "sealeo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-44",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-walrein",
+      "pokemon": "walrein",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "44-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-bergmite",
+      "pokemon": "bergmite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-avalugg",
+      "pokemon": "avalugg",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-cubchoo",
+      "pokemon": "cubchoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-beartic",
+      "pokemon": "beartic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-swinub",
+      "pokemon": "swinub",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-piloswine",
+      "pokemon": "piloswine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-mamoswine",
+      "pokemon": "mamoswine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-sandshrew-alolan",
+      "pokemon": "sandshrew alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-sandslash-alolan",
+      "pokemon": "sandslash alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-snom",
+      "pokemon": "snom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-frosmoth",
+      "pokemon": "frosmoth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-smoochum",
+      "pokemon": "smoochum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-25",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-jynx",
+      "pokemon": "jynx",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-delibird",
+      "pokemon": "delibird",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-sneasel",
+      "pokemon": "sneasel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-weavile",
+      "pokemon": "weavile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-sneasel-hisuian",
+      "pokemon": "sneasel hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-sneasler",
+      "pokemon": "sneasler",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-vanillite",
+      "pokemon": "vanillite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-vanillish",
+      "pokemon": "vanillish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-vanilluxe",
+      "pokemon": "vanilluxe",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "47-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-darumaka-galarian",
+      "pokemon": "darumaka galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-darmanitan-galarian",
+      "pokemon": "darmanitan galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-eiscue",
+      "pokemon": "eiscue",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-cryogonal",
+      "pokemon": "cryogonal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-frigibax",
+      "pokemon": "frigibax",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-arctibax",
+      "pokemon": "arctibax",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-baxcalibur",
+      "pokemon": "baxcalibur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "54-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-seel",
+      "pokemon": "seel",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-dewgong",
+      "pokemon": "dewgong",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "34-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-shellder",
+      "pokemon": "shellder",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-cloyster",
+      "pokemon": "cloyster",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-frosted_caves-lapras",
+      "pokemon": "lapras",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      }
+    }
+  ]
+}

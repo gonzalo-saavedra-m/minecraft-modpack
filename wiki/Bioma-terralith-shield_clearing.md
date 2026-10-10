@@ -1,4 +1,4 @@
-# Escudo Claro
+# Claro del Escudo
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 

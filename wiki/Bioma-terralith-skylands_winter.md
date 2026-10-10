@@ -1,4 +1,4 @@
-# Islas del Cielo (Invierno)
+# Tierras del Cielo (Invierno)
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
@@ -7,7 +7,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 `terralith:skylands_winter` · Terralith
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
-- **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas del Cielo (Invierno)](Zonas.md#islas-del-cielo-invierno), [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado)
+- **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Islas del cielo](Zonas.md#islas-del-cielo), [Mágico](Zonas.md#mágico), [Nevado](Zonas.md#nevado), [Tierras del Cielo (Invierno)](Zonas.md#tierras-del-cielo-invierno)
 - **Estructuras que se generan aquí:** [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Hábitats: Fae Mounds (Cobblemon)](Estructuras.md#hábitats-fae-mounds-cobblemon), [Hábitats: Spruce Wildfire Scar (Cobblemon)](Estructuras.md#hábitats-spruce-wildfire-scar-cobblemon), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon), [Torre de mago (invierno) (Terralith)](Estructuras.md#torre-de-mago-invierno-terralith)
 
 ## Pokémon (113)

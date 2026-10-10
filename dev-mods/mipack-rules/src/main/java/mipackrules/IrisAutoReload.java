@@ -15,14 +15,14 @@ import org.lwjgl.opengl.GL11;
 /**
  * Parche para los FPS que caen de a poco con shaders (RESEARCH, decisiones abiertas). Hace lo mismo que la R de Iris
  * cuando detecta la caída: VRAM libre bajo 15% (solo NVIDIA) o FPS del último minuto bajo 60% de los que había después
- * del último reload, con al menos 10 minutos de juego entre recargas. Espera a que se abra la pausa o un inventario, así el tirón de recompilar queda detrás.
+ * del último reload, con al menos 1 minuto de juego entre recargas. Espera a que se abra la pausa o un inventario, así el tirón de recompilar queda detrás.
  * Cada minuto deja FPS y VRAM en el log ("mipack:") para diagnosticar la fuga.
  */
 public class IrisAutoReload implements ClientModInitializer {
 	private static final int NVX_TOTAL_KB = 0x9048, NVX_FREE_KB = 0x9049;
 	private static final double MIN_FREE_VRAM = 0.15, MIN_FPS_RATIO = 0.6;
 	private static final int WARMUP_MIN = 3; // minutos tras un reload para fijar la línea base de FPS (ignora la baja del propio reload)
-	private static final int COOLDOWN_MIN = 10; // minutos de juego mínimos entre recargas automáticas
+	private static final int COOLDOWN_MIN = 1; // minutos de juego mínimos entre recargas automáticas
 
 	private int ticks, fpsSum, minutes, baseline;
 	private boolean pending;

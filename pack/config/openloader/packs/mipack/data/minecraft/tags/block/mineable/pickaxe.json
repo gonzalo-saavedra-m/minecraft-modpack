@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "#mipack:aether_dungeon_unlocked", "required": false}
+  ]
+}

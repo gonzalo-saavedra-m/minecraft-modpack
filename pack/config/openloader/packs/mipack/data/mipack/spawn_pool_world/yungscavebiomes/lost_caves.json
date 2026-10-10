@@ -1,0 +1,483 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-lost_caves-sandile",
+      "pokemon": "sandile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-krokorok",
+      "pokemon": "krokorok",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-40",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-krookodile",
+      "pokemon": "krookodile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-trapinch",
+      "pokemon": "trapinch",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-vibrava",
+      "pokemon": "vibrava",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-flygon",
+      "pokemon": "flygon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-hippopotas",
+      "pokemon": "hippopotas",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-hippowdon",
+      "pokemon": "hippowdon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-sandshrew",
+      "pokemon": "sandshrew",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-sandslash",
+      "pokemon": "sandslash",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-silicobra",
+      "pokemon": "silicobra",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-sandaconda",
+      "pokemon": "sandaconda",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-cacnea",
+      "pokemon": "cacnea",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-32",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-cacturne",
+      "pokemon": "cacturne",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-maractus",
+      "pokemon": "maractus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-dwebble",
+      "pokemon": "dwebble",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-crustle",
+      "pokemon": "crustle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "34-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-nacli",
+      "pokemon": "nacli",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-naclstack",
+      "pokemon": "naclstack",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-38",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-garganacl",
+      "pokemon": "garganacl",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "38-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-baltoy",
+      "pokemon": "baltoy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-36",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-claydol",
+      "pokemon": "claydol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-yamask",
+      "pokemon": "yamask",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-cofagrigus",
+      "pokemon": "cofagrigus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-yamask-galarian",
+      "pokemon": "yamask galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-runerigus",
+      "pokemon": "runerigus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "34-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-skorupi",
+      "pokemon": "skorupi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-34",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-drapion",
+      "pokemon": "drapion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-orthworm",
+      "pokemon": "orthworm",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-sigilyph",
+      "pokemon": "sigilyph",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-gible",
+      "pokemon": "gible",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-24",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-gabite",
+      "pokemon": "gabite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "24-48",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-larvesta",
+      "pokemon": "larvesta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-lost_caves-volcarona",
+      "pokemon": "volcarona",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "45-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:lost_caves"
+        ]
+      }
+    }
+  ]
+}

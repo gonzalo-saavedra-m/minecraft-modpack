@@ -1,4 +1,4 @@
-# Matorrales Rocosas
+# Matorral Rocoso
 
 Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cobblemon, ATM x MSD, Mega Showdown, Distortion World y los ajustes de `mipack`). No editar a mano: volver a generar.
 
@@ -8,7 +8,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Matorrales](Zonas.md#matorrales), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra)
-- **Estructuras que se generan aquí:** [Aldeas](Estructuras.md#aldeas), [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Cueva de la isla (Cobblemon Extra Structures)](Estructuras.md#cueva-de-la-isla-cobblemon-extra-structures), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Iglú](Estructuras.md#iglú), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Mina: abeto nevado (YUNG's Better Mineshafts)](Estructuras.md#mina-abeto-nevado-yungs-better-mineshafts), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon)
+- **Estructuras que se generan aquí:** [Aldeas](Estructuras.md#aldeas), [Cabaña subterránea (Alex's Caves)](Estructuras.md#cabaña-subterránea-alexs-caves), [Cueva de la isla (Cobblemon Extra Structures)](Estructuras.md#cueva-de-la-isla-cobblemon-extra-structures), [Guarida Dragón (Cobblemon Extra Structures)](Estructuras.md#guarida-dragón-cobblemon-extra-structures), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Iglú](Estructuras.md#iglú), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Mina: abeto nevado (YUNG's Better Mineshafts)](Estructuras.md#mina-abeto-nevado-yungs-better-mineshafts), [Ruinas: Frozen Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-frozen-gimmi-tower-cobblemon), [Village: Default Large (bca)](Estructuras.md#village-default-large-bca), [Village: Default Mid (bca)](Estructuras.md#village-default-mid-bca), [Village: Default Small (bca)](Estructuras.md#village-default-small-bca)
 
 ## Pokémon (60)
 

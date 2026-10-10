@@ -4,7 +4,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 
 [Pokémon](Pokemon.md) · [Zonas](Zonas.md) · [Dimensiones](Dimensiones.md) · [Estructuras](Estructuras.md) · [Liga](Liga.md) · [Megas](Megas.md) · [Crianza](Crianza.md) · [Raids](Raids.md) · [Viajes](Viajes.md) · [QoL](QoL.md)
 
-- [Overworld](Dimension-Overworld.md): 157 biomas, 166 estructuras. El mundo principal.
+- [Overworld](Dimension-Overworld.md): 157 biomas, 176 estructuras. El mundo principal.
 - [Nether](Dimension-Nether.md): 13 biomas, 13 estructuras. Portal de obsidiana encendido con fuego, como en vanilla.
 - [End](Dimension-End.md): 8 biomas, 27 estructuras. Portal del End en el stronghold (ojos de ender). **Sin dragón**: la pelea viene ganada, con el portal de salida activo y las 20 puertas al End exterior abiertas.
 - [Aether](Dimension-Aether.md): 4 biomas, 4 estructuras. Portal con marco de glowstone, encendido con un balde de agua (como en The Aether).

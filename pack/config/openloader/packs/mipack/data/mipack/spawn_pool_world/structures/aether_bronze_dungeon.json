@@ -1,0 +1,160 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-aether_bronze_dungeon-bulbasaur",
+      "pokemon": "bulbasaur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-chikorita",
+      "pokemon": "chikorita",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-treecko",
+      "pokemon": "treecko",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-turtwig",
+      "pokemon": "turtwig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-snivy",
+      "pokemon": "snivy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-chespin",
+      "pokemon": "chespin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-rowlet",
+      "pokemon": "rowlet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-grookey",
+      "pokemon": "grookey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_bronze_dungeon-sprigatito",
+      "pokemon": "sprigatito",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:bronze_dungeon"
+        ]
+      }
+    }
+  ]
+}

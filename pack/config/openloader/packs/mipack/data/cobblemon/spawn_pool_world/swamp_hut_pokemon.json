@@ -1,0 +1,150 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "purrloin-swamp-hut-8",
+      "pokemon": "purrloin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 54,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "structures": [
+          "bca:village/witch_hut"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    },
+    {
+      "id": "liepard-swamp-hut-8",
+      "pokemon": "liepard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "structures": [
+          "bca:village/witch_hut"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    },
+    {
+      "id": "hatenna-swamp-hut-2",
+      "pokemon": "hatenna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "2-27",
+      "weight": 1.8,
+      "presets": [],
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "structures": [
+          "bca:village/witch_hut"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    },
+    {
+      "id": "hattrem-swamp-hut-2",
+      "pokemon": "hattrem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "32-37",
+      "weight": 0.18,
+      "presets": [],
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "structures": [
+          "bca:village/witch_hut"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    },
+    {
+      "id": "hatterene-swamp-hut-2",
+      "pokemon": "hatterene",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "42-51",
+      "weight": 0.02,
+      "presets": [],
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "structures": [
+          "bca:village/witch_hut"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ]
+      }
+    }
+  ]
+}

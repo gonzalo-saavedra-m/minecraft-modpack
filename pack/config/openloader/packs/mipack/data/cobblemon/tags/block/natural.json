@@ -3,6 +3,10 @@
   "values": [
     "#alexscaves:primordial_caves_base_blocks",
     "alexscaves:flood_basalt",
-    "alexscaves:fern_thatch"
+    "alexscaves:fern_thatch",
+    "yungscavebiomes:ancient_sandstone",
+    "yungscavebiomes:layered_ancient_sandstone",
+    "yungscavebiomes:brittle_ancient_sandstone",
+    "yungscavebiomes:rare_ice"
   ]
 }

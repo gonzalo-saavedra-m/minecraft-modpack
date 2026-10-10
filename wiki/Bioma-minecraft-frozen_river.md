@@ -8,7 +8,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Agua dulce](Zonas.md#agua-dulce), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Río helado](Zonas.md#río-helado), [Ríos](Zonas.md#ríos)
-- **Estructuras que se generan aquí:** [Aguja (Terralith)](Estructuras.md#aguja-terralith), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Portal en ruinas (Minecraft)](Estructuras.md#portal-en-ruinas-minecraft)
+- **Estructuras que se generan aquí:** [Aguja (Terralith)](Estructuras.md#aguja-terralith), [Hábitats: Carved Ice Spikes (Cobblemon)](Estructuras.md#hábitats-carved-ice-spikes-cobblemon), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Portal en ruinas (Minecraft)](Estructuras.md#portal-en-ruinas-minecraft), [Village: Ice Large (bca)](Estructuras.md#village-ice-large-bca), [Village: Ice Mid (bca)](Estructuras.md#village-ice-mid-bca), [Village: Ice Small (bca)](Estructuras.md#village-ice-small-bca)
 
 ## Pokémon (45)
 

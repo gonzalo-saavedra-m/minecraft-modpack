@@ -1,0 +1,160 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-aether_gold_dungeon-charmander",
+      "pokemon": "charmander",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-cyndaquil",
+      "pokemon": "cyndaquil",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-torchic",
+      "pokemon": "torchic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-chimchar",
+      "pokemon": "chimchar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-tepig",
+      "pokemon": "tepig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-fennekin",
+      "pokemon": "fennekin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-litten",
+      "pokemon": "litten",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-scorbunny",
+      "pokemon": "scorbunny",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    },
+    {
+      "id": "mipack-aether_gold_dungeon-fuecoco",
+      "pokemon": "fuecoco",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-30",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:gold_dungeon"
+        ]
+      }
+    }
+  ]
+}

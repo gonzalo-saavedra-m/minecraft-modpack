@@ -4,6 +4,7 @@
   "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
   "excludeList": [
+    "cobbleloots:loot_ball",
     "minecraft:allay",
     "minecraft:armor_stand",
     "minecraft:axolotl",

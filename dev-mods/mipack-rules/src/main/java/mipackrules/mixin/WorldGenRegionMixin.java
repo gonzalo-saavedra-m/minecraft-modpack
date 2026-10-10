@@ -24,6 +24,11 @@ public class WorldGenRegionMixin {
 
 	@Inject(method = "addFreshEntity", at = @At("HEAD"), cancellable = true)
 	private void mipackrules$blockMobsAndFixedPokemon(Entity entity, CallbackInfoReturnable<Boolean> cir) {
-		if (MipackRules.isBlockedSpawn(entity) || MipackRules.isBlockedFixedPokemon(entity)) cir.setReturnValue(false);
+		WorldGenRegion region = (WorldGenRegion) (Object) this;
+		if (MipackRules.isBlockedSpawn(entity)) {
+			// El jefe de una mazmorra del Aether pasa a ser su legendario guardián (no repite: va una vez por plantilla)
+			Entity guardian = MipackRules.dungeonGuardian(entity, region.getLevel());
+			cir.setReturnValue(guardian != null && region.addFreshEntity(guardian));
+		} else if (MipackRules.isBlockedFixedPokemon(entity)) cir.setReturnValue(false);
 	}
 }

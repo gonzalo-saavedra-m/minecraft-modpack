@@ -1,0 +1,8 @@
+{
+  "values": [
+    {"id": "#aether:locked_dungeon_blocks", "required": false},
+    {"id": "#aether:trapped_dungeon_blocks", "required": false},
+    {"id": "#aether:boss_doorway_dungeon_blocks", "required": false},
+    {"id": "#aether:treasure_doorway_dungeon_blocks", "required": false}
+  ]
+}

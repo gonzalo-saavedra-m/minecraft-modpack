@@ -4,62 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mipack-aether-tornadus",
-      "pokemon": "tornadus min_perfect_ivs=3",
-      "presets": [
-        "wild"
-      ],
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-70",
-      "weight": 1.0,
-      "condition": {
-        "canSeeSky": true,
-        "biomes": [
-          "#aether:is_aether"
-        ]
-      }
-    },
-    {
-      "id": "mipack-aether-thundurus",
-      "pokemon": "thundurus min_perfect_ivs=3",
-      "presets": [
-        "wild"
-      ],
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-70",
-      "weight": 1.0,
-      "condition": {
-        "canSeeSky": true,
-        "biomes": [
-          "#aether:is_aether"
-        ],
-        "isRaining": true
-      }
-    },
-    {
-      "id": "mipack-aether-landorus",
-      "pokemon": "landorus min_perfect_ivs=3",
-      "presets": [
-        "wild"
-      ],
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-70",
-      "weight": 1.0,
-      "condition": {
-        "canSeeSky": true,
-        "biomes": [
-          "#aether:is_aether"
-        ],
-        "isRaining": false
-      }
-    },
-    {
       "id": "mipack-aether-hooh",
       "pokemon": "hooh min_perfect_ivs=3",
       "presets": [
@@ -76,25 +20,6 @@
           "#aether:is_aether"
         ],
         "isRaining": false,
-        "timeRange": "day"
-      }
-    },
-    {
-      "id": "mipack-aether-enamorus",
-      "pokemon": "enamorus min_perfect_ivs=3",
-      "presets": [
-        "wild"
-      ],
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "ultra-rare",
-      "level": "50-70",
-      "weight": 1.0,
-      "condition": {
-        "canSeeSky": true,
-        "biomes": [
-          "#aether:is_aether"
-        ],
         "timeRange": "day"
       }
     }

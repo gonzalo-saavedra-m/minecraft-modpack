@@ -1,4 +1,4 @@
-"""Genera en mipack los spawns de los biomas de Alex's Caves y de la Otherside (Deeper and Darker) (RESEARCH §7.1, docs/research-spawns-alexs-caves.md).
+"""Genera en mipack los spawns de los biomas de Alex's Caves, de la Otherside (Deeper and Darker) y de las cuevas de YUNG (RESEARCH §7.1, docs/research-spawns-alexs-caves.md).
 
 Uso: python3 tools/gen_spawns.py [carpeta de un server con mods/ y config/openloader/packs/]  (default: test-server/)
 
@@ -120,6 +120,48 @@ BIOMES.update({
         ('absol', 'uncommon', '75-90'),
         ('deino', 'rare', '70-80'), ('zweilous', 'rare', '80-90'), ('hydreigon', 'ultra-rare', '90-100')],
 })
+YCB = 'yungscavebiomes:'
+# Cuevas de YUNG's Cave Biomes (gigantes; decidido el 09-oct): lista propia, sin exclusividad ni bonus de nivel.
+# Lost Caves = desierto antiguo bajo tierra (Castillo Ancestral de Unova: Sandile, Yamask, Larvesta…).
+# Frosted Caves = cueva de hielo (Ruta Helada, Cueva Espejo y las Islas Espuma).
+BIOMES.update({
+    YCB + 'lost_caves': [
+        ('sandile', 'common', '10-35'), ('krokorok', 'uncommon', '29-40'), ('krookodile', 'rare', '40-55'),
+        ('trapinch', 'common', '5-30'), ('vibrava', 'uncommon', '35-45'), ('flygon', 'rare', '45-55'),
+        ('hippopotas', 'common', '10-34'), ('hippowdon', 'rare', '34-50'),
+        ('sandshrew', 'common', '5-30'), ('sandslash', 'uncommon', '22-45'),
+        ('silicobra', 'common', '5-30'), ('sandaconda', 'uncommon', '36-50'),
+        ('cacnea', 'common', '10-32'), ('cacturne', 'uncommon', '32-50'), ('maractus', 'uncommon', '20-45'),
+        ('dwebble', 'common', '10-34'), ('crustle', 'uncommon', '34-50'),
+        ('nacli', 'common', '8-30'), ('naclstack', 'uncommon', '24-38'), ('garganacl', 'rare', '38-55'),
+        ('baltoy', 'uncommon', '10-36'), ('claydol', 'rare', '36-50'),
+        ('yamask', 'uncommon', '10-34'), ('cofagrigus', 'rare', '34-50'),
+        ('yamask galarian', 'rare', '10-34'), ('runerigus', 'ultra-rare', '34-50'),
+        ('skorupi', 'uncommon', '10-34'), ('drapion', 'rare', '40-55'),
+        ('orthworm', 'uncommon', '20-45'), ('sigilyph', 'rare', '20-45'),
+        ('gible', 'rare', '10-24'), ('gabite', 'ultra-rare', '24-48'),
+        ('larvesta', 'rare', '20-45'), ('volcarona', 'ultra-rare', '45-60'),
+    ],
+    YCB + 'frosted_caves': [
+        ('snorunt', 'common', '5-30'), ('glalie', 'uncommon', '42-50'), ('froslass', 'rare', '42-50'),
+        ('spheal', 'common', '5-30'), ('sealeo', 'uncommon', '32-44'), ('walrein', 'rare', '44-55'),
+        ('bergmite', 'common', '5-30'), ('avalugg', 'uncommon', '37-55'),
+        ('cubchoo', 'common', '5-30'), ('beartic', 'uncommon', '37-55'),
+        ('swinub', 'common', '5-30'), ('piloswine', 'uncommon', '33-45'), ('mamoswine', 'rare', '45-55'),
+        ('sandshrew alolan', 'common', '5-30'), ('sandslash alolan', 'uncommon', '22-45'),
+        ('snom', 'common', '5-25'), ('frosmoth', 'rare', '25-45'),
+        ('smoochum', 'uncommon', '5-25'), ('jynx', 'uncommon', '30-45'), ('delibird', 'uncommon', '10-35'),
+        ('sneasel', 'uncommon', '10-35'), ('weavile', 'rare', '35-55'),
+        ('sneasel hisuian', 'rare', '10-35'), ('sneasler', 'ultra-rare', '35-55'),
+        ('vanillite', 'uncommon', '6-31'), ('vanillish', 'rare', '35-45'), ('vanilluxe', 'ultra-rare', '47-55'),
+        ('darumaka galarian', 'uncommon', '10-35'), ('darmanitan galarian', 'rare', '35-50'),
+        ('eiscue', 'uncommon', '20-45'), ('cryogonal', 'rare', '30-50'),
+        ('frigibax', 'uncommon', '10-35'), ('arctibax', 'rare', '35-54'), ('baxcalibur', 'ultra-rare', '54-60'),
+        ('seel', 'common', '5-30', 'agua'), ('dewgong', 'uncommon', '34-50', 'agua'),
+        ('shellder', 'common', '5-30', 'agua'), ('cloyster', 'rare', '30-50', 'agua'),
+        ('lapras', 'ultra-rare', '30-50', 'agua'),
+    ],
+})
 OTHERSIDE_EXCLUSIVE = {e[0] for b, v in BIOMES.items() if b.startswith(DD) for e in v}
 
 # Solo nacen en su bioma de Alex's Caves (más estructuras, ciudades y Nether). Decidido el 08-oct.
@@ -157,6 +199,55 @@ END_STRUCTURES = {  # estructuras -> [(pokemon, bucket, niveles)]
     (MES + 'mythic_garden', MES + 'enderskog'): [('cutiefly', 'common', '20-35'), ('ribombee', 'uncommon', '30-50'),
                                                  ('comfey', 'uncommon', '30-50')],
 }
+# Estructuras del Overworld y mazmorras del Aether (decidido el 09-oct): listas que se SUMAN a lo que ya nace ahí,
+# sin exclusividad. archivo -> condición, anticondición, peso por defecto y [(pokemon, bucket, niveles o None, peso?)]
+# (niveles None = los de Cobblemon). Cobblemon mira la estructura por chunk (toda la columna, superficie incluida)
+MINESHAFT = [  # fantasmas, arañas y serpientes; peso 90 para competir con el pool genérico de cuevas (un común pesa 90)
+    ('gastly', 'common'), ('haunter', 'uncommon'), ('gengar', 'rare'),
+    ('duskull', 'common'), ('dusclops', 'uncommon'), ('dusknoir', 'rare'),
+    ('litwick', 'common'), ('lampent', 'uncommon'), ('chandelure', 'ultra-rare'),
+    ('honedge', 'uncommon'), ('doublade', 'rare'), ('shuppet', 'common'), ('banette', 'uncommon'),
+    ('sableye', 'uncommon'),
+    ('spinarak', 'common'), ('ariados', 'uncommon'), ('joltik', 'common'), ('galvantula', 'uncommon'),
+    ('tarountula', 'common'), ('spidops', 'uncommon'),
+    ('ekans', 'common'), ('arbok', 'uncommon'), ('seviper', 'uncommon'), ('silicobra', 'common'),
+    ('sandaconda', 'uncommon'), ('onix', 'uncommon'), ('steelix', 'rare'), ('dunsparce', 'uncommon'),
+    ('dudunsparce', 'rare'),
+    ('rolycoly', 'common'), ('carkol', 'uncommon'), ('coalossal', 'rare'),  # exclusivos de mina (MINE_EXCLUSIVE)
+]
+# Solo nacen en las minas (decidido el 09-oct): la línea de Rolycoly, el Pokémon carbón (Cobblemon ya le pedía carbón y rieles)
+MINE_EXCLUSIVE = {'rolycoly', 'carkol', 'coalossal'}
+EXCLUSIVE |= MINE_EXCLUSIVE
+ANCIENT_CITY = [  # humanoides siniestro/fantasma, nivel entre el deep dark y la Otherside. Pesos altos: el pool de la
+    # ciudad es casi todo uncommon y Golett/Yamask de Galar pesan 840
+    ('sableye', 'uncommon', '40-55', 200), ('haunter', 'uncommon', '40-55', 200), ('dusclops', 'uncommon', '40-55', 200),
+    ('banette', 'uncommon', '40-55', 200), ('morgrem', 'uncommon', '40-50', 200), ('pawniard', 'uncommon', '40-50', 200),
+    ('gengar', 'rare', '55-65', 40), ('dusknoir', 'rare', '55-68', 40), ('grimmsnarl', 'rare', '55-65', 40),
+    ('bisharp', 'rare', '55-65', 40), ('zoroark', 'rare', '55-65', 40), ('ceruledge', 'rare', '55-65', 40),
+    ('annihilape', 'rare', '55-68', 40), ('zoroark hisuian', 'rare', '55-68', 15),
+    ('kingambit', 'ultra-rare', '65-70', 3),
+]
+# Mazmorras del Aether: starters raros por tier (bronce planta < plata agua < oro fuego)
+STARTERS = {
+    'bronze': ('10-20', 'bulbasaur chikorita treecko turtwig snivy chespin rowlet grookey sprigatito'),
+    'silver': ('15-25', 'squirtle totodile mudkip piplup oshawott froakie popplio sobble quaxly'),
+    'gold': ('20-30', 'charmander cyndaquil torchic chimchar tepig fennekin litten scorbunny fuecoco'),
+}
+# Raros y ultra raros de mina con peso bajo: con 90 tapaban a los legendarios de cueva (pesan 1-5 en esos buckets)
+MINE_RARE_WEIGHT = {'rare': 10.0, 'ultra-rare': 3.0}
+STRUCTURE_SPAWNS = {
+    # Tag vanilla: YUNG's Better Mineshafts le agrega sus 13 minas (las vanilla están apagadas). maxY + maxSkyLight
+    # para que no salgan en la superficie sobre la mina; sin preset natural para que salgan sobre los tablones
+    'mineshaft': ({'biomes': ['#cobblemon:is_overworld'], 'structures': ['#minecraft:mineshaft'], 'maxY': 40, 'maxSkyLight': 7},
+                  {'biomes': sorted({b for b in BIOMES if b.startswith(AC)} | {AC + 'primordial_caves'})}, 90.0,
+                  [(p, b, None, MINE_RARE_WEIGHT.get(b, 90.0)) for p, b in MINESHAFT]),
+    # Sin bioma: Terralith también pone ciudades en frostfire_caves. Bloques de la ciudad, no el sculk de alrededor
+    'ancient_city': ({'structures': ['minecraft:ancient_city'], 'neededNearbyBlocks': ['#cobblemon:ancient_city_blocks']},
+                     None, None, ANCIENT_CITY),
+    **{f'aether_{tier}_dungeon': ({'biomes': ['#aether:is_aether'], 'structures': [f'aether:{tier}_dungeon']}, None, 10.0,
+                                  [(p, 'rare', lvl) for p in mons.split()]) for tier, (lvl, mons) in STARTERS.items()},
+}
+assert not {e[0] for *_, es in STRUCTURE_SPAWNS.values() for e in es} & (EXCLUSIVE - MINE_EXCLUSIVE), 'una especie exclusiva en STRUCTURE_SPAWNS'
 ULTRA_BEASTS = {'nihilego', 'celesteela', 'kartana', 'xurkitree', 'buzzwole', 'pheromosa', 'guzzlord', 'stakataka',
                 'blacephalon', 'poipole', 'naganadel'}
 EXCLUSIVE |= ULTRA_BEASTS
@@ -232,7 +323,7 @@ def keep_exclusive(spawn, ks):
 
 # Limpia lo generado antes (por si una especie dejó de estar en la config)
 for d in ('data/cobblemon/spawn_pool_world', 'data/special_spawns', 'data/mipack/spawn_pool_world/alexscaves',
-          'data/mipack/spawn_pool_world/deeperdarker'):
+          'data/mipack/spawn_pool_world/deeperdarker', 'data/mipack/spawn_pool_world/yungscavebiomes'):
     shutil.rmtree(MIPACK / d, ignore_errors=True)
 
 def write(rel, data):
@@ -322,6 +413,19 @@ for structs, entries in END_STRUCTURES.items():
     write(f'data/mipack/spawn_pool_world/end/{name}.json',
           {'enabled': True, 'neededInstalledMods': [], 'neededUninstalledMods': [], 'spawns': spawns})
 
+shutil.rmtree(MIPACK / 'data/mipack/spawn_pool_world/structures', ignore_errors=True)
+for name, (cond, anti, weight, entries) in STRUCTURE_SPAWNS.items():
+    spawns = []
+    for p, b, lvl, *w in entries:
+        s = {'id': f'mipack-{name}-{p.replace(" ", "-")}', 'pokemon': p, 'type': 'pokemon', 'spawnablePositionType': 'grounded',
+             'bucket': b, 'level': str(lvl or levels.get(p) or DEFAULT_LEVEL[b]), 'weight': float(w[0] if w else weight),
+             'condition': cond}
+        if anti:
+            s['anticondition'] = anti
+        spawns.append(s)
+    write(f'data/mipack/spawn_pool_world/structures/{name}.json',
+          {'enabled': True, 'neededInstalledMods': [], 'neededUninstalledMods': [], 'spawns': spawns})
+
 for biome, entries in BIOMES.items():
     spawns = []
     for pokemon, bucket, lvl, *extra in entries:
@@ -336,8 +440,11 @@ for biome, entries in BIOMES.items():
     write(f'data/mipack/spawn_pool_world/{biome.replace(":", "/")}.json',
           {'enabled': True, 'neededInstalledMods': [], 'neededUninstalledMods': [], 'spawns': spawns})
 
-# Suelo de Primordial como "natural" (preset natural de los fósiles)
+# Suelo "natural" (preset natural de los spawns genéricos y los fósiles): el de Primordial y el de las cuevas de YUNG.
+# Lost Caves pinta el piso con arena antigua (ya es #minecraft:sand), arenisca antigua y en capas (LostCavesSurfaceReplace),
+# más pilares en capas y techo de arenisca frágil. Frosted Caves: piedra, hielo compacto y carámbanos de hielo raro
 write('data/cobblemon/tags/block/natural.json', {'replace': False, 'values': [
-    '#alexscaves:primordial_caves_base_blocks', 'alexscaves:flood_basalt', 'alexscaves:fern_thatch']})
+    '#alexscaves:primordial_caves_base_blocks', 'alexscaves:flood_basalt', 'alexscaves:fern_thatch',
+    YCB + 'ancient_sandstone', YCB + 'layered_ancient_sandstone', YCB + 'brittle_ancient_sandstone', YCB + 'rare_ice']})
 
 print(f'{written} archivos de spawn sobrescritos; {sum(map(len, BIOMES.values()))} spawns en biomas de Alex\'s Caves')

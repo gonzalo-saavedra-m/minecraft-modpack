@@ -8,7 +8,7 @@ Generado con `python3 tools/gen_wiki.py` a partir de lo que carga el server (Cob
 
 - **Dimensión:** [Overworld](Dimension-Overworld.md)
 - **Zonas a las que pertenece:** [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano), [has block: mud](Zonas.md#has-block-mud)
-- **Estructuras que se generan aquí:** [Cabaña de bruja](Estructuras.md#cabaña-de-bruja), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Portal en ruinas (pantano) (Minecraft)](Estructuras.md#portal-en-ruinas-pantano-minecraft), [Ruinas: Mossy Oubliette Ruins (Cobblemon)](Estructuras.md#ruinas-mossy-oubliette-ruins-cobblemon), [Ruinas: Rooted Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-rooted-gimmi-tower-cobblemon)
+- **Estructuras que se generan aquí:** [Cabaña de bruja](Estructuras.md#cabaña-de-bruja), [Megaroide (Mega Showdown)](Estructuras.md#megaroide-mega-showdown), [Megasitio (Mega Showdown)](Estructuras.md#megasitio-mega-showdown), [Portal en ruinas (pantano) (Minecraft)](Estructuras.md#portal-en-ruinas-pantano-minecraft), [Ruinas: Mossy Oubliette Ruins (Cobblemon)](Estructuras.md#ruinas-mossy-oubliette-ruins-cobblemon), [Ruinas: Rooted Gimmi Tower (Cobblemon)](Estructuras.md#ruinas-rooted-gimmi-tower-cobblemon), [Village: Dark Mid (bca)](Estructuras.md#village-dark-mid-bca), [Village: Dark Small (bca)](Estructuras.md#village-dark-small-bca)
 
 ## Pokémon (108)
 

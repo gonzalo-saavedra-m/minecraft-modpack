@@ -1,0 +1,262 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ancient_city-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-55",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-haunter",
+      "pokemon": "haunter",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-55",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-55",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-55",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-morgrem",
+      "pokemon": "morgrem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-50",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-pawniard",
+      "pokemon": "pawniard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-50",
+      "weight": 200.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-gengar",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-65",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-dusknoir",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-68",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-grimmsnarl",
+      "pokemon": "grimmsnarl",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-65",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-bisharp",
+      "pokemon": "bisharp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-65",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-zoroark",
+      "pokemon": "zoroark",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-65",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-ceruledge",
+      "pokemon": "ceruledge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-65",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-annihilape",
+      "pokemon": "annihilape",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-68",
+      "weight": 40.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-zoroark-hisuian",
+      "pokemon": "zoroark hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-68",
+      "weight": 15.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ancient_city-kingambit",
+      "pokemon": "kingambit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-70",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "minecraft:ancient_city"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:ancient_city_blocks"
+        ]
+      }
+    }
+  ]
+}

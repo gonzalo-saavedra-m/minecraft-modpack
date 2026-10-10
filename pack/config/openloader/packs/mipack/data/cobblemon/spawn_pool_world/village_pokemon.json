@@ -1,0 +1,4286 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "meowth-village-2",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "meowth-#cobblemon:is_arid-4",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "meowth-galarian-village-9",
+      "pokemon": "meowth galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_taiga"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "persian-village-2",
+      "pokemon": "persian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "28-44",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "persian-#cobblemon:is_arid-4",
+      "pokemon": "persian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "28-44",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "growlithe-village-2",
+      "pokemon": "growlithe",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-35",
+      "weight": 9.2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "arcanine-village-2",
+      "pokemon": "arcanine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-56",
+      "weight": 0.8,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "grimer-village-surface-3",
+      "pokemon": "grimer",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "8-33",
+      "weight": 1.68,
+      "presets": [
+        "Water"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "grimer-village-fishing-6",
+      "pokemon": "grimer",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1.8,
+      "presets": [
+        "Water"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "minLureLevel": 2,
+            "maxLureLevel": 2
+          }
+        },
+        {
+          "multiplier": 5.0,
+          "condition": {
+            "minLureLevel": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "grimer-village-fishing-9",
+      "pokemon": "grimer",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1.8,
+      "presets": [
+        "Water"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "minLureLevel": 2,
+            "maxLureLevel": 2
+          }
+        },
+        {
+          "multiplier": 5.0,
+          "condition": {
+            "minLureLevel": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "grimer-alolan-village-11",
+      "pokemon": "grimer alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-33",
+      "weight": 1.68,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "muk-village-surface-3",
+      "pokemon": "muk",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "38-50",
+      "weight": 0.32,
+      "presets": [
+        "Water"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "muk-village-fishing-6",
+      "pokemon": "muk",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "38-50",
+      "weight": 0.2,
+      "presets": [
+        "Water"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "minLureLevel": 2,
+            "maxLureLevel": 2
+          }
+        },
+        {
+          "multiplier": 5.0,
+          "condition": {
+            "minLureLevel": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "muk-village-fishing-9",
+      "pokemon": "muk",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "38-50",
+      "weight": 0.2,
+      "presets": [
+        "Water"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "minLureLevel": 2,
+            "maxLureLevel": 2
+          }
+        },
+        {
+          "multiplier": 5.0,
+          "condition": {
+            "minLureLevel": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "muk-alolan-village-11",
+      "pokemon": "muk alolan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-50",
+      "weight": 0.32,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "drowzee-village-2",
+      "pokemon": "drowzee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "hypno-village-2",
+      "pokemon": "hypno",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "26-48",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "voltorb-village-2",
+      "pokemon": "voltorb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1.8,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "isThundering": true
+        }
+      }
+    },
+    {
+      "id": "electrode-village-2",
+      "pokemon": "electrode",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-49",
+      "weight": 0.2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "isThundering": true
+        }
+      }
+    },
+    {
+      "id": "koffing-village-2",
+      "pokemon": "koffing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1.8,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "weezing-village-2",
+      "pokemon": "weezing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-49",
+      "weight": 0.2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "chansey-village-2",
+      "pokemon": "chansey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "17-45",
+      "weight": 1.125,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "mr-mime-village-2",
+      "pokemon": "mrmime",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-46",
+      "weight": 0.32,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "mr-mime-galarian-village-2",
+      "pokemon": "mrmime galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-46",
+      "weight": 0.288,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "jynx-village-2",
+      "pokemon": "jynx",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-46",
+      "weight": 0.32,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "eevee-village-4",
+      "pokemon": "eevee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-33",
+      "weight": 1.84,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "vaporeon-village-4",
+      "pokemon": "vaporeon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "jolteon-village-3",
+      "pokemon": "jolteon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "flareon-village-3",
+      "pokemon": "flareon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "espeon-village-3",
+      "pokemon": "espeon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "umbreon-village-3",
+      "pokemon": "umbreon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "snubbull-village-2",
+      "pokemon": "snubbull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "granbull-village-2",
+      "pokemon": "granbull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "23-45",
+      "weight": 0.6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "smeargle-village-2",
+      "pokemon": "smeargle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 10,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "smoochum-village-2",
+      "pokemon": "smoochum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.68,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "blissey-village-2",
+      "pokemon": "blissey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-54",
+      "weight": 0.125,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "ralts-village-3",
+      "pokemon": "ralts",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-20",
+      "weight": 1.5,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "kirlia-village-3",
+      "pokemon": "kirlia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-29",
+      "weight": 0.45,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "gardevoir-village-3",
+      "pokemon": "gardevoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-52",
+      "weight": 0.0375,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "shuppet-village-3",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 8.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "banette-village-3",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1.6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "glameow-village-overworld-2",
+      "pokemon": "glameow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "glameow-#cobblemon:is_arid-#cobblemon:is_freezing-4",
+      "pokemon": "glameow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "purugly-village-overworld-2",
+      "pokemon": "purugly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "38-45",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "purugly-#cobblemon:is_arid-#cobblemon:is_freezing-4",
+      "pokemon": "purugly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "38-45",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "mime-jr-village-2",
+      "pokemon": "mimejr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.68,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "mime-jr-#cobblemon:is_freezing-2-regionbias-galar",
+      "pokemon": "mimejr region_bias=galar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1.68,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "happiny-village-2",
+      "pokemon": "happiny",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-22",
+      "weight": 8.75,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "leafeon-village-3",
+      "pokemon": "leafeon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.025,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "glaceon-village-3",
+      "pokemon": "glaceon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.025,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "gallade-village-3",
+      "pokemon": "gallade",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-52",
+      "weight": 0.0125,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "lillipup-village-2",
+      "pokemon": "lillipup",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "herdier-village-2",
+      "pokemon": "herdier",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-37",
+      "weight": 0.54,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "stoutland-village-2",
+      "pokemon": "stoutland",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "32-50",
+      "weight": 0.06,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "purrloin-village-overworld-4",
+      "pokemon": "purrloin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 10,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "purrloin-#cobblemon:is_savanna-6",
+      "pokemon": "purrloin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 10,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "liepard-village-overworld-4",
+      "pokemon": "liepard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "liepard-#cobblemon:is_savanna-6",
+      "pokemon": "liepard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "munna-village-2",
+      "pokemon": "munna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "4-29",
+      "weight": 9.5,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "musharna-village-2",
+      "pokemon": "musharna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "24-49",
+      "weight": 0.5,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "pidove-village-4",
+      "pokemon": "pidove",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-26",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "tranquill-village-4",
+      "pokemon": "tranquill",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-36",
+      "weight": 0.9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "unfezant-village-4",
+      "pokemon": "unfezant",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "32-49",
+      "weight": 0.1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "timburr-village-2",
+      "pokemon": "timburr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_tundra"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "gurdurr-village-2",
+      "pokemon": "gurdurr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-41",
+      "weight": 0.57,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_tundra"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "conkeldurr-village-2",
+      "pokemon": "conkeldurr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "36-51",
+      "weight": 0.03,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_tundra"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "scraggy-#cobblemon:is_arid-#cobblemon:is_badlands-3",
+      "pokemon": "scraggy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "scrafty-#cobblemon:is_arid-#cobblemon:is_badlands-3",
+      "pokemon": "scrafty",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "39-49",
+      "weight": 0.6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "trubbish-village-2",
+      "pokemon": "trubbish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1.8,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "garbodor-village-2",
+      "pokemon": "garbodor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "36-47",
+      "weight": 0.2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "minccino-village-3",
+      "pokemon": "minccino",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 5.7,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "cinccino-village-3",
+      "pokemon": "cinccino",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.3,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_tundra"
+        ]
+      }
+    },
+    {
+      "id": "vivillon-village-15",
+      "pokemon": "vivillon vivillon_wings=modern",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-41",
+      "weight": 2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "isRaining": false,
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "furfrou-village-2",
+      "pokemon": "furfrou",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-47",
+      "weight": 2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "espurr-village-2",
+      "pokemon": "espurr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 1.8,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "espurr-#cobblemon:is_arid-4",
+      "pokemon": "espurr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 1.8,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "meowstic-village-2",
+      "pokemon": "meowstic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "meowstic-#cobblemon:is_arid-4",
+      "pokemon": "meowstic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.2,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "sylveon-village-3",
+      "pokemon": "sylveon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.025,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "klefki-village-2",
+      "pokemon": "klefki",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ]
+      }
+    },
+    {
+      "id": "yamper-village-2",
+      "pokemon": "yamper",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "2-27",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "isThundering": true
+        }
+      }
+    },
+    {
+      "id": "boltund-village-2",
+      "pokemon": "boltund",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-49",
+      "weight": 0.6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5,
+        "condition": {
+          "isThundering": true
+        }
+      }
+    },
+    {
+      "id": "sinistea-village-day-1",
+      "pokemon": "sinistea tea_authenticity=phony",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 9.108,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "sinistea-village-day-2",
+      "pokemon": "sinistea tea_authenticity=antique",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 0.092,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "sinistea-village-night-3",
+      "pokemon": "sinistea tea_authenticity=phony",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 9.108,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "sinistea-village-night-4",
+      "pokemon": "sinistea tea_authenticity=antique",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 0.092,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "polteageist-village-day-1",
+      "pokemon": "polteageist tea_authenticity=phony",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.792,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "polteageist-village-day-2",
+      "pokemon": "polteageist tea_authenticity=antique",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.008,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "polteageist-village-night-3",
+      "pokemon": "polteageist tea_authenticity=phony",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.792,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "polteageist-village-night-4",
+      "pokemon": "polteageist tea_authenticity=antique",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.008,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_tundra"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "alexscaves:candy_cavity",
+          "alexscaves:forlorn_hollows"
+        ]
+      }
+    },
+    {
+      "id": "perrserker-village-2",
+      "pokemon": "perrserker",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "28-44",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_taiga"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      }
+    },
+    {
+      "id": "mr-rime-village-2",
+      "pokemon": "mrrime",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "42-52",
+      "weight": 0.032,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "tandemaus-village-3",
+      "pokemon": "tandemaus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_sandy"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "day"
+        }
+      }
+    },
+    {
+      "id": "maushold-village-5",
+      "pokemon": "maushold maushold_family=four",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.594,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_sandy"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "day"
+        }
+      }
+    },
+    {
+      "id": "maushold-village-6",
+      "pokemon": "maushold maushold_family=three",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.006,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_sandy"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "day"
+        }
+      }
+    },
+    {
+      "id": "fidough-village-2",
+      "pokemon": "fidough",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 9,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "dachsbun-village-2",
+      "pokemon": "dachsbun",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "26-48",
+      "weight": 1,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "squawkabilly-village-3",
+      "pokemon": "squawkabilly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "17-42",
+      "weight": 6,
+      "presets": [
+        "Natural",
+        "Treetop"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "isRaining": false,
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_sandy"
+        ]
+      }
+    },
+    {
+      "id": "maschiff-village-2",
+      "pokemon": "maschiff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 5.4,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "mabosstiff-village-2",
+      "pokemon": "mabosstiff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-51",
+      "weight": 0.6,
+      "presets": [
+        "Natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "poltchageist-village-day-1",
+      "pokemon": "poltchageist matcha_authenticity=counterfeit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 9.108,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "poltchageist-village-day-2",
+      "pokemon": "poltchageist matcha_authenticity=artisan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 0.092,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "poltchageist-village-night-3",
+      "pokemon": "poltchageist matcha_authenticity=counterfeit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 9.108,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "poltchageist-village-night-4",
+      "pokemon": "poltchageist matcha_authenticity=artisan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 0.092,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "sinistcha-village-day-1",
+      "pokemon": "sinistcha matcha_authenticity=unremarkable",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.792,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "sinistcha-village-day-2",
+      "pokemon": "sinistcha matcha_authenticity=masterpiece",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.008,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "day",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62,
+        "canSeeSky": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "sinistcha-village-night-3",
+      "pokemon": "sinistcha matcha_authenticity=unremarkable",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.792,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "sinistcha-village-night-4",
+      "pokemon": "sinistcha matcha_authenticity=masterpiece",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-51",
+      "weight": 0.008,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_bamboo",
+          "#cobblemon:is_cherry_blossom",
+          "#cobblemon:is_forest",
+          "#cobblemon:is_island",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "night",
+        "structures": [
+          "bca:village/fighting_small",
+          "bca:village/fighting_mid",
+          "bca:village/fighting_large",
+          "bca:village/dark_small",
+          "bca:village/dark_mid",
+          "bca:village/default_small",
+          "bca:village/default_mid",
+          "bca:village/default_large",
+          "bca:village/ice_small",
+          "bca:village/ice_mid",
+          "bca:village/ice_large"
+        ],
+        "minY": 62
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ]
+      }
+    }
+  ]
+}
