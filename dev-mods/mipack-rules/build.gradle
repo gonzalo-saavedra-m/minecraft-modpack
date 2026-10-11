@@ -11,6 +11,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
 	// Solo para compilar contra la API de eventos; en runtime viene en el pack
 	modCompileOnly files('libs/Cobblemon-fabric-1.8.1+1.21.1.jar')
+	modCompileOnly files('libs/cobblemonraiddens-fabric-0.13.2+1.21.1.jar')
+	modCompileOnly files('libs/geckolib-fabric-1.21.1-4.9.3.jar')  // supertipo del cristal de Raid Dens
 	modCompileOnly files('libs/iris-fabric-1.8.14-beta.1+mc1.21.1.jar')
 	compileOnly 'org.jetbrains.kotlin:kotlin-stdlib:2.2.20'
 }

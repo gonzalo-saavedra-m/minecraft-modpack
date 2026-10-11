@@ -6,6 +6,12 @@ import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.mojang.logging.LogUtils;
+import com.necro.raid.dens.common.blocks.block.RaidCrystalBlock;
+import com.necro.raid.dens.common.blocks.entity.RaidCrystalBlockEntity;
+import com.necro.raid.dens.common.data.raid.RaidCycleMode;
+import com.necro.raid.dens.common.data.raid.RaidTier;
+import com.necro.raid.dens.common.data.raid.RaidType;
+import mipackrules.mixin.EndDragonFightAccessor;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.io.InputStreamReader;
@@ -29,6 +35,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -110,6 +118,15 @@ public class MipackRules implements ModInitializer {
 	private static final int TRAINER_IDLE_TICKS = 5 * 60 * 20;
 	private static final Map<Entity, Integer> TRAINER_LAST_BATTLE = new WeakHashMap<>();
 
+	/**
+	 * Cristal de raid de Eternatus en la isla principal del End, a 8 bloques del portal de salida. Ganarle abre el
+	 * portal la primera vez y cada victoria abre una puerta al End exterior (endRaidWon). Si falta en su columna (recién
+	 * creado el End, o alguien lo rompió) se pone de nuevo sobre la superficie.
+	 */
+	private static final ResourceLocation RAID_CRYSTAL = ResourceLocation.parse("cobblemonraiddens:raid_crystal_block");
+	private static final ResourceLocation ETERNATUS = ResourceLocation.parse("crd_legendaries:eternatus");
+	private static final int END_CRYSTAL_X = 8, END_CRYSTAL_Z = 0;
+
 	@Override
 	public void onInitialize() {
 		// Los Pokémon con dueño (de un jugador: equipo, sacados o en el corral; o de un entrenador) solo se dañan en
@@ -128,6 +145,7 @@ public class MipackRules implements ModInitializer {
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
 				for (ServerPlayer player : server.getPlayerList().getPlayers()) placeStructureWaystone(player);
 			if (server.getTickCount() % 100 != 0) return;
+			placeEndCrystal(server.getLevel(Level.END));
 			for (ServerLevel level : server.getAllLevels())
 				for (Entity e : level.getAllEntities()) {
 					if (isIdleWildTrainer(e)) e.discard();
@@ -256,6 +274,44 @@ public class MipackRules implements ModInitializer {
 		level.setBlockAndUpdate(pos, with(with(waystone.defaultBlockState(), "half", "lower"), "origin", "village"));
 		level.setBlockAndUpdate(pos.above(), with(with(waystone.defaultBlockState(), "half", "upper"), "origin", "village"));
 		LOGGER.info("Waystone en {} para {}", pos, start.getStructure());
+	}
+
+	private static void placeEndCrystal(ServerLevel end) {
+		if (end == null || !end.isLoaded(new BlockPos(END_CRYSTAL_X, 0, END_CRYSTAL_Z))
+				|| !BuiltInRegistries.BLOCK.containsKey(RAID_CRYSTAL)) return;
+		Block crystal = BuiltInRegistries.BLOCK.get(RAID_CRYSTAL);
+		for (int y = end.getMinBuildHeight(); y < end.getMaxBuildHeight(); y++)
+			if (end.getBlockState(new BlockPos(END_CRYSTAL_X, y, END_CRYSTAL_Z)).is(crystal)) return;
+		BlockPos pos = new BlockPos(END_CRYSTAL_X, end.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, END_CRYSTAL_X, END_CRYSTAL_Z), END_CRYSTAL_Z);
+		if (pos.getY() <= end.getMinBuildHeight()) return;
+		// Jefe fijo (NONE: al reiniciarse repite el mismo); natural: romperlo no suelta el cristal
+		end.setBlockAndUpdate(pos, crystal.defaultBlockState().setValue(RaidCrystalBlock.RAID_TIER, RaidTier.TIER_SEVEN)
+				.setValue(RaidCrystalBlock.RAID_TYPE, RaidType.POISON).setValue(RaidCrystalBlock.CYCLE_MODE, RaidCycleMode.NONE)
+				.setValue(RaidCrystalBlock.ACTIVE, true).setValue(RaidCrystalBlock.CAN_RESET, true)
+				.setValue(RaidCrystalBlock.IS_NATURAL, true));
+		if (end.getBlockEntity(pos) instanceof RaidCrystalBlockEntity be) be.setRaidBoss(ETERNATUS, end.getGameTime());
+		LOGGER.info("Cristal de raid de Eternatus en el End en {}", pos);
+	}
+
+	/** Raid ganada en cualquier cristal (RaidCrystalBlockEntityMixin): solo cuenta el de Eternatus del End. */
+	public static void onRaidWon(BlockEntity crystal) {
+		BlockPos pos = crystal.getBlockPos();
+		if (crystal.getLevel() instanceof ServerLevel level && level.dimension() == Level.END
+				&& pos.getX() == END_CRYSTAL_X && pos.getZ() == END_CRYSTAL_Z) endRaidWon(level);
+	}
+
+	/**
+	 * Lo que haría matar al dragón, sin huevo: portal de salida activo, pelea terminada y una puerta más al End exterior
+	 * (vanilla tiene 20; después no abre más).
+	 */
+	public static void endRaidWon(ServerLevel end) {
+		var fight = (EndDragonFightAccessor) end.getDragonFight();
+		if (fight == null) return;
+		fight.mipackrules$spawnNewGateway();
+		fight.mipackrules$spawnExitPortal(true);
+		fight.mipackrules$setPreviouslyKilled(true);
+		fight.mipackrules$setDragonKilled(true);
+		LOGGER.info("Raid de Eternatus ganada: portal de salida activo y una puerta más al End exterior");
 	}
 
 	private static BlockState with(BlockState state, String property, String value) {

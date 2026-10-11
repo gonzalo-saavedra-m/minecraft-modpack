@@ -50,7 +50,7 @@ check "Combee junto a la colmena" "$combee" "Test passed"
 check "creeper por /summon permitido" "$(cmd 'summon minecraft:creeper 5 200 2')" "Summoned"
 cmd "kill @e[type=minecraft:creeper]" >/dev/null
 
-# 5. End sin dragón. El portal de salida activo y las 20 puertas se verificaron leyendo DIM1/region (08-oct)
+# 5. End sin dragón. Portal de salida y puertas: se abren ganando la raid de Eternatus (/mrtest raidwin, 09-oct)
 cmd "player mrtC spawn at 0 90 0 facing 0 0 in minecraft:the_end" >/dev/null; sleep 30
 check "sin dragón" "$(cmd 'execute in minecraft:the_end if entity @e[type=minecraft:ender_dragon]')" "Test failed"
 cmd "player mrtA kill" >/dev/null; cmd "player mrtC kill" >/dev/null

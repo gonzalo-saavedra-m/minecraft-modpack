@@ -52,6 +52,9 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest connector <x> <y> <z>     bloques que toma un Inventory Connector de Tom's y conectores enlazados
  * /mrtest pull <x> <y> <z> <ítem> <n>  saca n de ese ítem por el Storage Terminal (como un clic) y dice cuántos salieron
  * /mrtest place <jugador> <x> <y> <z>  usa el ítem de su mano sobre la cara de arriba de ese bloque, como un clic derecho
+ * /mrtest raidwin <x> <y> <z>       cierra como ganada la raid del cristal de Raid Dens en ese bloque (clearRaid(true), como
+ *                                   al volver de una victoria)
+ * /mrtest raidend <jugador>         termina como ganada la raid en que está (como /crd forceclear): la cierra Raid Dens
  */
 public class MipackTestkit implements ModInitializer {
 	@Override
@@ -128,6 +131,11 @@ public class MipackTestkit implements ModInitializer {
 						.then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
 						.executes(c -> reply(c, place(EntityArgument.getPlayer(c, "player"),
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos")))))))
+				.then(literal("raidwin").then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.executes(c -> reply(c, raidWin(c.getSource().getLevel(),
+								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
+				.then(literal("raidend").then(argument("player", EntityArgument.player())
+						.executes(c -> reply(c, raidEnd(EntityArgument.getPlayer(c, "player"))))))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));
@@ -317,6 +325,39 @@ public class MipackTestkit implements ModInitializer {
 								+ ":" + a.getPokemonList().stream().map(bp -> bp.getHealth() + "/" + bp.getMaxHealth()).toList())
 						.collect(Collectors.joining(" "));
 		return state + ", vivo=" + p.isAlive() + ", equipo=[" + team + "]";
+	}
+
+	private static String raidWin(net.minecraft.server.level.ServerLevel level, net.minecraft.core.BlockPos pos) {
+		var be = level.getBlockEntity(pos);
+		if (be == null) return "raidwin: sin cristal en " + pos.toShortString();
+		try {
+			var m = Class.forName("com.necro.raid.dens.common.blocks.entity.RaidCrystalBlockEntity", true, be.getClass().getClassLoader())
+					.getMethod("clearRaid", boolean.class);
+			m.invoke(be, true);
+			return "raidwin " + pos.toShortString() + ": ok";
+		} catch (ReflectiveOperationException e) {
+			return "raidwin: " + e;
+		}
+	}
+
+	private static String raidEnd(ServerPlayer player) {
+		try {
+			var cl = player.getClass().getClassLoader();
+			var participant = Class.forName("com.necro.raid.dens.common.raids.helpers.RaidJoinHelper", true, cl)
+					.getMethod("getParticipant", net.minecraft.world.entity.player.Player.class).invoke(null, player);
+			if (participant == null) return "raidend: " + player.getScoreboardName() + " no está en una raid";
+			var raidOf = participant.getClass().getDeclaredMethod("raid");
+			raidOf.setAccessible(true);
+			Object raidId = raidOf.invoke(participant);
+			var raids = (java.util.Map<?, ?>) Class.forName("com.necro.raid.dens.common.raids.helpers.RaidHelper", true, cl)
+					.getField("ACTIVE_RAIDS").get(null);
+			Object raid = raids.get(raidId);
+			if (raid == null) return "raidend: raid " + raidId + " no activa";
+			raid.getClass().getMethod("stopRaid", boolean.class).invoke(raid, true);
+			return "raidend " + player.getScoreboardName() + ": ok (" + raidId + ")";
+		} catch (ReflectiveOperationException e) {
+			return "raidend: " + e;
+		}
 	}
 
 	private static int reply(CommandContext<CommandSourceStack> c, String msg) {

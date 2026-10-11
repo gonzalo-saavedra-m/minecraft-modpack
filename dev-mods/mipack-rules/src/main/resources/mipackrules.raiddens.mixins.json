@@ -1,0 +1,7 @@
+{
+	"required": false,
+	"package": "mipackrules.mixin.raiddens",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["RaidCrystalBlockEntityMixin"],
+	"injectors": { "defaultRequire": 0 }
+}
