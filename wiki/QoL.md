@@ -58,7 +58,6 @@ las mochilas. Dos cofres juntos forman un cofre doble. Funcionan con Tom's Simpl
 | [Cobblemon PC Plus](https://modrinth.com/mod/cobblemon-pc-plus) | PC con lista, filtros y búsqueda |
 | [Catch Indicator](https://modrinth.com/mod/catch-indicator) | Marca si una especie ya la capturaste o solo la viste |
 | [Cobblemon Battle Extras](https://modrinth.com/mod/cobblemon-battle-extras) | Más información en combate y combate con teclado |
-| [Cobblemon EvoNotify](https://modrinth.com/mod/cobblemon-evonotify) | Aviso cuando un Pokémon puede evolucionar |
 | [Waystones](https://modrinth.com/mod/waystones) + [Pokemon Fly Transitions](https://modrinth.com/mod/pokemon-fly-transitions) | Viajes (ver [Viajes](Viajes.md)) |
 | [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) + [World Map](https://modrinth.com/mod/xaeros-world-map) | Minimapa y mapa del mundo |
 | [AppleSkin](https://modrinth.com/mod/appleskin) | Valores de comida |

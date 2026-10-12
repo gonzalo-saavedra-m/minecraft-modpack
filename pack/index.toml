@@ -2658,11 +2658,6 @@ hash = "fe662efbb33a0ecd8a0c7097e8e695305f151f3f233f87597764bb822e8a6381"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-evonotify.pw.toml"
-hash = "95317bc1b02ee76693d1f489e63ccd4525bbc4a79f627d0b53e7506fdd0cdeba"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-exp.-all.pw.toml"
 hash = "502c96511d48818edbb193ea3651ca38b03f17fc352ca404090f346496d72c11"
 metafile = true
