@@ -9,6 +9,10 @@ file = "config/PastureLoot.json"
 hash = "3977d805b89bfafb218166a973d137e7a3f47595a20cffde975dd2a9d8edad21"
 
 [[files]]
+file = "config/afkcinematics.properties"
+hash = "ed654759371363fd6a5d11924c1de4f2f0d598a7a4ace5f56467aeae5ab2565b"
+
+[[files]]
 file = "config/alexscaves_biome_generation/abyssal_chasm.json"
 hash = "cd7f65f58821fc457b605e56a556effb761f27fd9cb0d8336a0b20f4dd3e7697"
 
@@ -2965,7 +2969,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "b983f6fcebc2957b586a23b8460b6379d230117af9faaefc074fafa31802e587"
+hash = "2b696ac5765d62ba925e16fd39f9fe847f1fe25a9806390501aa9035e653b30d"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -3179,7 +3183,7 @@ metafile = true
 
 [[files]]
 file = "mods/tips.pw.toml"
-hash = "ab209eb758421144f7c4f8cee369ab8b9197a88a0b58d0c5282824274629ab04"
+hash = "86b8e66a5d0bd757376928425aad3413fb4948b8057fdfddedc3697d107bac50"
 metafile = true
 
 [[files]]
@@ -3294,5 +3298,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "74698fb6a69e37e845eb7fed9d766e850c87621ecba0a507fca852cb5eade132"
+hash = "8c756c7fbf516b8d227e5f48afe3de8c2cbc89fd8769ea019a727eef57419556"
 metafile = true

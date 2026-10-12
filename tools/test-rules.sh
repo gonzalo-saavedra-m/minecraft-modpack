@@ -34,6 +34,27 @@ cmd "mrtest hp mrtB 50" >/dev/null; cmd "mrtest wild mrtB rattata level=5" >/dev
 cmd "mrtest hp mrtB 0" >/dev/null; cmd "mrtest act mrtB forfeit" >/dev/null; sleep 4
 check "quedarse sin Pokémon mata" "$(cmd 'mrtest status mrtB')" "No player was found"
 
+# 2c. Huir de un salvaje es una tirada por nivel: con más nivel se escapa siempre, también con Rendirse (el Huir de
+#     Battle Extras); alejarse no termina la batalla
+cmd "player mrtH spawn at 0 200 -1" >/dev/null; sleep 3
+cmd "mrtest give mrtH pikachu level=50" >/dev/null; cmd "mrtest wild mrtH rattata level=5" >/dev/null; sleep 3
+cmd "mrtest act mrtH flee" >/dev/null; sleep 3
+check "huir con más nivel" "$(cmd 'mrtest status mrtH')" "libre"
+cmd "mrtest wild mrtH rattata level=5" >/dev/null; sleep 3; cmd "mrtest act mrtH forfeit" >/dev/null; sleep 3
+check "rendirse ante un salvaje es huir" "$(cmd 'mrtest status mrtH')" "libre, vivo=true"
+cmd "kill @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:rattata\"}}]" >/dev/null
+cmd "mrtest give mrtH pikachu level=5" >/dev/null; cmd "mrtest wild mrtH rattata level=100" >/dev/null; sleep 3
+cmd "tp mrtH 50 200 -1" >/dev/null; sleep 3
+check "alejarse no huye" "$(cmd 'mrtest status mrtH')" "EN BATALLA"
+cmd "mrtest hp mrtH 0" >/dev/null; cmd "mrtest act mrtH forfeit" >/dev/null; sleep 4   # cierra la batalla (y mata)
+cmd "kill @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:rattata\"}}]" >/dev/null
+
+# 2d. A un entrenador no se le huye: rendirse con Pokémon sanos mata
+cmd "player mrtI spawn at 0 200 -1" >/dev/null; sleep 3; cmd "mrtest give mrtI pikachu level=50" >/dev/null
+cmd "mrtest trainer mrtI rattata level=5" >/dev/null; sleep 6; cmd "mrtest act mrtI forfeit" >/dev/null; sleep 4
+check "rendirse ante un entrenador mata" "$(cmd 'mrtest status mrtI')" "No player was found"
+cmd "kill @e[type=cobblemon:npc]" >/dev/null
+
 # 3. Abeja de colmena -> Combee (de día; la abeja sale cuando quiere: se espera hasta 30 s)
 cmd "setblock 3 200 0 minecraft:air" >/dev/null   # si quedó una colmena de antes, setblock no cambia su contenido
 cmd "setblock 3 200 0 minecraft:beehive[facing=east]{bees:[{entity_data:{id:\"minecraft:bee\"},min_ticks_in_hive:0,ticks_in_hive:0}]}" >/dev/null

@@ -78,12 +78,26 @@ public class MipackTestkit implements ModInitializer {
 							p.serverLevel().addFreshEntity(wild);
 							return reply(c, "wild: " + BattleBuilder.INSTANCE.pve(p, wild));
 						}))))
+				// Combate contra un entrenador NPC de Cobblemon con un solo Pokémon (como los de RCT, actor NPC)
+				.then(literal("trainer").then(argument("player", EntityArgument.player())
+						.then(argument("props", StringArgumentType.greedyString()).executes(c -> {
+							var p = EntityArgument.getPlayer(c, "player");
+							var npc = new com.cobblemon.mod.common.entity.npc.NPCEntity(p.serverLevel());
+							npc.setNpc(com.cobblemon.mod.common.api.npc.NPCClasses.INSTANCE.getByName("standard"));
+							var party = new com.cobblemon.mod.common.api.storage.party.NPCPartyStore(npc);
+							party.add(PokemonProperties.Companion.parse(StringArgumentType.getString(c, "props")).create());
+							npc.setParty(party);
+							npc.moveTo(p.getX() + 2, p.getY(), p.getZ(), 0, 0);
+							p.serverLevel().addFreshEntity(npc);
+							return reply(c, "trainer: " + BattleBuilder.INSTANCE.pvn(p, npc));
+						}))))
 				.then(literal("pvp").then(argument("p1", EntityArgument.player()).then(argument("p2", EntityArgument.player())
 						.executes(c -> reply(c, "pvp: " + BattleBuilder.INSTANCE.pvp1v1(
 								EntityArgument.getPlayer(c, "p1"), EntityArgument.getPlayer(c, "p2")))))))
 				.then(literal("act").then(argument("player", EntityArgument.player())
 						.then(literal("default").executes(c -> act(c, new DefaultActionResponse())))
 						.then(literal("forfeit").executes(c -> act(c, new ForfeitActionResponse())))
+						.then(literal("flee").executes(c -> act(c, new com.cobblemon.mod.common.battles.FleeAttemptActionResponse())))
 						.then(literal("move").then(argument("move", StringArgumentType.word())
 								.executes(c -> act(c, new MoveActionResponse(StringArgumentType.getString(c, "move"), null, null)))))))
 				.then(literal("hp").then(argument("player", EntityArgument.player())
@@ -315,7 +329,7 @@ public class MipackTestkit implements ModInitializer {
 
 	private static String status(ServerPlayer p) {
 		var team = StreamSupport.stream(PlayerExtensionsKt.party(p).spliterator(), false)
-				.map(pk -> pk.getSpecies().getName() + " " + pk.getCurrentHealth() + "/" + pk.getMaxHealth())
+				.map(pk -> pk.getSpecies().getName() + " " + pk.getCurrentHealth() + "/" + pk.getMaxHealth() + " xp" + pk.getExperience())
 				.collect(Collectors.joining(", "));
 		var battle = BattleRegistry.getBattleByParticipatingPlayer(p);
 		var state = battle == null ? "libre" : "EN BATALLA turno=" + battle.getTurn() + " dispatches=" + battle.getDispatches().size()

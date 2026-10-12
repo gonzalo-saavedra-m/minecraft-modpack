@@ -1,5 +1,11 @@
 package mipackrules;
 
+import com.cobblemon.mod.common.api.battles.model.PokemonBattle;
+import com.cobblemon.mod.common.api.battles.model.actor.ActorType;
+import com.cobblemon.mod.common.api.battles.model.actor.BattleActor;
+import com.cobblemon.mod.common.battles.FleeAttemptActionResponse;
+import com.cobblemon.mod.common.battles.ForfeitActionResponse;
+import com.cobblemon.mod.common.battles.ShowdownActionResponse;
 import com.cobblemon.mod.common.api.events.CobblemonEvents;
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
@@ -16,11 +22,14 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.util.Collections;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.WeakHashMap;
+import java.util.stream.StreamSupport;
+import net.minecraft.ChatFormatting;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
@@ -191,16 +200,44 @@ public class MipackRules implements ModInitializer {
 			if (pokemon.isWild()) giveDungeonKey(pokemon, event.getBattle().getPlayers());
 		});
 
-		// Muere quien pierde con todos sus Pokémon debilitados; rendirse no mata. El PvP y las raids no matan (Raid
-		// Dens no soporta muertes en su dimensión)
+		// Huir de un salvaje es una tirada, como en los juegos; alejarse no sirve (PokemonBattleActorMixin)
+		CobblemonEvents.BATTLE_FLEE_ATTEMPT.subscribe(event -> {
+			var battle = event.getBattle();
+			var player = event.getPlayer().getEntity();
+			if (player == null || isRaid(battle)) return;
+			int[] state = FLEE_STATE.computeIfAbsent(battle, b -> new int[]{0, -1, 0});
+			if (state[2] == 1) return;
+			if (state[1] == battle.getTurn()) {
+				player.sendSystemMessage(Component.literal("Ya intentaste huir este turno.").withStyle(ChatFormatting.RED));
+				return;
+			}
+			state[1] = battle.getTurn();
+			int mine = event.getPlayer().getActivePokemon().stream().filter(a -> a.getBattlePokemon() != null)
+					.mapToInt(a -> a.getBattlePokemon().getEffectedPokemon().getLevel()).max().orElse(1);
+			// Del salvaje, toda su lista: su activo no trae battlePokemon
+			int theirs = StreamSupport.stream(battle.getActors().spliterator(), false).filter(a -> a.getType() == ActorType.WILD)
+					.flatMap(a -> a.getPokemonList().stream()).mapToInt(p -> p.getEffectedPokemon().getLevel()).max().orElse(1);
+			boolean escaped = escapes(mine, theirs, ++state[0], player.getRandom().nextInt(256));
+			LOGGER.info("{} intenta huir (nivel {} vs {}, intento {}): {}", player.getScoreboardName(), mine, theirs, state[0],
+					escaped ? "escapa" : "no escapa");
+			if (escaped) {
+				state[2] = 1;
+				player.sendSystemMessage(Component.literal("¡Escapaste sin problemas!").withStyle(ChatFormatting.GREEN));
+			} else player.sendSystemMessage(Component.literal("¡No puedes escapar!").withStyle(ChatFormatting.RED));
+		});
+
+		// Muere quien pierde con todos sus Pokémon debilitados, o quien se rinde ante un entrenador (no se le puede
+		// huir: la única salida sin ganar es rendirse). El PvP y las raids no matan (Raid Dens no soporta muertes en
+		// su dimensión)
 		CobblemonEvents.BATTLE_VICTORY.subscribe(event -> {
 			if (event.getBattle().isPvP()) return;
 			for (var loser : event.getLosers()) {
 				if (loser instanceof PlayerBattleActor actor && actor.getEntity() instanceof ServerPlayer player
 						&& !player.level().dimension().location().getNamespace().equals("cobblemonraiddens")
-						&& actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0)) {
+						&& (vsTrainer(event.getBattle()) || actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0))) {
 					// Al tick siguiente, con la batalla ya cerrada
-					LOGGER.info("{} perdió la batalla sin Pokémon en pie: muere", player.getScoreboardName());
+					LOGGER.info("{} perdió la batalla (sin Pokémon en pie o rindiéndose ante un entrenador): muere",
+							player.getScoreboardName());
 					var server = player.getServer();
 					server.tell(new TickTask(server.getTickCount(), () -> {
 						if (player.isAlive() && !player.hasDisconnected()) player.kill();
@@ -208,6 +245,48 @@ public class MipackRules implements ModInitializer {
 				}
 			}
 		});
+	}
+
+	/** Huida por batalla con salvajes: {intentos, turno del último intento, 1 si ya escapó}. */
+	private static final Map<PokemonBattle, int[]> FLEE_STATE = Collections.synchronizedMap(new WeakHashMap<>());
+
+	/**
+	 * Fórmula de huida de las Gen III-IV con nivel en vez de Velocidad: con nivel igual o mayor se escapa siempre; si
+	 * no, F = nivel propio × 128 / nivel rival + 30 × intentos (contando este) y se escapa si F > 255 o un 0-255 al azar
+	 * sale menor que F. Con 10 niveles menos que un 50 el primer intento es del 52 %; con la mitad del nivel, del 37 %.
+	 */
+	static boolean escapes(int mine, int theirs, int attempt, int roll) {
+		if (mine >= theirs) return true;
+		int f = mine * 128 / theirs + 30 * attempt;
+		return f > 255 || roll < f;
+	}
+
+	/** Contra un entrenador (NPC de RCT o de Cobblemon) no se puede huir, solo rendirse. */
+	private static boolean vsTrainer(PokemonBattle battle) {
+		return StreamSupport.stream(battle.getActors().spliterator(), false).anyMatch(a -> a.getType() == ActorType.NPC);
+	}
+
+	private static boolean isRaid(PokemonBattle battle) {
+		return battle.getPlayers().stream()
+				.anyMatch(p -> p.level().dimension().location().getNamespace().equals("cobblemonraiddens"));
+	}
+
+	/**
+	 * Rendirse ante un salvaje es intentar huir (el botón Huir de Battle Extras manda Rendirse para huir al instante). Sin
+	 * Pokémon en pie, rendirse sigue siendo perder.
+	 */
+	public static List<? extends ShowdownActionResponse> wildForfeitAsRun(BattleActor actor, List<? extends ShowdownActionResponse> responses) {
+		if (!(actor instanceof PlayerBattleActor) || !actor.getBattle().isPvW() || isRaid(actor.getBattle())
+				|| responses.stream().noneMatch(r -> r instanceof ForfeitActionResponse)
+				|| actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0)) return responses;
+		return List.of(new FleeAttemptActionResponse());
+	}
+
+	/** Distancia de huida de un salvaje: 0 si ganó la tirada (huye al tick siguiente), -1 (nunca) si no. En raids, la de Cobblemon. */
+	public static Float fleeDistance(PokemonBattle battle) {
+		if (isRaid(battle)) return null;
+		int[] state = FLEE_STATE.get(battle);
+		return state != null && state[2] == 1 ? 0f : -1f;
 	}
 
 	/** Pokémon que una estructura sí puede dejar fijo al generarse: legendarios, míticos y la línea de Gimmighoul. */

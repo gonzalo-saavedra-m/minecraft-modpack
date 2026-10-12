@@ -1,0 +1,7 @@
+{
+	"required": false,
+	"package": "mipackrules.mixin.xaero",
+	"compatibilityLevel": "JAVA_21",
+	"client": ["MinimapRendererMixin"],
+	"injectors": { "defaultRequire": 0 }
+}
