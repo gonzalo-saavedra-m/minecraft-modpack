@@ -2,7 +2,7 @@
 # Instala o actualiza el pack (packwiz) en una carpeta. Idempotente: baja solo lo que cambió.
 # Uso: ops/sync.sh server|client <carpeta> [pack]
 #   pack: URL de pack.toml (el CDN en AWS) o carpeta local con pack.toml (default: pack/ del repo).
-# Con "server" además baja Fabric, acepta el EULA y aplica ops/server.properties.
+# Con "server" además baja Fabric, acepta el EULA, aplica ops/server.properties y pone ops/server-icon.png.
 # Ejemplos:
 #   ops/sync.sh server server
 #   ops/sync.sh client "$HOME/Library/Application Support/PrismLauncher/instances/mipack/minecraft"
@@ -50,5 +50,6 @@ if [ "$SIDE" = server ]; then
     else echo "$k=$v" >> server.properties; fi
   done
   rm -f server.properties.bak
+  cp "$OPS/server-icon.png" server-icon.png   # ícono de la lista de servidores (dibujo en ops/icon/)
 fi
 echo "OK: $SIDE sincronizado en $DIR"
