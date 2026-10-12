@@ -55,6 +55,14 @@ cmd "mrtest trainer mrtI rattata level=5" >/dev/null; sleep 6; cmd "mrtest act m
 check "rendirse ante un entrenador mata" "$(cmd 'mrtest status mrtI')" "No player was found"
 cmd "kill @e[type=cobblemon:npc]" >/dev/null
 
+# 2e. El entrenador que pierde muere
+cmd "player mrtJ spawn at 0 200 -1" >/dev/null; sleep 3; cmd "mrtest give mrtJ pikachu level=100" >/dev/null
+cmd "mrtest trainer mrtJ rattata level=1" >/dev/null; sleep 6
+for _ in 1 2 3 4 5; do cmd "mrtest act mrtJ default" >/dev/null; sleep 3; done
+check "el entrenador que pierde muere" "$(cmd 'execute if entity @e[type=cobblemon:npc]')" "Test failed"
+check "ganarle a un entrenador no mata" "$(cmd 'mrtest status mrtJ')" "vivo=true"
+cmd "kill @e[type=cobblemon:npc]" >/dev/null; cmd "player mrtJ kill" >/dev/null
+
 # 3. Abeja de colmena -> Combee (de día; la abeja sale cuando quiere: se espera hasta 30 s)
 cmd "setblock 3 200 0 minecraft:air" >/dev/null   # si quedó una colmena de antes, setblock no cambia su contenido
 cmd "setblock 3 200 0 minecraft:beehive[facing=east]{bees:[{entity_data:{id:\"minecraft:bee\"},min_ticks_in_hive:0,ticks_in_hive:0}]}" >/dev/null

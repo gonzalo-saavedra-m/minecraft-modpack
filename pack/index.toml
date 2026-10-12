@@ -2969,7 +2969,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "2b696ac5765d62ba925e16fd39f9fe847f1fe25a9806390501aa9035e653b30d"
+hash = "9d3481d7e16b1aeb91ca42cdc7a0de7fcb63cabde77ae5bdc984c7cf3372b67a"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

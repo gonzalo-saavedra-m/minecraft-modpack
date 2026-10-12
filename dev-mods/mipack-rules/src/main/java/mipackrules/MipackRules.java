@@ -3,6 +3,7 @@ package mipackrules;
 import com.cobblemon.mod.common.api.battles.model.PokemonBattle;
 import com.cobblemon.mod.common.api.battles.model.actor.ActorType;
 import com.cobblemon.mod.common.api.battles.model.actor.BattleActor;
+import com.cobblemon.mod.common.api.battles.model.actor.EntityBackedBattleActor;
 import com.cobblemon.mod.common.battles.FleeAttemptActionResponse;
 import com.cobblemon.mod.common.battles.ForfeitActionResponse;
 import com.cobblemon.mod.common.battles.ShowdownActionResponse;
@@ -58,6 +59,7 @@ import net.minecraft.server.TickTask;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.MobSpawnType;
@@ -228,10 +230,18 @@ public class MipackRules implements ModInitializer {
 
 		// Muere quien pierde con todos sus Pokémon debilitados, o quien se rinde ante un entrenador (no se le puede
 		// huir: la única salida sin ganar es rendirse). El PvP y las raids no matan (Raid Dens no soporta muertes en
-		// su dimensión)
+		// su dimensión). El entrenador NPC (de RCT o de Cobblemon) que pierde también muere
 		CobblemonEvents.BATTLE_VICTORY.subscribe(event -> {
 			if (event.getBattle().isPvP()) return;
 			for (var loser : event.getLosers()) {
+				if (loser.getType() == ActorType.NPC && loser instanceof EntityBackedBattleActor<?> npc
+						&& npc.getEntity() instanceof LivingEntity trainer && trainer.getServer() != null) {
+					LOGGER.info("El entrenador {} perdió la batalla: muere", trainer.getName().getString());
+					var server = trainer.getServer();
+					server.tell(new TickTask(server.getTickCount(), () -> {
+						if (trainer.isAlive()) trainer.kill();
+					}));
+				}
 				if (loser instanceof PlayerBattleActor actor && actor.getEntity() instanceof ServerPlayer player
 						&& !player.level().dimension().location().getNamespace().equals("cobblemonraiddens")
 						&& (vsTrainer(event.getBattle()) || actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0))) {
