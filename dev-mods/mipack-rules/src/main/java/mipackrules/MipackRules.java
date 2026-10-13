@@ -9,6 +9,7 @@ import com.cobblemon.mod.common.battles.ForfeitActionResponse;
 import com.cobblemon.mod.common.battles.ShowdownActionResponse;
 import com.cobblemon.mod.common.api.events.CobblemonEvents;
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
+import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawnerFactory;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.cobblemon.mod.common.pokemon.Pokemon;
@@ -140,6 +141,11 @@ public class MipackRules implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// Spawns según el nivel de cada jugador (LevelCurveInfluence); la lista de Cobblemon puede ser inmutable
+		var builders = new java.util.ArrayList<>(PlayerSpawnerFactory.INSTANCE.getInfluenceBuilders());
+		builders.add(LevelCurveInfluence::new);
+		PlayerSpawnerFactory.INSTANCE.setInfluenceBuilders(builders);
+
 		// Los Pokémon con dueño (de un jugador: equipo, sacados o en el corral; o de un entrenador) solo se dañan en
 		// combate, que Cobblemon maneja por dentro: fuera de combate nada los lastima. Los salvajes, como siempre.
 		// /kill y el vacío sí, para poder limpiar

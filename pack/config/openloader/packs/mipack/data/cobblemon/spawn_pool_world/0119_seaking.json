@@ -47,7 +47,26 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": true
+      },
+      "id": "seaking-3-aether",
+      "level": "45-57",
+      "pokemon": "seaking",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 10.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_bamboo",
           "#cobblemon:is_floral",
           "#cobblemon:is_freezing",
@@ -76,7 +95,28 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "seaking-4-aether",
+      "level": "45-57",
+      "pokemon": "seaking",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 10.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_bamboo",
           "#cobblemon:is_floral",
           "#cobblemon:is_freezing",

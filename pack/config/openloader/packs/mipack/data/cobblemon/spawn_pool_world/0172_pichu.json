@@ -1,0 +1,102 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "pichu-1",
+      "level": "5-25",
+      "pokemon": "pichu",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 7.8,
+      "weightMultiplier": {
+        "condition": {
+          "isThundering": true
+        },
+        "multiplier": 5.0
+      }
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "pichu-alola-2-aether",
+      "level": "45-65",
+      "pokemon": "pichu region_bias=alola",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 2.6,
+      "weightMultiplier": {
+        "condition": {
+          "isThundering": true
+        },
+        "multiplier": 5.0
+      }
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_tropical_island"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "pichu-alola-2",
+      "level": "5-25",
+      "pokemon": "pichu region_bias=alola",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 2.6,
+      "weightMultiplier": {
+        "condition": {
+          "isThundering": true
+        },
+        "multiplier": 5.0
+      }
+    }
+  ]
+}

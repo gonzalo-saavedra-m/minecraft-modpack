@@ -1,0 +1,34 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "70-71",
+          "levelRangeOffset": "-49-49",
+          "maxTimes": 7,
+          "pokemon": "unown",
+          "weight": 80.0
+        }
+      ],
+      "id": "unown-herd-1",
+      "levelRange": "55-100",
+      "maxHerdSize": 7,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 1000.0
+    }
+  ]
+}

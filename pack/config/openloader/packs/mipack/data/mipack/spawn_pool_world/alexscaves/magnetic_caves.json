@@ -219,7 +219,7 @@
       "type": "pokemon",
       "spawnablePositionType": "submerged",
       "bucket": "uncommon",
-      "level": "13-38",
+      "level": "15-40",
       "weight": 10.0,
       "condition": {
         "biomes": [

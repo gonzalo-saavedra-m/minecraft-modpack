@@ -19,7 +19,7 @@
         "minSkyLight": 8
       },
       "id": "azurill-1",
-      "level": "1-19",
+      "level": "5-23",
       "pokemon": "azurill",
       "presets": [
         "natural"
@@ -39,7 +39,7 @@
         "minSkyLight": 8
       },
       "id": "azurill-2",
-      "level": "1-19",
+      "level": "5-23",
       "pokemon": "azurill",
       "presets": [
         "water"
@@ -63,7 +63,7 @@
         "canSeeSky": true
       },
       "id": "azurill-3",
-      "level": "1-19",
+      "level": "5-23",
       "pokemon": "azurill",
       "spawnablePositionType": "fishing",
       "type": "pokemon",
@@ -98,7 +98,7 @@
         "minSkyLight": 8
       },
       "id": "azurill-4",
-      "level": "1-19",
+      "level": "15-33",
       "pokemon": "azurill",
       "spawnablePositionType": "fishing",
       "type": "pokemon",

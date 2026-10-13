@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "aromatisse-1-aether",
+      "level": "45-62",
+      "pokemon": "aromatisse",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 4.8
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "aromatisse-1",
+      "level": "29-46",
+      "pokemon": "aromatisse",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 4.8
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "isPokeSnack": true
+      },
+      "id": "aromatisse-2",
+      "level": "29-46",
+      "pokemon": "aromatisse",
+      "presets": [
+        "mansion_bedrooms"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 1.6
+    }
+  ]
+}

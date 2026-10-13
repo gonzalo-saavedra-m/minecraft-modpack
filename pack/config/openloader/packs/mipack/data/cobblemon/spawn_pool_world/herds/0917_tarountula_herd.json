@@ -23,7 +23,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-18",
+          "levelRange": "5-19",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "tarountula",
@@ -40,7 +40,7 @@
         }
       ],
       "id": "tarountula-herd-1",
-      "levelRange": "1-40",
+      "levelRange": "5-44",
       "maxHerdSize": 5,
       "presets": [
         "natural"

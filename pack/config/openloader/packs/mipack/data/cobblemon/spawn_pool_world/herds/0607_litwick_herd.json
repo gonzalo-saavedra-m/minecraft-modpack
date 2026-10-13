@@ -1,0 +1,64 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_fire"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "35-54",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "litwick",
+          "weight": 80.0
+        }
+      ],
+      "id": "litwick-herd-1",
+      "levelRange": "35-60",
+      "maxHerdSize": 3,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 9.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "timeRange": "night"
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "15-34",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "litwick",
+          "weight": 80.0
+        }
+      ],
+      "id": "litwick-herd-2",
+      "levelRange": "15-40",
+      "maxHerdSize": 3,
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 45.0
+    }
+  ]
+}

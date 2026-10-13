@@ -1,0 +1,82 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      "id": "doublade-1",
+      "level": "35-45",
+      "pokemon": "doublade",
+      "presets": [
+        "natural",
+        "nether_structures"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 152.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#cobblemon:ruin"
+        ]
+      },
+      "id": "doublade-2",
+      "level": "35-45",
+      "pokemon": "doublade",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 71.2
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "doublade-3",
+      "level": "35-45",
+      "pokemon": "doublade",
+      "presets": [
+        "stronghold"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 152.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "structures": [
+          "#aether:dungeons"
+        ]
+      },
+      "id": "doublade-4",
+      "level": "45-55",
+      "pokemon": "doublade",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 7.12
+    }
+  ]
+}

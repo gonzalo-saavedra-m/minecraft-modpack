@@ -44,7 +44,7 @@
         }
       ],
       "id": "chansey-herd-2",
-      "levelRange": "1-54",
+      "levelRange": "5-58",
       "maxHerdSize": 4,
       "presets": [
         "natural"
@@ -72,7 +72,7 @@
         {
           "isFollower": true,
           "isLeader": true,
-          "levelRange": "20-42",
+          "levelRange": "45-67",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "chansey",
@@ -81,7 +81,7 @@
         {
           "isFollower": true,
           "isLeader": true,
-          "levelRange": "42-50",
+          "levelRange": "45-53",
           "levelRangeOffset": "-2-4",
           "maxTimes": 1,
           "pokemon": "blissey",
@@ -90,7 +90,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "5-20",
+          "levelRange": "45-60",
           "levelRangeOffset": "-4-2",
           "maxTimes": 3,
           "pokemon": "happiny",
@@ -98,7 +98,7 @@
         }
       ],
       "id": "chansey-herd-3",
-      "levelRange": "1-54",
+      "levelRange": "45-98",
       "maxHerdSize": 4,
       "presets": [
         "natural"

@@ -21,7 +21,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "liepard held_item=cobblemon:dark_gem alpha=true",
           "weight": 30.0

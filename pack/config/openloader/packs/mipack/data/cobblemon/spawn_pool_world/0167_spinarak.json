@@ -23,7 +23,7 @@
         "timeRange": "night"
       },
       "id": "spinarak-1",
-      "level": "1-25",
+      "level": "5-29",
       "pokemon": "spinarak",
       "presets": [
         "natural",
@@ -48,7 +48,7 @@
         "minSkyLight": 0
       },
       "id": "spinarak-2",
-      "level": "1-25",
+      "level": "15-39",
       "pokemon": "spinarak",
       "presets": [
         "natural"
@@ -72,7 +72,7 @@
         "minY": 0
       },
       "id": "spinarak-3",
-      "level": "1-25",
+      "level": "15-39",
       "pokemon": "spinarak",
       "presets": [
         "derelict"
@@ -88,7 +88,7 @@
         "minSkyLight": 0
       },
       "id": "spinarak-4",
-      "level": "1-25",
+      "level": "15-39",
       "pokemon": "spinarak",
       "presets": [
         "webs",
@@ -115,7 +115,7 @@
         ]
       },
       "id": "spinarak-5",
-      "level": "1-25",
+      "level": "15-39",
       "pokemon": "spinarak",
       "presets": [
         "mansion"

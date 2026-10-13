@@ -7,7 +7,35 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxLight": 7
+      },
+      "id": "morelull-1-aether",
+      "level": "45-70",
+      "pokemon": "morelull",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 9.0,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_magical",
           "#cobblemon:is_mushroom"
@@ -15,7 +43,7 @@
         "maxLight": 7
       },
       "id": "morelull-1",
-      "level": "4-29",
+      "level": "5-30",
       "pokemon": "morelull",
       "presets": [
         "natural"
@@ -52,7 +80,7 @@
         "minSkyLight": 0
       },
       "id": "morelull-2",
-      "level": "4-29",
+      "level": "15-40",
       "pokemon": "morelull",
       "presets": [
         "natural"
@@ -80,7 +108,7 @@
         ]
       },
       "id": "morelull-3",
-      "level": "4-29",
+      "level": "35-60",
       "pokemon": "morelull",
       "presets": [
         "natural"
@@ -115,7 +143,7 @@
         ]
       },
       "id": "morelull-4",
-      "level": "4-29",
+      "level": "15-40",
       "pokemon": "morelull",
       "presets": [
         "natural"

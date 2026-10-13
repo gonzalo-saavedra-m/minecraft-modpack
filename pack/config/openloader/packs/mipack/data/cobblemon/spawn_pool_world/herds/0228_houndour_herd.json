@@ -1,0 +1,89 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "11-30",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "houndour",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "26-46",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "pokemon": "houndoom",
+          "weight": 20.0
+        }
+      ],
+      "id": "houndour-herd-1",
+      "levelRange": "8-50",
+      "maxHerdSize": 5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20.0,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "35-54",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "houndour",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "35-55",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "pokemon": "houndoom",
+          "weight": 20.0
+        }
+      ],
+      "id": "houndour-herd-2",
+      "levelRange": "35-77",
+      "maxHerdSize": 5,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20.0
+    }
+  ]
+}

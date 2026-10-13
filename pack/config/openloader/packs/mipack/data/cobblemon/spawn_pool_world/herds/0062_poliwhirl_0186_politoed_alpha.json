@@ -16,7 +16,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -24,7 +24,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -99,7 +99,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -107,7 +107,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -115,7 +115,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -174,7 +174,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -182,7 +182,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -263,7 +263,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -271,7 +271,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -347,7 +347,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -355,7 +355,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -427,7 +427,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -435,7 +435,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -443,7 +443,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -507,7 +507,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -515,7 +515,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -523,7 +523,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -584,7 +584,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -592,7 +592,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -600,7 +600,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -670,7 +670,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -678,7 +678,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -686,7 +686,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -753,7 +753,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "poliwrath held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -761,7 +761,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "politoed held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -769,7 +769,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",

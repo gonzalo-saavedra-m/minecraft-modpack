@@ -1,0 +1,69 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "meganium-1-aether",
+      "level": "45-66",
+      "pokemon": "meganium",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 4.0
+    },
+    {
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "meganium-1",
+      "level": "32-53",
+      "pokemon": "meganium",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 4.0
+    },
+    {
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "the_bumblezone:floral_meadow"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "meganium-2",
+      "level": "32-53",
+      "pokemon": "meganium",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 4.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-dusknoir-1",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "45-57",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

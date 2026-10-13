@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-duskull-1",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

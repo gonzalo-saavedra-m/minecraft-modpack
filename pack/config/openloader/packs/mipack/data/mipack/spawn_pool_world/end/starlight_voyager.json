@@ -9,7 +9,7 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
-      "level": "10-36",
+      "level": "55-81",
       "weight": 10.0,
       "condition": {
         "biomes": [

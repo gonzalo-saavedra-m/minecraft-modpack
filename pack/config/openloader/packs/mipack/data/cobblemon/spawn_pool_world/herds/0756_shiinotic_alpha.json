@@ -6,7 +6,57 @@
       "bucket": "boss",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxLight": 7
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "45-100",
+          "maxTimes": 1,
+          "pokemon": "shiinotic held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "morelull",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-56",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "pokemon": "shiinotic",
+          "weight": 120.0
+        }
+      ],
+      "id": "shiinotic-alpha-1-aether",
+      "levelRange": "45-100",
+      "maxHerdSize": 6,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 100.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "boss",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_magical",
           "#cobblemon:is_mushroom"
@@ -17,7 +67,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "shiinotic held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -76,7 +126,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "shiinotic held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -84,7 +134,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "7-26",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "morelull",
@@ -126,7 +176,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "35-100",
           "maxTimes": 1,
           "pokemon": "shiinotic held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -134,7 +184,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "7-26",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "morelull",
@@ -143,7 +193,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "26-37",
+          "levelRange": "35-46",
           "levelRangeOffset": "-2-4",
           "maxTimes": 5,
           "pokemon": "shiinotic",
@@ -151,7 +201,7 @@
         }
       ],
       "id": "shiinotic-alpha-3",
-      "levelRange": "22-100",
+      "levelRange": "35-100",
       "maxHerdSize": 6,
       "presets": [
         "natural"
@@ -183,7 +233,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "shiinotic held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -191,7 +241,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "7-26",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "morelull",

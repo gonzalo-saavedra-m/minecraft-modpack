@@ -15,7 +15,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "45-100",
           "maxTimes": 1,
           "pokemon": "salamence held_item=cobblemon:dragon_gem alpha=true",
           "weight": 30.0
@@ -23,7 +23,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "45-64",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "bagon",
@@ -32,7 +32,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "32-38",
+          "levelRange": "45-51",
           "levelRangeOffset": "-2-4",
           "maxTimes": 5,
           "pokemon": "shelgon",

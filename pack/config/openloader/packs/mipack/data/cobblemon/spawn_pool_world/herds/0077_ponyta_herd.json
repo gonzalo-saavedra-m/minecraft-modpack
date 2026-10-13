@@ -67,7 +67,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "19-38",
+          "levelRange": "45-64",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ponyta galarian",
@@ -76,7 +76,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "42-46",
+          "levelRange": "45-49",
           "levelRangeOffset": "-2-4",
           "maxTimes": 3,
           "pokemon": "rapidash galarian",
@@ -84,7 +84,7 @@
         }
       ],
       "id": "ponyta-galar-herd-2",
-      "levelRange": "16-50",
+      "levelRange": "45-79",
       "maxHerdSize": 7,
       "presets": [
         "natural"
@@ -157,7 +157,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "19-38",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ponyta",
@@ -174,7 +174,7 @@
         }
       ],
       "id": "ponyta-herd-2",
-      "levelRange": "16-50",
+      "levelRange": "35-69",
       "maxHerdSize": 7,
       "presets": [
         "natural"

@@ -15,7 +15,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "electrode held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0
@@ -72,7 +72,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "electrode held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0
@@ -128,7 +128,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "electrode hisuian held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0

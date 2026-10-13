@@ -63,7 +63,7 @@
         ]
       },
       "id": "ponyta-2",
-      "level": "16-41",
+      "level": "35-60",
       "pokemon": "ponyta",
       "presets": [
         "natural"
@@ -122,7 +122,7 @@
         "minSkyLight": 8
       },
       "id": "ponyta-galarian-4",
-      "level": "16-41",
+      "level": "45-70",
       "pokemon": "ponyta galarian",
       "presets": [
         "natural"

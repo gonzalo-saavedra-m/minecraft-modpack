@@ -162,6 +162,28 @@ BIOMES.update({
         ('lapras', 'ultra-rare', '30-50', 'agua'),
     ],
 })
+TL = 'terralith:'
+# Mantle Caves de Terralith (decidido el 12-oct): fuego y roca. Los de fuego de is_volcanic piden luz del cielo y aquí no
+# nacen. Peso 90 para competir con el pool genérico de cuevas (como las minas)
+BIOMES.update({
+    TL + 'cave/mantle_caves': [
+        ('slugma', 'common', None), ('magcargo', 'uncommon', None),
+        ('numel', 'common', None), ('camerupt', 'uncommon', None),
+        ('magby', 'common', None), ('magmar', 'uncommon', None), ('magmortar', 'rare', None),
+        ('salandit', 'common', None), ('salazzle', 'rare', None),
+        ('sizzlipede', 'common', None), ('centiskorch', 'uncommon', None),
+        ('torkoal', 'uncommon', None), ('heatmor', 'uncommon', None), ('turtonator', 'rare', None),
+        ('charcadet', 'rare', None),
+        ('geodude', 'common', None), ('graveler', 'uncommon', None), ('golem', 'rare', None),
+        ('roggenrola', 'common', None), ('boldore', 'uncommon', None), ('gigalith', 'rare', None),
+        ('nacli', 'common', None), ('naclstack', 'uncommon', None), ('garganacl', 'rare', None),
+        ('onix', 'uncommon', None), ('steelix', 'rare', None),
+        ('rhyhorn', 'uncommon', None), ('rhydon', 'rare', None),
+        ('larvitar', 'rare', None), ('pupitar', 'ultra-rare', None),
+        ('carbink', 'rare', None),
+    ],
+})
+BIOME_WEIGHT = {TL + 'cave/mantle_caves': 90.0}  # el resto: 10
 OTHERSIDE_EXCLUSIVE = {e[0] for b, v in BIOMES.items() if b.startswith(DD) for e in v}
 
 # Solo nacen en su bioma de Alex's Caves (más estructuras, ciudades y Nether). Decidido el 08-oct.
@@ -269,10 +291,12 @@ PRIMORDIAL = AC + 'primordial_caves'
 PRIMORDIAL_BUCKET = {'fossil': 'common', 'paradox': 'uncommon'}
 DEFAULT_LEVEL = {'common': '5-30', 'uncommon': '20-40', 'rare': '30-50', 'ultra-rare': '40-60'}
 LEVEL_BONUS = 10  # Alex's Caves es zona de nivel más alto (decidido el 08-oct)
+END = ['#cobblemon:is_end']  # todos los spawns del End usan exactamente este tag
+END_BONUS = 20  # el End es la zona difícil del Overworld+Nether+End: todo +20, tope 100 (decidido el 13-oct)
 
-def bump(level):
+def bump(level, bonus=LEVEL_BONUS):
     lo, _, hi = str(level).partition('-')
-    return '-'.join(str(min(100, int(x) + LEVEL_BONUS)) for x in ([lo, hi] if hi else [lo]))
+    return '-'.join(str(min(100, int(x) + bonus)) for x in ([lo, hi] if hi else [lo]))
 
 
 cobblemon = zipfile.ZipFile(next((SERVER / 'mods').glob('Cobblemon-fabric-*.jar')))
@@ -323,7 +347,8 @@ def keep_exclusive(spawn, ks):
 
 # Limpia lo generado antes (por si una especie dejó de estar en la config)
 for d in ('data/cobblemon/spawn_pool_world', 'data/special_spawns', 'data/mipack/spawn_pool_world/alexscaves',
-          'data/mipack/spawn_pool_world/deeperdarker', 'data/mipack/spawn_pool_world/yungscavebiomes'):
+          'data/mipack/spawn_pool_world/deeperdarker', 'data/mipack/spawn_pool_world/yungscavebiomes',
+          'data/mipack/spawn_pool_world/terralith'):
     shutil.rmtree(MIPACK / d, ignore_errors=True)
 
 def write(rel, data):
@@ -347,6 +372,12 @@ for z in sources:
                 if 'level' in s:
                     levels.setdefault(k, s['level'])
             c = s.setdefault('condition', {})
+            if c.get('biomes') == END:  # +20 en el End: individuales, manadas y sus miembros
+                for x in [s] + s.get('herdablePokemon', []):
+                    for f in ('level', 'levelRange'):
+                        if f in x:
+                            x[f] = bump(x[f], END_BONUS)
+                changed = True
             kind = next((labels[k.split()[0]] for k in ks if k.split()[0] in labels), None)
             if kind:  # fósil o paradójico: solo Primordial
                 c['biomes'], s['bucket'], changed = [PRIMORDIAL], PRIMORDIAL_BUCKET[kind], True
@@ -408,8 +439,8 @@ for structs, entries in END_STRUCTURES.items():
     if (MIPACK / f'data/mipack/spawn_pool_world/end/{name}.json').exists():
         name += '_' + entries[0][0]  # misma estructura en dos grupos
     spawns = [{'id': f'mipack-end-{name}-{p}', 'pokemon': p + (' min_perfect_ivs=3' if p in STRONG else ''),
-               'type': 'pokemon', 'spawnablePositionType': 'grounded', 'bucket': b, 'level': lvl, 'weight': 10.0,
-               'condition': {'biomes': ['#cobblemon:is_end'], 'structures': list(structs)}} for p, b, lvl in entries]
+               'type': 'pokemon', 'spawnablePositionType': 'grounded', 'bucket': b, 'level': bump(lvl, END_BONUS), 'weight': 10.0,
+               'condition': {'biomes': END, 'structures': list(structs)}} for p, b, lvl in entries]
     write(f'data/mipack/spawn_pool_world/end/{name}.json',
           {'enabled': True, 'neededInstalledMods': [], 'neededUninstalledMods': [], 'spawns': spawns})
 
@@ -432,7 +463,7 @@ for biome, entries in BIOMES.items():
         s = {'id': f'mipack-{biome.split(":")[1]}-{pokemon.replace(" ", "-")}', 'pokemon': pokemon, 'type': 'pokemon',
              'spawnablePositionType': 'submerged' if 'agua' in extra else 'grounded', 'bucket': bucket,
              'level': (bump if biome.startswith(AC) else str)(lvl or levels.get(pokemon) or DEFAULT_LEVEL[bucket]),
-             'weight': 10.0,
+             'weight': BIOME_WEIGHT.get(biome, 10.0),
              'condition': {'biomes': [biome]}}
         if 'noche' in extra:
             s['condition']['timeRange'] = 'night'
@@ -442,9 +473,102 @@ for biome, entries in BIOMES.items():
 
 # Suelo "natural" (preset natural de los spawns genéricos y los fósiles): el de Primordial y el de las cuevas de YUNG.
 # Lost Caves pinta el piso con arena antigua (ya es #minecraft:sand), arenisca antigua y en capas (LostCavesSurfaceReplace),
-# más pilares en capas y techo de arenisca frágil. Frosted Caves: piedra, hielo compacto y carámbanos de hielo raro
+# más pilares en capas y techo de arenisca frágil. Frosted Caves: piedra, hielo compacto y carámbanos de hielo raro.
+# Mantle Caves (Terralith): magma; la blackstone y el basalto liso ya estaban (base_stone_nether, sculk_replaceable)
 write('data/cobblemon/tags/block/natural.json', {'replace': False, 'values': [
     '#alexscaves:primordial_caves_base_blocks', 'alexscaves:flood_basalt', 'alexscaves:fern_thatch',
-    YCB + 'ancient_sandstone', YCB + 'layered_ancient_sandstone', YCB + 'brittle_ancient_sandstone', YCB + 'rare_ice']})
+    YCB + 'ancient_sandstone', YCB + 'layered_ancient_sandstone', YCB + 'brittle_ancient_sandstone', YCB + 'rare_ice',
+    'minecraft:magma_block']})
+
+# Bandas de nivel por zona (decidido el 13-oct): el mínimo de la banda es un piso. Si el rango de una especie arranca
+# más abajo, sube entero (conserva el ancho, tope 100); lo que ya está por encima no se baja (el End +20 se mantiene y
+# LevelCurveInfluence lo hace salir menos a los jugadores de nivel bajo). Aether y Mundo Distorsión 45 (entre el
+# Nether y el End); Otherside sin banda (ya es 70-100). Un spawn que mezcla biomas de una dimensión con banda propia
+# (Nether, Aether, Mundo Distorsión) con otros se parte en dos, cada parte con su banda.
+BAND = {'surface': 5, 'cave': 15, 'nether': 35, 'aether': 45, 'distortion': 45, 'end': 55}
+NETHER_PREFIXES = ('#minecraft:is_nether', '#cobblemon:is_nether', '#cobblemon:nether/', 'incendium:', 'minecraft:nether_wastes',
+                   'minecraft:soul_sand_valley', 'minecraft:crimson_forest', 'minecraft:warped_forest', 'minecraft:basalt_deltas')
+DIMENSIONS = {'nether': NETHER_PREFIXES, 'aether': ('#aether:', 'aether:'), 'distortion': ('clumpedindistortionworld:',)}
+NO_BAND = ('deeperdarker:', 'the_bumblezone:')
+CAVE_PREFIXES = ('alexscaves:', 'yungscavebiomes:', 'terralith:cave/', 'minecraft:dripstone_caves', 'minecraft:lush_caves',
+                 'minecraft:deep_dark', '#cobblemon:is_deep_dark', '#cobblemon:is_lush')  # is_dripstone no: trae superficie de Terralith
+preset_cond = {}
+for z in sources:
+    for n in z.namelist():
+        if '/spawn_detail_presets/' in n and n.endswith('.json'):
+            preset_cond[Path(n).stem] = (json.loads(z.read(n)).get('condition') or {})
+
+def floor_of(s):
+    c = dict(s.get('condition') or {})
+    for p in s.get('presets', []):
+        for k, v in preset_cond.get(p, {}).items():
+            c.setdefault(k, v)
+    bs = [str(b) for b in c.get('biomes', [])]
+    if bs == END:
+        return BAND['end']
+    if bs and all(b.startswith(NO_BAND) for b in bs):
+        return None
+    for dim, prefixes in DIMENSIONS.items():
+        if bs and all(b.startswith(prefixes) for b in bs):
+            return BAND[dim]
+    cave = c.get('canSeeSky') is False or (c.get('maxSkyLight') is not None and c['maxSkyLight'] <= 7) or \
+        (bs and all(b.startswith(CAVE_PREFIXES) for b in bs))
+    return BAND['cave' if cave else 'surface']
+
+def raise_to(level, floor):
+    lo, _, hi = str(level).partition('-')
+    lo, hi = int(lo), int(hi or lo)
+    if lo >= floor:
+        return str(level)
+    d = floor - lo
+    return f'{lo + d}-{min(100, hi + d)}' if hi > lo else str(lo + d)
+
+def band(s):
+    floor = floor_of(s)
+    if floor is None:
+        return False
+    changed = False
+    for x in [s] + s.get('herdablePokemon', []):
+        for f in ('level', 'levelRange'):
+            if f in x and raise_to(x[f], floor) != str(x[f]):
+                x[f], changed = raise_to(x[f], floor), True
+    return changed
+
+effective = {}  # ruta -> lectura: el último origen gana (mods < OpenLoader), y lo de mipack pisa todo
+for z in sources:
+    for n in z.namelist():
+        if '/spawn_pool_world/' in n and n.endswith('.json'):
+            effective[n] = lambda n=n, z=z: z.read(n)
+for f in MIPACK.rglob('*.json'):
+    if '/spawn_pool_world/' in f.as_posix():
+        effective[f.relative_to(MIPACK).as_posix()] = f.read_bytes
+banded = 0
+for n, read in effective.items():
+    try:
+        d = json.loads(read())
+    except ValueError:
+        continue
+    changed, out = False, []
+    for s in d.get('spawns', []):
+        bs = [str(b) for b in (s.get('condition') or {}).get('biomes', [])]
+        for dim, prefixes in DIMENSIONS.items():
+            mine = [b for b in bs if b.startswith(prefixes)]
+            if mine and len(mine) < len(bs):
+                part = json.loads(json.dumps(s))
+                part['id'] = f"{s.get('id', 'spawn')}-{dim}"
+                part['condition']['biomes'] = mine
+                bs = s['condition']['biomes'] = [b for b in bs if b not in mine]
+                band(part)
+                out.append(part)
+                changed = True
+        changed |= band(s)
+        out.append(s)
+    if changed:
+        d['spawns'] = out
+        write(n, d)
+        banded += 1
+assert raise_to('1-10', 35) == '35-44' and raise_to('40-60', 35) == '40-60' and raise_to('90-99', 95) == '95-100'
+assert raise_to('70', 90) == '90'
+print(f'{banded} archivos con niveles subidos a la banda de su zona')
 
 print(f'{written} archivos de spawn sobrescritos; {sum(map(len, BIOMES.values()))} spawns en biomas de Alex\'s Caves')

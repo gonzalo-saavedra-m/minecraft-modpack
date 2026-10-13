@@ -52,7 +52,36 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-67",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "eevee",
+          "weight": 90.0
+        }
+      ],
+      "id": "eevee-herd-2-aether",
+      "levelRange": "45-93",
+      "maxHerdSize": 3,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20.0
+    },
+    {
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_temperate"
         ],
         "maxSkyLight": 15,
@@ -299,7 +328,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-30",
+          "levelRange": "15-37",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "eevee",
@@ -379,7 +408,7 @@
         }
       ],
       "id": "eeveelution-herd-3",
-      "levelRange": "5-53",
+      "levelRange": "15-63",
       "maxHerdSize": 4,
       "presets": [
         "mansion"
@@ -555,10 +584,54 @@
       "bucket": "ultra-rare",
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest",
-          "#cobblemon:is_jungle",
           "aether:skyroot_forest",
           "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-67",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "eevee",
+          "weight": 90.0
+        },
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "leafeon",
+          "weight": 10.0
+        }
+      ],
+      "id": "leafeon-herd-1-aether",
+      "levelRange": "45-93",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 6.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_jungle"
         ],
         "maxSkyLight": 15,
         "minSkyLight": 8
@@ -603,10 +676,54 @@
       "bucket": "ultra-rare",
       "condition": {
         "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical",
           "aether:skyroot_grove",
           "aether:skyroot_meadow"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-67",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "eevee",
+          "weight": 90.0
+        },
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "sylveon",
+          "weight": 10.0
+        }
+      ],
+      "id": "sylveon-herd-1-aether",
+      "levelRange": "45-93",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 6.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
         ],
         "maxSkyLight": 15,
         "minSkyLight": 8

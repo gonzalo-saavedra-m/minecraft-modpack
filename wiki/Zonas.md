@@ -126,6 +126,12 @@ Una zona es un grupo de biomas que usa Cobblemon para decidir qué Pokémon apar
 
 **Pokémon (11):** [Clefairy](Pokemon-Gen-1.md#clefairy), [Clefable](Pokemon-Gen-1.md#clefable), [Cleffa](Pokemon-Gen-2.md#cleffa), [Lunatone](Pokemon-Gen-3.md#lunatone), [Solrock](Pokemon-Gen-3.md#solrock), [Beldum](Pokemon-Gen-3.md#beldum), [Metang](Pokemon-Gen-3.md#metang), [Metagross](Pokemon-Gen-3.md#metagross), [Goomy](Pokemon-Gen-6.md#goomy), [Sliggoo](Pokemon-Gen-6.md#sliggoo), [Goodra](Pokemon-Gen-6.md#goodra)
 
+## Cuevas del Manto
+
+- **Overworld:** [Cuevas del Manto](Bioma-terralith-cave-mantle_caves.md)
+
+**Pokémon (31):** [Geodude](Pokemon-Gen-1.md#geodude), [Graveler](Pokemon-Gen-1.md#graveler), [Golem](Pokemon-Gen-1.md#golem), [Onix](Pokemon-Gen-1.md#onix), [Rhyhorn](Pokemon-Gen-1.md#rhyhorn), [Rhydon](Pokemon-Gen-1.md#rhydon), [Magmar](Pokemon-Gen-1.md#magmar), [Steelix](Pokemon-Gen-2.md#steelix), [Slugma](Pokemon-Gen-2.md#slugma), [Magcargo](Pokemon-Gen-2.md#magcargo), [Magby](Pokemon-Gen-2.md#magby), [Larvitar](Pokemon-Gen-2.md#larvitar), [Pupitar](Pokemon-Gen-2.md#pupitar), [Numel](Pokemon-Gen-3.md#numel), [Camerupt](Pokemon-Gen-3.md#camerupt), [Torkoal](Pokemon-Gen-3.md#torkoal), [Magmortar](Pokemon-Gen-4.md#magmortar), [Roggenrola](Pokemon-Gen-5.md#roggenrola), [Boldore](Pokemon-Gen-5.md#boldore), [Gigalith](Pokemon-Gen-5.md#gigalith), [Heatmor](Pokemon-Gen-5.md#heatmor), [Carbink](Pokemon-Gen-6.md#carbink), [Salandit](Pokemon-Gen-7.md#salandit), [Salazzle](Pokemon-Gen-7.md#salazzle), [Turtonator](Pokemon-Gen-7.md#turtonator), [Sizzlipede](Pokemon-Gen-8.md#sizzlipede), [Centiskorch](Pokemon-Gen-8.md#centiskorch), [Nacli](Pokemon-Gen-9.md#nacli), [Naclstack](Pokemon-Gen-9.md#naclstack), [Garganacl](Pokemon-Gen-9.md#garganacl), [Charcadet](Pokemon-Gen-9.md#charcadet)
+
 ## Cuevas frondosas
 
 - **Overworld:** [Cuevas de Hongos](Bioma-terralith-cave-fungal_caves.md), [Cuevas frondosas](Bioma-minecraft-lush_caves.md), [Jungla Subterránea](Bioma-terralith-cave-underground_jungle.md)

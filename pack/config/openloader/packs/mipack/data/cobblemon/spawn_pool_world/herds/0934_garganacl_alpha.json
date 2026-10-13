@@ -15,7 +15,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "garganacl held_item=cobblemon:rock_gem alpha=true",
           "weight": 30.0
@@ -65,7 +65,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "garganacl held_item=cobblemon:rock_gem alpha=true",
           "weight": 30.0
@@ -127,7 +127,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "35-100",
           "maxTimes": 1,
           "pokemon": "garganacl held_item=cobblemon:rock_gem alpha=true",
           "weight": 30.0
@@ -135,7 +135,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "6-25",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "nacli",
@@ -144,7 +144,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "26-32",
+          "levelRange": "35-41",
           "levelRangeOffset": "-2-4",
           "maxTimes": 5,
           "pokemon": "naclstack",

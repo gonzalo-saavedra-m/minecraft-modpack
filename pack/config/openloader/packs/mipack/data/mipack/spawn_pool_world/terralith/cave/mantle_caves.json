@@ -1,0 +1,441 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-cave/mantle_caves-slugma",
+      "pokemon": "slugma",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-magcargo",
+      "pokemon": "magcargo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-43",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-numel",
+      "pokemon": "numel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-camerupt",
+      "pokemon": "camerupt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-46",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-magby",
+      "pokemon": "magby",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-magmar",
+      "pokemon": "magmar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-magmortar",
+      "pokemon": "magmortar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-54",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-salandit",
+      "pokemon": "salandit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-salazzle",
+      "pokemon": "salazzle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-50",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-sizzlipede",
+      "pokemon": "sizzlipede",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-centiskorch",
+      "pokemon": "centiskorch",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-torkoal",
+      "pokemon": "torkoal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-heatmor",
+      "pokemon": "heatmor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-turtonator",
+      "pokemon": "turtonator",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-charcadet",
+      "pokemon": "charcadet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-geodude",
+      "pokemon": "geodude",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-graveler",
+      "pokemon": "graveler",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-golem",
+      "pokemon": "golem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-50",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-roggenrola",
+      "pokemon": "roggenrola",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-boldore",
+      "pokemon": "boldore",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-gigalith",
+      "pokemon": "gigalith",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-52",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-nacli",
+      "pokemon": "nacli",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-naclstack",
+      "pokemon": "naclstack",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-36",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-garganacl",
+      "pokemon": "garganacl",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "38-50",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-onix",
+      "pokemon": "onix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-steelix",
+      "pokemon": "steelix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-51",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-rhyhorn",
+      "pokemon": "rhyhorn",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-rhydon",
+      "pokemon": "rhydon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-49",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-larvitar",
+      "pokemon": "larvitar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-40",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-pupitar",
+      "pokemon": "pupitar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-54",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    },
+    {
+      "id": "mipack-cave/mantle_caves-carbink",
+      "pokemon": "carbink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 90.0,
+      "condition": {
+        "biomes": [
+          "terralith:cave/mantle_caves"
+        ]
+      }
+    }
+  ]
+}

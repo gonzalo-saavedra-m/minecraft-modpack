@@ -13,10 +13,34 @@
       "bucket": "ultra-rare",
       "condition": {
         "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical",
           "aether:skyroot_grove",
           "aether:skyroot_meadow"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "sylveon-1-aether",
+      "level": "45-70",
+      "pokemon": "sylveon",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 24.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "ultra-rare",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
         ],
         "maxSkyLight": 15,
         "minSkyLight": 8

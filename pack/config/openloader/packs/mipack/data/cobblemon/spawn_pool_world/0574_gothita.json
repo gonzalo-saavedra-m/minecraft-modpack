@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "id": "gothita-1",
+      "level": "15-40",
+      "pokemon": "gothita",
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 27.0,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "id": "gothita-2",
+      "level": "55-80",
+      "pokemon": "gothita",
+      "presets": [
+        "end_city"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 25.2,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}

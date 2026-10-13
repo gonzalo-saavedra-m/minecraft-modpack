@@ -67,7 +67,7 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Cuevas de Hielo y Fuego](Bioma-terralith-cave-frostfire_caves.md) | [Deep dark](Zonas.md#deep-dark), [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tenebroso](Zonas.md#tenebroso) | 8 | 92 |
 | [Cuevas de Hongos](Bioma-terralith-cave-fungal_caves.md) | [Cuevas frondosas](Zonas.md#cuevas-frondosas), [Hongos](Zonas.md#hongos) | 9 | 37 |
 | [Cuevas de Toba](Bioma-terralith-cave-tuff_caves.md) | [Deep dark](Zonas.md#deep-dark) | 5 | 17 |
-| [Cuevas del Manto](Bioma-terralith-cave-mantle_caves.md) | [Deep dark](Zonas.md#deep-dark), [Volcánico](Zonas.md#volcánico) | 5 | 39 |
+| [Cuevas del Manto](Bioma-terralith-cave-mantle_caves.md) | [Cuevas del Manto](Zonas.md#cuevas-del-manto), [Deep dark](Zonas.md#deep-dark), [Volcánico](Zonas.md#volcánico) | 5 | 55 |
 | [Cuevas frondosas](Bioma-minecraft-lush_caves.md) | [Cuevas frondosas](Zonas.md#cuevas-frondosas) | 17 | 26 |
 | [Cuevas kársticas](Bioma-minecraft-dripstone_caves.md) | [Cuevas de dripstone](Zonas.md#cuevas-de-dripstone) | 12 | 11 |
 | [Cumbres escarpadas](Bioma-minecraft-jagged_peaks.md) | [Cumbres escarpadas](Zonas.md#cumbres-escarpadas), [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Montañas](Zonas.md#montañas), [Nevado](Zonas.md#nevado), [Picos](Zonas.md#picos) | 20 | 114 |
@@ -97,8 +97,8 @@ Además de los de cada bioma, en todo el Overworld aparecen los Pokémon de la z
 | [Llanura de girasoles](Bioma-minecraft-sunflower_plains.md) | [Floral](Zonas.md#floral), [Llanura de girasoles](Zonas.md#llanura-de-girasoles), [Llanuras](Zonas.md#llanuras), [Praderas](Zonas.md#praderas), [Templado](Zonas.md#templado) | 24 | 176 |
 | [Llanura nevada](Bioma-minecraft-snowy_plains.md) | [Frío](Zonas.md#frío), [Helado](Zonas.md#helado), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra) | 23 | 53 |
 | [Manglar](Bioma-minecraft-mangrove_swamp.md) | [Agua dulce](Zonas.md#agua-dulce), [Pantano](Zonas.md#pantano), [has block: mud](Zonas.md#has-block-mud) | 8 | 108 |
-| [Matorral](Bioma-terralith-shrubland.md) | [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Árido](Zonas.md#árido) | 16 | 216 |
 | [Matorral](Bioma-terralith-brushland.md) | [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Árido](Zonas.md#árido) | 23 | 216 |
+| [Matorral](Bioma-terralith-shrubland.md) | [Llanuras](Zonas.md#llanuras), [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Templado](Zonas.md#templado), [Árido](Zonas.md#árido) | 16 | 216 |
 | [Matorral Caluroso](Bioma-terralith-hot_shrubland.md) | [Matorrales](Zonas.md#matorrales), [Praderas](Zonas.md#praderas), [Sabana](Zonas.md#sabana), [Árido](Zonas.md#árido) | 12 | 130 |
 | [Matorral Frío](Bioma-terralith-cold_shrubland.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Matorrales](Zonas.md#matorrales), [Nevado](Zonas.md#nevado), [Taiga](Zonas.md#taiga), [Taiga nevada](Zonas.md#taiga-nevada), [Tundra](Zonas.md#tundra) | 19 | 112 |
 | [Matorral Rocoso](Bioma-terralith-rocky_shrubland.md) | [Frío](Zonas.md#frío), [Glaciar](Zonas.md#glaciar), [Helado](Zonas.md#helado), [Matorrales](Zonas.md#matorrales), [Nevado](Zonas.md#nevado), [Tundra](Zonas.md#tundra) | 13 | 60 |

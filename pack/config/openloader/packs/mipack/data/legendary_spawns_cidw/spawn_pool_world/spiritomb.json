@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-spiritomb-1",
+      "pokemon": "spiritomb",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "45-70",
+      "weight": 60.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

@@ -150,7 +150,7 @@
         "minSkyLight": 0
       },
       "id": "poliwag-5",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "presets": [
         "natural"
@@ -182,7 +182,7 @@
         "minSkyLight": 0
       },
       "id": "poliwag-6",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "presets": [
         "water"
@@ -240,7 +240,7 @@
         "minSkyLight": 0
       },
       "id": "poliwag-8",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "spawnablePositionType": "fishing",
       "type": "pokemon",
@@ -267,7 +267,7 @@
         ]
       },
       "id": "poliwag-9",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "presets": [
         "water"
@@ -305,7 +305,7 @@
         "minSkyLight": 8
       },
       "id": "poliwag-10",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "presets": [
         "water"
@@ -342,7 +342,7 @@
         "minSkyLight": 8
       },
       "id": "poliwag-11",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "spawnablePositionType": "fishing",
       "type": "pokemon",
@@ -368,7 +368,7 @@
         ]
       },
       "id": "poliwag-12",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "presets": [
         "natural"
@@ -403,7 +403,7 @@
         ]
       },
       "id": "poliwag-13",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "presets": [
         "water"
@@ -438,7 +438,7 @@
         ]
       },
       "id": "poliwag-14",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "poliwag",
       "spawnablePositionType": "fishing",
       "type": "pokemon",

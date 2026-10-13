@@ -195,7 +195,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "15-38",
+          "levelRange": "45-68",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "vivillon vivillon_wings=fancy",
@@ -203,7 +203,7 @@
         }
       ],
       "id": "vivillon-fancy-herd-2",
-      "levelRange": "12-41",
+      "levelRange": "45-74",
       "maxHerdSize": 5,
       "presets": [
         "natural"

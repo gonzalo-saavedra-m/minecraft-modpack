@@ -34,7 +34,7 @@
         "minSkyLight": 8
       },
       "id": "goldeen-2",
-      "level": "7-32",
+      "level": "15-40",
       "pokemon": "goldeen",
       "presets": [
         "water"
@@ -47,7 +47,26 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": true
+      },
+      "id": "goldeen-3-aether",
+      "level": "45-70",
+      "pokemon": "goldeen",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 90.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_bamboo",
           "#cobblemon:is_floral",
           "#cobblemon:is_freezing",
@@ -76,7 +95,28 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "goldeen-4-aether",
+      "level": "45-70",
+      "pokemon": "goldeen",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 90.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_bamboo",
           "#cobblemon:is_floral",
           "#cobblemon:is_freezing",
@@ -92,7 +132,7 @@
         "minSkyLight": 8
       },
       "id": "goldeen-4",
-      "level": "7-32",
+      "level": "15-40",
       "pokemon": "goldeen",
       "spawnablePositionType": "fishing",
       "type": "pokemon",

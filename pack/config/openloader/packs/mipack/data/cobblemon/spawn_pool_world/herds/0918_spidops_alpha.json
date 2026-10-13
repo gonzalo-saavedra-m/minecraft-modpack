@@ -23,7 +23,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "spidops held_item=cobblemon:bug_gem alpha=true",
           "weight": 30.0
@@ -31,7 +31,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-18",
+          "levelRange": "5-19",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "tarountula",

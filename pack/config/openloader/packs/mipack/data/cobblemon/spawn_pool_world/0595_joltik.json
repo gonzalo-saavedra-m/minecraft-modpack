@@ -46,7 +46,7 @@
         "minSkyLight": 0
       },
       "id": "joltik-2",
-      "level": "7-32",
+      "level": "15-40",
       "pokemon": "joltik",
       "presets": [
         "natural"
@@ -62,7 +62,7 @@
         "minSkyLight": 0
       },
       "id": "joltik-3",
-      "level": "7-32",
+      "level": "15-40",
       "pokemon": "joltik",
       "presets": [
         "webs",

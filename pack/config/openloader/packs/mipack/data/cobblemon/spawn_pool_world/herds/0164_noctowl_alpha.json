@@ -18,7 +18,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "noctowl held_item=cobblemon:flying_gem alpha=true",
           "weight": 30.0
@@ -26,7 +26,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-23",
+          "levelRange": "5-24",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "hoothoot",

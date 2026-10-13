@@ -56,7 +56,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon Catch Rate Display](https://modrinth.com/project/catch-rate-display) | Akkiruk | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
 | [Cobblemon Info for REI / JEI / EMI](https://modrinth.com/project/cobbledex-rei-emi-jei) | Akkiruk | MIT |
-| [Cobblemon Mass Outbreaks](https://modrinth.com/project/cobblemon-mass-outbreaks) | Scouter567 | MIT |
 | [Cobblemon Move Tutor](https://modrinth.com/project/cobblemon-move-tutor) | Adammatthiesen | MIT |
 | [Cobblemon Pasture Loot](https://modrinth.com/project/cobblemon-pasture-loot) | DrEmixam | AGPL-3.0-or-later |
 | [Cobblemon Pasture Loot Fix](https://modrinth.com/project/cobblemon-pasture-loot-fix) | kolius990 | AGPL-3.0-or-later |
@@ -84,7 +83,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [EMI](https://modrinth.com/project/emi) | Emi, exaptations | MIT |
 | [EMI Enchanting](https://modrinth.com/project/emi-enchanting) | fzzyhmstrs | MIT |
 | [EMI Ores](https://modrinth.com/project/emi-ores) | abbie | LGPL-3.0-only |
-| [EMI professions (EMIP)](https://modrinth.com/project/emi-professions-(emip)) | Mrbysco | MIT |
+| [EMI professions (EMIP)](https://modrinth.com/project/emi-professions-emip) | Mrbysco | MIT |
 | [Enchantment Descriptions](https://modrinth.com/project/enchantment-descriptions) | Darkhax | LGPL-2.1-only |
 | [Entity Culling](https://modrinth.com/project/entityculling) | vicisacat, Pelotrio, tr7zw | tr7zw-Protective-License |
 | [Fabric API](https://modrinth.com/project/fabric-api) | Player7457, modmuss50 | Apache-2.0 |
@@ -145,9 +144,9 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Sodium Extra](https://modrinth.com/project/sodium-extra) | FlashyReese | LGPL-3.0-only |
 | [Sodium Shadowy Path Blocks (SSPB)](https://modrinth.com/project/sodium-shadowy-path-blocks) | Rynnavinx | LGPL-3.0-only |
 | [Soft Imprints](https://modrinth.com/project/snow-imprints) | nNined | MIT |
-| [Sophisticated Backpacks (Unoffical Fabric port)](https://modrinth.com/project/sophisticated-backpacks-(unoffical-fabric-port)) | Salandora | LGPL-3.0-only |
-| [Sophisticated Core (Unofficial Fabric port)](https://modrinth.com/project/sophisticated-core-(unofficial-fabric-port)) | Salandora | LGPL-3.0-only |
-| [Sophisticated Storage (Unofficial Fabric port)](https://modrinth.com/project/sophisticated-storage-(unofficial-fabric-port)) | Salandora | LGPL-3.0-only |
+| [Sophisticated Backpacks (Unoffical Fabric port)](https://modrinth.com/project/sophisticated-backpacks-unoffical-fabric-port) | Salandora | LGPL-3.0-only |
+| [Sophisticated Core (Unofficial Fabric port)](https://modrinth.com/project/sophisticated-core-unofficial-fabric-port) | Salandora | LGPL-3.0-only |
+| [Sophisticated Storage (Unofficial Fabric port)](https://modrinth.com/project/sophisticated-storage-unofficial-fabric-port) | Salandora | LGPL-3.0-only |
 | [spark](https://modrinth.com/project/spark) | lucko | GPL-3.0-only |
 | [Stack to Nearby Chests](https://modrinth.com/project/stack-to-nearby-chests) | xiaocihua | LGPL-3.0-only |
 | [Stendhal](https://modrinth.com/project/stendhal) | NebSpacefarer | CC-BY-NC-ND-4.0 |

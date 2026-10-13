@@ -3,5 +3,6 @@
 	"package": "mipackrules.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": ["BattleActorMixin", "BlockStateBaseMixin", "EndDragonFightAccessor", "EndDragonFightMixin", "MobMixin", "PokemonBattleActorMixin", "PokemonBattleMixin", "ServerLevelMixin", "ServerPlayerMixin", "WorldGenRegionMixin"],
+	"client": ["PokemonMovesetMixin"],
 	"injectors": { "defaultRequire": 1 }
 }

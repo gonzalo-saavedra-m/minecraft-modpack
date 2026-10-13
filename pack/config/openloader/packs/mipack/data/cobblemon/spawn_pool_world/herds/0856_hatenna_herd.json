@@ -6,9 +6,53 @@
       "bucket": "uncommon",
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical",
           "aether:skyroot_forest",
           "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "hatenna",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45",
+          "levelRangeOffset": "-2-3",
+          "maxTimes": 2,
+          "pokemon": "hattrem",
+          "weight": 18.0
+        }
+      ],
+      "id": "hatenna-herd-1-aether",
+      "levelRange": "45-80",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 49.2,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
         ],
         "maxSkyLight": 15,
         "minSkyLight": 8
@@ -34,7 +78,7 @@
         }
       ],
       "id": "hatenna-herd-1",
-      "levelRange": "2-37",
+      "levelRange": "5-40",
       "maxHerdSize": 4,
       "presets": [
         "natural",
@@ -82,7 +126,7 @@
         }
       ],
       "id": "hatenna-herd-2",
-      "levelRange": "2-37",
+      "levelRange": "5-40",
       "maxHerdSize": 4,
       "spawnablePositionType": "grounded",
       "type": "pokemon-herd",
@@ -100,7 +144,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "5-24",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "hatenna",
@@ -117,7 +161,7 @@
         }
       ],
       "id": "hatenna-herd-3",
-      "levelRange": "2-37",
+      "levelRange": "15-50",
       "maxHerdSize": 4,
       "presets": [
         "mansion"

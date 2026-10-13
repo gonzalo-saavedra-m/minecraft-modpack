@@ -83,7 +83,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -118,7 +118,7 @@
         }
       ],
       "id": "poliwag-herd-10",
-      "levelRange": "5-51",
+      "levelRange": "15-61",
       "maxHerdSize": 5,
       "presets": [
         "water"
@@ -347,7 +347,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -382,7 +382,7 @@
         }
       ],
       "id": "poliwag-herd-5",
-      "levelRange": "5-51",
+      "levelRange": "15-61",
       "maxHerdSize": 5,
       "presets": [
         "natural"
@@ -411,7 +411,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -446,7 +446,7 @@
         }
       ],
       "id": "poliwag-herd-6",
-      "levelRange": "5-51",
+      "levelRange": "15-61",
       "maxHerdSize": 5,
       "presets": [
         "water"
@@ -472,7 +472,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -507,7 +507,7 @@
         }
       ],
       "id": "poliwag-herd-7",
-      "levelRange": "5-51",
+      "levelRange": "15-61",
       "maxHerdSize": 5,
       "presets": [
         "water"
@@ -542,7 +542,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -577,7 +577,7 @@
         }
       ],
       "id": "poliwag-herd-8",
-      "levelRange": "5-51",
+      "levelRange": "15-61",
       "maxHerdSize": 5,
       "presets": [
         "water"
@@ -609,7 +609,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "poliwag",
@@ -644,7 +644,7 @@
         }
       ],
       "id": "poliwag-herd-9",
-      "levelRange": "5-51",
+      "levelRange": "15-61",
       "maxHerdSize": 5,
       "presets": [
         "natural"

@@ -207,7 +207,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "12-31",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "koffing",
@@ -224,7 +224,7 @@
         }
       ],
       "id": "koffing-herd-3",
-      "levelRange": "9-49",
+      "levelRange": "35-75",
       "maxHerdSize": 4,
       "presets": [
         "natural"

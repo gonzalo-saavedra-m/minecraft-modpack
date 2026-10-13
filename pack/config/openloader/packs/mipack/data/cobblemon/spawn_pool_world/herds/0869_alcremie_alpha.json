@@ -14,7 +14,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "alcremie held_item=cobblemon:fairy_gem alpha=true",
           "weight": 30.0
@@ -22,7 +22,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "5-24",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "milcery",

@@ -20,7 +20,7 @@
         "minY": -31
       },
       "id": "dratini-1",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "presets": [
         "water"
@@ -52,7 +52,7 @@
         "minY": -31
       },
       "id": "dratini-2",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "presets": [
         "water"
@@ -76,7 +76,29 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "minY": -31
+      },
+      "id": "dratini-3-aether",
+      "level": "45-70",
+      "pokemon": "dratini",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 75.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_overworld"
         ],
         "maxSkyLight": 7,
@@ -85,7 +107,7 @@
         "minY": -31
       },
       "id": "dratini-3",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "spawnablePositionType": "fishing",
       "type": "pokemon",
@@ -107,7 +129,7 @@
         "minSkyLight": 0
       },
       "id": "dratini-4",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "presets": [
         "water"
@@ -138,7 +160,7 @@
         "minSkyLight": 0
       },
       "id": "dratini-5",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "presets": [
         "water"
@@ -162,7 +184,28 @@
       "bucket": "uncommon",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "maxY": -32,
+        "minSkyLight": 0
+      },
+      "id": "dratini-6-aether",
+      "level": "45-70",
+      "pokemon": "dratini",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 16.8
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_overworld"
         ],
         "maxSkyLight": 7,
@@ -170,7 +213,7 @@
         "minSkyLight": 0
       },
       "id": "dratini-6",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "spawnablePositionType": "fishing",
       "type": "pokemon",
@@ -231,7 +274,27 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": true
+      },
+      "id": "dratini-9-aether",
+      "level": "45-70",
+      "pokemon": "dratini",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 75.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_magical"
         ],
         "canSeeSky": true
@@ -254,7 +317,7 @@
         "minSkyLight": 8
       },
       "id": "dratini-10",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "presets": [
         "water",
@@ -286,7 +349,7 @@
         "minSkyLight": 8
       },
       "id": "dratini-11",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "spawnablePositionType": "fishing",
       "type": "pokemon",
@@ -302,7 +365,29 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "dratini-12-aether",
+      "level": "45-70",
+      "pokemon": "dratini",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 75.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_magical"
         ],
         "canSeeSky": false,
@@ -310,7 +395,7 @@
         "minSkyLight": 8
       },
       "id": "dratini-12",
-      "level": "5-30",
+      "level": "15-40",
       "pokemon": "dratini",
       "spawnablePositionType": "fishing",
       "type": "pokemon",

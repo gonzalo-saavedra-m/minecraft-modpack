@@ -7,9 +7,33 @@
       "bucket": "uncommon",
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical",
           "aether:skyroot_forest",
           "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "hatterene-1-aether",
+      "level": "45-54",
+      "pokemon": "hatterene",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.8,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
         ],
         "maxSkyLight": 15,
         "minSkyLight": 8

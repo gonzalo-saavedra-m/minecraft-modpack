@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-banette-1",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "45-68",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

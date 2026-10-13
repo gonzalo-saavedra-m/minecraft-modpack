@@ -41,7 +41,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "9-28",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "sinistea tea_authenticity=phony",
@@ -50,7 +50,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "9-28",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "sinistea tea_authenticity=antique",
@@ -76,7 +76,7 @@
         }
       ],
       "id": "sinistea-herd-1",
-      "levelRange": "6-51",
+      "levelRange": "15-60",
       "maxHerdSize": 4,
       "spawnablePositionType": "grounded",
       "type": "pokemon-herd",
@@ -173,7 +173,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "9-28",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "sinistea tea_authenticity=phony",
@@ -182,7 +182,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "9-28",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "sinistea tea_authenticity=antique",
@@ -208,7 +208,7 @@
         }
       ],
       "id": "sinistea-herd-3",
-      "levelRange": "6-51",
+      "levelRange": "15-60",
       "maxHerdSize": 4,
       "presets": [
         "mansion_dining"

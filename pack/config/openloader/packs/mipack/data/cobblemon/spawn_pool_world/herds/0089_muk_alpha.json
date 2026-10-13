@@ -15,7 +15,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "muk alolan held_item=cobblemon:poison_gem alpha=true",
           "weight": 30.0
@@ -72,7 +72,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "muk alolan held_item=cobblemon:poison_gem alpha=true",
           "weight": 30.0
@@ -123,7 +123,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "35-100",
           "maxTimes": 1,
           "pokemon": "muk alolan held_item=cobblemon:poison_gem alpha=true",
           "weight": 30.0
@@ -131,7 +131,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "11-30",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "grimer alolan",
@@ -175,7 +175,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "muk held_item=cobblemon:poison_gem alpha=true",
           "weight": 30.0
@@ -237,7 +237,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "muk held_item=cobblemon:poison_gem alpha=true",
           "weight": 30.0

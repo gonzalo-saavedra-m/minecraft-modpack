@@ -7,9 +7,39 @@
       "bucket": "uncommon",
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical",
           "aether:skyroot_forest",
           "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "hattrem-1-aether",
+      "level": "45-50",
+      "pokemon": "hattrem",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 7.2,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
         ],
         "maxSkyLight": 15,
         "minSkyLight": 8

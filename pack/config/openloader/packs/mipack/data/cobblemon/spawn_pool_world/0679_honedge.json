@@ -1,0 +1,82 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      "id": "honedge-1",
+      "level": "35-60",
+      "pokemon": "honedge",
+      "presets": [
+        "natural",
+        "nether_structures"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 840.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#cobblemon:ruin"
+        ]
+      },
+      "id": "honedge-2",
+      "level": "8-33",
+      "pokemon": "honedge",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 504.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "honedge-3",
+      "level": "15-40",
+      "pokemon": "honedge",
+      "presets": [
+        "stronghold"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 840.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "structures": [
+          "#aether:dungeons"
+        ]
+      },
+      "id": "honedge-4",
+      "level": "45-70",
+      "pokemon": "honedge",
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 50.4
+    }
+  ]
+}

@@ -107,7 +107,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "11-30",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "grimer alolan",
@@ -124,7 +124,7 @@
         }
       ],
       "id": "grimer-alola-herd-3",
-      "levelRange": "8-50",
+      "levelRange": "35-77",
       "maxHerdSize": 3,
       "presets": [
         "natural"

@@ -6,10 +6,71 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-58",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "ralts",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": true,
+          "levelRange": "45-48",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "pokemon": "kirlia",
+          "weight": 18.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": true,
+          "levelRange": "45-61",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "pokemon": "gardevoir",
+          "weight": 1.5
+        },
+        {
+          "isFollower": true,
+          "isLeader": true,
+          "levelRange": "45-61",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "pokemon": "gallade",
+          "weight": 0.5
+        }
+      ],
+      "id": "ralts-herd-1-aether",
+      "levelRange": "45-96",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 100.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_floral",
           "#cobblemon:is_magical",
-          "aether:skyroot_grove",
-          "aether:skyroot_meadow",
           "#cobblemon:is_snowy_forest"
         ],
         "maxSkyLight": 15,
@@ -19,7 +80,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-17",
+          "levelRange": "5-18",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ralts",
@@ -54,7 +115,7 @@
         }
       ],
       "id": "ralts-herd-1",
-      "levelRange": "1-52",
+      "levelRange": "5-56",
       "maxHerdSize": 4,
       "presets": [
         "natural"
@@ -81,7 +142,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-17",
+          "levelRange": "5-18",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ralts",
@@ -116,7 +177,7 @@
         }
       ],
       "id": "ralts-herd-2",
-      "levelRange": "1-52",
+      "levelRange": "5-56",
       "maxHerdSize": 4,
       "presets": [
         "natural",
@@ -142,7 +203,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-17",
+          "levelRange": "5-18",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ralts",
@@ -177,7 +238,7 @@
         }
       ],
       "id": "ralts-herd-3",
-      "levelRange": "1-52",
+      "levelRange": "5-56",
       "maxHerdSize": 4,
       "presets": [
         "natural"
@@ -198,7 +259,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-17",
+          "levelRange": "15-28",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ralts",
@@ -233,7 +294,7 @@
         }
       ],
       "id": "ralts-herd-4",
-      "levelRange": "1-52",
+      "levelRange": "15-66",
       "maxHerdSize": 4,
       "presets": [
         "mansion"

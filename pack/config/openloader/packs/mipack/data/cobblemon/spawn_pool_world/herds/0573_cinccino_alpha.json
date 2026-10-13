@@ -15,7 +15,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "cinccino held_item=cobblemon:normal_gem alpha=true",
           "weight": 30.0
@@ -73,7 +73,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "cinccino held_item=cobblemon:normal_gem alpha=true",
           "weight": 30.0
@@ -130,7 +130,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "cinccino held_item=cobblemon:normal_gem alpha=true",
           "weight": 30.0
@@ -176,7 +176,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "cinccino held_item=cobblemon:normal_gem alpha=true",
           "weight": 30.0
@@ -184,7 +184,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "minccino",

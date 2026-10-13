@@ -37,7 +37,7 @@
         }
       ],
       "id": "hatenna-herd-2-yung",
-      "levelRange": "2-37",
+      "levelRange": "5-40",
       "maxHerdSize": 4,
       "spawnablePositionType": "grounded",
       "type": "pokemon-herd",

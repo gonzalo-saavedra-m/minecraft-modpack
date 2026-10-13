@@ -13,7 +13,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "12-31",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "pumpkaboo",
@@ -22,7 +22,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "31-45",
+          "levelRange": "35-49",
           "levelRangeOffset": "-2-4",
           "maxTimes": 2,
           "pokemon": "gourgeist",
@@ -30,7 +30,7 @@
         }
       ],
       "id": "pumpkaboo-herd-2",
-      "levelRange": "9-49",
+      "levelRange": "35-75",
       "maxHerdSize": 5,
       "presets": [
         "natural"

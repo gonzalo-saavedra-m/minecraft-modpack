@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "nymble-1",
+      "level": "5-25",
+      "pokemon": "nymble",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 54.0,
+      "weightMultiplier": {
+        "condition": {
+          "timeRange": "night"
+        },
+        "multiplier": 1.5
+      }
+    }
+  ]
+}

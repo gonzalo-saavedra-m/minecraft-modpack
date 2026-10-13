@@ -41,7 +41,29 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "minY": -31
+      },
+      "id": "dragonite-2-aether",
+      "level": "55-60",
+      "pokemon": "dragonite",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 2.5
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_overworld"
         ],
         "maxSkyLight": 7,
@@ -93,7 +115,28 @@
       "bucket": "uncommon",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "maxY": -32,
+        "minSkyLight": 0
+      },
+      "id": "dragonite-4-aether",
+      "level": "55-60",
+      "pokemon": "dragonite",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 0.32
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_overworld"
         ],
         "maxSkyLight": 7,
@@ -176,7 +219,27 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": true
+      },
+      "id": "dragonite-9-aether",
+      "level": "55-60",
+      "pokemon": "dragonite",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 2.5
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_magical"
         ],
         "canSeeSky": true
@@ -241,7 +304,29 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "dragonite-12-aether",
+      "level": "55-60",
+      "pokemon": "dragonite",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 2.5
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_magical"
         ],
         "canSeeSky": false,

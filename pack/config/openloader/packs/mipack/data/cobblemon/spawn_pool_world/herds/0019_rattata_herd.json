@@ -21,7 +21,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata alolan",
@@ -38,7 +38,7 @@
         }
       ],
       "id": "rattata-alola-herd-1",
-      "levelRange": "1-41",
+      "levelRange": "15-55",
       "maxHerdSize": 6,
       "presets": [
         "natural"
@@ -65,7 +65,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata alolan",
@@ -82,7 +82,7 @@
         }
       ],
       "id": "rattata-alola-herd-2",
-      "levelRange": "1-41",
+      "levelRange": "15-55",
       "maxHerdSize": 6,
       "presets": [
         "derelict"
@@ -105,7 +105,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "5-23",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata alolan",
@@ -122,7 +122,7 @@
         }
       ],
       "id": "rattata-alola-herd-3",
-      "levelRange": "1-41",
+      "levelRange": "5-45",
       "maxHerdSize": 6,
       "presets": [
         "natural"
@@ -154,7 +154,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata alolan",
@@ -171,7 +171,7 @@
         }
       ],
       "id": "rattata-alola-herd-4",
-      "levelRange": "1-41",
+      "levelRange": "15-55",
       "maxHerdSize": 6,
       "presets": [
         "derelict"
@@ -198,7 +198,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "5-23",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata",
@@ -215,7 +215,7 @@
         }
       ],
       "id": "rattata-herd-1",
-      "levelRange": "1-41",
+      "levelRange": "5-45",
       "maxHerdSize": 5,
       "presets": [
         "natural"
@@ -243,7 +243,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata",
@@ -260,7 +260,7 @@
         }
       ],
       "id": "rattata-herd-2",
-      "levelRange": "1-41",
+      "levelRange": "15-55",
       "maxHerdSize": 5,
       "presets": [
         "natural"
@@ -287,7 +287,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "rattata",
@@ -304,7 +304,7 @@
         }
       ],
       "id": "rattata-herd-3",
-      "levelRange": "1-41",
+      "levelRange": "15-55",
       "maxHerdSize": 5,
       "presets": [
         "derelict"

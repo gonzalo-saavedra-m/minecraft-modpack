@@ -22,7 +22,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "rapidash held_item=cobblemon:fire_gem alpha=true",
           "weight": 30.0
@@ -74,7 +74,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "35-100",
           "maxTimes": 1,
           "pokemon": "rapidash held_item=cobblemon:fire_gem alpha=true",
           "weight": 30.0
@@ -82,7 +82,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "19-38",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ponyta",
@@ -122,7 +122,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "rapidash galarian held_item=cobblemon:psychic_gem alpha=true",
           "weight": 30.0
@@ -181,7 +181,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "45-100",
           "maxTimes": 1,
           "pokemon": "rapidash galarian held_item=cobblemon:psychic_gem alpha=true",
           "weight": 30.0
@@ -189,7 +189,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "19-38",
+          "levelRange": "45-64",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "ponyta galarian",
@@ -198,7 +198,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "42-46",
+          "levelRange": "45-49",
           "levelRangeOffset": "-2-4",
           "maxTimes": 5,
           "pokemon": "rapidash galarian",
@@ -206,7 +206,7 @@
         }
       ],
       "id": "rapidash-galar-alpha-2",
-      "levelRange": "38-100",
+      "levelRange": "45-100",
       "maxHerdSize": 8,
       "presets": [
         "natural"

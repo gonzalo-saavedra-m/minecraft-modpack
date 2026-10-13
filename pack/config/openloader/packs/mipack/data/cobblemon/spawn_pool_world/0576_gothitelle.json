@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "id": "gothitelle-1",
+      "level": "41-49",
+      "pokemon": "gothitelle",
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.3,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "id": "gothitelle-2",
+      "level": "61-69",
+      "pokemon": "gothitelle",
+      "presets": [
+        "end_city"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.48,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      }
+    }
+  ]
+}

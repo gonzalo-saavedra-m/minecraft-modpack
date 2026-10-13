@@ -25,7 +25,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "ariados held_item=cobblemon:bug_gem alpha=true",
           "weight": 30.0
@@ -33,7 +33,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "5-23",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "spinarak",
@@ -78,7 +78,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "ariados held_item=cobblemon:bug_gem alpha=true",
           "weight": 30.0
@@ -86,7 +86,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "spinarak",
@@ -130,7 +130,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "ariados held_item=cobblemon:bug_gem alpha=true",
           "weight": 30.0
@@ -138,7 +138,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "spinarak",
@@ -174,7 +174,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "ariados held_item=cobblemon:bug_gem alpha=true",
           "weight": 30.0
@@ -182,7 +182,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "spinarak",
@@ -229,7 +229,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "ariados held_item=cobblemon:bug_gem alpha=true",
           "weight": 30.0
@@ -237,7 +237,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "4-22",
+          "levelRange": "15-33",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "spinarak",

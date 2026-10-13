@@ -1,0 +1,99 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "15-34",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "gothita",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "34-35",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "gothorita",
+          "weight": 18.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "42-44",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "pokemon": "gothitelle",
+          "weight": 2.0
+        }
+      ],
+      "id": "gothita-herd-1",
+      "levelRange": "15-60",
+      "maxHerdSize": 3,
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 30.0
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "55-74",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "gothita",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "55-56",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "gothorita",
+          "weight": 18.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "62-64",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 1,
+          "pokemon": "gothitelle",
+          "weight": 2.0
+        }
+      ],
+      "id": "gothita-herd-2",
+      "levelRange": "55-100",
+      "maxHerdSize": 3,
+      "presets": [
+        "end_city"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 30.0
+    }
+  ]
+}

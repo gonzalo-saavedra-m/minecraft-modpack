@@ -42,7 +42,7 @@
         }
       ],
       "id": "chimecho-herd-1",
-      "levelRange": "4-46",
+      "levelRange": "5-47",
       "maxHerdSize": 3,
       "presets": [
         "natural"
@@ -82,7 +82,7 @@
         }
       ],
       "id": "chimecho-herd-2",
-      "levelRange": "4-46",
+      "levelRange": "5-47",
       "maxHerdSize": 3,
       "presets": [
         "natural"
@@ -128,7 +128,7 @@
         }
       ],
       "id": "chimecho-herd-3",
-      "levelRange": "4-46",
+      "levelRange": "5-47",
       "maxHerdSize": 3,
       "spawnablePositionType": "grounded",
       "type": "pokemon-herd",

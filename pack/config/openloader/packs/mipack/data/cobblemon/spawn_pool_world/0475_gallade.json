@@ -7,10 +7,34 @@
       "bucket": "rare",
       "condition": {
         "biomes": [
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "gallade-1-aether",
+      "level": "45-67",
+      "pokemon": "gallade",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.833,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "rare",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_floral",
           "#cobblemon:is_magical",
-          "aether:skyroot_grove",
-          "aether:skyroot_meadow",
           "#cobblemon:is_snowy_forest"
         ],
         "isPokeSnack": true,

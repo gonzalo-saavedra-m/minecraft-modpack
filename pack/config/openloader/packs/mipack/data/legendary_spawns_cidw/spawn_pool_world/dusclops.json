@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-dusclops-1",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "45-54",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

@@ -69,6 +69,15 @@ public class MipackTestkit implements ModInitializer {
 							party.add(PokemonProperties.Companion.parse(StringArgumentType.getString(c, "props")).create(p));
 							return reply(c, "give " + p.getScoreboardName() + ": " + status(p));
 						}))))
+				// Salvajes a 96 bloques de un jugador: "especie:nivel ..." (para medir LevelCurveInfluence)
+				.then(literal("levels").then(argument("player", EntityArgument.player()).executes(c -> {
+					var p = EntityArgument.getPlayer(c, "player");
+					var out = new StringBuilder();
+					for (var e : p.serverLevel().getEntitiesOfClass(com.cobblemon.mod.common.entity.pokemon.PokemonEntity.class,
+							p.getBoundingBox().inflate(96), e -> e.getPokemon().isWild()))
+						out.append(e.getPokemon().getSpecies().getName()).append(':').append(e.getPokemon().getLevel()).append(' ');
+					return reply(c, "levels " + p.getScoreboardName() + ": " + out);
+				})))
 				.then(literal("wild").then(argument("player", EntityArgument.player())
 						.then(argument("props", StringArgumentType.greedyString()).executes(c -> {
 							var p = EntityArgument.getPlayer(c, "player");

@@ -14,7 +14,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "12-31",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "swirlix",
@@ -31,7 +31,7 @@
         }
       ],
       "id": "swirlix-herd-4",
-      "levelRange": "9-48",
+      "levelRange": "15-54",
       "maxHerdSize": 3,
       "presets": [
         "mansion_dining"

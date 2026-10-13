@@ -1,0 +1,123 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "raichu-1",
+      "level": "27-49",
+      "pokemon": "raichu",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.38,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "isThundering": true
+          },
+          "multiplier": 5.0
+        },
+        {
+          "condition": {
+            "isPokeSnack": true
+          },
+          "multiplier": 2.0
+        }
+      ]
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "raichu-alolan-2-aether",
+      "level": "45-67",
+      "pokemon": "raichu alolan",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.13,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "isThundering": true
+          },
+          "multiplier": 5.0
+        },
+        {
+          "condition": {
+            "isPokeSnack": true
+          },
+          "multiplier": 2.0
+        }
+      ]
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_tropical_island"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "raichu-alolan-2",
+      "level": "27-49",
+      "pokemon": "raichu alolan",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 0.13,
+      "weightMultipliers": [
+        {
+          "condition": {
+            "isThundering": true
+          },
+          "multiplier": 5.0
+        },
+        {
+          "condition": {
+            "isPokeSnack": true
+          },
+          "multiplier": 2.0
+        }
+      ]
+    }
+  ]
+}

@@ -39,7 +39,7 @@
         "timeRange": "day"
       },
       "id": "sinistea-1",
-      "level": "6-31",
+      "level": "15-40",
       "pokemon": "sinistea",
       "spawnablePositionType": "grounded",
       "type": "pokemon",
@@ -107,7 +107,7 @@
         "canSeeSky": false
       },
       "id": "sinistea-3",
-      "level": "6-31",
+      "level": "15-40",
       "pokemon": "sinistea",
       "presets": [
         "mansion_dining"

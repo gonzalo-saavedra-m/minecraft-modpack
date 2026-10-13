@@ -152,7 +152,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-27",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "minccino",
@@ -169,7 +169,7 @@
         }
       ],
       "id": "minccino-herd-4",
-      "levelRange": "5-47",
+      "levelRange": "15-57",
       "maxHerdSize": 4,
       "presets": [
         "mansion"

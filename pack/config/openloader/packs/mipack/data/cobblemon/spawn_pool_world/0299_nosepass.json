@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "id": "nosepass-1",
+      "level": "15-40",
+      "pokemon": "nosepass",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 55.2
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "55-74",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "elgyem",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "64-65",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "beheeyem",
+          "weight": 20.0
+        }
+      ],
+      "id": "elgyem-herd-1",
+      "levelRange": "55-95",
+      "maxHerdSize": 3,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:wheat"
+        ],
+        "timeRange": "night"
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "elgyem",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "44-45",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "beheeyem",
+          "weight": 20.0
+        }
+      ],
+      "id": "elgyem-herd-2",
+      "levelRange": "9-49",
+      "maxHerdSize": 3,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 20.0
+    },
+    {
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "the_bumblezone:howling_constructs"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "12-31",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "elgyem",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "44-45",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 1,
+          "pokemon": "beheeyem",
+          "weight": 20.0
+        }
+      ],
+      "id": "elgyem-herd-3",
+      "levelRange": "9-49",
+      "maxHerdSize": 3,
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 12.0
+    }
+  ]
+}

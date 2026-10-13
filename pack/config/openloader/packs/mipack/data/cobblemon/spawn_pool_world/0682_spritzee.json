@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "spritzee-1-aether",
+      "level": "45-70",
+      "pokemon": "spritzee",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 55.2
+    },
+    {
+      "bucket": "uncommon",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "spritzee-1",
+      "level": "9-34",
+      "pokemon": "spritzee",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 55.2
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "isPokeSnack": true
+      },
+      "id": "spritzee-2",
+      "level": "15-40",
+      "pokemon": "spritzee",
+      "presets": [
+        "mansion_bedrooms"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 18.4
+    }
+  ]
+}

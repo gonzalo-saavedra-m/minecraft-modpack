@@ -68,7 +68,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "10-29",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "joltik",
@@ -85,7 +85,7 @@
         }
       ],
       "id": "joltik-herd-2",
-      "levelRange": "7-47",
+      "levelRange": "15-55",
       "maxHerdSize": 5,
       "presets": [
         "natural"
@@ -104,7 +104,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "10-29",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "joltik",
@@ -121,7 +121,7 @@
         }
       ],
       "id": "joltik-herd-3",
-      "levelRange": "7-47",
+      "levelRange": "15-55",
       "maxHerdSize": 5,
       "presets": [
         "webs",

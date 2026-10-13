@@ -6,7 +6,49 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxLight": 7
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "morelull",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-56",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "pokemon": "shiinotic",
+          "weight": 20.0
+        }
+      ],
+      "id": "morelull-herd-1-aether",
+      "levelRange": "45-82",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 10.0,
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_magical",
           "#cobblemon:is_mushroom"
@@ -34,7 +76,7 @@
         }
       ],
       "id": "morelull-herd-1",
-      "levelRange": "4-41",
+      "levelRange": "5-42",
       "maxHerdSize": 4,
       "presets": [
         "natural"
@@ -68,7 +110,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "7-26",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "morelull",
@@ -85,7 +127,7 @@
         }
       ],
       "id": "morelull-herd-2",
-      "levelRange": "4-41",
+      "levelRange": "15-52",
       "maxHerdSize": 4,
       "presets": [
         "natural"
@@ -110,7 +152,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "7-26",
+          "levelRange": "35-54",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "morelull",
@@ -119,7 +161,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "26-37",
+          "levelRange": "35-46",
           "levelRangeOffset": "-2-4",
           "maxTimes": 2,
           "pokemon": "shiinotic",
@@ -127,7 +169,7 @@
         }
       ],
       "id": "morelull-herd-3",
-      "levelRange": "4-41",
+      "levelRange": "35-72",
       "maxHerdSize": 4,
       "presets": [
         "natural"
@@ -159,7 +201,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "7-26",
+          "levelRange": "15-34",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "morelull",
@@ -176,7 +218,7 @@
         }
       ],
       "id": "morelull-herd-4",
-      "levelRange": "4-41",
+      "levelRange": "15-52",
       "maxHerdSize": 4,
       "presets": [
         "natural"

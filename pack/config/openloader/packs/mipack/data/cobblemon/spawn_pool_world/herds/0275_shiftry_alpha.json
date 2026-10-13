@@ -1,0 +1,121 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "boss",
+      "condition": {
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "45-100",
+          "maxTimes": 1,
+          "pokemon": "shiftry held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-60",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "seedot",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-59",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "pokemon": "nuzleaf",
+          "weight": 70.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-58",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "pokemon": "shiftry",
+          "weight": 50.0
+        }
+      ],
+      "id": "shiftry-alpha-1-aether",
+      "levelRange": "45-100",
+      "maxHerdSize": 7,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 100.0
+    },
+    {
+      "bucket": "boss",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "5-100",
+          "maxTimes": 1,
+          "pokemon": "shiftry held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "5-20",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "seedot",
+          "weight": 80.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "16-30",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "pokemon": "nuzleaf",
+          "weight": 70.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "30-43",
+          "levelRangeOffset": "-1-5",
+          "maxTimes": 3,
+          "pokemon": "shiftry",
+          "weight": 50.0
+        }
+      ],
+      "id": "shiftry-alpha-1",
+      "levelRange": "27-100",
+      "maxHerdSize": 7,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 100.0
+    }
+  ]
+}

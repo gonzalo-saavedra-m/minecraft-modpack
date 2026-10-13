@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-gengar-1",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "45-59",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

@@ -179,7 +179,7 @@
         "minSkyLight": 8
       },
       "id": "grimer-8",
-      "level": "8-33",
+      "level": "15-40",
       "pokemon": "grimer",
       "presets": [
         "water",
@@ -223,7 +223,7 @@
         ]
       },
       "id": "grimer-9",
-      "level": "8-33",
+      "level": "15-40",
       "pokemon": "grimer",
       "presets": [
         "water"
@@ -325,7 +325,7 @@
         ]
       },
       "id": "grimer-alolan-12",
-      "level": "8-33",
+      "level": "35-60",
       "pokemon": "grimer alolan",
       "presets": [
         "natural"

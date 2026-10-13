@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clumpedindistortionworld-gastly-1",
+      "pokemon": "gastly",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 8.5,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ]
+      }
+    }
+  ]
+}

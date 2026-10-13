@@ -7,7 +7,35 @@
       "bucket": "common",
       "condition": {
         "biomes": [
-          "#aether:is_aether",
+          "#aether:is_aether"
+        ],
+        "maxLight": 7
+      },
+      "id": "shiinotic-1-aether",
+      "level": "45-62",
+      "pokemon": "shiinotic",
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon",
+      "weight": 1.0,
+      "weightMultiplier": {
+        "condition": {
+          "isPokeSnack": true
+        },
+        "multiplier": 2.0
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      }
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_magical",
           "#cobblemon:is_mushroom"
@@ -80,7 +108,7 @@
         ]
       },
       "id": "shiinotic-3",
-      "level": "24-41",
+      "level": "35-52",
       "pokemon": "shiinotic",
       "presets": [
         "natural"

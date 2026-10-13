@@ -9,7 +9,7 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "rare",
-      "level": "50-70",
+      "level": "70-90",
       "weight": 10.0,
       "condition": {
         "biomes": [
@@ -26,7 +26,7 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "common",
-      "level": "25-40",
+      "level": "55-70",
       "weight": 10.0,
       "condition": {
         "biomes": [
@@ -43,7 +43,7 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "uncommon",
-      "level": "42-60",
+      "level": "62-80",
       "weight": 10.0,
       "condition": {
         "biomes": [

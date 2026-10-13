@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "id": "finneon-1",
+      "level": "8-33",
+      "pokemon": "finneon",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 90.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "id": "finneon-2",
+      "level": "15-40",
+      "pokemon": "finneon",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 90.0
+    },
+    {
+      "bucket": "common",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "id": "finneon-3",
+      "level": "15-40",
+      "pokemon": "finneon",
+      "spawnablePositionType": "fishing",
+      "type": "pokemon",
+      "weight": 90.0
+    }
+  ]
+}

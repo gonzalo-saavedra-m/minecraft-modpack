@@ -15,7 +15,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "vaporeon held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -23,7 +23,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "jolteon held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0
@@ -31,7 +31,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "flareon held_item=cobblemon:fire_gem alpha=true",
           "weight": 30.0
@@ -39,7 +39,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "espeon held_item=cobblemon:psychic_gem alpha=true",
           "weight": 30.0
@@ -47,7 +47,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "umbreon held_item=cobblemon:dark_gem alpha=true",
           "weight": 30.0
@@ -55,7 +55,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "leafeon held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -63,7 +63,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "glaceon held_item=cobblemon:ice_gem alpha=true",
           "weight": 30.0
@@ -71,7 +71,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "sylveon held_item=cobblemon:fairy_gem alpha=true",
           "weight": 30.0
@@ -185,7 +185,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "vaporeon held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -193,7 +193,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "jolteon held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0
@@ -201,7 +201,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "flareon held_item=cobblemon:fire_gem alpha=true",
           "weight": 30.0
@@ -209,7 +209,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "espeon held_item=cobblemon:psychic_gem alpha=true",
           "weight": 30.0
@@ -217,7 +217,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "umbreon held_item=cobblemon:dark_gem alpha=true",
           "weight": 30.0
@@ -225,7 +225,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "leafeon held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -233,7 +233,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "glaceon held_item=cobblemon:ice_gem alpha=true",
           "weight": 30.0
@@ -241,7 +241,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "sylveon held_item=cobblemon:fairy_gem alpha=true",
           "weight": 30.0
@@ -350,7 +350,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "vaporeon held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -358,7 +358,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "jolteon held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0
@@ -366,7 +366,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "flareon held_item=cobblemon:fire_gem alpha=true",
           "weight": 30.0
@@ -374,7 +374,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "espeon held_item=cobblemon:psychic_gem alpha=true",
           "weight": 30.0
@@ -382,7 +382,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "umbreon held_item=cobblemon:dark_gem alpha=true",
           "weight": 30.0
@@ -390,7 +390,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "leafeon held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -398,7 +398,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "glaceon held_item=cobblemon:ice_gem alpha=true",
           "weight": 30.0
@@ -406,7 +406,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "15-100",
           "maxTimes": 1,
           "pokemon": "sylveon held_item=cobblemon:fairy_gem alpha=true",
           "weight": 30.0
@@ -414,7 +414,7 @@
         {
           "isFollower": true,
           "isLeader": false,
-          "levelRange": "8-30",
+          "levelRange": "15-37",
           "levelRangeOffset": "-3-3",
           "maxTimes": 7,
           "pokemon": "eevee",
@@ -516,7 +516,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "espeon held_item=cobblemon:psychic_gem alpha=true",
           "weight": 30.0
@@ -564,7 +564,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "flareon held_item=cobblemon:fire_gem alpha=true",
           "weight": 30.0
@@ -611,7 +611,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "glaceon held_item=cobblemon:ice_gem alpha=true",
           "weight": 30.0
@@ -658,7 +658,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "jolteon held_item=cobblemon:electric_gem alpha=true",
           "weight": 30.0
@@ -702,8 +702,6 @@
       "bucket": "boss",
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest",
-          "#cobblemon:is_jungle",
           "aether:skyroot_forest",
           "aether:skyroot_woodland"
         ],
@@ -714,7 +712,61 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "45-100",
+          "maxTimes": 1,
+          "pokemon": "leafeon held_item=cobblemon:grass_gem alpha=true",
+          "weight": 30.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-67",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "eevee",
+          "weight": 90.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "pokemon": "leafeon",
+          "weight": 135.0
+        }
+      ],
+      "id": "leafeon-alpha-1-aether",
+      "levelRange": "45-100",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 10.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "bucket": "boss",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_jungle"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "leafeon held_item=cobblemon:grass_gem alpha=true",
           "weight": 30.0
@@ -758,8 +810,6 @@
       "bucket": "boss",
       "condition": {
         "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical",
           "aether:skyroot_grove",
           "aether:skyroot_meadow"
         ],
@@ -770,7 +820,61 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "45-100",
+          "maxTimes": 1,
+          "pokemon": "sylveon held_item=cobblemon:fairy_gem alpha=true",
+          "weight": 30.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-67",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "pokemon": "eevee",
+          "weight": 90.0
+        },
+        {
+          "isFollower": true,
+          "isLeader": false,
+          "levelRange": "45-64",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "pokemon": "sylveon",
+          "weight": 135.0
+        }
+      ],
+      "id": "sylveon-alpha-1-aether",
+      "levelRange": "45-100",
+      "maxHerdSize": 4,
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "type": "pokemon-herd",
+      "weight": 10.0
+    },
+    {
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "bucket": "boss",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "herdablePokemon": [
+        {
+          "isFollower": false,
+          "isLeader": true,
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "sylveon held_item=cobblemon:fairy_gem alpha=true",
           "weight": 30.0
@@ -817,7 +921,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "umbreon held_item=cobblemon:dark_gem alpha=true",
           "weight": 30.0
@@ -882,7 +986,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "vaporeon held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
@@ -939,7 +1043,7 @@
         {
           "isFollower": false,
           "isLeader": true,
-          "levelRange": "1-100",
+          "levelRange": "5-100",
           "maxTimes": 1,
           "pokemon": "vaporeon held_item=cobblemon:water_gem alpha=true",
           "weight": 30.0
