@@ -57,8 +57,11 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest raidend <jugador>         termina como ganada la raid en que está (como /crd forceclear): la cierra Raid Dens
  */
 public class MipackTestkit implements ModInitializer {
+	private static final java.util.concurrent.atomic.AtomicInteger SPAWNS = new java.util.concurrent.atomic.AtomicInteger();
 	@Override
 	public void onInitialize() {
+		// Spawns de Pokémon salvajes desde el último "/mrtest spawns" (para medir la densidad por jugador)
+		com.cobblemon.mod.common.api.events.CobblemonEvents.POKEMON_ENTITY_SPAWN.subscribe(e -> SPAWNS.incrementAndGet());
 		CommandRegistrationCallback.EVENT.register((dispatcher, registry, env) -> dispatcher.register(literal("mrtest")
 				.requires(s -> s.hasPermission(2))
 				.then(literal("give").then(argument("player", EntityArgument.player())
@@ -69,6 +72,7 @@ public class MipackTestkit implements ModInitializer {
 							party.add(PokemonProperties.Companion.parse(StringArgumentType.getString(c, "props")).create(p));
 							return reply(c, "give " + p.getScoreboardName() + ": " + status(p));
 						}))))
+				.then(literal("spawns").executes(c -> reply(c, "spawns: " + SPAWNS.getAndSet(0))))
 				// Salvajes a 96 bloques de un jugador: "especie:nivel ..." (para medir LevelCurveInfluence)
 				.then(literal("levels").then(argument("player", EntityArgument.player()).executes(c -> {
 					var p = EntityArgument.getPlayer(c, "player");

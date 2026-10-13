@@ -46,7 +46,7 @@ hash = "28b669c0421e69b49443557716e5cf8db400895599c88a3c81d02d8b78baf077"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "08aa77db7f35eb82fafca76343b2e0703763458dc8d10123eaf200716ef69016"
+hash = "34b402bdcd70d4b24c27e8399b727e8c363301852b82e3374a678ac9adb29e4d"
 
 [[files]]
 file = "config/cobblemon_move_tutor/server.toml"
