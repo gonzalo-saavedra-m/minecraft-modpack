@@ -118,6 +118,12 @@ cmd "damage @e[type=cobblemon:pokemon,limit=1,nbt={Pokemon:{Species:\"cobblemon:
 check "Pokémon de un jugador sin daño" "$(cmd 'execute if entity @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:geodude"}}]')" "Test passed"
 cmd "player mrtG kill" >/dev/null
 
+# 6c. Hay hambre (14-oct): comer manzanas de Cobblemon da restos. Carpet los crea en creativo; Hambre 255 vacía la barra
+cmd "player mrtFood spawn at 4 200 -2" >/dev/null; cmd "gamemode survival mrtFood" >/dev/null
+cmd "effect give mrtFood minecraft:hunger 10 255" >/dev/null; sleep 8
+check "hay hambre" "$(cmd 'data get entity mrtFood foodLevel')" "entity data: [0-9]$"
+cmd "player mrtFood kill" >/dev/null
+
 # 7. Sin dormir: en vez de phantoms llegan Drowzee, Hypno, Munna, Musharna o Misdreavus. Como los phantoms: de noche,
 #    sobre el nivel del mar, cielo abierto y con una chance por intento cada 1-2 min (en fácil tarda unos minutos)
 cmd "fill 98 199 98 106 199 106 minecraft:stone" >/dev/null

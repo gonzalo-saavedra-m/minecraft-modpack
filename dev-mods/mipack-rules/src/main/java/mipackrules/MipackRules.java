@@ -74,7 +74,7 @@ import net.minecraft.world.level.storage.loot.entries.NestedLootTable;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import org.slf4j.Logger;
 
-/** Reglas del server (RESEARCH §13.2b): sin spawners, sin mobs de Minecraft, sin hambre y quedarte sin Pokémon te mata. */
+/** Reglas del server (RESEARCH §13.2b): sin spawners, sin mobs de Minecraft y quedarte sin Pokémon te mata. */
 public class MipackRules implements ModInitializer {
 	private static final Logger LOGGER = LogUtils.getLogger();
 	/**
@@ -157,11 +157,6 @@ public class MipackRules implements ModInitializer {
 						|| source.is(DamageTypeTags.BYPASSES_INVULNERABILITY));
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
-			// Sin hambre (RESEARCH §13.2b): barra llena y sin saturación, así la vida se regenera lenta (1/2 ❤ cada 4 s)
-			for (ServerPlayer player : server.getPlayerList().getPlayers()) {
-				player.getFoodData().setFoodLevel(20);
-				player.getFoodData().setSaturation(0);
-			}
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
 				for (ServerPlayer player : server.getPlayerList().getPlayers()) placeStructureWaystone(player);
 			if (server.getTickCount() % 100 != 0) return;
