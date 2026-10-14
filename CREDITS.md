@@ -56,6 +56,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon Capture XP](https://modrinth.com/project/cobblemon-capture-xp) | tmetcalfe89 | MIT |
 | [Cobblemon Catch Rate Display](https://modrinth.com/project/catch-rate-display) | Akkiruk | MIT |
 | [Cobblemon Distortion World](https://modrinth.com/project/cobblemon-distortion-world) | Halamajama, Trunky | All-Rights-Reserved |
+| [Cobblemon Fight or Flight Reborn](https://modrinth.com/project/cobblemon-fight-or-flight-reborn) | LyquidQrystal, Vaniron | MIT |
 | [Cobblemon Info for REI / JEI / EMI](https://modrinth.com/project/cobbledex-rei-emi-jei) | Akkiruk | MIT |
 | [Cobblemon Move Tutor](https://modrinth.com/project/cobblemon-move-tutor) | Adammatthiesen | MIT |
 | [Cobblemon Pasture Loot](https://modrinth.com/project/cobblemon-pasture-loot) | DrEmixam | AGPL-3.0-or-later |

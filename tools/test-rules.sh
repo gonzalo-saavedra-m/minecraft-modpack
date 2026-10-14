@@ -148,6 +148,16 @@ cmd "effect give mrtFood minecraft:hunger 10 255" >/dev/null; sleep 8
 check "hay hambre" "$(cmd 'data get entity mrtFood foodLevel')" "entity data: [0-9]$"
 cmd "player mrtFood kill" >/dev/null
 
+# 6d. Fight or Flight (14-oct): un salvaje no ataca si no lo provocan; si le pegan, se defiende (según sus stats).
+#     Con muros para que el golpe no lo tire de la plataforma
+cmd "fill 196 199 196 204 203 204 minecraft:stone hollow" >/dev/null; cmd "fill 197 200 197 203 202 203 minecraft:air" >/dev/null
+cmd "player mrtFoF spawn at 200 200 200" >/dev/null; sleep 3; cmd "gamemode survival mrtFoF" >/dev/null
+cmd "spawnpokemonat 200 200 202 rattata level=50" >/dev/null; sleep 8
+check "salvaje sin provocar no ataca" "$(cmd 'data get entity mrtFoF Health')" "entity data: 20.0f"
+cmd "player mrtFoF look at 200 200.4 202" >/dev/null; cmd "player mrtFoF attack once" >/dev/null; sleep 6
+check "salvaje provocado se defiende" "$(cmd 'data get entity mrtFoF Health')" "entity data: 1[0-9]\.\|entity data: [0-9]\.\|No entity was found"
+cmd "kill @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:rattata\"}}]" >/dev/null; cmd "player mrtFoF kill" >/dev/null
+
 # 7. Sin dormir: en vez de phantoms llegan Drowzee, Hypno, Munna, Musharna o Misdreavus. Como los phantoms: de noche,
 #    sobre el nivel del mar, cielo abierto y con una chance por intento cada 1-2 min (en fácil tarda unos minutos)
 cmd "fill 98 199 98 106 199 106 minecraft:stone" >/dev/null

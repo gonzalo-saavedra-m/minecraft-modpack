@@ -61,6 +61,10 @@ file = "config/craftpresence.json"
 hash = "270cefcc5d28c441e075f17250a0abecb1c1534b044541453c87fe3a19ff509c"
 
 [[files]]
+file = "config/fightorflight.json5"
+hash = "2705cc0a832f28bf480a3835f7f6e62247a3ca95ce373a7f185149825a82e25b"
+
+[[files]]
 file = "config/mega_showdown/config.json"
 hash = "f025396282b488579aa89e179c0db20bf5d11e2224f2f36142ec1bdc44f09304"
 
@@ -6389,6 +6393,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-exp.-all.pw.toml"
 hash = "502c96511d48818edbb193ea3651ca38b03f17fc352ca404090f346496d72c11"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
+hash = "ea9a2ff3b7c7c3ebd0214b32fd74d2b4a6b21798e85108b60d19de35b625326d"
 metafile = true
 
 [[files]]
