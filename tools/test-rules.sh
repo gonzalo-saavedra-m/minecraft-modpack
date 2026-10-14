@@ -49,11 +49,35 @@ check "alejarse no huye" "$(cmd 'mrtest status mrtH')" "EN BATALLA"
 cmd "mrtest hp mrtH 0" >/dev/null; cmd "mrtest act mrtH forfeit" >/dev/null; sleep 4   # cierra la batalla (y mata)
 cmd "kill @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:rattata\"}}]" >/dev/null
 
-# 2d. A un entrenador no se le huye: rendirse con Pokémon sanos mata
+# 2d. A un entrenador no se le huye, pero rendirse con Pokémon sanos no mata (14-oct)
 cmd "player mrtI spawn at 0 200 -1" >/dev/null; sleep 3; cmd "mrtest give mrtI pikachu level=50" >/dev/null
 cmd "mrtest trainer mrtI rattata level=5" >/dev/null; sleep 6; cmd "mrtest act mrtI forfeit" >/dev/null; sleep 4
-check "rendirse ante un entrenador mata" "$(cmd 'mrtest status mrtI')" "No player was found"
-cmd "kill @e[type=cobblemon:npc]" >/dev/null
+check "rendirse ante un entrenador no mata" "$(cmd 'mrtest status mrtI')" "libre, vivo=true"
+cmd "kill @e[type=cobblemon:npc]" >/dev/null; cmd "player mrtI kill" >/dev/null
+
+# 2f. Fallar la huida gasta el turno: el server le fuerza un pass (como al tirar una Poké Ball; el cliente lo contesta
+#     solo). Contra salvajes la batalla no avanza con jugadores falsos (el salvaje no elige), así que se mira que quede el
+#     pass pendiente; que el pass gasta el turno se prueba contra un entrenador.
+#     Nivel 70 contra un Rattata 100: 46 % de escapar, así que se reintenta con otro jugador hasta fallar
+pending=""; t=0
+while [ $t -lt 8 ] && [ -z "$pending" ]; do
+  t=$((t + 1)); cmd "player mrtK$t spawn at 0 200 -1" >/dev/null; sleep 3; cmd "mrtest give mrtK$t pikachu level=70" >/dev/null
+  cmd "mrtest wild mrtK$t rattata level=100" >/dev/null; sleep 3
+  n=$(wc -l < "$T/console.log"); cmd "mrtest act mrtK$t flee" >/dev/null; sleep 2
+  if tail -n +$((n + 1)) "$T/console.log" | grep -qi "mrtK$t intenta huir.*no escapa"; then
+    pending=$(cmd "mrtest status mrtK$t")
+    cmd "mrtest act mrtK$t pass" >/dev/null; cmd "mrtest hp mrtK$t 0" >/dev/null; cmd "mrtest act mrtK$t forfeit" >/dev/null; sleep 3
+  fi
+  cmd "kill @e[type=cobblemon:pokemon,nbt={Pokemon:{Species:\"cobblemon:rattata\"}}]" >/dev/null; cmd "player mrtK$t kill" >/dev/null
+done
+check "fallar la huida fuerza pasar" "$pending" ":true:resp0:pases1"
+cmd "player mrtL spawn at 0 200 -1" >/dev/null; sleep 3; cmd "mrtest give mrtL pikachu level=50" >/dev/null
+cmd "mrtest trainer mrtL rattata level=50" >/dev/null; sleep 6
+before=$(cmd "mrtest status mrtL" | sed -n 's/.*turno=\([0-9]*\).*/\1/p')
+cmd "mrtest forcepass mrtL" >/dev/null; cmd "mrtest act mrtL pass" >/dev/null; sleep 5
+after=$(cmd "mrtest status mrtL" | sed -n 's/.*turno=\([0-9]*\).*/\1/p')
+check "pasar gasta el turno" "antes=$before despues=$after" "antes=$before despues=$((before + 1))"
+cmd "mrtest act mrtL forfeit" >/dev/null; sleep 3; cmd "kill @e[type=cobblemon:npc]" >/dev/null; cmd "player mrtL kill" >/dev/null
 
 # 2e. El entrenador que pierde muere
 cmd "player mrtJ spawn at 0 200 -1" >/dev/null; sleep 3; cmd "mrtest give mrtJ pikachu level=100" >/dev/null

@@ -5,6 +5,7 @@ import com.cobblemon.mod.common.api.battles.model.actor.ActorType;
 import com.cobblemon.mod.common.api.battles.model.actor.BattleActor;
 import com.cobblemon.mod.common.api.battles.model.actor.EntityBackedBattleActor;
 import com.cobblemon.mod.common.battles.FleeAttemptActionResponse;
+import com.cobblemon.mod.common.battles.ForcePassActionResponse;
 import com.cobblemon.mod.common.battles.ForfeitActionResponse;
 import com.cobblemon.mod.common.battles.ShowdownActionResponse;
 import com.cobblemon.mod.common.api.events.CobblemonEvents;
@@ -239,12 +240,22 @@ public class MipackRules implements ModInitializer {
 			if (escaped) {
 				state[2] = 1;
 				player.sendSystemMessage(Component.literal("¡Escapaste sin problemas!").withStyle(ChatFormatting.GREEN));
-			} else player.sendSystemMessage(Component.literal("¡No puedes escapar!").withStyle(ChatFormatting.RED));
+			} else {
+				player.sendSystemMessage(Component.literal("¡No puedes escapar!").withStyle(ChatFormatting.RED));
+				// Fallar gasta el turno, como en los juegos: Cobblemon vuelve a pedir la acción al volver de este evento y
+				// al tick siguiente se fuerza un "pass" por cada Pokémon activo (lo mismo que hace al tirar una Poké Ball)
+				var actor = event.getPlayer();
+				var server = player.getServer();
+				server.tell(new TickTask(server.getTickCount(), () -> {
+					if (battle.getEnded() || !actor.getMustChoose()) return;
+					for (int i = 0; i < actor.getActivePokemon().size(); i++) actor.forceChoose(new ForcePassActionResponse());
+				}));
+			}
 		});
 
-		// Muere quien pierde con todos sus Pokémon debilitados, o quien se rinde ante un entrenador (no se le puede
-		// huir: la única salida sin ganar es rendirse). El PvP y las raids no matan (Raid Dens no soporta muertes en
-		// su dimensión). El entrenador NPC (de RCT o de Cobblemon) que pierde también muere
+		// Muere quien pierde con todos sus Pokémon debilitados; rendirse con alguno en pie no mata (14-oct). El PvP y las
+		// raids no matan (Raid Dens no soporta muertes en su dimensión). El entrenador NPC (de RCT o de Cobblemon) que
+		// pierde también muere
 		CobblemonEvents.BATTLE_VICTORY.subscribe(event -> {
 			if (event.getBattle().isPvP()) return;
 			for (var loser : event.getLosers()) {
@@ -258,9 +269,9 @@ public class MipackRules implements ModInitializer {
 				}
 				if (loser instanceof PlayerBattleActor actor && actor.getEntity() instanceof ServerPlayer player
 						&& !player.level().dimension().location().getNamespace().equals("cobblemonraiddens")
-						&& (vsTrainer(event.getBattle()) || actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0))) {
+						&& actor.getPokemonList().stream().allMatch(p -> p.getHealth() <= 0)) {
 					// Al tick siguiente, con la batalla ya cerrada
-					LOGGER.info("{} perdió la batalla (sin Pokémon en pie o rindiéndose ante un entrenador): muere",
+					LOGGER.info("{} perdió la batalla sin Pokémon en pie: muere",
 							player.getScoreboardName());
 					var server = player.getServer();
 					server.tell(new TickTask(server.getTickCount(), () -> {
@@ -283,11 +294,6 @@ public class MipackRules implements ModInitializer {
 		if (mine >= theirs) return true;
 		int f = mine * 128 / theirs + 30 * attempt;
 		return f > 255 || roll < f;
-	}
-
-	/** Contra un entrenador (NPC de RCT o de Cobblemon) no se puede huir, solo rendirse. */
-	private static boolean vsTrainer(PokemonBattle battle) {
-		return StreamSupport.stream(battle.getActors().spliterator(), false).anyMatch(a -> a.getType() == ActorType.NPC);
 	}
 
 	private static boolean isRaid(PokemonBattle battle) {

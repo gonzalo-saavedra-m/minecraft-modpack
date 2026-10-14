@@ -42,9 +42,12 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest give <jugador> <props>    vacía el equipo y le da ese Pokémon
  * /mrtest wild <jugador> <props>    spawnea ese Pokémon salvaje al lado y empieza la batalla
  * /mrtest pvp <jugador1> <jugador2> batalla entre dos jugadores
- * /mrtest act <jugador> default|forfeit|move <ataque>  elige la acción del jugador en su turno
+ * /mrtest act <jugador> default|forfeit|flee|pass|move <ataque>  elige la acción del jugador en su turno (pass: lo
+ *                                   que manda el cliente cuando el server fuerza pasar, p. ej. al fallar la huida)
  * /mrtest hp <jugador> <n>          pone la vida de todo su equipo en n
  * /mrtest status <jugador>          en batalla o no, vida del equipo
+ * /mrtest log <jugador>             las últimas 15 líneas de Showdown de su batalla
+ * /mrtest forcepass <jugador>       el server le fuerza pasar el turno (como al tirar una Poké Ball)
  * /mrtest acdepth <x> <z> <radio>   a cuántos bloques bajo el suelo empiezan los biomas de Alex's Caves
  * /mrtest fit <x> <z>               relieve del terreno (sin la estructura) bajo cada estructura del chunk
  * /mrtest hollow <x> <z>            huecos de aire bajo la superficie en la huella de cada estructura (¿flota?)
@@ -111,6 +114,7 @@ public class MipackTestkit implements ModInitializer {
 						.then(literal("default").executes(c -> act(c, new DefaultActionResponse())))
 						.then(literal("forfeit").executes(c -> act(c, new ForfeitActionResponse())))
 						.then(literal("flee").executes(c -> act(c, new com.cobblemon.mod.common.battles.FleeAttemptActionResponse())))
+						.then(literal("pass").executes(c -> act(c, new com.cobblemon.mod.common.battles.ForcePassActionResponse())))
 						.then(literal("move").then(argument("move", StringArgumentType.word())
 								.executes(c -> act(c, new MoveActionResponse(StringArgumentType.getString(c, "move"), null, null)))))))
 				.then(literal("hp").then(argument("player", EntityArgument.player())
@@ -163,6 +167,19 @@ public class MipackTestkit implements ModInitializer {
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
 				.then(literal("raidend").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, raidEnd(EntityArgument.getPlayer(c, "player"))))))
+				.then(literal("forcepass").then(argument("player", EntityArgument.player()).executes(c -> {
+					var p = EntityArgument.getPlayer(c, "player");
+					var battle = BattleRegistry.getBattleByParticipatingPlayer(p);
+					if (battle == null) return reply(c, "forcepass: sin batalla");
+					battle.getActor(p).forceChoose(new com.cobblemon.mod.common.battles.ForcePassActionResponse());
+					return reply(c, "forcepass " + p.getScoreboardName() + ": ok");
+				})))
+				.then(literal("log").then(argument("player", EntityArgument.player()).executes(c -> {
+					var battle = BattleRegistry.getBattleByParticipatingPlayer(EntityArgument.getPlayer(c, "player"));
+					if (battle == null) return reply(c, "log: sin batalla");
+					var log = battle.getBattleLog();
+					return reply(c, "log:\n" + String.join("\n", log.subList(Math.max(0, log.size() - 15), log.size())));
+				})))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));
@@ -348,6 +365,7 @@ public class MipackTestkit implements ModInitializer {
 		var state = battle == null ? "libre" : "EN BATALLA turno=" + battle.getTurn() + " dispatches=" + battle.getDispatches().size()
 				+ " resultado=" + battle.getDispatchResult() + " eligen=" + StreamSupport.stream(battle.getActors().spliterator(), false)
 						.map(a -> a.getName().getString() + ":" + a.getMustChoose() + ":resp" + a.getResponses().size()
+								+ ":pases" + a.getExpectingPassActions().size()
 								+ ":req" + (a.getRequest() != null)
 								+ ":" + a.getPokemonList().stream().map(bp -> bp.getHealth() + "/" + bp.getMaxHealth()).toList())
 						.collect(Collectors.joining(" "));
