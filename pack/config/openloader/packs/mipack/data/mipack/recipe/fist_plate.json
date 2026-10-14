@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " g ",
+    "gcg",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "cobblemon:fighting_gem"
+    },
+    "c": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "id": "mega_showdown:fist_plate"
+  }
+}

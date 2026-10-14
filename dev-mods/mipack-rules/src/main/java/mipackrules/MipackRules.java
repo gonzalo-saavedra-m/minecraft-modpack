@@ -62,6 +62,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.level.block.Blocks;
@@ -139,6 +140,8 @@ public class MipackRules implements ModInitializer {
 	private static final ResourceLocation ETERNATUS = ResourceLocation.parse("crd_legendaries:eternatus");
 	private static final int END_CRYSTAL_X = 8, END_CRYSTAL_Z = 0;
 
+	private static final float GEM_DROP_CHANCE = 0.03f;
+
 	@Override
 	public void onInitialize() {
 		// Spawns según el nivel de cada jugador (LevelCurveInfluence); la lista de Cobblemon puede ser inmutable
@@ -206,6 +209,16 @@ public class MipackRules implements ModInitializer {
 		CobblemonEvents.BATTLE_FAINTED.subscribe(event -> {
 			var pokemon = event.getKilled().getEffectedPokemon();
 			if (pokemon.isWild()) giveDungeonKey(pokemon, event.getBattle().getPlayers());
+		});
+
+		// Un salvaje derrotado a veces suelta la gema de su tipo principal, como el tera shard de Mega Showdown (10 %)
+		// pero más rara. Con ella se invoca a parte de la Liga (tools/gen_rct.py) y se craftean tablas y discos
+		CobblemonEvents.LOOT_DROPPED.subscribe(event -> {
+			if (!(event.getEntity() instanceof PokemonEntity p) || !p.getPokemon().isWild()
+					|| p.getRandom().nextFloat() >= GEM_DROP_CHANCE) return;
+			var gem = ResourceLocation.parse("cobblemon:" + p.getPokemon().getPrimaryType().getName().toLowerCase(java.util.Locale.ROOT) + "_gem");
+			if (BuiltInRegistries.ITEM.containsKey(gem)) p.level().addFreshEntity(
+					new ItemEntity(p.level(), p.getX(), p.getY(), p.getZ(), new ItemStack(BuiltInRegistries.ITEM.get(gem))));
 		});
 
 		// Huir de un salvaje es una tirada, como en los juegos; alejarse no sirve (PokemonBattleActorMixin)

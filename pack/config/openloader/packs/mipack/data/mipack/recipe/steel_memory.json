@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " g ",
+    "gcg",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "item": "cobblemon:steel_gem"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "mega_showdown:steel_memory"
+  }
+}

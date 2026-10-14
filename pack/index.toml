@@ -4787,6 +4787,142 @@ file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/tera.json
 hash = "a33f67f35c927117afc1a41d49ff311c96368a735a286ba6eba4fbec42ea424d"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/bug_memory.json"
+hash = "5f7a0352adb1e5cdb1d2e1ea79a4a98a26d54db839fc6ef79e131449adda74c6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/dark_memory.json"
+hash = "6770966b481ba136e7fd3d7d6fb117bbf72a5621cb29e038260590fcd52fa7bc"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/draco_plate.json"
+hash = "e29089844b905429b91bb877d8427f64b09c39e0dd7d9ed78669bf95e8f3095f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/dragon_memory.json"
+hash = "a71ad18174f49995235b851715fe7bba87ac03125b4cacd98ad491784c7506a7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/dread_plate.json"
+hash = "28267ee79373d0b055e79df5ab5161434485f4d8886c70ff15d99f00163389c3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/earth_plate.json"
+hash = "e098869e8060249ce59f150b3da9302df90b97cd35a4d5a67267c65fec159d26"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/electric_memory.json"
+hash = "5952aecc2001c73e81247cf6782a857c6789e82ae369fa9d7f7bc355e25e16a3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/fairy_memory.json"
+hash = "f61c367442cfbf22dcc3f45754c2b1a1bf6996593e3ccc72847d7b86d45c211e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/fighting_memory.json"
+hash = "1991c56c606a7dcb25a4520ec142096df1b0755e6b3f3ed92fa5695408219d0e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/fire_memory.json"
+hash = "d2d695622bb3b5b38bddc75640c93848181115798d96acdc6a207b4767ccff30"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/fist_plate.json"
+hash = "6f9abd47a86ebd3be88a85e9c314a3d7944e1c61d621cf8d89be15fab90cdcd9"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/flame_plate.json"
+hash = "b2008b68927f9799ace5ea82f8a6811cd13965c6c24aef70e012cb807bf18df1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/flying_memory.json"
+hash = "4ef4b81b98488bf1c72e663d9664151be463e0172e7c0a7c87f10c7398f8cd4f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/ghost_memory.json"
+hash = "0df1056479f8fa291829474b704b041a49989c0422c6c18a3256c9ef9d42b102"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/grass_memory.json"
+hash = "b798bd32babc2890dfbca06b02ce8973840178c223d82661a8dae306172b4a16"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/ground_memory.json"
+hash = "48ef16b6400b017fc04023a9852e63debae9c348d8e6cd0506df436ada51b274"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/ice_memory.json"
+hash = "ceaef265c2fcadf6dd8d93b395d100c41e992bfeaf37f73243b136f15938caf3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/icicle_plate.json"
+hash = "539ae92f24b6ea33379b6f3a2305088605890fd5c8825e055d733f798dea5c6e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/insect_plate.json"
+hash = "e718db862fcfa2ef280991ac0f85eea5c7c6e5f6a5463da0541a7d6be97e13b8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/iron_plate.json"
+hash = "88ee334edf2a9f1efcd7c620bbde75462f7b255fd95203c7ec353504abe5a3b5"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/meadow_plate.json"
+hash = "371fba913ff15a4277dcfab50af47fd522f83c41e3be45a6ac94be4d4ed6d0fe"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/mind_plate.json"
+hash = "92ddf035b00454353b6789fefdda39f5f4761b0df9923e9910aba63374001878"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/pixie_plate.json"
+hash = "4148cb8a7ced3581e8e9db480887abca5fa69d82da38b6c6c5e528cdc80e0432"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/poison_memory.json"
+hash = "2f915af9c53976f360a5b0ecc498a4c7f89b2f5b5d447db35bee3201792d3bb5"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/psychic_memory.json"
+hash = "858b25fd72948ba5ade2d35a388a25e94635536291f3365eceb7051d94afc683"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/rock_memory.json"
+hash = "f6e84c5426e3fd4291bdb3475317a08835b3779c5b784baa88abef873b6f6b20"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/sky_plate.json"
+hash = "cf30fbfc6ea61f66b4928e35a83b6e1c5f19bdfa30c2de67e05a0266f82df069"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/splash_plate.json"
+hash = "505fbb750d9bfe6bac6cc45e15fc26a94c429dcff22df73e24b1b4cd72588b98"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/spooky_plate.json"
+hash = "f0dc3163affe2d386e3d321d5ae601c38d2b2697c2e25b7ea9e799bc1cffaaff"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/steel_memory.json"
+hash = "e3987d475fe39384877e2713189cc03f5af2dc209eb52040e3502be07efcd992"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/stone_plate.json"
+hash = "723f61564e0dfa0fecefad3850b37b018976e954793726794e3626cbd0e47cf8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/toxic_plate.json"
+hash = "850322dc756ba0f2fa553c7601365d1765b633046f2cded0c0525c1bbc729005"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/water_memory.json"
+hash = "7a5ecc95fdede1c902965c0dc9d1d9143ee50608b2879113055f010a7118e4e1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/recipe/zap_plate.json"
+hash = "0ee8349d3579635eb1da14d42331fba132685cd36305a9dd0d10aa2422aa122d"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/aether/latias_latios.json"
 hash = "78a65dec57422f9f65a383f389bf7035c994860d705fae8767f9b7ac2ebdebe1"
 
@@ -5012,39 +5148,39 @@ hash = "51b9346de66362d2570f7558cb72cc4becc13d8679d39106535b171ea77f09dc"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_brawly.json"
-hash = "4b72eec41338f40cf10d00edfeab353a7881421abf7416c4c99c614a960ea70c"
+hash = "10c58c32a13d53f508fa96b861407c423050cc1b9332aef97d4bd90d22b6f532"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_flannery.json"
-hash = "e75015d424c78272b5601556e59a46fd753c156a8fc498b3d5627fb25df7adad"
+hash = "90ff2f0a0ef45e2bcfd4ebe767ae77ec6420390f70a79664575b847fc21b9872"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_liza.json"
-hash = "6bb523b7bb9fb9b05c623de12d71e499f5b55d5ddcb0b14e8b53c92d0ee41c96"
+hash = "3497e045b6cdda4d4114618b9a69d9fa6f69be6770ae1a43f4fa610c56c3123d"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_norman.json"
-hash = "5a2c28b5548c022268aa9b38650d4ac0a0ac9fdce1d0795c39fc1575d0fa7995"
+hash = "e61cecf54a9767442e28e1228ab7682a619ad96725e85079d34017a1f8884a2a"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_roxanne.json"
-hash = "ac84f48991c570c113476c4b0400472f13a68c52413197d93a2d96900b457ab4"
+hash = "71215afcf98dc9df7f3399817c99c7e8ab4652bf311bfbdd3bce84be12c2c738"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_wallace.json"
-hash = "d695753cc400b9943b4463d7aeb55758496992f28850518a610e4318eec1d8e0"
+hash = "b710975c8268aad279059bb75fd4849eee34a682154d20de559deb315d33e7b5"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_wattson.json"
-hash = "9fa14909188a17932f7374766f39e20f6f928bb86d39ad36712fdc44f62ec829"
+hash = "53e7039a3445f0f786faffd7939e1e495d7e2d32dd315c0942491814f7da7955"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/hoennleader_winona.json"
-hash = "9eb928d88ff20acb11921bb36b1440f49f0b2fc4201468d3b59a0525a856e120"
+hash = "75ccc33b7da5ac6c1b688e74e7c665e89061c237e1f12e8c05aac2a6eacd6c53"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloschampion_diantha.json"
-hash = "43973f7ec06b84b4949dabda387671a0f9d425b3a074d59e0b711267f78fd6ea"
+hash = "f95ed728531ba26dd7c5d144c1bc93c849816ecb4eaa01497708b9a7387f314c"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_drasna.json"
@@ -5052,11 +5188,11 @@ hash = "c31e89cda8fe147a142f561c3d5b0e21a37d048b693d82d4a8d0cff160e2c6f2"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_malva.json"
-hash = "3c0202c306e4d83294134479948c29fbf3387ad4623fc9818e74339a4d58a18b"
+hash = "90546d216c81d8f380263354efd5ee30d5ca225f2c2c19e4b251ec0b8cf04503"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_siebold.json"
-hash = "7925637d8a8b6cfa837f7eea6a4a9dd81fa0ea6aa99e4e9f95a59b9ba3ee8cbc"
+hash = "4f52bd68ff1607860d11c23f7f152392b02b960b8bf9d780a5410f6cc17d7503"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kaloselitefour_wikstrom.json"
@@ -5064,19 +5200,19 @@ hash = "fa36b7a67607b650edaa7876cc6f8bb2ea4d61923c45fd25a1ced965e4ed4f70"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_clemont.json"
-hash = "887bc8b89d88034d96fa4f62aebfe4920bd99f557501791744e3f4d91b9e8e5e"
+hash = "a506fec3c2ddaea06748512c3b63aa721622cdbeecc037dd4f4889a0ce5af260"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_grant.json"
-hash = "88315d124e0494d530039a89bace51a8d1ae2e67709318f260f97739602e96da"
+hash = "5964ebc752147f1c505ead1677b9fda67033d08aae65ee1ea857cffa84735692"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_korrina.json"
-hash = "d9096d8e8974bc039a8493d6f96e96c673cd22f7944a77e4d8d6f8ca9127a98c"
+hash = "40f2a03b4ab0c9f0ce25fc0a2704fab4065ca62bb6b350e71db1bef0254f416c"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_olympia.json"
-hash = "ffc9c61404d0852728702617a7704be2084b4b9e438871c2ad2b5b4987602595"
+hash = "220a9a2674dc0f666b1b6c58f11f0607dbbf4b20925cbf48d2cb1a143f329303"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/kalosleader_ramos.json"
@@ -5096,7 +5232,7 @@ hash = "a1c09bcc65a2987f2572b2252c07dc6a8c62df4e486eede472e27a184c4f9928"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeachampion_geeta.json"
-hash = "fab1707d82c80fa54ccadee5fa10a5bacef28dd9b78d025257987c0c84ebb5fb"
+hash = "6b8db65d70729a21786a8bca7285b5bd037c58c8f2dd170ca6ca02c23b8acfa2"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_hassel.json"
@@ -5104,7 +5240,7 @@ hash = "611f5c1ed5b76e33e65ade34cba8e5258d5117303d582c3240c7dd314f0eb76f"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_larry.json"
-hash = "12a9e3ecfa781781d7625acc3745aa54f78cf12801d7531740e13848c4a545d4"
+hash = "d57132ab65d7b2d52e232671a31fc2c7ad5c09acb5ad3d3056caf78a96642b58"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldeaelitefour_poppy.json"
@@ -5124,7 +5260,7 @@ hash = "b90f137bfef9f81ae6b7740212d982e7bc7a6361312e40e6fe9d7694756c92eb"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_iono.json"
-hash = "08243bf793d188a5a5ce9610d234a8b1b3371d13d69f65eb217c9b9307161003"
+hash = "8f2ca1887537cc974447df6b4ec8789a0f44d28ee586f060f9bf7a673e66be0a"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_katy.json"
@@ -5132,11 +5268,11 @@ hash = "eaead5b09e75d1b273af2b2f7e03760cf5543e64cb59b7f089b6eb1f32988b92"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_kofu.json"
-hash = "48831e45bae803c4975d553f4af66f862e260bfbaf3d9562ec5cc78f670d32d1"
+hash = "429b94f4e4caf0766dd6e560efdd53849904a2700e45a1ebd6de2b90f9c45b5a"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_larry.json"
-hash = "b0b04e4374f039da8768dbf5c233624958cb0c548ec63e05cb77de3fb1692915"
+hash = "c0dbed9c91da2bdd4eb9559b56e134861887798ee3d2e864f22a2b7dc4cc0599"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_ryme.json"
@@ -5144,39 +5280,39 @@ hash = "8d10c73a92e49f3ca8a9c998a5671c8583cd6b0defb7ba4a20ab702ab6fa6833"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/paldealeader_tulip.json"
-hash = "4d03a99b2a525433c4dc6556d8fdee5c2dc5cbe0d5ab3d3201f84191ebe49b3f"
+hash = "70aff6b0f439c108438085d20dddc9eac7a04d026a02964f2294210627df6af2"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_byron.json"
-hash = "2e04b3ad0cf76aa07ffb7d0314df29851ee5034f57abf8e7e008638bcdb7e446"
+hash = "4a6dc9c6de499d0cc6f6d3844311342170c3877e4a5f58fc8b7f93dca1747430"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_candice.json"
-hash = "647e9381f96c07eb7e0b9e072d6e8d931d9c06883e0eb2a3c6da2960a8b4fc8e"
+hash = "bda2e29d7b9ee36d450a3c1a372c8e8635c2e87a8683b4496e94948844cab892"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_crasherwake.json"
-hash = "bdcaa220c4943409007b588ee830dfaa131488d7bee8884ad16eea9324d924bb"
+hash = "f43b351cb683741d03f3c0f6bd8ddb90e4f22797368d3c77b440bbd92647d5c0"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_fantina.json"
-hash = "2ebeb71887736cfaf9954e4c683d979a93a83420860e87fe2bcb1f80d08f6480"
+hash = "2856a5d57fc0196c954ae35f092f08b2ef76bdacd586572c154548aa527e75be"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_gardenia.json"
-hash = "4e6856a3ca8437b45041cca4557f611dd5142149002aad4a23b23549163e81d2"
+hash = "cb9ff921882c60769fc80094823a49cb87fed4de5d0d95ac4cb3f67f6f384ee0"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_maylene.json"
-hash = "4e9dd010c6527c21d9bc4bca2c4fe1ca72ecccf770d279cdfcd604010a4182ba"
+hash = "77d1cb95812cf432dc576bcea3f332902067c93e64cbc5cd398f88d2ae910454"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_roark.json"
-hash = "156c06d73febd128933ff673835575eeb8f1664e5a842906946e9f19fdb9905a"
+hash = "f76954bf6a63912ad7242d941876798ce7ae6762d9712b793dbe52c0b4dfba67"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/sinnohleader_volkner.json"
-hash = "c14981bcbcaf274d95356647dc7a7114e069f3ba56903da1a51320940b831b61"
+hash = "116124bc52082efbf0685e988e36fb259cc70b76e1cf7ba92e846b1aec35de40"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovachampion_alder.json"
@@ -5184,11 +5320,11 @@ hash = "7d6a5ac1c6b246d086d14fa9296f219a6633455a5350cc5d439f54249243e50a"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovachampion_iris.json"
-hash = "7279b07931fee52a3d3cdfa94645a5cc759721e1d45f7bcacfb65cc5aaf3d00c"
+hash = "e2473c1e04933ecac277b24ca16e44d050338ac569793a5b05fede8e77454507"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_caitlin.json"
-hash = "e51dbba913f1bd76702eeab079f69bf90d5f980809201dbf5ca289a91cb0f4bb"
+hash = "c249807e064882a1f85bdac45d083f007f302efa6f6732fc542749ed5c6c89e7"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_grimsley.json"
@@ -5196,15 +5332,15 @@ hash = "d0e0518c826e2a816a2b6320f191907b2fc8aee87ffe270f0204ec8745a5e99d"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_marshal.json"
-hash = "edc4b4d6ed381c846c9ebf84828b74b0c7dc3d74b7c557f1d6ca32a2b1bbe1cd"
+hash = "4f61a8ce45b50ef398232f3d9f9c02425a14e76a4c4b20cc194fb5c52809b377"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaelitefour_shauntal.json"
-hash = "9be3e6f64c5a09d740f424463228e401f1def1e362a12977282695e35fdb354b"
+hash = "426223a6122c8252940e9f67b1fc82bf6c9374c836da77cac00d59252b136eb1"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_brycen.json"
-hash = "155f5b1486b0bab7a3393e39f014b8bde053f49563909a0f4dc586574ec2bdec"
+hash = "fb543e0f767991ad0692d569eedf4adf9817196c3643fa7597edd323e06ebdc7"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_burgh.json"
@@ -5212,47 +5348,47 @@ hash = "eb1e6fdaa08f8065b94e0792de64fa5a8b3abf3d6f3ddbe0e5bc9c7eb29f2995"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_cheren.json"
-hash = "32bec1245c489d831f45e58262f7defd7dbc5533201c8e5616551caf081836f2"
+hash = "35b9b5c94418ad470ed8ad11d7d1bfcc30face04fbea77479b600c4096940a69"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_chili.json"
-hash = "dac37555322b8e9e7cbca5dc47a38d9fb246cfa585d5e81020814a8147d36939"
+hash = "0031d1b88cb5688b09e547f6fe28bcb15641b0928f89b13591d3fe93485fa2b3"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_cilan.json"
-hash = "9f935a782cf053b791d670b9deabc80fb4e1abcdb801d210782d3754bff2403a"
+hash = "f22c13d9c1187dc1b0fdf8077c43658787fdcca2422f3ee4f58fca59e3fe4371"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_clay.json"
-hash = "f7df97c48d5400b300c70813fc535cfb12cb63786d640aedc1534b1729b79a6f"
+hash = "65580b907dba93029faeeed1c3820a017af0dea25b32f32356ae79c214e8ae55"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_cress.json"
-hash = "6f2181c3a7fc28ef3418f8803513f3c18ec6844fe5bd729b4cfd5d856021cc08"
+hash = "9970f33028e80c52a56a0478e70dfeb6c02228d07bc0ecc8a55761087059a0ec"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_drayden.json"
-hash = "7fe079610354490cb4323b8a33b4327fd41d1b6453becefbb6875e2f351fcd44"
+hash = "0a62058e4efe27dbc95b6be0c2004d6f5625344015bf0c28961597107fc54040"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_elesa.json"
-hash = "1aac40ae8a2eb84ae3b9275c25013b696d0c4d84a7cf7b0d9f1b83470df46bb7"
+hash = "e6ebb22de353c790ca4e475f5763ce2708796811e7c74dd1a425b7d9ce0fc931"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_lenora.json"
-hash = "a956168300807862edde1d5a5535911c3a17d8bda2932d651ada5fd3a60010ad"
+hash = "121695789f524adf7b81e6eaf816fd77162bf55c0bfb2067d285fa66c4668dad"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_marlon.json"
-hash = "081bd62ef75e74e05da90102c0ee1ca7b520d97c1cbc5440bcebd456e91eb948"
+hash = "b194aa061cac4db1e43352521fc2b3447d1f96ff5cb845579623478f71479c05"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_roxie.json"
-hash = "c11c1ce44f125b64e9a64976e39d63148d396e17566ec9022736c40a6f894a17"
+hash = "a20e406cbceeb43501ca505640fbe241ba33d4b8c1196411c60f86a05452e192"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/groups/unovaleader_skyla.json"
-hash = "cefcab59b87ce9957b08ee1f18c7d62fed2a9c632457380ce23041309707df47"
+hash = "da18b16c504804c67bce0c7fc841f6fef812401c62223902eee5c2a14e3a8c0c"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/single/champion_cynthia_03a5.json"
@@ -6547,7 +6683,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "97b6186d07f9125356b8459d7f7993c9234fa3874ed9aac50af7bf6a346e0b9b"
+hash = "5ab86fb37c3332a97007029e5a967eb242ff7303684f17a64fadfe19be7a1576"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

@@ -86,15 +86,27 @@ cmd "player mrtA kill" >/dev/null; cmd "player mrtC kill" >/dev/null
 
 # 6. Liga (tools/gen_rct.py): el Trainer Spawner con Piedra dura + redstone invoca a Brock aunque no aparezca en el mundo.
 #    La redstone va al costado: arriba del spawner tiene que haber 2 de aire (ahí aparece el entrenador)
-cmd "player mrtD spawn at 0 200 -2" >/dev/null; cmd "mrtest give mrtD geodude level=12" >/dev/null
+cmd "player mrtD spawn at 0 200 -2" >/dev/null; sleep 4  # el jugador falso tarda en entrar
+cmd "mrtest give mrtD geodude level=12" >/dev/null
 cmd "rctmod player set series radicalred mrtD" >/dev/null
 cmd "setblock 4 200 -2 rctmod:trainer_spawner" >/dev/null; cmd "setblock 4 199 -2 minecraft:stone" >/dev/null
 cmd "item replace entity mrtD weapon.mainhand with cobblemon:hard_stone" >/dev/null
-cmd "player mrtD look at 4.5 200.5 -1.5" >/dev/null; cmd "player mrtD use once" >/dev/null; sleep 1
+cmd "kill @e[type=cobblemon:pokemon,x=2,y=200,z=-2,distance=..6]" >/dev/null  # un salvaje en medio se lleva el clic
+cmd "player mrtD look at 4.5 200.5 -1.5" >/dev/null; sleep 1; cmd "player mrtD use once" >/dev/null; sleep 1
 check "spawner configurado con Brock" "$(cmd 'data get block 4 200 -2 TrainerIds')" "leader_brock"
 cmd "setblock 5 200 -2 minecraft:redstone_block" >/dev/null; sleep 10
 check "spawner invoca a Brock" "$(cmd 'execute if entity @e[type=rctmod:trainer,name="Leader Brock"]')" "Test passed"
-cmd "kill @e[type=rctmod:trainer]" >/dev/null; cmd "player mrtD kill" >/dev/null
+cmd "kill @e[type=rctmod:trainer]" >/dev/null
+# 6a. Ítem de More Radical Trainers según el level cap (Roxanne, cap 28 → baya) y receta de mipack para las tablas
+cmd "rctmod player set series hoenngymchallenge mrtD" >/dev/null
+cmd "setblock 4 200 -2 rctmod:trainer_spawner" >/dev/null
+cmd "item replace entity mrtD weapon.mainhand with cobblemon:charti_berry" >/dev/null
+cmd "kill @e[type=cobblemon:pokemon,x=2,y=200,z=-2,distance=..6]" >/dev/null  # un salvaje en medio se lleva el clic
+cmd "player mrtD look at 4.5 200.5 -1.5" >/dev/null; sleep 1; cmd "player mrtD use once" >/dev/null; sleep 1
+check "spawner configurado con Roxanne (baya)" "$(cmd 'data get block 4 200 -2 TrainerIds')" "hoennleader_roxanne"
+cmd "recipe take mrtD mipack:stone_plate" >/dev/null
+check "receta de tabla" "$(cmd 'recipe give mrtD mipack:stone_plate')" "Unlocked 1 recipe"
+cmd "player mrtD kill" >/dev/null
 
 # 6b. Pokémon con dueño: sin daño fuera de combate. Salvajes: se pueden matar a mano
 cmd "spawnpokemonat 2 200 -1 rattata level=10" >/dev/null; sleep 1
