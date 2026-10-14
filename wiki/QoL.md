@@ -27,7 +27,8 @@ hace daño. Para cofres lejanos, usa Inventory Cable.
 hilo, cofre, hilo / cuero, cuero, cuero); el cuero sale de Miltank, Tauros, Ponyta… y el hilo de Pokémon (ver
 [Crianza](Crianza.md) y la página de cada Pokémon). Se sube de nivel (cobre → hierro → oro → diamante → netherite)
 para tener más espacio y más ranuras de mejora. Las mejoras van en esas ranuras: recoger ítems del suelo, imán,
-filtro, reponer, comer solo, fundir, crafteo, apilar más por espacio, entre otras.
+filtro, reponer, comer solo, fundir, crafteo, apilar más por espacio, entre otras. La mochila se equipa en la ranura de
+espalda de Accessories, así que se puede usar junto con una pechera.
 
 **Sophisticated Storage**: cofres, barriles y cajas de shulker con los mismos niveles y casi las mismas mejoras que
 las mochilas. Dos cofres juntos forman un cofre doble. Funcionan con Tom's Simple Storage igual que los normales.

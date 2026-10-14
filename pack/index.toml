@@ -6232,6 +6232,11 @@ file = "config/yosbr/options.txt"
 hash = "92e3a6be481bdad6a1489f6e0545dbe4403653d38cea528953d5ed779272bc55"
 
 [[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "427ebc22faea5a83602994fda8ce762e45246472a5637debd5dcab22553917ce"
+metafile = true
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "5285ba249b00d0d12a3cd1f64a5536e7618770dee31d3d240f9d4345ef69f888"
 metafile = true
@@ -6908,6 +6913,11 @@ metafile = true
 [[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "ee103bf45111c2cd7ea2d9b31087867dd4b0d07a4b7dad7b138a4ae506127b37"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "860812150cb54f0d9ee1bce7b72798b6cc5f752bb05709f0c60231d054ec281d"
 metafile = true
 
 [[files]]

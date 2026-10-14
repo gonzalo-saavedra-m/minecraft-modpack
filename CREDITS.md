@@ -26,6 +26,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [[EMF] Entity Model Features](https://modrinth.com/project/entity-model-features) | Traben | LGPL-3.0-only |
 | [[ETF] Entity Texture Features](https://modrinth.com/project/entitytexturefeatures) | Traben | LGPL-3.0-only |
 | [Accessories](https://modrinth.com/project/accessories) | chyzman, miscellaneouszeal, Blodhgarm, Noaaan | MIT |
+| [Accessories Compatibility Layer](https://modrinth.com/project/accessories-compat-layer) | Blodhgarm | MIT |
 | [Advanced Loot Info (ALI)](https://modrinth.com/project/advanced-loot-info) | lalis.jan | MIT |
 | [AFK Cinematics](https://modrinth.com/project/afk-cinematics) | spunkyinsaan | All-Rights-Reserved |
 | [Alex's Caves: Refabricated](https://modrinth.com/project/alexs-caves-refabricated) | diffuse | LGPL-3.0-only |
@@ -158,6 +159,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Tips](https://modrinth.com/project/tips) | Darkhax | LGPL-2.1-only |
 | [Tom's Simple Storage Mod](https://modrinth.com/project/toms-storage) | tom5454 | MIT |
 | [ToolTipFix](https://modrinth.com/project/tooltipfix) | kyrptonaught | MIT |
+| [Trinkets](https://modrinth.com/project/trinkets) | Emi, exaptations | MIT |
 | [UniLib](https://modrinth.com/project/unilib) | CDAGaming | MIT |
 | [Very Many Players (Fabric)](https://modrinth.com/project/vmp-fabric) | ishland | MIT |
 | [Visuality](https://modrinth.com/project/visuality) | PinkGoosik | MIT |
