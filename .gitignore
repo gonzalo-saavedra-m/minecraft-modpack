@@ -6,6 +6,7 @@ attic/
 # Mods propios con repo aparte
 dev-mods/minecraft-rpg/
 dev-mods/minecraft-utility-mods/
+dev-mods/hibernation/
 # Gradle
 build/
 .gradle/
