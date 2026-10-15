@@ -16,6 +16,7 @@ import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.cobblemon.mod.common.pokemon.Species;
 import com.cobblemon.mod.common.pokemon.requirements.LevelRequirement;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadLocalRandom;
 import kotlin.ranges.IntRange;
@@ -30,11 +31,14 @@ import net.minecraft.server.level.ServerPlayer;
  *   baja parejo para todos y salen igual (el más cercano a ti, más seguido).
  * - Nivel: cerca del del jugador (un poco por debajo), dentro del rango del spawn.
  * - Nadie sale bajo el nivel al que evoluciona (Haunter desde 25, Gengar también, porque lo hereda de Haunter).
+ * - Legendarios, singulares y ultraentes (15-oct): bajo su rango pesan menos, como todos; sobre su rango, peso completo
+ *   (Ho-Oh 70 sale igual a un jugador 70 que a uno 90). Su nivel sigue dentro de su rango.
  */
 final class LevelCurveInfluence implements SpawningInfluence {
 	static final double TAU = 5;  // cada 5 niveles de distancia, el peso se divide por e (2,7): a 10, 14 %; a 20, 2 %
 	static final int CENTER = -2, SPREAD = 4;  // nivel = jugador - 2 ± 4 (desviación estándar)
 	private static final Map<Species, Integer> EVO_MIN = new ConcurrentHashMap<>();
+	private static final Set<String> EXEMPT_LABELS = Set.of("legendary", "mythical", "ultra_beast");
 
 	private final ServerPlayer player;
 	private int level = 1;
@@ -87,11 +91,16 @@ final class LevelCurveInfluence implements SpawningInfluence {
 			IntRange r = p.getLevelRange();
 			Species s = p.getPokemon().getSpecies() == null ? null : PokemonSpecies.getByName(p.getPokemon().getSpecies());
 			int lo = Math.max(r.getFirst(), s == null ? 1 : evoMin(s));
-			return new int[]{lo, Math.max(lo, r.getLast())};
+			return new int[]{lo, exempt(s) ? 100 : Math.max(lo, r.getLast())};
 		}
 		if (detail instanceof PokemonHerdSpawnDetail h)
 			return new int[]{h.getLevelRange().getFirst(), h.getLevelRange().getLast()};
 		return null;
+	}
+
+	/** Legendario, singular o ultraente: no pierde peso por estar el jugador sobre su rango. */
+	static boolean exempt(Species s) {
+		return s != null && s.getLabels().stream().anyMatch(EXEMPT_LABELS::contains);
 	}
 
 	/** Nivel mínimo al que existe la especie: el de su evolución por nivel, o el de su preevolución si es mayor. */
