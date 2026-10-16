@@ -9,6 +9,8 @@ import com.cobblemon.mod.common.battles.ForcePassActionResponse;
 import com.cobblemon.mod.common.battles.ForfeitActionResponse;
 import com.cobblemon.mod.common.battles.ShowdownActionResponse;
 import com.cobblemon.mod.common.api.events.CobblemonEvents;
+import com.cobblemon.mod.common.api.pokemon.experience.CandyExperienceSource;
+import com.cobblemon.mod.common.api.pokemon.experience.CommandExperienceSource;
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
 import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawnerFactory;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
@@ -142,6 +144,7 @@ public class MipackRules implements ModInitializer {
 	private static final int END_CRYSTAL_X = 8, END_CRYSTAL_Z = 0;
 
 	private static final float GEM_DROP_CHANCE = 0.03f;
+	private static final int POKEMON_XP_PER_POINT = 20;
 
 	@Override
 	public void onInitialize() {
@@ -215,6 +218,18 @@ public class MipackRules implements ModInitializer {
 			var gem = ResourceLocation.parse("cobblemon:" + p.getPokemon().getPrimaryType().getName().toLowerCase(java.util.Locale.ROOT) + "_gem");
 			if (BuiltInRegistries.ITEM.containsKey(gem)) p.level().addFreshEntity(
 					new ItemEntity(p.level(), p.getX(), p.getY(), p.getZ(), new ItemStack(BuiltInRegistries.ITEM.get(gem))));
+		});
+
+		// La XP que gana un Pokémon del jugador le da XP de Minecraft a él, 1 punto cada POKEMON_XP_PER_POINT (el resto
+		// se sortea para no perder las ganancias chicas). Con Exp. All salta por cada Pokémon del equipo. Los caramelos y
+		// /givexp no cuentan: los caramelos se compran y serían XP para encantar a cambio de CobbleDollars
+		CobblemonEvents.EXPERIENCE_GAINED_EVENT_POST.subscribe(event -> {
+			if (event.getSource() instanceof CandyExperienceSource || event.getSource() instanceof CommandExperienceSource) return;
+			ServerPlayer player = event.getPokemon().getOwnerPlayer();
+			if (player == null) return;
+			int exp = event.getExperience();
+			int points = exp / POKEMON_XP_PER_POINT + (player.getRandom().nextInt(POKEMON_XP_PER_POINT) < exp % POKEMON_XP_PER_POINT ? 1 : 0);
+			if (points > 0) player.giveExperiencePoints(points);
 		});
 
 		// Huir de un salvaje es una tirada, como en los juegos; alejarse no sirve (PokemonBattleActorMixin)
