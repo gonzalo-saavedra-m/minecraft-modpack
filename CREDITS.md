@@ -11,6 +11,7 @@ Archivos que viven dentro del pack (no se bajan de Modrinth). Al sumar algo así
 | Modelos, animaciones, posers, resolvers y texturas de Celesteela, Iron Jugulis e Iron Boulder | [Planeta Cobblemon](https://modrinth.com/mod/planeta-cobblemon-pokemon-pack) v2.2 | CC-BY-ND-4.0 | `pack/config/openloader/packs/mipack/` (sin modificar, solo movidos a las rutas de 1.8) |
 | Condiciones de spawn de UB y paradojas (como referencia) | [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy) v4.0 | ver proyecto | spawns de `mipack` |
 | Tips de pantalla de carga (`Cobblemon-Tips-3.0.zip`) | [Cobblemon Official Modpack](https://modrinth.com/modpack/cobblemon-fabric) 1.8.1 | ver proyecto | `pack/config/openloader/resources/` |
+| Tom's Simple Storage 2.4.2, forkeado (pestañas por categoría, no suelta los cofres de la red al romperlos, español) | [tom5454/Toms-Storage](https://github.com/tom5454/Toms-Storage) | MIT | `dev-mods/toms-storage/` (rama `cobblebanda`) → `pack/mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.1.jar` |
 | Selección de mods de rendimiento y QoL | Cobblemon Official Modpack y [COBBLEVERSE](https://www.lumyverse.com/cobbleverse/credits/) | — | `pack/mods/` |
 
 ## Mods y packs
@@ -74,7 +75,7 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Cobblemon: Mega Showdown](https://modrinth.com/project/cobblemon-mega-showdown) | YajatKaul, HeyImBlue, sanji1, Treynami, Narenhate, Provismet, Lvnatic | MEGA-SHOWDOWN-LICENSE-v2.1 |
 | [Cobblemon: Rider's Call](https://modrinth.com/project/cobblemon-riders-call) | JoStar233 | All-Rights-Reserved |
 | [Cobblemon: Wild Loot](https://modrinth.com/project/cobblemon-wild-loot) | lucyazalea | AGPL-3.0-or-later |
-| [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT |
+| [Cobbreeding](https://modrinth.com/project/cobbreeding) | Fuzuki, ludichat31 | MIT-no-AI-no-reupload |
 | [Configurable](https://modrinth.com/project/configurable) | Bawnorton | MIT |
 | [Crafting Tweaks](https://modrinth.com/project/crafting-tweaks) | BlayTheNinth | All-Rights-Reserved |
 | [CraftPresence](https://modrinth.com/project/craftpresence) | CDAGaming | MIT |
@@ -158,7 +159,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [Text Placeholder API](https://modrinth.com/project/placeholder-api) | Patbox | LGPL-3.0-only |
 | [The Aether](https://modrinth.com/project/aether) | baguchi, alphamode, Katie-Payn, Blodhgarm, bconlon1, sunsette, HugoPayn, Jaryt, Burning-Cactus, raptor494, reetamb, Drullkus, MistaJub, NAPPUS | Custom |
 | [Tips](https://modrinth.com/project/tips) | Darkhax | LGPL-2.1-only |
-| [Tom's Simple Storage Mod](https://modrinth.com/project/toms-storage) | tom5454 | MIT |
 | [ToolTipFix](https://modrinth.com/project/tooltipfix) | kyrptonaught | MIT |
 | [Trinkets](https://modrinth.com/project/trinkets) | Emi, exaptations | MIT |
 | [UniLib](https://modrinth.com/project/unilib) | CDAGaming | MIT |

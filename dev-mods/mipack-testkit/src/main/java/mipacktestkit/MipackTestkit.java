@@ -55,6 +55,7 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest connector <x> <y> <z>     bloques que toma un Inventory Connector de Tom's y conectores enlazados
  * /mrtest pull <x> <y> <z> <ítem> <n>  saca n de ese ítem por el Storage Terminal (como un clic) y dice cuántos salieron
  * /mrtest place <jugador> <x> <y> <z>  usa el ítem de su mano sobre la cara de arriba de ese bloque, como un clic derecho
+ * /mrtest break <jugador> <x> <y> <z>  el jugador rompe ese bloque (como al picarlo: pasa por los eventos de romper)
  * /mrtest raidwin <x> <y> <z>       cierra como ganada la raid del cristal de Raid Dens en ese bloque (clearRaid(true), como
  *                                   al volver de una victoria)
  * /mrtest raidend <jugador>         termina como ganada la raid en que está (como /crd forceclear): la cierra Raid Dens
@@ -162,6 +163,13 @@ public class MipackTestkit implements ModInitializer {
 						.then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
 						.executes(c -> reply(c, place(EntityArgument.getPlayer(c, "player"),
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos")))))))
+				.then(literal("break").then(argument("player", EntityArgument.player())
+						.then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.executes(c -> {
+							var pos = net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos");
+							boolean ok = EntityArgument.getPlayer(c, "player").gameMode.destroyBlock(pos);
+							return reply(c, "break " + pos.toShortString() + ": " + ok);
+						}))))
 				.then(literal("raidwin").then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
 						.executes(c -> reply(c, raidWin(c.getSource().getLevel(),
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
