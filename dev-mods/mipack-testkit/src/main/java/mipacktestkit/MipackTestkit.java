@@ -313,7 +313,11 @@ public class MipackTestkit implements ModInitializer {
 		var be = level.getBlockEntity(pos);
 		if (be == null) return "terminal " + pos.toShortString() + ": no hay block entity";
 		try {
-			var f = be.getClass().getDeclaredField("updateItems"); f.setAccessible(true); f.setBoolean(be, true);
+			// updateItems está en StorageTerminalBlockEntity; la terminal de Cobblebanda es una subclase
+			Class<?> c = be.getClass();
+			while (c != null && java.util.Arrays.stream(c.getDeclaredFields()).noneMatch(x -> x.getName().equals("updateItems"))) c = c.getSuperclass();
+			if (c == null) throw new NoSuchFieldException("updateItems");
+			var f = c.getDeclaredField("updateItems"); f.setAccessible(true); f.setBoolean(be, true);
 			be.getClass().getMethod("updateServer").invoke(be);
 			var stacks = (Map<?, ?>) be.getClass().getMethod("getStacks").invoke(be);
 			var out = new TreeMap<String, Long>();

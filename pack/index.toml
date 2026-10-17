@@ -5123,6 +5123,10 @@ file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/has_w
 hash = "89f341e53c259945766313d8f1dc949cfbfe34581af93a124312ec44a5f0c626"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/keeps_fixed_pokemon.json"
+hash = "f5327192f2fd2d5babdb4b2032b166a390fdf28743bea32d196188724584bb4b"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/mega_site_maps.json"
 hash = "102d2ed8b1b21e56eaa8988aa6af3842175fb0b754b1fa151c49fd7cf552aac6"
 
@@ -6697,7 +6701,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "c8a6e62396454177ba44a4cd8f2ba26cec91fc176499ff27293e028cfe3b55d3"
+hash = "b9a351e9a0e501afa66bcc5e2050c5eccd5f4145820cf0bc291d504b3f878ab1"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -6915,8 +6919,8 @@ hash = "86b8e66a5d0bd757376928425aad3413fb4948b8057fdfddedc3697d107bac50"
 metafile = true
 
 [[files]]
-file = "mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.3.jar"
-hash = "5d7d9cce20fb00fd8b1c2360746ad60656dd8896dc3e21da0118d08eab540bc7"
+file = "mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.4.jar"
+hash = "0d134ca3128c28bb8420b37dbf84b67e4deda445d7dc99635a17bf21e199eaed"
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
