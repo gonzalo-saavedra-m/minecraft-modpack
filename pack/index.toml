@@ -6915,8 +6915,8 @@ hash = "86b8e66a5d0bd757376928425aad3413fb4948b8057fdfddedc3697d107bac50"
 metafile = true
 
 [[files]]
-file = "mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.1.jar"
-hash = "a4b50a053540499f8f783971954364cb4f45fbae93802c694f6aade184ec7438"
+file = "mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.2.jar"
+hash = "10836bd07fc6875117f093c7ead1c3c894665823748f92cc2b4723ae72489458"
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
