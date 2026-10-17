@@ -159,6 +159,10 @@ file = "config/openloader/packs/mipack/assets/cobblemon/textures/pokemon/1022_ir
 hash = "7b41606aa3f628c4b457190306f0d1d21fc843f0b56f7b99af3a9f3e5fce055f"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/accessories/tags/item/hat.json"
+hash = "7b1b146fe988d77597d00917afe2cb86e86b41031f301cdb64b715a93ff813b6"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/betterdeserttemples/tags/worldgen/biome/has_structure/better_desert_temple.json"
 hash = "acc06888f023974ee1636a99e7f173742eb81cd71bd726a2e2318100a43f790f"
 

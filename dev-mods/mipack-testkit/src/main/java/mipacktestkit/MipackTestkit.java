@@ -59,6 +59,9 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest raidwin <x> <y> <z>       cierra como ganada la raid del cristal de Raid Dens en ese bloque (clearRaid(true), como
  *                                   al volver de una victoria)
  * /mrtest raidend <jugador>         termina como ganada la raid en que está (como /crd forceclear): la cierra Raid Dens
+ * /mrtest backpack <jugador>        le pone una mochila en la ranura de espalda de Accessories (normal y cosmética) y
+ *                                   dice si Sophisticated Backpacks la encuentra, como al apretar la tecla de abrirla
+ * /mrtest equip <jugador> <ítem>    en qué ranura de Accessories queda ese ítem al equiparlo (o "ninguna")
  */
 public class MipackTestkit implements ModInitializer {
 	private static final java.util.concurrent.atomic.AtomicInteger SPAWNS = new java.util.concurrent.atomic.AtomicInteger();
@@ -188,6 +191,12 @@ public class MipackTestkit implements ModInitializer {
 					var log = battle.getBattleLog();
 					return reply(c, "log:\n" + String.join("\n", log.subList(Math.max(0, log.size() - 15), log.size())));
 				})))
+				.then(literal("backpack").then(argument("player", EntityArgument.player())
+						.executes(c -> reply(c, backpack(EntityArgument.getPlayer(c, "player"))))))
+				.then(literal("equip").then(argument("player", EntityArgument.player())
+						.then(argument("item", net.minecraft.commands.arguments.item.ItemArgument.item(registry))
+						.executes(c -> reply(c, "equip: " + equipSlot(EntityArgument.getPlayer(c, "player"),
+								net.minecraft.commands.arguments.item.ItemArgument.getItem(c, "item").createItemStack(1, false)))))))
 				.then(literal("status").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, "status " + EntityArgument.getPlayer(c, "player").getScoreboardName() + ": "
 								+ status(EntityArgument.getPlayer(c, "player"))))))));
@@ -415,6 +424,66 @@ public class MipackTestkit implements ModInitializer {
 		} catch (ReflectiveOperationException e) {
 			return "raidend: " + e;
 		}
+	}
+
+	private static String backpack(ServerPlayer player) {
+		try {
+			var cl = player.getClass().getClassLoader();
+			Object cap = Class.forName("io.wispforest.accessories.api.AccessoriesCapability", true, cl)
+					.getMethod("get", net.minecraft.world.entity.LivingEntity.class).invoke(null, player);
+			var containers = (Map<?, ?>) cap.getClass().getMethod("getContainers").invoke(cap);
+			Object back = containers.get("back");
+			if (back == null) return "backpack: sin ranura back; ranuras=" + containers.keySet();
+			var item = BuiltInRegistries.ITEM.get(net.minecraft.resources.ResourceLocation.parse("sophisticatedbackpacks:iron_backpack"));
+			var out = new StringBuilder("ranuras=" + containers.keySet());
+			// Ranuras que muestra la pantalla de Accessories con showUnusedSlots=false (las que sirven para algo del inventario)
+			player.getInventory().setItem(0, new net.minecraft.world.item.ItemStack(item));
+			out.append(" | usadas: ").append(((java.util.Collection<?>) Class.forName("io.wispforest.accessories.api.AccessoriesAPI", true, cl)
+					.getMethod("getUsedSlotsFor", net.minecraft.world.entity.LivingEntity.class, net.minecraft.world.Container.class)
+					.invoke(null, player, player.getInventory())).stream().map(t -> { try { return t.getClass().getMethod("name").invoke(t); } catch (ReflectiveOperationException e) { return e; } }).toList());
+			player.getInventory().setItem(0, net.minecraft.world.item.ItemStack.EMPTY);
+			// Dónde la deja Accessories al equiparla a mano (pasa por los validadores de cada ranura)
+			out.append(" | puedeEquipar: ").append(cap.getClass().getMethod("canEquipAccessory", net.minecraft.world.item.ItemStack.class, boolean.class)
+					.invoke(cap, new net.minecraft.world.item.ItemStack(item), true));
+			for (String which : List.of("getAccessories", "getCosmeticAccessories")) {
+				var normal = (net.minecraft.world.Container) back.getClass().getMethod("getAccessories").invoke(back);
+				var cosmetic = (net.minecraft.world.Container) back.getClass().getMethod("getCosmeticAccessories").invoke(back);
+				normal.setItem(0, net.minecraft.world.item.ItemStack.EMPTY);
+				cosmetic.setItem(0, net.minecraft.world.item.ItemStack.EMPTY);
+				((net.minecraft.world.Container) back.getClass().getMethod(which).invoke(back)).setItem(0, new net.minecraft.world.item.ItemStack(item));
+				out.append(" | ").append(which).append(": ").append(backpacksFound(player, cl));
+			}
+			return "backpack " + player.getScoreboardName() + ": " + out;
+		} catch (ReflectiveOperationException e) {
+			return "backpack: " + e;
+		}
+	}
+
+	private static String equipSlot(ServerPlayer player, net.minecraft.world.item.ItemStack stack) {
+		try {
+			var cl = player.getClass().getClassLoader();
+			Object cap = Class.forName("io.wispforest.accessories.api.AccessoriesCapability", true, cl)
+					.getMethod("get", net.minecraft.world.entity.LivingEntity.class).invoke(null, player);
+			var pair = (it.unimi.dsi.fastutil.Pair<?, ?>) cap.getClass().getMethod("canEquipAccessory", net.minecraft.world.item.ItemStack.class, boolean.class).invoke(cap, stack, true);
+			return pair == null ? "ninguna" : (String) pair.left().getClass().getMethod("slotName").invoke(pair.left());
+		} catch (ReflectiveOperationException e) {
+			return e.toString();
+		}
+	}
+
+	// Lo que recorre la tecla de abrir mochila (BackpackOpenPayload.findAndOpenFirstBackpack): handler/identificador/slot
+	private static List<String> backpacksFound(ServerPlayer player, ClassLoader cl) throws ReflectiveOperationException {
+		var provider = Class.forName("net.p3pp3rf1y.sophisticatedbackpacks.util.PlayerInventoryProvider", true, cl);
+		var consumer = Class.forName("net.p3pp3rf1y.sophisticatedbackpacks.util.PlayerInventoryProvider$BackpackInventorySlotConsumer", true, cl);
+		List<String> found = new ArrayList<>();
+		Object proxy = java.lang.reflect.Proxy.newProxyInstance(cl, new Class<?>[] {consumer}, (o, m, a) -> {
+			if (!m.getName().equals("accept")) return m.invoke(found, a);
+			found.add(a[1] + "/" + a[2] + "/" + a[3]);
+			return false;
+		});
+		Object instance = provider.getMethod("get").invoke(null);
+		provider.getMethod("runOnBackpacks", net.minecraft.world.entity.player.Player.class, consumer).invoke(instance, player, proxy);
+		return found;
 	}
 
 	private static int reply(CommandContext<CommandSourceStack> c, String msg) {
