@@ -125,7 +125,7 @@ public class MipackRules implements ModInitializer {
 	private static final Map<String, String> DUNGEON_KEYS = Map.of("aether:slider", "aether:bronze_dungeon_key",
 			"aether:valkyrie_queen", "aether:silver_dungeon_key", "aether:sun_spirit", "aether:gold_dungeon_key");
 	private static final String DUNGEON_KEY_DATA = "mipack_dungeon_key";
-	/** Lugar del guardián: si se aleja más de GUARDIAN_LEASH bloques (salvaje y fuera de combate), vuelve a su sala. */
+	/** Lugar del guardián o legendario fijo: si se aleja más de GUARDIAN_LEASH bloques (salvaje y fuera de combate), vuelve a su sala. */
 	private static final String DUNGEON_HOME_DATA = "mipack_dungeon_home";
 	private static final double GUARDIAN_LEASH = 8;
 
@@ -353,12 +353,17 @@ public class MipackRules implements ModInitializer {
 		if (options == null) return null;
 		PokemonEntity pokemon = PokemonProperties.Companion.parse(options[level.random.nextInt(options.length)]).createEntity(level);
 		pokemon.getPokemon().getPersistentData().putString(DUNGEON_KEY_DATA, DUNGEON_KEYS.get(id));
-		pokemon.getPokemon().getPersistentData().putLong(DUNGEON_HOME_DATA, boss.blockPosition().asLong());
 		pokemon.moveTo(boss.getX(), boss.getY(), boss.getZ(), boss.getYRot(), 0);
+		setHome(pokemon);
 		pokemon.setPersistenceRequired();
 		LOGGER.info("Guardián de mazmorra {} en {} (en vez de {})",
 				pokemon.getPokemon().getSpecies().getName(), pokemon.blockPosition(), id);
 		return pokemon;
+	}
+
+	/** Ata al Pokémon a donde está: guardianes del Aether y legendarios fijos de cualquier estructura (WorldGenRegionMixin). */
+	public static void setHome(PokemonEntity pokemon) {
+		pokemon.getPokemon().getPersistentData().putLong(DUNGEON_HOME_DATA, pokemon.blockPosition().asLong());
 	}
 
 	private static void leashGuardian(PokemonEntity pokemon) {

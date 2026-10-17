@@ -5123,10 +5123,6 @@ file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/has_w
 hash = "89f341e53c259945766313d8f1dc949cfbfe34581af93a124312ec44a5f0c626"
 
 [[files]]
-file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/keeps_fixed_pokemon.json"
-hash = "f5327192f2fd2d5babdb4b2032b166a390fdf28743bea32d196188724584bb4b"
-
-[[files]]
 file = "config/openloader/packs/mipack/data/mipack/tags/worldgen/structure/mega_site_maps.json"
 hash = "102d2ed8b1b21e56eaa8988aa6af3842175fb0b754b1fa151c49fd7cf552aac6"
 
@@ -6701,7 +6697,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "b9a351e9a0e501afa66bcc5e2050c5eccd5f4145820cf0bc291d504b3f878ab1"
+hash = "8db403cfa7b3ec7eab4742534e26c628075149606540b1928a53eb9dea70794d"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

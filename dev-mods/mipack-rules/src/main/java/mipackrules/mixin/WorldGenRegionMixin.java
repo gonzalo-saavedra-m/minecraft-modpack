@@ -1,6 +1,7 @@
 package mipackrules.mixin;
 
 import mipackrules.MipackRules;
+import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.WorldGenRegion;
 import net.minecraft.world.entity.Entity;
@@ -12,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Generación del mundo: toda estructura y feature (vanilla o de mods) pone bloques y entidades por aquí. Los Pokémon
- * fijos de estructuras solo se quedan si son legendarios, míticos o Gimmighoul/Gholdengo.
+ * fijos de estructuras solo se quedan si son legendarios, míticos o Gimmighoul/Gholdengo, y quedan atados a su lugar.
  */
 @Mixin(WorldGenRegion.class)
 public class WorldGenRegionMixin {
@@ -30,5 +31,6 @@ public class WorldGenRegionMixin {
 			Entity guardian = MipackRules.dungeonGuardian(entity, region.getLevel());
 			cir.setReturnValue(guardian != null && region.addFreshEntity(guardian));
 		} else if (MipackRules.isBlockedFixedPokemon(entity)) cir.setReturnValue(false);
+		else if (entity instanceof PokemonEntity pokemon) MipackRules.setHome(pokemon); // el legendario no se va de su estructura
 	}
 }
