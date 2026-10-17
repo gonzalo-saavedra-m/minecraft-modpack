@@ -56,6 +56,8 @@ import net.minecraft.world.level.levelgen.structure.StructureStart;
  * /mrtest pull <x> <y> <z> <ítem> <n>  saca n de ese ítem por el Storage Terminal (como un clic) y dice cuántos salieron
  * /mrtest place <jugador> <x> <y> <z>  usa el ítem de su mano sobre la cara de arriba de ese bloque, como un clic derecho
  * /mrtest break <jugador> <x> <y> <z>  el jugador rompe ese bloque (como al picarlo: pasa por los eventos de romper)
+ * /mrtest craft <jugador> <x> <y> <z> <ítem> <n>  abre la terminal de Tom's, pone n del ítem en la cuadrícula, hace
+ *                                   shift-clic en el resultado y dice qué recibió el jugador y qué quedó en la cuadrícula
  * /mrtest raidwin <x> <y> <z>       cierra como ganada la raid del cristal de Raid Dens en ese bloque (clearRaid(true), como
  *                                   al volver de una victoria)
  * /mrtest raidend <jugador>         termina como ganada la raid en que está (como /crd forceclear): la cierra Raid Dens
@@ -173,6 +175,12 @@ public class MipackTestkit implements ModInitializer {
 							boolean ok = EntityArgument.getPlayer(c, "player").gameMode.destroyBlock(pos);
 							return reply(c, "break " + pos.toShortString() + ": " + ok);
 						}))))
+				.then(literal("craft").then(argument("player", EntityArgument.player())
+						.then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
+						.then(argument("item", net.minecraft.commands.arguments.item.ItemArgument.item(registry))
+						.then(argument("n", IntegerArgumentType.integer(1, 64)).executes(c -> reply(c, craft(EntityArgument.getPlayer(c, "player"),
+								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"),
+								net.minecraft.commands.arguments.item.ItemArgument.getItem(c, "item").createItemStack(IntegerArgumentType.getInteger(c, "n"), false)))))))))
 				.then(literal("raidwin").then(argument("pos", net.minecraft.commands.arguments.coordinates.BlockPosArgument.blockPos())
 						.executes(c -> reply(c, raidWin(c.getSource().getLevel(),
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
@@ -318,6 +326,25 @@ public class MipackTestkit implements ModInitializer {
 	}
 
 	// Tom's Simple Storage por reflexión (no es dependencia de compilación): fuerza el recálculo que hace al abrirlo
+	private static String craft(net.minecraft.server.level.ServerPlayer player, BlockPos pos, net.minecraft.world.item.ItemStack in) {
+		var be = player.serverLevel().getBlockEntity(pos);
+		if (!(be instanceof net.minecraft.world.MenuProvider mp)) return "craft " + pos.toShortString() + ": no es una terminal";
+		try {
+			player.openMenu(mp);
+			be.getClass().getMethod("setCraftSlot", int.class, int.class, net.minecraft.world.item.ItemStack.class).invoke(be, 0, 0, in);
+			var menu = player.containerMenu;
+			var result = menu.getSlot(0).getItem().copy();
+			menu.clicked(0, 0, net.minecraft.world.inventory.ClickType.QUICK_MOVE, player);
+			var grid = be.getClass().getMethod("getCraftingInv").invoke(be);
+			var left = ((net.minecraft.world.Container) grid).getItem(0);
+			int got = player.getInventory().countItem(result.getItem());
+			player.closeContainer();
+			return "craft " + pos.toShortString() + ": resultado " + result + ", el jugador tiene " + got + ", quedó en la cuadrícula " + left;
+		} catch (ReflectiveOperationException e) {
+			return "craft " + pos.toShortString() + ": " + e;
+		}
+	}
+
 	private static String terminal(ServerLevel level, BlockPos pos) {
 		var be = level.getBlockEntity(pos);
 		if (be == null) return "terminal " + pos.toShortString() + ": no hay block entity";

@@ -11,7 +11,7 @@ Archivos que viven dentro del pack (no se bajan de Modrinth). Al sumar algo así
 | Modelos, animaciones, posers, resolvers y texturas de Celesteela, Iron Jugulis e Iron Boulder | [Planeta Cobblemon](https://modrinth.com/mod/planeta-cobblemon-pokemon-pack) v2.2 | CC-BY-ND-4.0 | `pack/config/openloader/packs/mipack/` (sin modificar, solo movidos a las rutas de 1.8) |
 | Condiciones de spawn de UB y paradojas (como referencia) | [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy) v4.0 | ver proyecto | spawns de `mipack` |
 | Tips de pantalla de carga (`Cobblemon-Tips-3.0.zip`) | [Cobblemon Official Modpack](https://modrinth.com/modpack/cobblemon-fabric) 1.8.1 | ver proyecto | `pack/config/openloader/resources/` |
-| Tom's Simple Storage 2.4.2, forkeado (pestañas por categoría, no suelta los cofres de la red al romperlos, español) | [tom5454/Toms-Storage](https://github.com/tom5454/Toms-Storage) | MIT | `dev-mods/toms-storage/` (rama `cobblebanda`) → `pack/mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.4.jar` |
+| Tom's Simple Storage 2.4.2, forkeado (pestañas por categoría, no suelta los cofres de la red al romperlos, español) | [tom5454/Toms-Storage](https://github.com/tom5454/Toms-Storage) | MIT | `dev-mods/toms-storage/` (rama `cobblebanda`) → `pack/mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.5.jar` |
 | Selección de mods de rendimiento y QoL | Cobblemon Official Modpack y [COBBLEVERSE](https://www.lumyverse.com/cobbleverse/credits/) | — | `pack/mods/` |
 
 ## Mods y packs
