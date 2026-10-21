@@ -32,10 +32,12 @@ import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.UUID;
 import java.util.WeakHashMap;
 import java.util.stream.StreamSupport;
 import net.minecraft.ChatFormatting;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.tags.DamageTypeTags;
@@ -159,6 +161,12 @@ public class MipackRules implements ModInitializer {
 		ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) ->
 				!(entity instanceof PokemonEntity p && !p.getPokemon().isWild())
 						|| source.is(DamageTypeTags.BYPASSES_INVULNERABILITY));
+
+		// Los legendarios de estructuras generados antes de darles UUID propio lo reciben al cargar su chunk
+		ServerEntityEvents.ENTITY_LOAD.register((entity, level) -> {
+			if (entity instanceof PokemonEntity p && p.getPokemon().isWild()
+					&& TEMPLATE_POKEMON_UUIDS.contains(p.getPokemon().getUuid())) freshUuid(p);
+		});
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
@@ -337,6 +345,29 @@ public class MipackRules implements ModInitializer {
 	/** Pokémon que una estructura sí puede dejar fijo al generarse: legendarios, míticos y la línea de Gimmighoul. */
 	private static final Set<String> FIXED_OK_LABELS = Set.of("legendary", "mythical");
 	private static final Set<String> FIXED_OK_SPECIES = Set.of("gimmighoul", "gholdengo");
+
+	/**
+	 * UUID fijo de cada legendario que traen las plantillas de cobblemonextrastructures 1.3.0. Todas las copias de una
+	 * estructura eran el mismo Pokémon para Cobblemon y, al atrapar el segundo, el PC se quedaba con uno solo.
+	 */
+	// shortcut: solo los que ya se generaron con el UUID de la plantilla; los nuevos nacen con uno propio (freshUuid)
+	private static final Set<UUID> TEMPLATE_POKEMON_UUIDS = Set.of(
+			UUID.fromString("1d650f91-8bc0-429a-9b44-12d341c96103"), // Ho-Oh, bell_tower
+			UUID.fromString("6c097748-d7b4-4d1d-a36d-5a169a848cf1"), // Rayquaza, sky_pillar
+			UUID.fromString("3b53eb77-4443-4c23-aab4-19d7789a6933"), // Kyogre, origin_cave
+			UUID.fromString("e9dd6040-87c3-4ee1-a94f-339c684a3693"), // Groudon, origin_tomb
+			UUID.fromString("721129cd-d5bd-4fbb-afb3-1dc1a018e1fc"), // Regigigas, snowpoint_temple
+			UUID.fromString("64d3f5d1-f3b5-4c8c-a18f-ef5ff810fdf5"), // Regirock, desert_ruins
+			UUID.fromString("2c9e1059-1d0a-4ee5-9a48-befff544df8f"), // Regice, island_cave
+			UUID.fromString("af105b1b-909a-4362-a2fb-fde3d2f92da3")); // Registeel, ancient_tomb
+
+	/** Pokémon puesto por una estructura: la plantilla trae su UUID fijo, así que cada copia recibe uno propio. */
+	public static void freshUuid(PokemonEntity pokemon) {
+		UUID old = pokemon.getPokemon().getUuid();
+		pokemon.getPokemon().setUuid(UUID.randomUUID());
+		LOGGER.info("UUID nuevo para {} de estructura en {} (traía {})",
+				pokemon.getPokemon().getSpecies().getName(), pokemon.blockPosition(), old);
+	}
 
 	/** Pokémon fijo de una estructura que no cumple la regla: se descarta al generar el mundo. */
 	public static boolean isBlockedFixedPokemon(Entity entity) {

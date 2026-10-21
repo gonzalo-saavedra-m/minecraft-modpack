@@ -13,7 +13,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Generación del mundo: toda estructura y feature (vanilla o de mods) pone bloques y entidades por aquí. Los Pokémon
- * fijos de estructuras solo se quedan si son legendarios, míticos o Gimmighoul/Gholdengo, y quedan atados a su lugar.
+ * fijos de estructuras solo se quedan si son legendarios, míticos o Gimmighoul/Gholdengo, y quedan atados a su lugar
+ * con un UUID propio (la plantilla trae uno fijo, igual en todas las copias).
  */
 @Mixin(WorldGenRegion.class)
 public class WorldGenRegionMixin {
@@ -31,6 +32,9 @@ public class WorldGenRegionMixin {
 			Entity guardian = MipackRules.dungeonGuardian(entity, region.getLevel());
 			cir.setReturnValue(guardian != null && region.addFreshEntity(guardian));
 		} else if (MipackRules.isBlockedFixedPokemon(entity)) cir.setReturnValue(false);
-		else if (entity instanceof PokemonEntity pokemon) MipackRules.setHome(pokemon); // el legendario no se va de su estructura
+		else if (entity instanceof PokemonEntity pokemon) {
+			MipackRules.freshUuid(pokemon);
+			MipackRules.setHome(pokemon); // el legendario no se va de su estructura
+		}
 	}
 }
