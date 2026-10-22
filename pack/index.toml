@@ -6701,7 +6701,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "0d4ec2104d41b6490e98ff1cc0334420a50dbb6f4d21ce23fb934d4a1b8136e1"
+hash = "386d591b1cae5b31492bbe495d5a18c9694bef8b2a78e5196614b017b48a638a"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -6954,12 +6954,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "a00158a640285545d232f5f9e82e5102ea4a9246f7897b4ff9f3f7544d5f288a"
+hash = "3d9b82d9ae5481fb89d2b9ee9078ab07abe7f173c721b5fe305ee61e143d4a51"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "fb245abdce152a31eae431d6d7340c69ad899ca35b6f71e12d840cc15e1e861a"
+hash = "73d1367d4abe99767382e71303cbf5cd0449f55c5ceb6a32f8d6c1c13536ead4"
 metafile = true
 
 [[files]]
