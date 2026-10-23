@@ -1,0 +1,247 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_campamento-lillipup",
+      "pokemon": "lillipup",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-pidove",
+      "pokemon": "pidove",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-rattata",
+      "pokemon": "rattata",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-bidoof",
+      "pokemon": "bidoof",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-skwovet",
+      "pokemon": "skwovet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-wooloo",
+      "pokemon": "wooloo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-eevee",
+      "pokemon": "eevee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-meowth",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-nickit",
+      "pokemon": "nickit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-rookidee",
+      "pokemon": "rookidee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-herdier",
+      "pokemon": "herdier",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-37",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-tranquill",
+      "pokemon": "tranquill",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-36",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-bibarel",
+      "pokemon": "bibarel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-greedent",
+      "pokemon": "greedent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-thievul",
+      "pokemon": "thievul",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_campamento-smeargle",
+      "pokemon": "smeargle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "5-29",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:desert_outpost",
+          "terralith:valley_lodge"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_fantasmas-gastly",
+      "pokemon": "gastly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-litwick",
+      "pokemon": "litwick",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-shuppet",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-misdreavus",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-golett",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-haunter",
+      "pokemon": "haunter",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-51",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-lampent",
+      "pokemon": "lampent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "41-46",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-golurk",
+      "pokemon": "golurk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "43-48",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-gengar",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-chandelure",
+      "pokemon": "chandelure",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "41-52",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas-mismagius",
+      "pokemon": "mismagius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:abandoned_tower"
+        ]
+      }
+    }
+  ]
+}

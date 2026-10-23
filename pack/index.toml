@@ -5123,6 +5123,10 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/c
 hash = "7cae8c2d263e1364222baf1dcadc643802de0aacdcc41970edc19413157c20e1"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_sea_mauville.json"
+hash = "f9eb6eab2f04816b6e81b293714234aa656997bcaa83ce28217ca088a31b2236"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_sky_pillar.json"
 hash = "a54b29e4b50bcaaad33af80e8bdf27c7b84780b529fff3448fb87b81a7e2a209"
 
@@ -5141,6 +5145,174 @@ hash = "bb7c1d1f78a1c105536879a74cd27f47069a77d91f51adbc2e79a0e6a971678e"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/mineshaft.json"
 hash = "556ec3b3b092c48347ab7577c88522f83c3b6c3c3786c675852cdac5647a1583"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_agua_profunda.json"
+hash = "bc365d665084e5012ff9cd494c229a4757a7cf9c56728a733d1e632174412eca"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_aranas.json"
+hash = "c0a98237720008332bb6304731a2425ec667cd3058945266cdaaf90dbfe8384f"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_bosque_deseos.json"
+hash = "ba35f2aa5586d5a83a5aeae2e038d23fdc68b8fe515fd99472370a29b5ebc992"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_brujas.json"
+hash = "b0d0ff4c50dcee053f06f70d5ae6e43cbb3ba3de3adb9e5e9d3363a809b1fced"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_brujas1.json"
+hash = "168b43d3409310f49a7980f57f80bdd061c86a90ff7c962fb43ceb7c3ac3fbf0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_campamento.json"
+hash = "f354acd314165dc38236d86a74076a9386c710f63e7780afa0162ae9b30165e2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_campamento1.json"
+hash = "4570bba2b9fa4e9ea4f4a36e8b20744a90c4386ce5134cfbc1903930f0ca853a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_castillo.json"
+hash = "d45f927c54df49190a2835b323fc67c9a34f6c30086300da1a4f57b759d58753"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_cerdos.json"
+hash = "5f0edb470ab5cdc382fcc6a2aa25a1a177c55a3458545335664aaae43a2680e7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_cielo.json"
+hash = "7f054e026c4d47ba59d837a5cdf7d6ea4fc42488154dc771b6495540fef8ccd9"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_cocina.json"
+hash = "c53eba44f5ea609f468e92be84ee928708dd5ea959c8d28ba6df1da160016d9c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_colmena.json"
+hash = "17c2453115641e9d91524241a508df3e48da3262808b93b117d0c58d9b3708b1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_columna_lanza.json"
+hash = "ed0b45e99e98e2875cdacafe3e21882578a54e18d87a620f017d593cd78593e4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_cueva.json"
+hash = "069450acc0a0c2f7958ca7250d4c6a2e87328506982fb38128895f629a17cdb1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_distorsion.json"
+hash = "65c0272a21039f992627b07f24c750ccfaa0f9958b07fe7fee770fa9350064ef"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_dulces.json"
+hash = "b205fca0f95aa29896e36efdd446970cdc825cffe1ccbd10b390aa06a3a4e1d1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_escombros.json"
+hash = "0c429cea6e5401c106f4fdb758f594a42f302a375b75c5bd5a99790b26e8f308"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_espacio.json"
+hash = "da9d5bd2ac2b4104379ec2e0234f76a4af473b9c8c51d03604b767de9471468d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_excavacion.json"
+hash = "2f260dbecc70feb92a30ca3a7af74908852ed7f438abbbdd59f43be198a201fd"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_fantasmas.json"
+hash = "6cb2663d6863a5dfde8d61e29e04a3742c65e6f83d5ee65c95e87a4a14387434"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_fantasmas1.json"
+hash = "ec5781762dc828b8f0f863f0f3e4de3783c2475010e90d79a564761eabb2e5ec"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_fosiles.json"
+hash = "ce92b9e74df7cb04fa9bbbdb62a5948eaa2792c143f6c6cbea9f89b8ab760a39"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_grieta.json"
+hash = "607d36589cc4ec5cdc12a2b46f6249ea945a1a8ec6f8b8ce75cdb37f599f6a67"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_hielo.json"
+hash = "fc77b40a879ca67d9401aec68425ee79e34a09fe9a00447249b44824514c180e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_hielo1.json"
+hash = "3da5d790d236e2765829de18215769f743488920d5e0c02647ee3253b872dcc4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_huesos.json"
+hash = "a893890f8d9f132c1e9cfd5d5f93ca0379861eaf47d69233b30b45e52fa682ba"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_huesos_dragon.json"
+hash = "d73175f9a9b59e215f19e34cf3f7cf700c74a396af652c3ca7f13ba69848796c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_industrial.json"
+hash = "3d162ccc48e2166286bdeeee3250a05fffc5788a38b37693e0f010e038375336"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_lagos.json"
+hash = "b0e550b8104a20a0c1fd5469ab9bf5fa655acde04252f6a3581fd563090903dc"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_magnetico.json"
+hash = "959f86f7c88a1da40cc258ed47eda90ca08434a9f327787346ab2c7bce647238"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_magos.json"
+hash = "c79d3bf0d7c6a04b8c934246c7b69da903692e7404a86ad003d30b7849e1d179"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_mar.json"
+hash = "7332c85dfa7a10a65b4e28803161f4c82cc632444221cda099c891d8188d5821"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_mazmorra_nether.json"
+hash = "317a2e863c8073564008542c823d300b18e3eb61e6c2a2bef103fb5025aae239"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_megas.json"
+hash = "d85fd8d32e273527b5d16e0edb5b008a6e5203021e8fcea3747ff8a00b6eb93d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_mineros.json"
+hash = "fa5754e75e220d0d93c39fd23277ff57febd64bacdef4624e880241ac4b621ca"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_podridos.json"
+hash = "5f89cff19b6974b37401f52545c523a66ab7b00c13d3857ce016e4aaccd66df8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_santuario_fuego.json"
+hash = "ab629372544b3db1527a8feb696693916002e9852e7b1fd4fc189ed5e2f19feb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_sombras.json"
+hash = "a9b7a8953375baa61cc16b2cf9409e1d6a5550c6c76a9f35cc4ceec27e88695e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_templo_antiguo.json"
+hash = "7c26c7c8fb639866e1877d449fd271399c60a4d498919485df79121ab6c1f4e3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_tesoro.json"
+hash = "baafaa271a4c11291695181fde114d17992041f7ca001003d0ffbed31d48761a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_toxico.json"
+hash = "c1aa6d5732b6c39c7874b18f9ebc9134cb6e7e2730cd85ef692c66afa04c5751"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/tema_volcan.json"
+hash = "bf512f96f8a41223af565995762d293fe1d8c8c51906ba18a617d1795c88d5d3"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/terralith/cave/mantle_caves.json"
@@ -6769,7 +6941,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "dd6801ee7127428d8ed022a0ac431cef9f5463a9f41dc96706ab80067f76c1b7"
+hash = "fd7dfbb8a95d8370b9eff0e640d0307fed2ddd37db216845a8e07b3dbb107d67"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

@@ -1,0 +1,228 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_toxico-grimer",
+      "pokemon": "grimer",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-koffing",
+      "pokemon": "koffing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-trubbish",
+      "pokemon": "trubbish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-gulpin",
+      "pokemon": "gulpin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-27",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-skrelp",
+      "pokemon": "skrelp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-mareanie",
+      "pokemon": "mareanie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-glimmet",
+      "pokemon": "glimmet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-muk",
+      "pokemon": "muk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-weezing",
+      "pokemon": "weezing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-49",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-garbodor",
+      "pokemon": "garbodor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-47",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-swalot",
+      "pokemon": "swalot",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-62",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-toxapex",
+      "pokemon": "toxapex",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "38-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_toxico-glimmora",
+      "pokemon": "glimmora",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:toxic_caves"
+        ],
+        "structures": [
+          "alexscaves:acid_pit"
+        ]
+      }
+    }
+  ]
+}

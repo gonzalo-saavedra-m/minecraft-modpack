@@ -1,0 +1,232 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_espacio-clefairy",
+      "pokemon": "clefairy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "17-32",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-cleffa",
+      "pokemon": "cleffa",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-26",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-lunatone",
+      "pokemon": "lunatone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-solrock",
+      "pokemon": "solrock",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-elgyem",
+      "pokemon": "elgyem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-staryu",
+      "pokemon": "staryu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-minior",
+      "pokemon": "minior",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-47",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-natu",
+      "pokemon": "natu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-beheeyem",
+      "pokemon": "beheeyem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "42-49",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-starmie",
+      "pokemon": "starmie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-52",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-xatu",
+      "pokemon": "xatu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-47",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-sigilyph",
+      "pokemon": "sigilyph",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-49",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-beldum",
+      "pokemon": "beldum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-clefable",
+      "pokemon": "clefable",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "27-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_espacio-metang",
+      "pokemon": "metang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-44",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "mega_showdown:megaroid",
+          "mega_showdown:observatory"
+        ]
+      }
+    }
+  ]
+}

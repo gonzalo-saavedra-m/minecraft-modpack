@@ -1,0 +1,187 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_cueva-zubat",
+      "pokemon": "zubat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-geodude",
+      "pokemon": "geodude",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-whismur",
+      "pokemon": "whismur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-noibat",
+      "pokemon": "noibat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-roggenrola",
+      "pokemon": "roggenrola",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-diglett",
+      "pokemon": "diglett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-golbat",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-graveler",
+      "pokemon": "graveler",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-loudred",
+      "pokemon": "loudred",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-boldore",
+      "pokemon": "boldore",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_cueva-noivern",
+      "pokemon": "noivern",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "48-54",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "alexscaves:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

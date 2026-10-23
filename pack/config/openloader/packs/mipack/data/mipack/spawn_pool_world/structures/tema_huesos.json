@@ -1,0 +1,172 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_huesos-cubone",
+      "pokemon": "cubone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-sandygast",
+      "pokemon": "sandygast",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-honedge",
+      "pokemon": "honedge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-yamask",
+      "pokemon": "yamask",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-marowak",
+      "pokemon": "marowak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-43",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-palossand",
+      "pokemon": "palossand",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "42-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-doublade",
+      "pokemon": "doublade",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-45",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-cofagrigus",
+      "pokemon": "cofagrigus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_huesos-dusknoir",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "41-53",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:skeleton_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

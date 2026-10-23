@@ -1,0 +1,263 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_campamento1-lillipup",
+      "pokemon": "lillipup",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-pidove",
+      "pokemon": "pidove",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-rattata",
+      "pokemon": "rattata",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-bidoof",
+      "pokemon": "bidoof",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-skwovet",
+      "pokemon": "skwovet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-wooloo",
+      "pokemon": "wooloo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-eevee",
+      "pokemon": "eevee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-43",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-meowth",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-nickit",
+      "pokemon": "nickit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-rookidee",
+      "pokemon": "rookidee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-herdier",
+      "pokemon": "herdier",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-37",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-tranquill",
+      "pokemon": "tranquill",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-36",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-bibarel",
+      "pokemon": "bibarel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-greedent",
+      "pokemon": "greedent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-thievul",
+      "pokemon": "thievul",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_campamento1-smeargle",
+      "pokemon": "smeargle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-39",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/oak_cabin",
+          "terralith:underground_cabin"
+        ],
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

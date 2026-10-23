@@ -1,0 +1,247 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_fantasmas1-gastly",
+      "pokemon": "gastly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-litwick",
+      "pokemon": "litwick",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-shuppet",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-misdreavus",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-golett",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-haunter",
+      "pokemon": "haunter",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-lampent",
+      "pokemon": "lampent",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "41-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-golurk",
+      "pokemon": "golurk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "43-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-gengar",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-chandelure",
+      "pokemon": "chandelure",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "41-52",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_fantasmas1-mismagius",
+      "pokemon": "mismagius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/sunken_tower",
+          "betterdungeons:small_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

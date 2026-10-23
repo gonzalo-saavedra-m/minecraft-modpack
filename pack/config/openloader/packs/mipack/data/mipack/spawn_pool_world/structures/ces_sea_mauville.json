@@ -1,0 +1,175 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_sea_mauville-tentacool",
+      "pokemon": "tentacool",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-magikarp",
+      "pokemon": "magikarp",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-24",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-wailmer",
+      "pokemon": "wailmer",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-carvanha",
+      "pokemon": "carvanha",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-frillish",
+      "pokemon": "frillish",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-tentacruel",
+      "pokemon": "tentacruel",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "30-52",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-sharpedo",
+      "pokemon": "sharpedo",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "30-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-jellicent",
+      "pokemon": "jellicent",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "40-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-dhelmise",
+      "pokemon": "dhelmise",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "27-52",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-gyarados",
+      "pokemon": "gyarados",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "20-54",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-wailord",
+      "pokemon": "wailord",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "40-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sea_mauville-spiritomb",
+      "pokemon": "spiritomb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sea_mauville"
+        ]
+      }
+    }
+  ]
+}

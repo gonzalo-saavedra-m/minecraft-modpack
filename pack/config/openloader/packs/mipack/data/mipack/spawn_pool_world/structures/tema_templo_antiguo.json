@@ -1,0 +1,133 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_templo_antiguo-golett",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-bronzor",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-baltoy",
+      "pokemon": "baltoy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-sigilyph",
+      "pokemon": "sigilyph",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "24-49",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-yamask-galarian",
+      "pokemon": "yamask galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-golurk",
+      "pokemon": "golurk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "43-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-bronzong",
+      "pokemon": "bronzong",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-claydol",
+      "pokemon": "claydol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_templo_antiguo-runerigus",
+      "pokemon": "runerigus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "deeperdarker:ancient_temple"
+        ]
+      }
+    }
+  ]
+}

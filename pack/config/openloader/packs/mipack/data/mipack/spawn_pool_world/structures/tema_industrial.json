@@ -1,0 +1,311 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_industrial-magnemite",
+      "pokemon": "magnemite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-klink",
+      "pokemon": "klink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-koffing",
+      "pokemon": "koffing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-grimer",
+      "pokemon": "grimer",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-trubbish",
+      "pokemon": "trubbish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-sizzlipede",
+      "pokemon": "sizzlipede",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-magneton",
+      "pokemon": "magneton",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-52",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-klang",
+      "pokemon": "klang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-44",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-weezing",
+      "pokemon": "weezing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-49",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-muk",
+      "pokemon": "muk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-garbodor",
+      "pokemon": "garbodor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-47",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-centiskorch",
+      "pokemon": "centiskorch",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-rotom",
+      "pokemon": "rotom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-90",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-magnezone",
+      "pokemon": "magnezone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-klinklang",
+      "pokemon": "klinklang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "49-52",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_industrial-turtonator",
+      "pokemon": "turtonator",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:pipeline",
+          "incendium:nether_reactor",
+          "incendium:ruined_lab"
+        ]
+      }
+    }
+  ]
+}

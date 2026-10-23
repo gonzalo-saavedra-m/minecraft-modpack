@@ -1,0 +1,157 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_aranas-spinarak",
+      "pokemon": "spinarak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-joltik",
+      "pokemon": "joltik",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-tarountula",
+      "pokemon": "tarountula",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-dewpider",
+      "pokemon": "dewpider",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-nymble",
+      "pokemon": "nymble",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-ariados",
+      "pokemon": "ariados",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-galvantula",
+      "pokemon": "galvantula",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-47",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-spidops",
+      "pokemon": "spidops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-araquanid",
+      "pokemon": "araquanid",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-45",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_aranas-lokix",
+      "pokemon": "lokix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-45",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "betterdungeons:spider_dungeon"
+        ],
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_grieta-elgyem",
+      "pokemon": "elgyem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-80",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_grieta-solosis",
+      "pokemon": "solosis",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-80",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_grieta-minior",
+      "pokemon": "minior",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-80",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_grieta-sigilyph",
+      "pokemon": "sigilyph",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-80",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_grieta-beheeyem",
+      "pokemon": "beheeyem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "55-62",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_grieta-duosion",
+      "pokemon": "duosion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "55-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_grieta-reuniclus",
+      "pokemon": "reuniclus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-63",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:rift"
+        ]
+      }
+    }
+  ]
+}

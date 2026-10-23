@@ -1,0 +1,228 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_volcan-slugma",
+      "pokemon": "slugma",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-39",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-magby",
+      "pokemon": "magby",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-numel",
+      "pokemon": "numel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-torkoal",
+      "pokemon": "torkoal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-47",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-salandit",
+      "pokemon": "salandit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-magcargo",
+      "pokemon": "magcargo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-43",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-magmar",
+      "pokemon": "magmar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-camerupt",
+      "pokemon": "camerupt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-46",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-salazzle",
+      "pokemon": "salazzle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-turtonator",
+      "pokemon": "turtonator",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-49",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-heatmor",
+      "pokemon": "heatmor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-magmortar",
+      "pokemon": "magmortar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_volcan-volcarona",
+      "pokemon": "volcarona",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "59-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:volcano"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_magnetico-magnemite",
+      "pokemon": "magnemite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-nosepass",
+      "pokemon": "nosepass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-voltorb",
+      "pokemon": "voltorb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-klink",
+      "pokemon": "klink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-bronzor",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-magneton",
+      "pokemon": "magneton",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-47",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-electrode",
+      "pokemon": "electrode",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-49",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-klang",
+      "pokemon": "klang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-44",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-bronzong",
+      "pokemon": "bronzong",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-probopass",
+      "pokemon": "probopass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "33-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-magnezone",
+      "pokemon": "magnezone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_magnetico-metang",
+      "pokemon": "metang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-44",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:magnetic_caves"
+        ],
+        "structures": [
+          "alexscaves:ferrocave"
+        ]
+      }
+    }
+  ]
+}

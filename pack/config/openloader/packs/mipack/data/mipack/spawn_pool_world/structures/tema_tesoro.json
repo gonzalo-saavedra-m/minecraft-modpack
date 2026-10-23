@@ -1,0 +1,105 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_tesoro-gimmighoul",
+      "pokemon": "gimmighoul",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_tesoro-sandygast",
+      "pokemon": "sandygast",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_tesoro-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "13-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_tesoro-krabby",
+      "pokemon": "krabby",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_tesoro-palossand",
+      "pokemon": "palossand",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "42-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_tesoro-kingler",
+      "pokemon": "kingler",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_tesoro-gholdengo",
+      "pokemon": "gholdengo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "minecraft:buried_treasure"
+        ]
+      }
+    }
+  ]
+}

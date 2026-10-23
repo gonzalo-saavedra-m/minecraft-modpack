@@ -1,0 +1,263 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_mineros-roggenrola",
+      "pokemon": "roggenrola",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-timburr",
+      "pokemon": "timburr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-drilbur",
+      "pokemon": "drilbur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-machop",
+      "pokemon": "machop",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-nacli",
+      "pokemon": "nacli",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-diglett",
+      "pokemon": "diglett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-magnemite",
+      "pokemon": "magnemite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-onix",
+      "pokemon": "onix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-boldore",
+      "pokemon": "boldore",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-gurdurr",
+      "pokemon": "gurdurr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-machoke",
+      "pokemon": "machoke",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-naclstack",
+      "pokemon": "naclstack",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-36",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-carbink",
+      "pokemon": "carbink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-excadrill",
+      "pokemon": "excadrill",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "31-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-gigalith",
+      "pokemon": "gigalith",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-52",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    },
+    {
+      "id": "mipack-tema_mineros-conkeldurr",
+      "pokemon": "conkeldurr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:underground/mining_outpost",
+          "terralith:underground/old_refinery"
+        ],
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

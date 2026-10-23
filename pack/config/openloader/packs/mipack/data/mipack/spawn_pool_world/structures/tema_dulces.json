@@ -1,0 +1,307 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_dulces-milcery",
+      "pokemon": "milcery",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-swirlix",
+      "pokemon": "swirlix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-applin",
+      "pokemon": "applin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-vanillite",
+      "pokemon": "vanillite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-fidough",
+      "pokemon": "fidough",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-bounsweet",
+      "pokemon": "bounsweet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-cherubi",
+      "pokemon": "cherubi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-alcremie",
+      "pokemon": "alcremie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-slurpuff",
+      "pokemon": "slurpuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-48",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-vanillish",
+      "pokemon": "vanillish",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-dachsbun",
+      "pokemon": "dachsbun",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "26-48",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-steenee",
+      "pokemon": "steenee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-29",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-flapple",
+      "pokemon": "flapple",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-49",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-appletun",
+      "pokemon": "appletun",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-49",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_dulces-vanilluxe",
+      "pokemon": "vanilluxe",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "47-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:cake_cave",
+          "alexscaves:donut_arch",
+          "alexscaves:gingerbread_town",
+          "alexscaves:soda_bottle"
+        ]
+      }
+    }
+  ]
+}

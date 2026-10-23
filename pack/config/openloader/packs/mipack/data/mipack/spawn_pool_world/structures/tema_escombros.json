@@ -1,0 +1,292 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_escombros-geodude",
+      "pokemon": "geodude",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-roggenrola",
+      "pokemon": "roggenrola",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-nosepass",
+      "pokemon": "nosepass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "13-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-bonsly",
+      "pokemon": "bonsly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-cubone",
+      "pokemon": "cubone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-baltoy",
+      "pokemon": "baltoy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-dwebble",
+      "pokemon": "dwebble",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-golett",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-graveler",
+      "pokemon": "graveler",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-boldore",
+      "pokemon": "boldore",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-sudowoodo",
+      "pokemon": "sudowoodo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-marowak",
+      "pokemon": "marowak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-43",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-crustle",
+      "pokemon": "crustle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "34-49",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-claydol",
+      "pokemon": "claydol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_escombros-golurk",
+      "pokemon": "golurk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "43-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:rubble_desert",
+          "terralith:rubble_forest",
+          "terralith:rubble_jungle",
+          "terralith:rubble_mesa",
+          "terralith:rubble_mountain",
+          "terralith:rubble_taiga"
+        ]
+      }
+    }
+  ]
+}

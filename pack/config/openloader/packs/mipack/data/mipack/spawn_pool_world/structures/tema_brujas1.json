@@ -1,0 +1,217 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_brujas1-purrloin",
+      "pokemon": "purrloin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-hatenna",
+      "pokemon": "hatenna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-misdreavus",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-murkrow",
+      "pokemon": "murkrow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-impidimp",
+      "pokemon": "impidimp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-sinistea",
+      "pokemon": "sinistea",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-shuppet",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-meowth",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-liepard",
+      "pokemon": "liepard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-hattrem",
+      "pokemon": "hattrem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-37",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-polteageist",
+      "pokemon": "polteageist",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "26-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-mismagius",
+      "pokemon": "mismagius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-honchkrow",
+      "pokemon": "honchkrow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas1-hatterene",
+      "pokemon": "hatterene",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:witch_hut"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_santuario_fuego-ponyta",
+      "pokemon": "ponyta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-houndour",
+      "pokemon": "houndour",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-charcadet",
+      "pokemon": "charcadet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-litleo",
+      "pokemon": "litleo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-larvesta",
+      "pokemon": "larvesta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-rapidash",
+      "pokemon": "rapidash",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-houndoom",
+      "pokemon": "houndoom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-61",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-pyroar",
+      "pokemon": "pyroar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-heatmor",
+      "pokemon": "heatmor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-armarouge",
+      "pokemon": "armarouge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-67",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-ceruledge",
+      "pokemon": "ceruledge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-67",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_santuario_fuego-volcarona",
+      "pokemon": "volcarona",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "59-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:sanctum",
+          "incendium:infernal_altar"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_huesos_dragon-dreepy",
+      "pokemon": "dreepy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-80",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-noibat",
+      "pokemon": "noibat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-79",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "55-80",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-drakloak",
+      "pokemon": "drakloak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "55-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "55-64",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-noivern",
+      "pokemon": "noivern",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "55-61",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-dragapult",
+      "pokemon": "dragapult",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "60-65",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_huesos_dragon-dusknoir",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "55-67",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "structures": [
+          "nullscape:dragon_skeleton"
+        ]
+      }
+    }
+  ]
+}

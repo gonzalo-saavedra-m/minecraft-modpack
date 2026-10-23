@@ -1,0 +1,245 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_cocina-pansear",
+      "pokemon": "pansear",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-darumaka",
+      "pokemon": "darumaka",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-slugma",
+      "pokemon": "slugma",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-59",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-chimchar",
+      "pokemon": "chimchar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-fuecoco",
+      "pokemon": "fuecoco",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-61",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-capsakid",
+      "pokemon": "capsakid",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-simisear",
+      "pokemon": "simisear",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-58",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-darmanitan",
+      "pokemon": "darmanitan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-magcargo",
+      "pokemon": "magcargo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-43",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-monferno",
+      "pokemon": "monferno",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-crocalor",
+      "pokemon": "crocalor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-scovillain",
+      "pokemon": "scovillain",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-59",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-skeledirge",
+      "pokemon": "skeledirge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cocina-infernape",
+      "pokemon": "infernape",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-55",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:quartz_kitchen"
+        ]
+      }
+    }
+  ]
+}

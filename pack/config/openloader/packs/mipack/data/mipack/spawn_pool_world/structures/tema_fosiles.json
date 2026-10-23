@@ -1,0 +1,262 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_fosiles-kabuto",
+      "pokemon": "kabuto",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-omanyte",
+      "pokemon": "omanyte",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-lileep",
+      "pokemon": "lileep",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-anorith",
+      "pokemon": "anorith",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-cranidos",
+      "pokemon": "cranidos",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-shieldon",
+      "pokemon": "shieldon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-archen",
+      "pokemon": "archen",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-tirtouga",
+      "pokemon": "tirtouga",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-tyrunt",
+      "pokemon": "tyrunt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-amaura",
+      "pokemon": "amaura",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-aerodactyl",
+      "pokemon": "aerodactyl",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "27-52",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-rampardos",
+      "pokemon": "rampardos",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-bastiodon",
+      "pokemon": "bastiodon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-tyrantrum",
+      "pokemon": "tyrantrum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-52",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_fosiles-aurorus",
+      "pokemon": "aurorus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-52",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      }
+    }
+  ]
+}

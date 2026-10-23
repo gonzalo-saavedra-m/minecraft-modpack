@@ -255,7 +255,7 @@ STARTERS = {
     'silver': ('15-25', 'squirtle totodile mudkip piplup oshawott froakie popplio sobble quaxly'),
     'gold': ('20-30', 'charmander cyndaquil torchic chimchar tepig fennekin litten scorbunny fuecoco'),
 }
-# Cobblemon Extra Structures (decidido el 23-oct): estructura -> [(pokemon, bucket, extras...)]. Cobblemon mira los chunks que
+# Cobblemon Extra Structures (decidido el 23-oct; Sea Mauville el mismo día: solo agua y Spiritomb): estructura -> [(pokemon, bucket, extras...)]. Cobblemon mira los chunks que
 # toca la estructura y no spawnea a menos de 16 bloques del jugador: en las casas chicas quedan pocas posiciones, así que
 # común y poco común pesan 1000 para ganarle al pool del bioma (con 200, la farmacia no sacaba nada en 5 min). Raros y
 # ultra raros como en las minas. Sin preset: salen sobre cualquier suelo (tablones, escaleras).
@@ -306,7 +306,207 @@ EXTRA_STRUCTURES = {
     'outskirt_stand': [('elekid', 'common')],
     'suerebe': [('shroomish', 'common'), ('ludicolo', 'uncommon')],
     'pharmacy': [('chansey', 'common'), ('jigglypuff', 'common'), ('wigglytuff', 'uncommon')],
+    # Ciudad hundida: agua, más Spiritomb (venía fijo en la plantilla y se borra por no ser legendario)
+    'sea_mauville': [('tentacool', 'common', 'agua'), ('magikarp', 'common', 'agua'), ('wailmer', 'common', 'agua'),
+                     ('carvanha', 'common', 'agua'), ('frillish', 'common', 'agua'), ('tentacruel', 'uncommon', 'agua'),
+                     ('sharpedo', 'uncommon', 'agua'), ('jellicent', 'uncommon', 'agua'), ('dhelmise', 'rare', 'agua'),
+                     ('gyarados', 'rare', 'agua'), ('wailord', 'rare', 'agua'), ('spiritomb', 'rare')],
 }
+# Arreglo general (decidido el 23-oct): toda estructura que no tenía Pokémon propios recibe un tema. Tema -> especies (mismo
+# formato que EXTRA_STRUCTURES). Mismo peso que Extra Structures. La lista de abajo dice qué tema y dimensión lleva cada una
+THEMES = {
+    'agua_profunda': [(p, b, 'agua') for p, b in (
+        ('chinchou', 'common'), ('clamperl', 'common'), ('finneon', 'common'), ('skrelp', 'common'), ('frillish', 'common'),
+        ('mantyke', 'common'), ('inkay', 'common'), ('lanturn', 'uncommon'), ('lumineon', 'uncommon'), ('huntail', 'uncommon'),
+        ('gorebyss', 'uncommon'), ('jellicent', 'uncommon'), ('mantine', 'uncommon'), ('malamar', 'uncommon'),
+        ('alomomola', 'uncommon'), ('relicanth', 'rare'), ('dragalge', 'rare'), ('dhelmise', 'rare'))],
+    'mar': [(p, b, 'agua') for p, b in (
+        ('magikarp', 'common'), ('tentacool', 'common'), ('remoraid', 'common'), ('wailmer', 'common'), ('finizen', 'common'),
+        ('horsea', 'common'), ('staryu', 'common'), ('shellder', 'common'), ('wishiwashi', 'common'),
+        ('tentacruel', 'uncommon'), ('octillery', 'uncommon'), ('seadra', 'uncommon'), ('gyarados', 'rare'), ('palafin', 'rare'))],
+    'industrial': [('magnemite', 'common'), ('klink', 'common'), ('koffing', 'common'), ('grimer', 'common'),
+                   ('trubbish', 'common'), ('sizzlipede', 'common'), ('magneton', 'uncommon'), ('klang', 'uncommon'),
+                   ('weezing', 'uncommon'), ('muk', 'uncommon'), ('garbodor', 'uncommon'), ('centiskorch', 'uncommon'),
+                   ('rotom', 'uncommon'), ('magnezone', 'rare'), ('klinklang', 'rare'), ('turtonator', 'rare')],
+    'castillo': [('honedge', 'common'), ('pawniard', 'common'), ('houndour', 'common'), ('impidimp', 'common'),
+                 ('sableye', 'common'), ('doublade', 'uncommon'), ('bisharp', 'uncommon'), ('houndoom', 'uncommon'),
+                 ('morgrem', 'uncommon'), ('aegislash', 'rare'), ('grimmsnarl', 'rare'), ('kingambit', 'ultra-rare')],
+    'fantasmas': [('gastly', 'common'), ('litwick', 'common'), ('duskull', 'common'), ('shuppet', 'common'),
+                  ('misdreavus', 'common'), ('golett', 'common'), ('haunter', 'uncommon'), ('lampent', 'uncommon'),
+                  ('dusclops', 'uncommon'), ('banette', 'uncommon'), ('sableye', 'uncommon'), ('golurk', 'rare'),
+                  ('gengar', 'rare'), ('chandelure', 'rare'), ('mismagius', 'rare')],
+    'cocina': [('pansear', 'common'), ('darumaka', 'common'), ('slugma', 'common'), ('chimchar', 'common'),
+               ('fuecoco', 'common'), ('capsakid', 'common'), ('simisear', 'uncommon'), ('darmanitan', 'uncommon'),
+               ('magcargo', 'uncommon'), ('monferno', 'uncommon'), ('crocalor', 'uncommon'), ('scovillain', 'uncommon'),
+               ('skeledirge', 'rare'), ('infernape', 'rare')],
+    'santuario_fuego': [('ponyta', 'common'), ('houndour', 'common'), ('charcadet', 'common'), ('litleo', 'common'),
+                        ('larvesta', 'common'), ('rapidash', 'uncommon'), ('houndoom', 'uncommon'), ('pyroar', 'uncommon'),
+                        ('heatmor', 'uncommon'), ('armarouge', 'rare'), ('ceruledge', 'rare'), ('volcarona', 'rare')],
+    'cerdos': [('tepig', 'common'), ('spoink', 'common'), ('lechonk', 'common'), ('swinub', 'common'),
+               ('pignite', 'uncommon'), ('grumpig', 'uncommon'), ('oinkologne', 'uncommon'), ('piloswine', 'uncommon'),
+               ('emboar', 'rare'), ('mamoswine', 'rare')],
+    'volcan': [('slugma', 'common'), ('magby', 'common'), ('numel', 'common'), ('torkoal', 'common'), ('salandit', 'common'),
+               ('magcargo', 'uncommon'), ('magmar', 'uncommon'), ('camerupt', 'uncommon'), ('salazzle', 'uncommon'),
+               ('turtonator', 'uncommon'), ('heatmor', 'uncommon'), ('magmortar', 'rare'), ('volcarona', 'rare')],
+    'fosiles': [('kabuto', 'common'), ('omanyte', 'common'), ('lileep', 'common'), ('anorith', 'common'),
+                ('cranidos', 'common'), ('shieldon', 'common'), ('archen', 'common'), ('tirtouga', 'common'),
+                ('tyrunt', 'common'), ('amaura', 'common'), ('aerodactyl', 'uncommon'), ('rampardos', 'rare'),
+                ('bastiodon', 'rare'), ('tyrantrum', 'rare'), ('aurorus', 'rare')],
+    'magnetico': [('magnemite', 'common'), ('nosepass', 'common'), ('voltorb', 'common'), ('klink', 'common'),
+                  ('bronzor', 'common'), ('magneton', 'uncommon'), ('electrode', 'uncommon'), ('klang', 'uncommon'),
+                  ('bronzong', 'uncommon'), ('probopass', 'rare'), ('magnezone', 'rare'), ('metang', 'rare')],
+    'toxico': [('grimer', 'common'), ('koffing', 'common'), ('trubbish', 'common'), ('gulpin', 'common'), ('skrelp', 'common'),
+               ('mareanie', 'common'), ('glimmet', 'common'), ('muk', 'uncommon'), ('weezing', 'uncommon'),
+               ('garbodor', 'uncommon'), ('swalot', 'uncommon'), ('toxapex', 'rare'), ('glimmora', 'rare')],
+    'dulces': [('milcery', 'common'), ('swirlix', 'common'), ('applin', 'common'), ('vanillite', 'common'),
+               ('fidough', 'common'), ('bounsweet', 'common'), ('cherubi', 'common'), ('alcremie', 'uncommon'),
+               ('slurpuff', 'uncommon'), ('vanillish', 'uncommon'), ('dachsbun', 'uncommon'), ('steenee', 'uncommon'),
+               ('flapple', 'rare'), ('appletun', 'rare'), ('vanilluxe', 'rare')],
+    'brujas': [('purrloin', 'common'), ('hatenna', 'common'), ('misdreavus', 'common'), ('murkrow', 'common'),
+               ('impidimp', 'common'), ('sinistea', 'common'), ('shuppet', 'common'), ('meowth', 'common'),
+               ('liepard', 'uncommon'), ('hattrem', 'uncommon'), ('banette', 'uncommon'), ('polteageist', 'rare'),
+               ('mismagius', 'rare'), ('honchkrow', 'rare'), ('hatterene', 'rare')],
+    'sombras': [('gastly', 'common'), ('shuppet', 'common'), ('duskull', 'common'), ('zorua', 'common'), ('murkrow', 'common'),
+                ('woobat', 'common'), ('sableye', 'uncommon'), ('haunter', 'uncommon'), ('banette', 'uncommon'),
+                ('swoobat', 'uncommon'), ('zoroark', 'rare'), ('spiritomb', 'rare')],
+    'cueva': [('zubat', 'common'), ('geodude', 'common'), ('whismur', 'common'), ('noibat', 'common'), ('roggenrola', 'common'),
+              ('diglett', 'common'), ('golbat', 'uncommon'), ('graveler', 'uncommon'), ('loudred', 'uncommon'),
+              ('boldore', 'uncommon'), ('sableye', 'uncommon'), ('noivern', 'rare')],
+    'columna_lanza': [('bronzor', 'common'), ('chingling', 'common'), ('natu', 'common'), ('elgyem', 'common'),
+                      ('gible', 'common'), ('bronzong', 'uncommon'), ('chimecho', 'uncommon'), ('xatu', 'uncommon'),
+                      ('sigilyph', 'uncommon'), ('gabite', 'uncommon'), ('beheeyem', 'rare'), ('garchomp', 'ultra-rare')],
+    'lagos': [('psyduck', 'common'), ('chingling', 'common'), ('ralts', 'common'), ('spoink', 'common'), ('meditite', 'common'),
+              ('golduck', 'uncommon'), ('chimecho', 'uncommon'), ('kirlia', 'uncommon'), ('grumpig', 'uncommon'),
+              ('medicham', 'uncommon'), ('gardevoir', 'rare'), ('gallade', 'rare')],
+    'distorsion': [('drifloon', 'common'), ('misdreavus', 'common'), ('duskull', 'common'), ('golett', 'common'),
+                   ('sableye', 'common'), ('drifblim', 'uncommon'), ('dusclops', 'uncommon'), ('haunter', 'uncommon'),
+                   ('golurk', 'rare'), ('mismagius', 'rare'), ('dusknoir', 'rare'), ('gengar', 'rare'), ('spiritomb', 'rare')],
+    'megas': [('absol', 'common'), ('mawile', 'common'), ('aron', 'common'), ('ralts', 'common'), ('abra', 'common'),
+              ('electrike', 'common'), ('meditite', 'common'), ('shuppet', 'common'), ('riolu', 'uncommon'),
+              ('heracross', 'uncommon'), ('pinsir', 'uncommon'), ('kangaskhan', 'uncommon'), ('lairon', 'uncommon'),
+              ('beldum', 'rare'), ('gible', 'rare'), ('aggron', 'rare'), ('lucario', 'rare')],
+    'espacio': [('clefairy', 'common'), ('cleffa', 'common'), ('lunatone', 'common'), ('solrock', 'common'), ('elgyem', 'common'),
+                ('staryu', 'common'), ('minior', 'common'), ('natu', 'common'), ('beheeyem', 'uncommon'),
+                ('starmie', 'uncommon'), ('xatu', 'uncommon'), ('sigilyph', 'uncommon'), ('beldum', 'uncommon'),
+                ('clefable', 'rare'), ('metang', 'rare')],
+    'excavacion': [('diglett', 'common'), ('drilbur', 'common'), ('sandile', 'common'), ('cubone', 'common'),
+                   ('baltoy', 'common'), ('golett', 'common'), ('hippopotas', 'common'), ('onix', 'uncommon'),
+                   ('marowak', 'uncommon'), ('claydol', 'uncommon'), ('krokorok', 'uncommon'), ('excadrill', 'rare'),
+                   ('golurk', 'rare'), ('krookodile', 'rare')],
+    'bosque_deseos': [('hatenna', 'common'), ('impidimp', 'common'), ('cutiefly', 'common'), ('togepi', 'common'),
+                      ('phantump', 'common'), ('pumpkaboo', 'common'), ('morelull', 'common'), ('comfey', 'uncommon'),
+                      ('togetic', 'uncommon'), ('trevenant', 'uncommon'), ('gourgeist', 'uncommon'), ('shiinotic', 'uncommon'),
+                      ('ribombee', 'uncommon'), ('togekiss', 'rare'), ('hatterene', 'rare')],
+    'magos': [('abra', 'common'), ('natu', 'common'), ('espurr', 'common'), ('drowzee', 'common'), ('gothita', 'common'),
+              ('solosis', 'common'), ('chingling', 'common'), ('hatenna', 'common'), ('kadabra', 'uncommon'),
+              ('xatu', 'uncommon'), ('meowstic', 'uncommon'), ('hypno', 'uncommon'), ('gothorita', 'uncommon'),
+              ('duosion', 'uncommon'), ('chimecho', 'uncommon'), ('alakazam', 'rare'), ('indeedee', 'rare')],
+    'hielo': [('snorunt', 'common'), ('spheal', 'common'), ('cubchoo', 'common'), ('snom', 'common'), ('sneasel', 'common'),
+              ('swinub', 'common'), ('smoochum', 'common'), ('delibird', 'common'), ('bergmite', 'common'),
+              ('glalie', 'uncommon'), ('sealeo', 'uncommon'), ('beartic', 'uncommon'), ('piloswine', 'uncommon'),
+              ('jynx', 'uncommon'), ('eiscue', 'uncommon'), ('froslass', 'rare'), ('frosmoth', 'rare'),
+              ('weavile', 'rare'), ('avalugg', 'rare')],
+    'campamento': [('lillipup', 'common'), ('pidove', 'common'), ('rattata', 'common'), ('bidoof', 'common'),
+                   ('skwovet', 'common'), ('wooloo', 'common'), ('eevee', 'common'), ('meowth', 'common'), ('nickit', 'common'),
+                   ('rookidee', 'common'), ('herdier', 'uncommon'), ('tranquill', 'uncommon'), ('bibarel', 'uncommon'),
+                   ('greedent', 'uncommon'), ('thievul', 'uncommon'), ('smeargle', 'rare')],
+    'escombros': [('geodude', 'common'), ('roggenrola', 'common'), ('nosepass', 'common'), ('bonsly', 'common'),
+                  ('cubone', 'common'), ('baltoy', 'common'), ('dwebble', 'common'), ('golett', 'common'),
+                  ('graveler', 'uncommon'), ('boldore', 'uncommon'), ('sudowoodo', 'uncommon'), ('marowak', 'uncommon'),
+                  ('crustle', 'uncommon'), ('claydol', 'rare'), ('golurk', 'rare')],
+    'colmena': [('combee', 'common'), ('cutiefly', 'common'), ('weedle', 'common'), ('burmy', 'common'), ('venipede', 'common'),
+                ('kakuna', 'uncommon'), ('ribombee', 'uncommon'), ('heracross', 'uncommon'), ('mothim', 'uncommon'),
+                ('beedrill', 'rare'), ('vespiquen', 'rare')],
+    'mineros': [('roggenrola', 'common'), ('timburr', 'common'), ('drilbur', 'common'), ('machop', 'common'), ('nacli', 'common'),
+                ('diglett', 'common'), ('magnemite', 'common'), ('onix', 'uncommon'), ('boldore', 'uncommon'),
+                ('gurdurr', 'uncommon'), ('machoke', 'uncommon'), ('naclstack', 'uncommon'), ('carbink', 'uncommon'),
+                ('excadrill', 'rare'), ('gigalith', 'rare'), ('conkeldurr', 'rare')],
+    'aranas': [('spinarak', 'common'), ('joltik', 'common'), ('tarountula', 'common'), ('dewpider', 'common'),
+               ('nymble', 'common'), ('ariados', 'uncommon'), ('galvantula', 'uncommon'), ('spidops', 'uncommon'),
+               ('araquanid', 'uncommon'), ('lokix', 'rare')],
+    'huesos': [('cubone', 'common'), ('duskull', 'common'), ('sandygast', 'common'), ('honedge', 'common'), ('yamask', 'common'),
+               ('marowak', 'uncommon'), ('dusclops', 'uncommon'), ('palossand', 'uncommon'), ('doublade', 'uncommon'),
+               ('cofagrigus', 'rare'), ('dusknoir', 'rare')],
+    'podridos': [('trubbish', 'common'), ('gastly', 'common'), ('shuppet', 'common'), ('grimer', 'common'), ('yamask', 'common'),
+                 ('garbodor', 'uncommon'), ('haunter', 'uncommon'), ('banette', 'uncommon'), ('muk', 'uncommon'),
+                 ('cofagrigus', 'rare'), ('gengar', 'rare')],
+    'mazmorra_nether': [('litwick', 'common'), ('houndour', 'common'), ('sizzlipede', 'common'), ('salandit', 'common'),
+                        ('gastly', 'common'), ('lampent', 'uncommon'), ('houndoom', 'uncommon'), ('sableye', 'uncommon'),
+                        ('salazzle', 'rare'), ('chandelure', 'rare')],
+    'cielo': [('castform', 'common'), ('hoppip', 'common'), ('drifloon', 'common'), ('cottonee', 'common'), ('swablu', 'common'),
+              ('noibat', 'common'), ('skiploom', 'uncommon'), ('altaria', 'uncommon'), ('drifblim', 'uncommon'),
+              ('tropius', 'uncommon'), ('togetic', 'uncommon'), ('whimsicott', 'uncommon'), ('jumpluff', 'rare'),
+              ('togekiss', 'rare'), ('noivern', 'rare')],
+    'templo_antiguo': [('golett', 'common'), ('bronzor', 'common'), ('baltoy', 'common'), ('sigilyph', 'common'),
+                       ('yamask galarian', 'common'), ('golurk', 'uncommon'), ('bronzong', 'uncommon'), ('claydol', 'uncommon'),
+                       ('runerigus', 'rare')],
+    'huesos_dragon': [('dreepy', 'common'), ('noibat', 'common'), ('duskull', 'common'), ('drakloak', 'uncommon'),
+                      ('dusclops', 'uncommon'), ('noivern', 'uncommon'), ('dragapult', 'rare'), ('dusknoir', 'rare')],
+    'grieta': [('elgyem', 'common'), ('solosis', 'common'), ('minior', 'common'), ('sigilyph', 'common'),
+               ('beheeyem', 'uncommon'), ('duosion', 'uncommon'), ('reuniclus', 'rare')],
+    'tesoro': [('gimmighoul', 'common'), ('sandygast', 'common'), ('sableye', 'common'), ('krabby', 'common'),
+               ('palossand', 'uncommon'), ('kingler', 'uncommon'), ('gholdengo', 'ultra-rare')],
+}
+END = ['#cobblemon:is_end']  # todos los spawns del End usan exactamente este tag
+NETHER, AETHER = ['#minecraft:is_nether'], ['#aether:is_aether']
+DISTORTION = ['clumpedindistortionworld:clumpy_distortion_world']
+# tema -> [(biomas de la dimensión o None, [estructuras])]
+STRUCTURE_THEMES = {
+    'agua_profunda': [(None, [AC + 'ocean_trench', AC + 'abyssal_ruins', 'cobblemon:ruins/submerged_forge_ruins',
+                              'betteroceanmonuments:ocean_monument'])],
+    'mar': [(None, ['cobblemon:fishing_boat/beach', 'cobblemon:fishing_boat/warm_ocean', 'cobblemon:fishing_boat/deep_ocean'])],
+    'industrial': [(NETHER, ['incendium:pipeline', 'incendium:nether_reactor', 'incendium:ruined_lab'])],
+    'castillo': [(NETHER, ['incendium:forbidden_castle'])],
+    'fantasmas': [(NETHER, ['incendium:abandoned_tower']), (None, ['terralith:underground/sunken_tower', 'betterdungeons:small_dungeon'])],
+    'cocina': [(NETHER, ['incendium:quartz_kitchen'])],
+    'santuario_fuego': [(NETHER, ['incendium:sanctum', 'incendium:infernal_altar'])],
+    'cerdos': [(NETHER, ['incendium:piglin_village'])],
+    'volcan': [([AC + 'primordial_caves'], [AC + 'volcano'])],
+    'fosiles': [([AC + 'primordial_caves'], [AC + 'dino_bowl'])],
+    'magnetico': [([AC + 'magnetic_caves'], [AC + 'ferrocave'])],
+    'toxico': [([AC + 'toxic_caves'], [AC + 'acid_pit'])],
+    'dulces': [([AC + 'candy_cavity'], [AC + 'cake_cave', AC + 'donut_arch', AC + 'gingerbread_town', AC + 'soda_bottle'])],
+    'brujas': [([AC + 'candy_cavity'], [AC + 'licowitch_tower']), (None, ['terralith:witch_hut'])],
+    'sombras': [([AC + 'forlorn_hollows'], [AC + 'forlorn_bridge', AC + 'forlorn_canyon'])],
+    'cueva': [(None, [AC + 'underground_cabin'])],
+    'columna_lanza': [(None, ['clumpedindistortionworld:spearpillar'])],
+    'lagos': [(DISTORTION, ['clumpedindistortionworld:uxiestructure', 'clumpedindistortionworld:mespritstructure',
+                            'clumpedindistortionworld:azelfstructure'])],
+    'distorsion': [(DISTORTION, ['clumpedindistortionworld:giratinaroom', 'clumpedindistortionworld:distorteddungeonnormalpokeball'])],
+    'megas': [(None, ['mega_showdown:mega_site'])],
+    'espacio': [(None, ['mega_showdown:megaroid', 'mega_showdown:observatory'])],
+    'excavacion': [(None, ['mega_showdown:archaeological_site'])],
+    'bosque_deseos': [(None, ['mega_showdown:wishing_weald'])],
+    'magos': [(None, ['terralith:mage_tower', 'terralith:mage_tower_autumn', 'terralith:mage_tower_spring',
+                      'terralith:mage_tower_summer', 'terralith:mage_tower_winter', 'terralith:mage_complex'])],
+    'hielo': [(None, ['terralith:glacial_hut', 'terralith:igloo', 'terralith:underground/frosted_dungeon', 'terralith:spire'])],
+    'campamento': [(None, ['terralith:desert_outpost', 'terralith:valley_lodge', 'terralith:underground/oak_cabin',
+                           'terralith:underground_cabin'])],
+    'escombros': [(None, ['terralith:rubble_desert', 'terralith:rubble_forest', 'terralith:rubble_jungle',
+                          'terralith:rubble_mesa', 'terralith:rubble_mountain', 'terralith:rubble_taiga'])],
+    'colmena': [(None, ['terralith:underground/giant_bee_hive'])],
+    'mineros': [(None, ['terralith:underground/mining_outpost', 'terralith:underground/old_refinery'])],
+    'aranas': [(None, ['betterdungeons:spider_dungeon'])],
+    'huesos': [(None, ['betterdungeons:skeleton_dungeon'])],
+    'podridos': [(None, ['betterdungeons:zombie_dungeon'])],
+    'mazmorra_nether': [(NETHER, ['betterdungeons:small_nether_dungeon'])],
+    'cielo': [(AETHER, ['aether:large_aercloud'])],
+    'templo_antiguo': [(None, ['deeperdarker:ancient_temple'])],
+    'huesos_dragon': [(END, ['nullscape:dragon_skeleton'])],
+    'grieta': [(END, ['nullscape:rift'])],
+    'tesoro': [(None, ['minecraft:buried_treasure'])],
+}
+assert set(STRUCTURE_THEMES) == set(THEMES), set(THEMES) ^ set(STRUCTURE_THEMES)
+# Bajo tierra fuera de un bioma de cueva: Cobblemon mira la estructura por chunk, sin altura, así que sin maxSkyLight el
+# tema (peso 1000) tapa los spawns de la superficie de encima, igual que pasaba con las minas
+UNDERGROUND = {'terralith:underground/sunken_tower', 'terralith:underground/frosted_dungeon', 'terralith:underground/oak_cabin',
+               'terralith:underground_cabin', 'terralith:underground/giant_bee_hive', 'terralith:underground/mining_outpost',
+               'terralith:underground/old_refinery', 'betterdungeons:small_dungeon', 'betterdungeons:spider_dungeon',
+               'betterdungeons:skeleton_dungeon', 'betterdungeons:zombie_dungeon', AC + 'underground_cabin'}
+assert UNDERGROUND <= {s for groups in STRUCTURE_THEMES.values() for _, structs in groups for s in structs}
+STRUCTURE_THEMES = {theme: [(biomes, part, under) for biomes, structs in groups for under in (False, True)
+                            if (part := [s for s in structs if (s in UNDERGROUND) == under])]
+                    for theme, groups in STRUCTURE_THEMES.items()}
 # Raros y ultra raros de mina con peso bajo: con 90 tapaban a los legendarios de cueva (pesan 1-5 en esos buckets)
 MINE_RARE_WEIGHT = {'rare': 10.0, 'ultra-rare': 3.0}
 STRUCTURE_SPAWNS = {
@@ -323,6 +523,11 @@ STRUCTURE_SPAWNS = {
     **{f'ces_{name}': ({'structures': [CES + name]}, None, 1000.0,
                        [(p, b, None, *extra, *([MINE_RARE_WEIGHT[b]] if b in MINE_RARE_WEIGHT else [])) for p, b, *extra in entries])
        for name, entries in EXTRA_STRUCTURES.items()},
+    **{f'tema_{theme}{i or ""}': ({**({'biomes': biomes} if biomes else {}), 'structures': structs,
+                                   **({'maxSkyLight': 7} if under else {})}, None, 1000.0,
+                                  [(p, b, None, *extra, *([MINE_RARE_WEIGHT[b]] if b in MINE_RARE_WEIGHT else []))
+                                   for p, b, *extra in THEMES[theme]])
+       for theme, groups in STRUCTURE_THEMES.items() for i, (biomes, structs, under) in enumerate(groups)},
 }
 ULTRA_BEASTS = {'nihilego', 'celesteela', 'kartana', 'xurkitree', 'buzzwole', 'pheromosa', 'guzzlord', 'stakataka',
                 'blacephalon', 'poipole', 'naganadel'}
@@ -345,7 +550,6 @@ PRIMORDIAL = AC + 'primordial_caves'
 PRIMORDIAL_BUCKET = {'fossil': 'common', 'paradox': 'uncommon'}
 DEFAULT_LEVEL = {'common': '5-30', 'uncommon': '20-40', 'rare': '30-50', 'ultra-rare': '40-60'}
 LEVEL_BONUS = 10  # Alex's Caves es zona de nivel más alto (decidido el 08-oct)
-END = ['#cobblemon:is_end']  # todos los spawns del End usan exactamente este tag
 END_BONUS = 20  # el End es la zona difícil del Overworld+Nether+End: todo +20, tope 100 (decidido el 13-oct)
 
 def bump(level, bonus=LEVEL_BONUS):

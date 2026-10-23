@@ -1,0 +1,262 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_brujas-purrloin",
+      "pokemon": "purrloin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-hatenna",
+      "pokemon": "hatenna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-misdreavus",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-murkrow",
+      "pokemon": "murkrow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-impidimp",
+      "pokemon": "impidimp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-sinistea",
+      "pokemon": "sinistea",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-shuppet",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-meowth",
+      "pokemon": "meowth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-liepard",
+      "pokemon": "liepard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-hattrem",
+      "pokemon": "hattrem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-37",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-polteageist",
+      "pokemon": "polteageist",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "26-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-mismagius",
+      "pokemon": "mismagius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-honchkrow",
+      "pokemon": "honchkrow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_brujas-hatterene",
+      "pokemon": "hatterene",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-51",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ],
+        "structures": [
+          "alexscaves:licowitch_tower"
+        ]
+      }
+    }
+  ]
+}

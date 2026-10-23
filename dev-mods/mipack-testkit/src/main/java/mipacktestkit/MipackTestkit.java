@@ -82,6 +82,13 @@ public class MipackTestkit implements ModInitializer {
 							return reply(c, "give " + p.getScoreboardName() + ": " + status(p));
 						}))))
 				.then(literal("spawns").executes(c -> reply(c, "spawns: " + SPAWNS.getAndSet(0))))
+				// Caja real de la entidad (ancho x alto) y si respira bajo el agua: "especie ancho alto agua"
+				.then(literal("size").then(argument("props", StringArgumentType.greedyString()).executes(c -> {
+					var e = PokemonProperties.Companion.parse(StringArgumentType.getString(c, "props")).createEntity(c.getSource().getLevel());
+					var swim = e.getPokemon().getForm().getBehaviour().getMoving().getSwim();
+					return reply(c, "size " + e.getPokemon().getSpecies().getName() + " " + e.getBbWidth() + " " + e.getBbHeight()
+							+ " " + swim.getCanBreatheUnderwater());
+				})))
 				// Salvajes a 96 bloques de un jugador: "especie:nivel ..." (para medir LevelCurveInfluence)
 				.then(literal("levels").then(argument("player", EntityArgument.player()).executes(c -> {
 					var p = EntityArgument.getPlayer(c, "player");

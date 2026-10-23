@@ -1,0 +1,235 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_lagos-psyduck",
+      "pokemon": "psyduck",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-chingling",
+      "pokemon": "chingling",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-ralts",
+      "pokemon": "ralts",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-64",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-spoink",
+      "pokemon": "spoink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-meditite",
+      "pokemon": "meditite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-golduck",
+      "pokemon": "golduck",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-62",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-chimecho",
+      "pokemon": "chimecho",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-67",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-kirlia",
+      "pokemon": "kirlia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-54",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-grumpig",
+      "pokemon": "grumpig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-medicham",
+      "pokemon": "medicham",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-51",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-gardevoir",
+      "pokemon": "gardevoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-67",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_lagos-gallade",
+      "pokemon": "gallade",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-67",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:uxiestructure",
+          "clumpedindistortionworld:mespritstructure",
+          "clumpedindistortionworld:azelfstructure"
+        ]
+      }
+    }
+  ]
+}

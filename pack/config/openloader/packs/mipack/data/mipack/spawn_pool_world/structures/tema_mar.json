@@ -1,0 +1,231 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_mar-magikarp",
+      "pokemon": "magikarp",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-24",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-tentacool",
+      "pokemon": "tentacool",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-remoraid",
+      "pokemon": "remoraid",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-wailmer",
+      "pokemon": "wailmer",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-finizen",
+      "pokemon": "finizen",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-horsea",
+      "pokemon": "horsea",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-staryu",
+      "pokemon": "staryu",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-shellder",
+      "pokemon": "shellder",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-wishiwashi",
+      "pokemon": "wishiwashi",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-22",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-tentacruel",
+      "pokemon": "tentacruel",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "30-52",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-octillery",
+      "pokemon": "octillery",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "25-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-seadra",
+      "pokemon": "seadra",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "32-44",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-gyarados",
+      "pokemon": "gyarados",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "20-54",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_mar-palafin",
+      "pokemon": "palafin",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "38-46",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemon:fishing_boat/beach",
+          "cobblemon:fishing_boat/warm_ocean",
+          "cobblemon:fishing_boat/deep_ocean"
+        ]
+      }
+    }
+  ]
+}

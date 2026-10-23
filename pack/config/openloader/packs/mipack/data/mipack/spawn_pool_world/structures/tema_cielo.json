@@ -1,0 +1,262 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_cielo-castform",
+      "pokemon": "castform",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-hoppip",
+      "pokemon": "hoppip",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-69",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-drifloon",
+      "pokemon": "drifloon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-cottonee",
+      "pokemon": "cottonee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-swablu",
+      "pokemon": "swablu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-noibat",
+      "pokemon": "noibat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-69",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-skiploom",
+      "pokemon": "skiploom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-61",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-altaria",
+      "pokemon": "altaria",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-59",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-drifblim",
+      "pokemon": "drifblim",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-tropius",
+      "pokemon": "tropius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-togetic",
+      "pokemon": "togetic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-66",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-whimsicott",
+      "pokemon": "whimsicott",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-jumpluff",
+      "pokemon": "jumpluff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-togekiss",
+      "pokemon": "togekiss",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-64",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cielo-noivern",
+      "pokemon": "noivern",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "48-54",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "structures": [
+          "aether:large_aercloud"
+        ]
+      }
+    }
+  ]
+}

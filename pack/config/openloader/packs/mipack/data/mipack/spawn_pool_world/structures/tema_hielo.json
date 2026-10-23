@@ -1,0 +1,311 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_hielo-snorunt",
+      "pokemon": "snorunt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-spheal",
+      "pokemon": "spheal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-cubchoo",
+      "pokemon": "cubchoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-snom",
+      "pokemon": "snom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-23",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-sneasel",
+      "pokemon": "sneasel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "18-43",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-swinub",
+      "pokemon": "swinub",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-smoochum",
+      "pokemon": "smoochum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-delibird",
+      "pokemon": "delibird",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-bergmite",
+      "pokemon": "bergmite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-glalie",
+      "pokemon": "glalie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "42-48",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-sealeo",
+      "pokemon": "sealeo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-beartic",
+      "pokemon": "beartic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-piloswine",
+      "pokemon": "piloswine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-45",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-jynx",
+      "pokemon": "jynx",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-eiscue",
+      "pokemon": "eiscue",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-froslass",
+      "pokemon": "froslass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-frosmoth",
+      "pokemon": "frosmoth",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "14-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-weavile",
+      "pokemon": "weavile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "38-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_hielo-avalugg",
+      "pokemon": "avalugg",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "37-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "terralith:glacial_hut",
+          "terralith:igloo",
+          "terralith:spire"
+        ]
+      }
+    }
+  ]
+}

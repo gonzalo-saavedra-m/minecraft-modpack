@@ -1,0 +1,241 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_distorsion-drifloon",
+      "pokemon": "drifloon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-misdreavus",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-duskull",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-golett",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-70",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-drifblim",
+      "pokemon": "drifblim",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-54",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-haunter",
+      "pokemon": "haunter",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-61",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-golurk",
+      "pokemon": "golurk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-50",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-mismagius",
+      "pokemon": "mismagius",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-56",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-dusknoir",
+      "pokemon": "dusknoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-57",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-gengar",
+      "pokemon": "gengar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-59",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_distorsion-spiritomb",
+      "pokemon": "spiritomb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-70",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "clumpedindistortionworld:clumpy_distortion_world"
+        ],
+        "structures": [
+          "clumpedindistortionworld:giratinaroom",
+          "clumpedindistortionworld:distorteddungeonnormalpokeball"
+        ]
+      }
+    }
+  ]
+}

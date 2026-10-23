@@ -132,6 +132,8 @@ public class MipackRules implements ModInitializer {
 	/** Lugar del guardián o legendario fijo: si se aleja más de GUARDIAN_LEASH bloques (salvaje y fuera de combate), vuelve a su sala. */
 	private static final String DUNGEON_HOME_DATA = "mipack_dungeon_home";
 	private static final double GUARDIAN_LEASH = 8;
+	/** Guardianes del Aether cargados, por sala (dropDuplicateGuardian). */
+	private static final Map<ServerLevel, Map<Long, UUID>> GUARDIANS = new WeakHashMap<>();
 
 	/** Entrenador de RCT. Los del mundo sin combatir este tiempo desaparecen (el despawn de RCT exige que nadie los vea). */
 	private static final ResourceLocation RCT_TRAINER = ResourceLocation.parse("rctmod:trainer");
@@ -168,12 +170,14 @@ public class MipackRules implements ModInitializer {
 		ServerEntityEvents.ENTITY_LOAD.register((entity, level) -> {
 			if (entity instanceof PokemonEntity p && p.getPokemon().isWild()
 					&& TEMPLATE_POKEMON_UUIDS.contains(p.getPokemon().getUuid())) freshUuid(p);
+			if (entity instanceof PokemonEntity p) dropDuplicateGuardian(p, level);
 		});
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
 				for (ServerPlayer player : server.getPlayerList().getPlayers()) placeStructureWaystone(player);
 			if (server.getTickCount() % 100 != 0) return;
+			for (ServerPlayer player : server.getPlayerList().getPlayers()) StructureLegendaries.tick(player);
 			placeEndCrystal(server.getLevel(Level.END));
 			for (ServerLevel level : server.getAllLevels())
 				for (Entity e : level.getAllEntities()) {
@@ -406,6 +410,23 @@ public class MipackRules implements ModInitializer {
 		if (pokemon.blockPosition().closerThan(home, GUARDIAN_LEASH)) return;
 		pokemon.getNavigation().stop();
 		pokemon.teleportTo(home.getX() + 0.5, home.getY(), home.getZ() + 0.5);
+	}
+
+	/**
+	 * Guardián del Aether repetido: si se corta el server mientras genera una mazmorra, el chunk se vuelve a generar y
+	 * el jefe se reemplaza dos veces (pasó en la pregeneración del 09-oct: Golazoo atrapó dos Landorus y dos Tornadus
+	 * de la misma sala). Al cargar, si ya hay otro guardián vivo con la misma sala, este se va.
+	 */
+	private static void dropDuplicateGuardian(PokemonEntity pokemon, ServerLevel level) {
+		CompoundTag data = pokemon.getPokemon().getPersistentData();
+		if (!pokemon.getPokemon().isWild() || !data.contains(DUNGEON_KEY_DATA) || !data.contains(DUNGEON_HOME_DATA)) return;
+		Map<Long, UUID> byHome = GUARDIANS.computeIfAbsent(level, l -> new java.util.HashMap<>());
+		long home = data.getLong(DUNGEON_HOME_DATA);
+		Entity other = byHome.containsKey(home) ? level.getEntity(byHome.get(home)) : null;
+		if (other != null && other != pokemon && other.isAlive()) {
+			LOGGER.info("Guardián repetido {} en {}: se descarta", pokemon.getPokemon().getSpecies().getName(), BlockPos.of(home));
+			pokemon.discard();
+		} else byHome.put(home, pokemon.getUUID());
 	}
 
 	private static void giveDungeonKey(Pokemon pokemon, List<ServerPlayer> players) {

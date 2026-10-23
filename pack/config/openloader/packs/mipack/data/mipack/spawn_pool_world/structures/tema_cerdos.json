@@ -1,0 +1,177 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-tema_cerdos-tepig",
+      "pokemon": "tepig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-61",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-spoink",
+      "pokemon": "spoink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-lechonk",
+      "pokemon": "lechonk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-59",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-swinub",
+      "pokemon": "swinub",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-59",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-pignite",
+      "pokemon": "pignite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-60",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-grumpig",
+      "pokemon": "grumpig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-50",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-oinkologne",
+      "pokemon": "oinkologne",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-66",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-piloswine",
+      "pokemon": "piloswine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-47",
+      "weight": 1000.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-emboar",
+      "pokemon": "emboar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    },
+    {
+      "id": "mipack-tema_cerdos-mamoswine",
+      "pokemon": "mamoswine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-53",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "structures": [
+          "incendium:piglin_village"
+        ]
+      }
+    }
+  ]
+}
