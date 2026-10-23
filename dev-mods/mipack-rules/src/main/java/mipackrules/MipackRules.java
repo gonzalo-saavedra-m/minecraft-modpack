@@ -114,6 +114,8 @@ public class MipackRules implements ModInitializer {
 
 	/** Bloques de mazmorra del Aether que sin jefe quedarían irrompibles (BlockStateBaseMixin). */
 	public static final TagKey<Block> DUNGEON_UNLOCKED = TagKey.create(Registries.BLOCK, ResourceLocation.parse("mipack:aether_dungeon_unlocked"));
+	/** Tapan el cofre del tesoro; el Aether los abre al morir su jefe, que acá no existe. */
+	private static final TagKey<Block> TREASURE_DOORWAY = TagKey.create(Registries.BLOCK, ResourceLocation.parse("aether:treasure_doorway_dungeon_blocks"));
 
 	/**
 	 * Jefe de cada mazmorra del Aether → legendario de las nubes que lo reemplaza al generarse, con el tier de la
@@ -412,6 +414,14 @@ public class MipackRules implements ModInitializer {
 		var key = BuiltInRegistries.ITEM.get(ResourceLocation.parse(data.getString(DUNGEON_KEY_DATA)));
 		data.remove(DUNGEON_KEY_DATA);
 		for (ServerPlayer player : players) player.getInventory().placeItemBackInInventory(new ItemStack(key));
+		if (!players.isEmpty() && data.contains(DUNGEON_HOME_DATA))
+			openTreasure(players.get(0).serverLevel(), BlockPos.of(data.getLong(DUNGEON_HOME_DATA)));
+	}
+
+	/** Abre la puerta del tesoro de la sala del jefe: en las plantillas queda a ≤ 12 bloques de donde estaba el jefe. */
+	static void openTreasure(ServerLevel level, BlockPos home) {
+		for (BlockPos pos : BlockPos.betweenClosed(home.offset(-16, -8, -16), home.offset(16, 8, 16)))
+			if (level.getBlockState(pos).is(TREASURE_DOORWAY)) level.destroyBlock(pos, false);
 	}
 
 	private static JsonObject readLootInjections() {

@@ -186,6 +186,20 @@ public class MipackTestkit implements ModInitializer {
 								net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(c, "pos"))))))
 				.then(literal("raidend").then(argument("player", EntityArgument.player())
 						.executes(c -> reply(c, raidEnd(EntityArgument.getPlayer(c, "player"))))))
+				// Captura del salvaje de esa especie más cercano (≤ 32 bloques) sin combate: solo dispara el evento de Cobblemon
+				.then(literal("catch").then(argument("player", EntityArgument.player()).then(argument("species", StringArgumentType.word()).executes(c -> {
+					var p = EntityArgument.getPlayer(c, "player");
+					var species = StringArgumentType.getString(c, "species");
+					var wild = p.serverLevel().getEntitiesOfClass(com.cobblemon.mod.common.entity.pokemon.PokemonEntity.class,
+							p.getBoundingBox().inflate(32), e -> e.getPokemon().isWild()
+									&& e.getPokemon().getSpecies().getName().equalsIgnoreCase(species)).stream()
+							.min(java.util.Comparator.comparingDouble(p::distanceToSqr)).orElse(null);
+					if (wild == null) return reply(c, "catch: sin salvajes");
+					com.cobblemon.mod.common.api.events.CobblemonEvents.POKEMON_CAPTURED.post(new com.cobblemon.mod.common.api.events.pokemon.PokemonCapturedEvent[]{
+							new com.cobblemon.mod.common.api.events.pokemon.PokemonCapturedEvent(wild.getPokemon(), p,
+									new com.cobblemon.mod.common.entity.pokeball.EmptyPokeBallEntity(p.level()))}, e -> kotlin.Unit.INSTANCE);
+					return reply(c, "catch " + p.getScoreboardName() + ": " + wild.getPokemon().getSpecies().getName() + " en " + wild.blockPosition());
+				}))))
 				.then(literal("forcepass").then(argument("player", EntityArgument.player()).executes(c -> {
 					var p = EntityArgument.getPlayer(c, "player");
 					var battle = BattleRegistry.getBattleByParticipatingPlayer(p);
