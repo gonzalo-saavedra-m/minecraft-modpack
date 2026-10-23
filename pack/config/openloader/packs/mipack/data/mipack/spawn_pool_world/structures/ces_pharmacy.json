@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_pharmacy-chansey",
+      "pokemon": "chansey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "17-45",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:pharmacy"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_pharmacy-jigglypuff",
+      "pokemon": "jigglypuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-27",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:pharmacy"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_pharmacy-wigglytuff",
+      "pokemon": "wigglytuff",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-44",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:pharmacy"
+        ]
+      }
+    }
+  ]
+}

@@ -5071,6 +5071,74 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/a
 hash = "e0759b38637616c88c5095f55e9d6ea0c28bbd4a2cb6f452cbe874536a634458"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_ancient_tomb.json"
+hash = "93a0a5be5bfcc57627dca56cdb27770c1657f94baf79521c50aa3cd07320546b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_bell_tower.json"
+hash = "74f5c5ddd6aa483301d68f1b6e4c386d3a2eddc76ceb4e88c91c8d90f18ac2de"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_berry_house.json"
+hash = "5e649dca51105f60ad2e313615a9f8de74680fcb6b2a2a74509f082d114b5da4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_burned_tower.json"
+hash = "ee3a248cb2af69d025c8fdff5f4e507616a1827b3708a9db98c1502faf312777"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_desert_ruins.json"
+hash = "50d2128f9df7143b8cda3689421cd85d7d428159adad44cf397dfa007290cd5a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_dragons_den.json"
+hash = "b5a87f2bbf8470fac1b8b336a416c60561549488ef9510d46c56451e20b90ab1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_fishing_hut.json"
+hash = "a2720f1aad8460ba15e7b875b19ec58b546dffa05aaaa2d3cc01f0c7ae57c6ce"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_island_cave.json"
+hash = "c25c5661be26246264bc9d08a44b7fc87f4e071ee266308af21f66547877a278"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_kurt_house.json"
+hash = "1fe6ddc8c11f8e671d7dc1c85c7eca0d662ff897e026e5d437d168f260625565"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_origin_cave.json"
+hash = "f37f66bdf80cddc31cff288bce3b884c046d1df55e0700f03971e09479cd6f76"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_origin_tomb.json"
+hash = "f5179c90ae5d44e790f98f5c1742d39c2d756ed5882286c05fdc2a6db8807f26"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_outskirt_stand.json"
+hash = "2a39917e71e2f40613a6626cb91bd02dfdb268efeab5bec8d0800b67d98fd330"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_pharmacy.json"
+hash = "7cae8c2d263e1364222baf1dcadc643802de0aacdcc41970edc19413157c20e1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_sky_pillar.json"
+hash = "a54b29e4b50bcaaad33af80e8bdf27c7b84780b529fff3448fb87b81a7e2a209"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_snowpoint_temple.json"
+hash = "873adef85520e2f7e436978bf439b9cdb1b381fc1d0f877600d78ddb0ffe81f6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_sprout_tower.json"
+hash = "7ce20f7e49ecbc32e0742e50f3727c1fac3214ed4c036eb2fcb75ac2a6176f96"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/ces_suerebe.json"
+hash = "bb7c1d1f78a1c105536879a74cd27f47069a77d91f51adbc2e79a0e6a971678e"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/mineshaft.json"
 hash = "556ec3b3b092c48347ab7577c88522f83c3b6c3c3786c675852cdac5647a1583"
 

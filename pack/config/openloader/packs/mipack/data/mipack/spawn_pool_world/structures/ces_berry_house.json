@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_berry_house-munchlax",
+      "pokemon": "munchlax",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "24-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:berry_house"
+        ]
+      }
+    }
+  ]
+}

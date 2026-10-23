@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_fishing_hut-flamigo",
+      "pokemon": "flamigo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:fishing_hut"
+        ]
+      }
+    }
+  ]
+}

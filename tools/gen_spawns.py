@@ -255,6 +255,58 @@ STARTERS = {
     'silver': ('15-25', 'squirtle totodile mudkip piplup oshawott froakie popplio sobble quaxly'),
     'gold': ('20-30', 'charmander cyndaquil torchic chimchar tepig fennekin litten scorbunny fuecoco'),
 }
+# Cobblemon Extra Structures (decidido el 23-oct): estructura -> [(pokemon, bucket, extras...)]. Cobblemon mira los chunks que
+# toca la estructura y no spawnea a menos de 16 bloques del jugador: en las casas chicas quedan pocas posiciones, así que
+# común y poco común pesan 1000 para ganarle al pool del bioma (con 200, la farmacia no sacaba nada en 5 min). Raros y
+# ultra raros como en las minas. Sin preset: salen sobre cualquier suelo (tablones, escaleras).
+# Los de juegos (Torre Campana, Pilar Celeste, Templo de Puntaneva, Cueva del origen): los salvajes de ese lugar según
+# PokéAPI. Las tumbas de los Regi: el tipo de su Regi. 'agua' = sumergido; 'noche' = solo de noche
+CES = 'cobblemonextrastructures:'
+EXTRA_STRUCTURES = {
+    'bell_tower': [('rattata', 'common'), ('raticate', 'uncommon'), ('gastly', 'common', 'noche'),
+                   ('haunter', 'uncommon', 'noche'), ('zigzagoon', 'rare'), ('spinda', 'rare'), ('meditite', 'rare'),
+                   ('chatot', 'rare')],
+    'sky_pillar': [('golbat', 'common'), ('sableye', 'common'), ('mawile', 'common'), ('claydol', 'uncommon'),
+                   ('banette', 'uncommon'), ('dusclops', 'uncommon'), ('ariados', 'uncommon'), ('swablu', 'uncommon'),
+                   ('altaria', 'rare')],
+    'ancient_tomb': [('magnemite', 'common'), ('bronzor', 'common'), ('klink', 'common'), ('aron', 'common'),
+                     ('magneton', 'uncommon'), ('bronzong', 'uncommon'), ('klang', 'uncommon'), ('lairon', 'uncommon'),
+                     ('skarmory', 'uncommon'), ('aggron', 'rare'), ('klinklang', 'rare'), ('magnezone', 'rare')],
+    'desert_ruins': [('geodude', 'common'), ('roggenrola', 'common'), ('nosepass', 'common'), ('bonsly', 'common'),
+                     ('graveler', 'uncommon'), ('boldore', 'uncommon'), ('sudowoodo', 'uncommon'), ('shuckle', 'rare'),
+                     ('probopass', 'rare'), ('gigalith', 'rare')],
+    'island_cave': [('snorunt', 'common'), ('spheal', 'common'), ('snover', 'common'), ('cubchoo', 'common'),
+                    ('bergmite', 'common'), ('sealeo', 'uncommon'), ('beartic', 'uncommon'), ('glalie', 'rare'),
+                    ('froslass', 'rare'), ('abomasnow', 'rare'), ('avalugg', 'rare'), ('walrein', 'rare')],
+    # Tumba de Groudon: los de la Cueva del origen en tierra (Zubat, Golbat, Mawile) más tierra y fuego (hay lava)
+    'origin_tomb': [('zubat', 'common'), ('golbat', 'uncommon'), ('mawile', 'uncommon'), ('trapinch', 'common'),
+                    ('numel', 'common'), ('hippopotas', 'common'), ('drilbur', 'common'), ('phanpy', 'common'),
+                    ('vibrava', 'uncommon'), ('camerupt', 'rare'), ('excadrill', 'rare'), ('donphan', 'rare')],
+    # Cueva de Kyogre: los de la Cueva del origen en tierra (Zubat, Golbat, Sableye) más agua en sus pozas
+    'origin_cave': [('zubat', 'common'), ('golbat', 'uncommon'), ('sableye', 'uncommon'),
+                    ('tentacool', 'common', 'agua'), ('chinchou', 'common', 'agua'), ('clamperl', 'common', 'agua'),
+                    ('wailmer', 'common', 'agua'), ('carvanha', 'common', 'agua'), ('horsea', 'common', 'agua'),
+                    ('lanturn', 'uncommon', 'agua'), ('tentacruel', 'uncommon', 'agua'), ('sharpedo', 'rare', 'agua'),
+                    ('wailord', 'rare', 'agua')],
+    'snowpoint_temple': [('golbat', 'common'), ('sneasel', 'common'), ('graveler', 'uncommon'), ('onix', 'uncommon'),
+                         ('smoochum', 'common'), ('jynx', 'uncommon'), ('steelix', 'rare')],
+    'burned_tower': [('magby', 'common'), ('koffing', 'common'), ('growlithe', 'common'), ('vulpix', 'common'),
+                     ('houndour', 'common'), ('magmar', 'uncommon'), ('weezing', 'uncommon'), ('houndoom', 'uncommon'),
+                     ('magmortar', 'rare')],
+    # Druddigon: el dragón de piel rugosa con púas de Blanco y Negro
+    'dragons_den': [('dratini', 'common'), ('bagon', 'common'), ('gible', 'common'), ('axew', 'common'),
+                    ('deino', 'common'), ('druddigon', 'uncommon'), ('dragonair', 'uncommon'), ('shelgon', 'uncommon'),
+                    ('gabite', 'uncommon'), ('fraxure', 'uncommon'), ('zweilous', 'uncommon'), ('haxorus', 'rare'),
+                    ('dragonite', 'ultra-rare'), ('salamence', 'ultra-rare'), ('garchomp', 'ultra-rare'),
+                    ('hydreigon', 'ultra-rare')],
+    'sprout_tower': [('bellsprout', 'common'), ('weepinbell', 'uncommon'), ('victreebel', 'rare')],
+    'kurt_house': [('farfetchd', 'common')],
+    'berry_house': [('munchlax', 'common')],
+    'fishing_hut': [('flamigo', 'common')],
+    'outskirt_stand': [('elekid', 'common')],
+    'suerebe': [('shroomish', 'common'), ('ludicolo', 'uncommon')],
+    'pharmacy': [('chansey', 'common'), ('jigglypuff', 'common'), ('wigglytuff', 'uncommon')],
+}
 # Raros y ultra raros de mina con peso bajo: con 90 tapaban a los legendarios de cueva (pesan 1-5 en esos buckets)
 MINE_RARE_WEIGHT = {'rare': 10.0, 'ultra-rare': 3.0}
 STRUCTURE_SPAWNS = {
@@ -268,8 +320,10 @@ STRUCTURE_SPAWNS = {
                      None, None, ANCIENT_CITY),
     **{f'aether_{tier}_dungeon': ({'biomes': ['#aether:is_aether'], 'structures': [f'aether:{tier}_dungeon']}, None, 10.0,
                                   [(p, 'rare', lvl) for p in mons.split()]) for tier, (lvl, mons) in STARTERS.items()},
+    **{f'ces_{name}': ({'structures': [CES + name]}, None, 1000.0,
+                       [(p, b, None, *extra, *([MINE_RARE_WEIGHT[b]] if b in MINE_RARE_WEIGHT else [])) for p, b, *extra in entries])
+       for name, entries in EXTRA_STRUCTURES.items()},
 }
-assert not {e[0] for *_, es in STRUCTURE_SPAWNS.values() for e in es} & (EXCLUSIVE - MINE_EXCLUSIVE), 'una especie exclusiva en STRUCTURE_SPAWNS'
 ULTRA_BEASTS = {'nihilego', 'celesteela', 'kartana', 'xurkitree', 'buzzwole', 'pheromosa', 'guzzlord', 'stakataka',
                 'blacephalon', 'poipole', 'naganadel'}
 EXCLUSIVE |= ULTRA_BEASTS
@@ -447,10 +501,12 @@ for structs, entries in END_STRUCTURES.items():
 shutil.rmtree(MIPACK / 'data/mipack/spawn_pool_world/structures', ignore_errors=True)
 for name, (cond, anti, weight, entries) in STRUCTURE_SPAWNS.items():
     spawns = []
-    for p, b, lvl, *w in entries:
-        s = {'id': f'mipack-{name}-{p.replace(" ", "-")}', 'pokemon': p, 'type': 'pokemon', 'spawnablePositionType': 'grounded',
-             'bucket': b, 'level': str(lvl or levels.get(p) or DEFAULT_LEVEL[b]), 'weight': float(w[0] if w else weight),
-             'condition': cond}
+    for p, b, lvl, *extra in entries:
+        w = next((x for x in extra if not isinstance(x, str)), weight)
+        s = {'id': f'mipack-{name}-{p.replace(" ", "-")}', 'pokemon': p, 'type': 'pokemon',
+             'spawnablePositionType': 'submerged' if 'agua' in extra else 'grounded',
+             'bucket': b, 'level': str(lvl or levels.get(p) or DEFAULT_LEVEL[b]), 'weight': float(w),
+             'condition': {**cond, **({'timeRange': 'night'} if 'noche' in extra else {})}}
         if anti:
             s['anticondition'] = anti
         spawns.append(s)

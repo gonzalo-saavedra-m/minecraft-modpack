@@ -1,0 +1,105 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_snowpoint_temple-golbat",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_snowpoint_temple-sneasel",
+      "pokemon": "sneasel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "18-43",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_snowpoint_temple-graveler",
+      "pokemon": "graveler",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_snowpoint_temple-onix",
+      "pokemon": "onix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "14-39",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_snowpoint_temple-smoochum",
+      "pokemon": "smoochum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_snowpoint_temple-jynx",
+      "pokemon": "jynx",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_snowpoint_temple-steelix",
+      "pokemon": "steelix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:snowpoint_temple"
+        ]
+      }
+    }
+  ]
+}

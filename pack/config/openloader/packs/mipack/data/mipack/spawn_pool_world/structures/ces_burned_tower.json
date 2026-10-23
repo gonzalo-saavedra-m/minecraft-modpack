@@ -1,0 +1,133 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_burned_tower-magby",
+      "pokemon": "magby",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "12-37",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-koffing",
+      "pokemon": "koffing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-growlithe",
+      "pokemon": "growlithe",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-vulpix",
+      "pokemon": "vulpix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-houndour",
+      "pokemon": "houndour",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-magmar",
+      "pokemon": "magmar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-weezing",
+      "pokemon": "weezing",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-49",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-houndoom",
+      "pokemon": "houndoom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "24-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_burned_tower-magmortar",
+      "pokemon": "magmortar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-54",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:burned_tower"
+        ]
+      }
+    }
+  ]
+}

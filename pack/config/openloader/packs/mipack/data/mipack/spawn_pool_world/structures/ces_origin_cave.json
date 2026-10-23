@@ -1,0 +1,189 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_origin_cave-zubat",
+      "pokemon": "zubat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-golbat",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-tentacool",
+      "pokemon": "tentacool",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-chinchou",
+      "pokemon": "chinchou",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-clamperl",
+      "pokemon": "clamperl",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-wailmer",
+      "pokemon": "wailmer",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "15-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-carvanha",
+      "pokemon": "carvanha",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-horsea",
+      "pokemon": "horsea",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-lanturn",
+      "pokemon": "lanturn",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "27-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-tentacruel",
+      "pokemon": "tentacruel",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "30-52",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-sharpedo",
+      "pokemon": "sharpedo",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "30-46",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_cave-wailord",
+      "pokemon": "wailord",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "40-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_cave"
+        ]
+      }
+    }
+  ]
+}

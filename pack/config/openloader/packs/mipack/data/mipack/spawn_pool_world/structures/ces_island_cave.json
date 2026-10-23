@@ -1,0 +1,175 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_island_cave-snorunt",
+      "pokemon": "snorunt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-spheal",
+      "pokemon": "spheal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-snover",
+      "pokemon": "snover",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-cubchoo",
+      "pokemon": "cubchoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-bergmite",
+      "pokemon": "bergmite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-sealeo",
+      "pokemon": "sealeo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-41",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-beartic",
+      "pokemon": "beartic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-51",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-glalie",
+      "pokemon": "glalie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-froslass",
+      "pokemon": "froslass",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-abomasnow",
+      "pokemon": "abomasnow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-avalugg",
+      "pokemon": "avalugg",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "37-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_island_cave-walrein",
+      "pokemon": "walrein",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "44-53",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:island_cave"
+        ]
+      }
+    }
+  ]
+}

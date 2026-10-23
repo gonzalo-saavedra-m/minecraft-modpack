@@ -1,0 +1,175 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_ancient_tomb-magnemite",
+      "pokemon": "magnemite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-bronzor",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-klink",
+      "pokemon": "klink",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-aron",
+      "pokemon": "aron",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-magneton",
+      "pokemon": "magneton",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-47",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-bronzong",
+      "pokemon": "bronzong",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-klang",
+      "pokemon": "klang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-44",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-lairon",
+      "pokemon": "lairon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-43",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-skarmory",
+      "pokemon": "skarmory",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-47",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-aggron",
+      "pokemon": "aggron",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-53",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-klinklang",
+      "pokemon": "klinklang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "49-52",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_ancient_tomb-magnezone",
+      "pokemon": "magnezone",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-54",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:ancient_tomb"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_origin_tomb-zubat",
+      "pokemon": "zubat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-29",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-golbat",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-mawile",
+      "pokemon": "mawile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "13-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-trapinch",
+      "pokemon": "trapinch",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-numel",
+      "pokemon": "numel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-hippopotas",
+      "pokemon": "hippopotas",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-drilbur",
+      "pokemon": "drilbur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-phanpy",
+      "pokemon": "phanpy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-vibrava",
+      "pokemon": "vibrava",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-camerupt",
+      "pokemon": "camerupt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "33-46",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-excadrill",
+      "pokemon": "excadrill",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "31-51",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_origin_tomb-donphan",
+      "pokemon": "donphan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:origin_tomb"
+        ]
+      }
+    }
+  ]
+}

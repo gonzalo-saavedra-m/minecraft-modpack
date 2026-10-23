@@ -1,0 +1,133 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mipack-ces_sky_pillar-golbat",
+      "pokemon": "golbat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-sableye",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "13-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-mawile",
+      "pokemon": "mawile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "13-38",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-claydol",
+      "pokemon": "claydol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "36-50",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-banette",
+      "pokemon": "banette",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-dusclops",
+      "pokemon": "dusclops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "37-46",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-ariados",
+      "pokemon": "ariados",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-40",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-swablu",
+      "pokemon": "swablu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 1000.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "mipack-ces_sky_pillar-altaria",
+      "pokemon": "altaria",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-49",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobblemonextrastructures:sky_pillar"
+        ]
+      }
+    }
+  ]
+}
