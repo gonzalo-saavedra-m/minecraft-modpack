@@ -12,6 +12,7 @@ Archivos que viven dentro del pack (no se bajan de Modrinth). Al sumar algo así
 | Condiciones de spawn de UB y paradojas (como referencia) | [AllTheMons x Mega Showdown](https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy) v4.0 | ver proyecto | spawns de `mipack` |
 | Tips de pantalla de carga (`Cobblemon-Tips-3.0.zip`) | [Cobblemon Official Modpack](https://modrinth.com/modpack/cobblemon-fabric) 1.8.1 | ver proyecto | `pack/config/openloader/resources/` |
 | Tom's Simple Storage 2.4.2, forkeado (pestañas por categoría, no suelta los cofres de la red al romperlos, español) | [tom5454/Toms-Storage](https://github.com/tom5454/Toms-Storage) | MIT | `dev-mods/toms-storage/` (rama `cobblebanda`) → `pack/mods/toms_storage_fabric-1.21-2.4.2+cobblebanda.5.jar` |
+| CobbleCuisine 2.1.0, compilado sin cambios de la rama del autor para Cobblemon 1.8.1 (aún sin release) | [Fyre520/CobbleCuisine-Java](https://github.com/Fyre520/CobbleCuisine-Java) `release/cobblemon-1.8.1-compat` (594348a) | MIT | `pack/mods/cobblecuisine-2.1.0+cobblebanda.jar` |
 | Selección de mods de rendimiento y QoL | Cobblemon Official Modpack y [COBBLEVERSE](https://www.lumyverse.com/cobbleverse/credits/) | — | `pack/mods/` |
 
 ## Mods y packs
@@ -46,7 +47,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 | [CIT Resewn](https://modrinth.com/project/cit-resewn) | shsupercm | MIT |
 | [Cloth Config API](https://modrinth.com/project/cloth-config) | shedaniel | LGPL-3.0-only |
 | [Clumps](https://modrinth.com/project/clumps) | jaredlll08 | MIT |
-| [CobbleCuisine](https://modrinth.com/project/cobblecuisine) | fyre520, tredevelops, EasyMochi | MIT |
 | [CobbleDollars [Cobblemon Addon]](https://modrinth.com/project/cobbledollars) | Hazuriel | All-Rights-Reserved |
 | [CobbleFurnies](https://modrinth.com/project/cobblefurnies) | LunazStudios | MIT |
 | [Cobbleloots: Loot Balls and More!](https://modrinth.com/project/cobbleloots) | Ripio | MIT |
@@ -197,6 +197,6 @@ Lista generada desde `pack/` con `python3 tools/credits.py`. Correrlo después d
 
 | Nombre | Autores | Licencia |
 |---|---|---|
-| [AllTheMons x Mega Showdown](https://modrinth.com/project/allthemons-x-mega-showdown-legacy) | HeyImBlue, Narenhate, Lvnatic, Bwavii, easy_____, BlaziumHydro, Raspix, Genotype, Wi2tert, kylbrez, IzetyXX, RedRibbonz, marcustars, El-Pigeon, YaBoiBruno, nady3, bonanca, ARaccoonNamedFish, aki4hiro, Lenkagari, quinn284 | AllTheMons-License-v3.2 |
+| [AllTheMons x Mega Showdown](https://modrinth.com/project/allthemons-x-mega-showdown-legacy) | HeyImBlue, Narenhate, Lvnatic, Bwavii, Beezy, easy_____, BlaziumHydro, Raspix, Genotype, Wi2tert, kylbrez, IzetyXX, RedRibbonz, marcustars, El-Pigeon, YaBoiBruno, nady3, bonanca, ARaccoonNamedFish, aki4hiro, Lenkagari, quinn284 | AllTheMons-License-v3.2 |
 | [LegendaryRaidDens [Cobblemon]](https://modrinth.com/project/legendaryraiddens-cobblemon) | ceezun | All-Rights-Reserved |
 | [RCT Badges - Cobblemon Pokemon Badges](https://modrinth.com/project/rct-badges-cobblemonpokemonbadges) | hd42 | LGPL-3.0-or-later |

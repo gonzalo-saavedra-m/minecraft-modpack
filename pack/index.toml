@@ -6590,9 +6590,8 @@ hash = "fe84e2227c405bf9b735f01f307a01768784b9d49df82a13ecda3d3b6d198507"
 metafile = true
 
 [[files]]
-file = "mods/cobblecuisine.pw.toml"
-hash = "dd9c84c3f22e37ee533990585112642b5c9a7ede61d29e5d13330a99b9a48b02"
-metafile = true
+file = "mods/cobblecuisine-2.1.0+cobblebanda.jar"
+hash = "b07a174e4a302c43dda87f316f9b2fb89b4cc54e5db7d1d3536e6b15604f43f9"
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
