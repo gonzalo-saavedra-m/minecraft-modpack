@@ -45,7 +45,15 @@ final class StructureLegendaries {
 			Map.entry("terralith:mage_tower_summer", List.of("uxie level=40|mesprit level=40|azelf level=40")),
 			Map.entry("terralith:mage_tower_winter", List.of("uxie level=40|mesprit level=40|azelf level=40")),
 			Map.entry("cobblemon:ruins/hidden_bunker_ruins", List.of("mewtwo level=70|genesect level=60")),
-			Map.entry("betterjungletemples:jungle_temple",List.of("zarude level=60|ogerpon level=60")),
+			Map.entry("betterjungletemples:jungle_temple", List.of("zarude level=60|ogerpon level=60")),
+			Map.entry("betterdeserttemples:desert_temple", List.of("diancie level=60")),
+			Map.entry("betterfortresses:fortress", List.of("victini level=60")),
+			Map.entry("minecraft:ancient_city", List.of("marshadow level=60")),
+			// Las aldeas fortificadas de Terralith están apagadas: los Espadas de la Justicia (tipo lucha) van en la aldea de lucha
+			Map.entry("bca:village/fighting_large", List.of("cobalion level=60|terrakion level=60|virizion level=60")),
+			Map.entry("cobblemon:shipwreck_coves/lush_shipwreck_cove", List.of("latias level=60|latios level=60")),
+			Map.entry("cobblemon:shipwreck_coves/magma_shipwreck_cove", List.of("latias level=60|latios level=60")),
+			Map.entry("cobblemon:shipwreck_coves/submerged_shipwreck_cove", List.of("latias level=60|latios level=60")),
 			Map.entry("terralith:spire", List.of("kyurem level=70")),
 			Map.entry("mega_showdown:observatory", List.of("cresselia level=60")),
 			Map.entry("mega_showdown:wishing_weald", List.of("celebi level=50")),
@@ -58,7 +66,7 @@ final class StructureLegendaries {
 			Map.entry("incendium:sanctum", List.of("reshiram level=70")),
 			Map.entry("incendium:infernal_altar", List.of("volcanion level=70")),
 			Map.entry("incendium:nether_reactor", List.of("zekrom level=70")),
-			Map.entry("incendium:ruined_lab", List.of("magearna level=60")),
+			Map.entry("incendium:ruined_lab", List.of("magearna level=60", "typenull level=50")),
 			Map.entry("incendium:forbidden_castle", List.of("yveltal level=70")));
 	private static final String IVS = " min_perfect_ivs=3";
 	private static final Logger LOGGER = LogUtils.getLogger();

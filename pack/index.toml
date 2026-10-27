@@ -5315,6 +5315,10 @@ file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/t
 hash = "bf512f96f8a41223af565995762d293fe1d8c8c51906ba18a617d1795c88d5d3"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/terapagos.json"
+hash = "ae9199f13da152531ff20a29d4e4e079fe4bedd4e0c16e316f119333e458d3bf"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/terralith/cave/mantle_caves.json"
 hash = "7023461d76acce9b7f8f20f05c8ca97f68cd23826c763d8a3b4969d8229730d1"
 
@@ -6944,7 +6948,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "f0f211485cd0e9107fdcefefe49650ad0c94c5955355f675b8c29053e7483b61"
+hash = "c17b53e3abf47bd6fb6799576aeca8b63c6748d6b72bd1d2934d61e63c5f7fb2"
 
 [[files]]
 file = "mods/modernfix.pw.toml"
