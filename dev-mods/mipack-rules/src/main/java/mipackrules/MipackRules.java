@@ -40,6 +40,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.tags.DamageTypeTags;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -143,10 +144,10 @@ public class MipackRules implements ModInitializer {
 	/**
 	 * Cristal de raid de Eternatus en la isla principal del End, a 8 bloques del portal de salida. Ganarle abre el
 	 * portal la primera vez y cada victoria abre una puerta al End exterior (endRaidWon). Si falta en su columna (recién
-	 * creado el End, o alguien lo rompió) se pone de nuevo sobre la superficie.
+	 * creado el End, o una explosión) se pone de nuevo sobre la superficie. Los jugadores no lo pueden romper, ni en creativo.
 	 */
 	private static final ResourceLocation RAID_CRYSTAL = ResourceLocation.parse("cobblemonraiddens:raid_crystal_block");
-	private static final ResourceLocation ETERNATUS = ResourceLocation.parse("crd_legendaries:eternatus");
+	private static final ResourceLocation ETERNATUS = ResourceLocation.parse("crd_legendaries:eternatus_dmax"); // dinamax: en la raid sale Eternamax
 	private static final int END_CRYSTAL_X = 8, END_CRYSTAL_Z = 0;
 
 	private static final float GEM_DROP_CHANCE = 0.03f;
@@ -172,6 +173,9 @@ public class MipackRules implements ModInitializer {
 					&& TEMPLATE_POKEMON_UUIDS.contains(p.getPokemon().getUuid())) freshUuid(p);
 			if (entity instanceof PokemonEntity p) dropDuplicateGuardian(p, level);
 		});
+
+		PlayerBlockBreakEvents.BEFORE.register((level, player, pos, state, be) -> !(level.dimension() == Level.END
+				&& pos.getX() == END_CRYSTAL_X && pos.getZ() == END_CRYSTAL_Z && be instanceof RaidCrystalBlockEntity));
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
 			if (server.getTickCount() % 40 == 0 && BuiltInRegistries.BLOCK.containsKey(WAYSTONE))
