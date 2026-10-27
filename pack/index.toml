@@ -6008,6 +6008,10 @@ file = "config/openloader/resources/Cobblemon-Tips-3.0.zip"
 hash = "b53eaa9beaca3a27b3bd5ab62e9422cfd0c2bdc88d54602563dbfcf59fb93aa7"
 
 [[files]]
+file = "config/openloader/resources/MoreRadicalTextures-1.8.zip"
+hash = "5e8d2e2c80f0ce74a21a7c765dbfc2e659eb92fd0863de485c927abefbcd8896"
+
+[[files]]
 file = "config/openloader/resources/fixes/assets/cobblemon-additions/blockstates/pokemon_spawner.json"
 hash = "2fffef7e5067e2cbf4b7862cc4b1791302ea2aa7a5f21dfd943733d4db366cbe"
 
