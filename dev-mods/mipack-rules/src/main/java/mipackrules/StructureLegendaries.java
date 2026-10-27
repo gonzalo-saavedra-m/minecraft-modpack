@@ -38,6 +38,13 @@ final class StructureLegendaries {
 			Map.entry("minecraft:mansion", List.of("darkrai level=70")),
 			Map.entry("deeperdarker:ancient_temple", List.of("arceus level=100")),
 			Map.entry("terralith:mage_complex", List.of("mew level=60")),
+			// Las torres salen seguido: un legendario más débil que el Mew del complejo (decidido el 27-oct)
+			Map.entry("terralith:mage_tower", List.of("uxie level=40|mesprit level=40|azelf level=40")),
+			Map.entry("terralith:mage_tower_autumn", List.of("uxie level=40|mesprit level=40|azelf level=40")),
+			Map.entry("terralith:mage_tower_spring", List.of("uxie level=40|mesprit level=40|azelf level=40")),
+			Map.entry("terralith:mage_tower_summer", List.of("uxie level=40|mesprit level=40|azelf level=40")),
+			Map.entry("terralith:mage_tower_winter", List.of("uxie level=40|mesprit level=40|azelf level=40")),
+			Map.entry("betterjungletemples:jungle_temple", List.of("zarude level=60|ogerpon level=60")),
 			Map.entry("terralith:spire", List.of("kyurem level=70")),
 			Map.entry("mega_showdown:observatory", List.of("cresselia level=60")),
 			Map.entry("mega_showdown:wishing_weald", List.of("celebi level=50")),
