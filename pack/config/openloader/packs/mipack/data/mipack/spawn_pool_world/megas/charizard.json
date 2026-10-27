@@ -1,0 +1,83 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_volcanic"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-charizardite_x-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "charizard mega_evolution=mega_x held_item=mega_showdown:charizardite_x uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_volcanic"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-charizardite_y-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "charizard mega_evolution=mega_y held_item=mega_showdown:charizardite_y uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-charizardite_x-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "charizard mega_evolution=mega_x held_item=mega_showdown:charizardite_x uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-charizardite_y-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "charizard mega_evolution=mega_y held_item=mega_showdown:charizardite_y uncatchable=true"
+    }
+  ]
+}

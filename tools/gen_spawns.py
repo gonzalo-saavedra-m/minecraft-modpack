@@ -832,3 +832,63 @@ assert raise_to('70', 90) == '90'
 print(f'{banded} archivos con niveles subidos a la banda de su zona')
 
 print(f'{written} archivos de spawn sobrescritos; {sum(map(len, BIOMES.values()))} spawns en biomas de Alex\'s Caves')
+
+# Megas salvajes (27-oct, como los Megas Descontrolados de Legends Z-A): cada manada alfa de una especie con mega trae
+# además un spawn suelto de su mega en el mismo lugar, bucket y peso, o sea igual de raro que el alfa (repartido entre
+# sus megas: Charizard X e Y). Nivel 100, no se captura y lleva su megapiedra, que mipack-rules le entrega a quien lo
+# debilita. Sin manada alfa: sus spawns normales pasados a boss con el peso típico de una manada. Fuera los
+# legendarios y míticos (ya están en las raids) y Floette (solo la Eterna megaevoluciona).
+msd = zipfile.ZipFile(next((SERVER / 'mods').glob('mega_showdown-*.jar')))
+zam = zipfile.ZipFile(next((SERVER / 'mods').glob('zamega-*.jar')))
+norm = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
+legendary = {norm(d['name']) for n in cobblemon.namelist() if re.match(r'data/cobblemon/species/.+\.json$', n)
+             for d in [json.loads(cobblemon.read(n))] if {'legendary', 'mythical'} & set(d.get('labels', []))}
+stone_ids = {i.split(':')[1].replace('_', ''): i for i in json.loads(msd.read('data/mega_showdown/tags/item/mega_stone.json'))['values']}
+megas = {}  # especie -> [(aspecto, megapiedra)]
+for z, ns in ((msd, 'mega_showdown'), (zam, 'zamega')):
+    for n in z.namelist():
+        if n.startswith(f'data/{ns}/mega_showdown/mega/') and n.endswith('.json'):
+            d = json.loads(z.read(n))
+            sp = norm(d['pokemons'][0])
+            if sp not in legendary and sp != 'floette':
+                stone = stone_ids[d['showdown_id']] if ns == 'mega_showdown' else 'zamega:' + d['showdown_id']
+                megas.setdefault(sp, []).append((' '.join(d['aspect_conditions']['apply']['aspects']), stone))
+
+herds, singles = {}, {}  # especie -> spawns, ya con las bandas de nivel de arriba
+for f in MIPACK.rglob('*.json'):
+    if '/spawn_pool_world/' in f.as_posix():
+        effective[f.relative_to(MIPACK).as_posix()] = f.read_bytes
+for n, read in effective.items():
+    try:
+        d = json.loads(read())
+    except ValueError:
+        continue
+    if not d.get('enabled', True):
+        continue
+    for s in d.get('spawns', []):
+        if s.get('type') == 'pokemon-herd':
+            for h in s.get('herdablePokemon', []):
+                if h.get('isLeader') and 'alpha=true' in h['pokemon']:
+                    herds.setdefault(norm(h['pokemon'].split()[0].split(':')[-1]), []).append(s)
+        elif s.get('type') == 'pokemon' and s.get('pokemon') and len(s['pokemon'].split()) == 1:  # sin forma regional
+            singles.setdefault(norm(s['pokemon'].split(':')[-1]), []).append(s)
+
+typical = sorted(s['weight'] for v in herds.values() for s in v)[len([s for v in herds.values() for s in v]) // 2]
+shutil.rmtree(MIPACK / 'data/mipack/spawn_pool_world/megas', ignore_errors=True)
+skipped = []
+for sp, forms in sorted(megas.items()):
+    base = [(s, s['weight']) for s in herds.get(sp, [])] or [(s, typical) for s in singles.get(sp, [])]
+    if not base:
+        skipped.append(sp)
+        continue
+    spawns = []
+    for i, (s, w) in enumerate(base):
+        for aspect, stone in forms:
+            m = {k: s[k] for k in ('condition', 'anticondition', 'presets', 'spawnablePositionType') if k in s}
+            m.update(id=f"mipack-mega-{stone.split(':')[1]}-{i + 1}", type='pokemon', bucket='boss', level='100',
+                     weight=round(w / len(forms), 2), pokemon=f'{sp} {aspect} held_item={stone} uncatchable=true')
+            spawns.append(m)
+    write(f'data/mipack/spawn_pool_world/megas/{sp}.json', {'enabled': True, 'neededInstalledMods': [],
+                                                             'neededUninstalledMods': [], 'spawns': spawns})
+assert 'mewtwo' not in megas and {a for a, _ in megas['charizard']} == {'mega_evolution=mega_x', 'mega_evolution=mega_y'}
+print(f'{len(megas) - len(skipped)} especies con mega salvaje (peso típico sin manada: {typical}); sin spawns: {skipped}')

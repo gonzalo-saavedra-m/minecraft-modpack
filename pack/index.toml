@@ -4675,6 +4675,10 @@ file = "config/openloader/packs/mipack/data/mipack/loot_table/groups/z.json"
 hash = "9be48f42e2cb66cbe1ec87c93bfdf0fceacc47baff84f47cb03df655be76fc43"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/notification/segment/mega.json"
+hash = "5d8e7aa8e0569d9a67a3f9f19621a87e5b438655f20f303df1d096c3a98555fd"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/raid/boss/alcremie_gmax.json"
 hash = "3149cad10de7fbbb73e78273223441c78106f1b3fadee3e6771002cd1b501ab1"
 
@@ -5053,6 +5057,310 @@ hash = "d053b6d99e090929716e6b97fc713e3a7291e8a057d99d4b4346a1446edaf6d4"
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/ironjugulis.json"
 hash = "45095409100e3239535089eab46e6ecdfe0444fe360707392dffb685376ce279"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/abomasnow.json"
+hash = "fb58e86c8871d8f06851c553704c6c09212d2572be54aa3a024ac67a84b1d714"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/absol.json"
+hash = "c1c07e2242ee3fdbd575e547c4e1022969fa7935f6ecf4d8d1ba4bbed486a3b9"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/aerodactyl.json"
+hash = "c05446e30bdd4d62055594b7ac5585a26a639db88b00cb2c650dda731ca7e8f0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/aggron.json"
+hash = "21c72520c735dd9eb8f12f861d0f1d0153db29cb566e85cf4d27572fa71c26c3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/alakazam.json"
+hash = "9857cc9280d60023f2fc6dbeee6a1b391b5d0c616d754b04ea5040dda67e8ad2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/altaria.json"
+hash = "1383e6c9b67d2f696dedcffb59fbede4c2ff88974969466f276ae82ebe30892a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/ampharos.json"
+hash = "79c580c265154ef798601bfcd151902115f83ca1eaa52b22983238aa282b9730"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/audino.json"
+hash = "2c6eb7bd37ff3660ac86d5a805eaf88d52501be5616b6aef81d36937e5076740"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/banette.json"
+hash = "ed81e368eff71ceaf941d7ce6f13727debdb1ccb4eb26ca4e982fff594e3804d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/barbaracle.json"
+hash = "f1e9337c6aa41781d88c5978bdb178508c51e4d644305f21150087f212e14c99"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/baxcalibur.json"
+hash = "d3f0565ede627f7cc2b11c6b9196635ad6d5f764f84e64f101b1066e6ff1d3f8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/beedrill.json"
+hash = "4faffd8a04f7320625da56bcd220f2bbab556d139c3c3343c6c09f7b27d0bdd3"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/blastoise.json"
+hash = "f40f5347d37fa8843717618224b259155203ba455ee26aeced8f01ab306c3042"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/blaziken.json"
+hash = "152cbd9db5831649da69625054113bc1858a677e1678c8dbc6dc7b57ef6dd7e5"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/camerupt.json"
+hash = "ed6a927d494559bb3cfb7d677dc6aa5e81477b1cb493a8508afc4fe95f0e9307"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/chandelure.json"
+hash = "8286ae5b40f2020cd240738c40d67d6bbd5ec512bb50ea7f8a6bdd4b93db055e"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/charizard.json"
+hash = "c69ddcf761bab40a9f137094ad79bba351bf6c0aa3b706646a0fd53923638f83"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/chesnaught.json"
+hash = "24a3926095421e289e49729e52f9825660964a74b96b55a0394df8c08392af89"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/chimecho.json"
+hash = "ac80cf6b3e866125def4460c38987c12b687f36af5e5634f1aa07bce86e78fec"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/clefable.json"
+hash = "428bb4bd334cbe3d1e0714930c4ce56a6541fae163bb4e0254f02d8cd6f8dc10"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/crabominable.json"
+hash = "35609ee69efc4e1902d15a4d854b05a8f43d74c3bc7ed93edeaa645f6e18dc28"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/delphox.json"
+hash = "23af37dc7fadc1e5ee35647951c0f0f2a9db5dfebee2b75555a84077ecf4ab6a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/dragalge.json"
+hash = "8f186524cfbce91aa03ac34f3ed31d5b6ab9093fcaeddac5ff1989604308e1d1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/dragonite.json"
+hash = "c36c5ef2677ef4a04aebee4b90c0f6030256282202e16eeb1af67da42e1ac370"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/drampa.json"
+hash = "ad172a36041460f528d0bc63ec8f2fc3ec66390e1d9e92c19a59d6d8f6333557"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/eelektross.json"
+hash = "9a2bbbbce1f1323983ede39ee9087a33c02d5a08916b97da9b4bc088e52841a0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/emboar.json"
+hash = "c7bed7c30e2d270f40423c2f6030a6078ffb5f3c26cb4b349645ba8eae0e62c6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/excadrill.json"
+hash = "5e505d051adc2b5d486c6ad90a9312fdce1114c7cbf79b10812b338cc2182380"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/falinks.json"
+hash = "2dbce1f3a3c02550ca35d973d1ad58bc6c57cbbd39bf71c7ef16120f2c6be496"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/feraligatr.json"
+hash = "7d1c084a3d872ffc7120e257536f8f73258f5c64454e62b58eb131676987d6c1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/froslass.json"
+hash = "165ec977adaee8f1a4f659664862e6cdb6004a59826c005e36f74646ea7db1ce"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/gallade.json"
+hash = "ed5be3baeafead8d47e16f916b998294641d58db980104db0ef56a7a8b5583d1"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/garchomp.json"
+hash = "1f86a9de5b8a3d351c6c4a7fecd370636756158931d652c0adcbd3660a56a485"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/gardevoir.json"
+hash = "9a51930f23a680472bfa8bd46bb8f290552e18c9c803c9ca61ced424d0b8b9b8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/gengar.json"
+hash = "0002d61caa3a6bdb935455c46b092af0886408e424e1ac661079279896731f96"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/glalie.json"
+hash = "ed546916bebe095479006a2b04998e90d9feabf3d8121afee243bce274122bf8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/glimmora.json"
+hash = "4128c26c66f879c5aed5088cce88fa8176a3c2101d058f9c5b9a1a56a6aeed11"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/golisopod.json"
+hash = "29a30e11f95cec47894b9fe0723531604f35a59f316cee28b0720af3b0cab693"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/golurk.json"
+hash = "a40a9e08b0d06485652cb9823c365a2900ff041940ba2d2df128cb94d3a1b1bc"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/greninja.json"
+hash = "d96cce672d94ec69886eb46b63a99cabd2e0d8d62e6860f82587d99124ce2213"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/gyarados.json"
+hash = "0477a34f5df5b5f7eff89e8030c641122b8facbdb2b6ab308559d47c60194424"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/hawlucha.json"
+hash = "097867ae791eb7478eb354ebaa87536f2eb930f6c1e6985ff53a5258f6fc6069"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/heracross.json"
+hash = "8c2afd6bd9a2653088f42fd51fea4c8b880ef4ac5db88006ebb6f181e2d5ce00"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/houndoom.json"
+hash = "6c9a9673a6e1f950acec6739b40c47b561632bf0020dd4be6f328e114451d84c"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/kangaskhan.json"
+hash = "b99a2f4ec3d8456cd2076fe23ee786c6924fabbbede46b844e789915c68fb6cd"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/lopunny.json"
+hash = "000acfdb31f59b7185c50eea9b20297bf24bb121ce844d96b14cfcc24ef486b7"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/lucario.json"
+hash = "ba743c3446fbf5e0e40dd7e6e72d6e56588c5699889592f783a8f3595623b153"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/malamar.json"
+hash = "fd9c837751c739b768aa139a4b8b1570f4834bd32bf4ac336f60c9f537e24382"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/manectric.json"
+hash = "2396d3a139b9e95b62075223cfb9e90f0516189dab2a6584cecc4fd2e008b241"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/mawile.json"
+hash = "429a3413b1de73c6ccc6e9ae7e77c1e818fc08e70fc9405325b8b5890d41eef4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/medicham.json"
+hash = "01d27fe74ec7d927a7627da37b8f0cedf022630b7017aab649cc0608e9a6f311"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/meganium.json"
+hash = "397de38d2f1f226569c1c131087eed41192f7f064a551ad0138c732902ecfa8b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/meowstic.json"
+hash = "dd939abf180d56c90b4e320eb3878b08f66dd91f063dea2e61d9598c93195a95"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/metagross.json"
+hash = "d3c20a6879f2b235e699cd5d9c09c8cff2f554ca6d4c7aa50e0f56fb4ddb2ed4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/pidgeot.json"
+hash = "bfded0f1cb8aabeda7e682dcd5347d319d9fa3089eb3e45dd01e3196c0413edf"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/pinsir.json"
+hash = "d02d8f36bef07fd0f63b72baaabe3319132f5e17d8718ba5065b99a1878c6486"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/pyroar.json"
+hash = "0e2c74477262c35e292fcd44f5aaea2d35fc01ad05c4c78dda419382ce23e48b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/raichu.json"
+hash = "b9153a69a508f8bf23c6c18082cb061585a527393651bb652673a37ba1ec0eae"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/sableye.json"
+hash = "7fa7ffc82d8549c2eff1f4cccb6ed0263eca593c87d79fec7bcc5b138fa7bfa9"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/salamence.json"
+hash = "ab11125a2c6a9fe972d7aaef35caa6403cb570830163d97ec11c97dbfb5b585a"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/sceptile.json"
+hash = "f311e1594aa961f5635525c56a74c6df75f0973c5e0611e6e2333af4253cbcb2"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/scizor.json"
+hash = "bfb44b0b3b46772a3ef1263325489b06d67729f20322f7097e7f52819d810ad5"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/scolipede.json"
+hash = "6600bb626f3c1a5db2322c13272b846c677bdfd28babdf4b39977b2e3cd058db"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/scovillain.json"
+hash = "44fb72e4f47935d18f6b3ee87205be3634e232b23c8eea5b0b9be0f8844c25a6"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/scrafty.json"
+hash = "6e0f7280e546f297c5267dc41ead1382f1506346818fcb7f7f23a9f25425fcc0"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/sharpedo.json"
+hash = "632f3d6fda9e33e651dc2626a7457ca4bb4dcf71bedf32fc6e1551e79ec4cac4"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/skarmory.json"
+hash = "78750f2869cc9b5a51f9a025ff6a3fa3bdf099586263755eb314810d9c8f5d25"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/slowbro.json"
+hash = "182f48b6b57bdd745a55af6dad331386d8f39c85bf8d7fb00a0e1b4a85dd69c8"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/staraptor.json"
+hash = "e913773a399da42cec649845f95523477ea3819beec173afcedfb7cdf40475bb"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/starmie.json"
+hash = "64073b24880363ffe57810f3fe5b49de5bce683a228bde2f03049e825cf4896d"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/steelix.json"
+hash = "452d1a420ca9a13b639f66e351c015a08d0994555d6f05e52855c9f9bec58096"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/swampert.json"
+hash = "1c1152e3db2d86267c3308764c04aaf1acbe64dcd032e970e26e805e193bb928"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/tatsugiri.json"
+hash = "f1539ca29c6e74178b95291778e7ee39d65ca7c4c94facc8c56902d6c4197eea"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/tyranitar.json"
+hash = "d8ad9c5a89e4c77c89c5976f8509ee6a08f9b70c04bd314cf4de171653167c22"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/venusaur.json"
+hash = "e1048841e87f9632556b759d41837b6796ed730e8696a2c1f12c0f66ad87ed07"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/megas/victreebel.json"
+hash = "af8b3ae3d97b0743fc5f6ad475630c0ba28fec1edc20250730336e8bf8809978"
 
 [[files]]
 file = "config/openloader/packs/mipack/data/mipack/spawn_pool_world/structures/aether_bronze_dungeon.json"
@@ -5823,6 +6131,18 @@ file = "config/openloader/packs/mipack/data/rctmod/mobs/trainers/single/leader_v
 hash = "d7a43e5524f5e1df12d8725f64a9e3a8cc55f58729a2f95e4af68f8e568af9f0"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/spawn_notification/notification/segment/packed/pre.json"
+hash = "ba439c913c5f9474681cfe3b1330ea6b8f001ac26c630f8ce0dbe8ab8f70b801"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/spawn_notification/notification/situation/mega/fainted.json"
+hash = "f057d8b19477140bdd15d1b44fcab20ca7791ca3bbe79812d4d24360ac1cf4ed"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/spawn_notification/notification/situation/mega/spawned.json"
+hash = "378822d2ff0858c1c7642d7608861e587919d15298ebd0f9ab6ab991b8a667c9"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/special_spawns/spawn_pool_world/legendary/cosmog.json"
 hash = "7afe6b64644f4dbdceaab8476829997d53eaf91270c1ca52c1b4b4f833502662"
 
@@ -6038,6 +6358,10 @@ hash = "94212ce2c34c6aaa4a5156557c97feacb62822e1540f651813f77abf421cd1b7"
 [[files]]
 file = "config/openloader/resources/fixes/assets/pokeblocks/models/block/gigantic_pokedoll_shiny_cubchoo_animated.json"
 hash = "bc69c202e33ada7409808ea1a827da0c6c8a3aa13540a52b7eef8b47c1e45760"
+
+[[files]]
+file = "config/openloader/resources/fixes/assets/spawn_notification/lang/en_us.json"
+hash = "555e32fcf189051e6b5fe13a68d46276f37e7926a98440d832dc8b47b89b4f81"
 
 [[files]]
 file = "config/openloader/resources/fixes/pack.mcmeta"
@@ -6948,7 +7272,7 @@ metafile = true
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
-hash = "c17b53e3abf47bd6fb6799576aeca8b63c6748d6b72bd1d2934d61e63c5f7fb2"
+hash = "026ae505848e39a6c480ccfc6e71c6f736596cb2d87bb30a75d7602eba5b1642"
 
 [[files]]
 file = "mods/modernfix.pw.toml"

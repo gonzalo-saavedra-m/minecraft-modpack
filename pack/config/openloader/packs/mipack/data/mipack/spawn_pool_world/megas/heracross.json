@@ -1,0 +1,166 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_spooky"
+        ],
+        "neededNearbyBlocks": [
+          "#cobblemon:saccharine_trees"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-heracronite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "heracross mega_evolution=mega held_item=mega_showdown:heracronite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "#cobblemon:saccharine_trees"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-heracronite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "heracross mega_evolution=mega held_item=mega_showdown:heracronite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_tropical_island"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "#cobblemon:saccharine_trees"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-heracronite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "heracross mega_evolution=mega held_item=mega_showdown:heracronite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "#cobblemon:saccharine_trees"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-heracronite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "heracross mega_evolution=mega held_item=mega_showdown:heracronite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "#cobblemon:saccharine_trees"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-heracronite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "heracross mega_evolution=mega held_item=mega_showdown:heracronite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "the_bumblezone:crystal_canyon"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-heracronite-6",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "heracross mega_evolution=mega held_item=mega_showdown:heracronite uncatchable=true"
+    }
+  ]
+}

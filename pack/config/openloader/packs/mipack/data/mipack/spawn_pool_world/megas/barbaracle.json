@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-barbaracite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "barbaracle mega_evolution=mega held_item=mega_showdown:barbaracite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "seafloor",
+      "id": "mipack-mega-barbaracite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "barbaracle mega_evolution=mega held_item=mega_showdown:barbaracite uncatchable=true"
+    }
+  ]
+}

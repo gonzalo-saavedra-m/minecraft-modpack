@@ -1,0 +1,51 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-tyranitarite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "tyranitar mega_evolution=mega held_item=mega_showdown:tyranitarite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-tyranitarite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "tyranitar mega_evolution=mega held_item=mega_showdown:tyranitarite uncatchable=true"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-salamencite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "salamence mega_evolution=mega held_item=mega_showdown:salamencite uncatchable=true"
+    }
+  ]
+}

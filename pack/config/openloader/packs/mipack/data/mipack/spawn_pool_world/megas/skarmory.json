@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert",
+          "#cobblemon:is_sky"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day"
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-skarmorite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "skarmory mega_evolution=mega held_item=mega_showdown:skarmorite uncatchable=true"
+    }
+  ]
+}

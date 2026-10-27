@@ -14,6 +14,7 @@ import com.cobblemon.mod.common.api.pokemon.experience.CommandExperienceSource;
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
 import com.cobblemon.mod.common.api.spawning.spawner.PlayerSpawnerFactory;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
+import com.cobblemon.mod.common.battles.pokemon.BattlePokemon;
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity;
 import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.mojang.logging.LogUtils;
@@ -130,6 +131,8 @@ public class MipackRules implements ModInitializer {
 	private static final Map<String, String> DUNGEON_KEYS = Map.of("aether:slider", "aether:bronze_dungeon_key",
 			"aether:valkyrie_queen", "aether:silver_dungeon_key", "aether:sun_spirit", "aether:gold_dungeon_key");
 	private static final String DUNGEON_KEY_DATA = "mipack_dungeon_key";
+	/** Formas de la feature mega_evolution de Mega Showdown. */
+	private static final Set<String> MEGA_ASPECTS = Set.of("mega", "mega_x", "mega_y", "mega_z");
 	/** Lugar del guardián o legendario fijo: si se aleja más de GUARDIAN_LEASH bloques (salvaje y fuera de combate), vuelve a su sala. */
 	private static final String DUNGEON_HOME_DATA = "mipack_dungeon_home";
 	private static final double GUARDIAN_LEASH = 8;
@@ -225,7 +228,9 @@ public class MipackRules implements ModInitializer {
 		CobblemonEvents.POKEMON_CAPTURED.subscribe(event -> giveDungeonKey(event.getPokemon(), List.of(event.getPlayer())));
 		CobblemonEvents.BATTLE_FAINTED.subscribe(event -> {
 			var pokemon = event.getKilled().getEffectedPokemon();
-			if (pokemon.isWild()) giveDungeonKey(pokemon, event.getBattle().getPlayers());
+			if (!pokemon.isWild()) return;
+			giveDungeonKey(pokemon, event.getBattle().getPlayers());
+			giveMegaStone(event.getKilled(), event.getBattle().getPlayers());
 		});
 
 		// Un salvaje derrotado a veces suelta la gema de su tipo principal, como el tera shard de Mega Showdown (10 %)
@@ -441,6 +446,17 @@ public class MipackRules implements ModInitializer {
 		for (ServerPlayer player : players) player.getInventory().placeItemBackInInventory(new ItemStack(key));
 		if (!players.isEmpty() && data.contains(DUNGEON_HOME_DATA))
 			openTreasure(players.get(0).serverLevel(), BlockPos.of(data.getLong(DUNGEON_HOME_DATA)));
+	}
+
+	// Mega salvaje (tools/gen_spawns.py): no se captura y lleva su megapiedra; al debilitarlo, cada jugador del combate
+	// recibe una, como los Megas Descontrolados de Legends Z-A. Se la saca a la copia del combate y al del mundo para
+	// que no salga dos veces
+	private static void giveMegaStone(BattlePokemon killed, List<ServerPlayer> players) {
+		var pokemon = killed.getEffectedPokemon();
+		if (!pokemon.isUncatchable() || Collections.disjoint(pokemon.getAspects(), MEGA_ASPECTS) || pokemon.heldItem().isEmpty()) return;
+		var stone = pokemon.removeHeldItem();
+		killed.getOriginalPokemon().removeHeldItem();
+		for (ServerPlayer player : players) player.getInventory().placeItemBackInInventory(stone.copy());
 	}
 
 	/** Abre la puerta del tesoro de la sala del jefe: en las plantillas queda a ≤ 12 bloques de donde estaba el jefe. */

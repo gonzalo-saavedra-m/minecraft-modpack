@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "canSeeSky": true
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-tatsugirinite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "tatsugiri mega_evolution=mega held_item=zamega:tatsugirinite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-tatsugirinite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "tatsugiri mega_evolution=mega held_item=zamega:tatsugirinite uncatchable=true"
+    }
+  ]
+}

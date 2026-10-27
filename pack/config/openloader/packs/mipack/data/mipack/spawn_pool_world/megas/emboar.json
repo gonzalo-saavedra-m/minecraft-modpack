@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-emboarite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "emboar mega_evolution=mega held_item=mega_showdown:emboarite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_crimson",
+          "#cobblemon:nether/is_overgrowth"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-emboarite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "emboar mega_evolution=mega held_item=mega_showdown:emboarite uncatchable=true"
+    }
+  ]
+}

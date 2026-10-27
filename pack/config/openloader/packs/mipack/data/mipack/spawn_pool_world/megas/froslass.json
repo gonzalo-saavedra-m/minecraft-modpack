@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-froslassite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "froslass mega_evolution=mega held_item=mega_showdown:froslassite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_tundra"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-froslassite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "froslass mega_evolution=mega held_item=mega_showdown:froslassite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 1,
+        "structures": [
+          "minecraft:igloo"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-froslassite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "froslass mega_evolution=mega held_item=mega_showdown:froslassite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_frozen"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-froslassite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "froslass mega_evolution=mega held_item=mega_showdown:froslassite uncatchable=true"
+    }
+  ]
+}

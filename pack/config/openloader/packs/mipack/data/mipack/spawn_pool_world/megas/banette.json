@@ -1,0 +1,90 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-banettite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "banette mega_evolution=mega held_item=mega_showdown:banettite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-banettite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "banette mega_evolution=mega held_item=mega_showdown:banettite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#minecraft:village"
+        ],
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-banettite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "banette mega_evolution=mega held_item=mega_showdown:banettite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "timeRange": "night"
+      },
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-banettite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "banette mega_evolution=mega held_item=mega_showdown:banettite uncatchable=true"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-cameruptite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "camerupt mega_evolution=mega held_item=mega_showdown:cameruptite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-cameruptite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "camerupt mega_evolution=mega held_item=mega_showdown:cameruptite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_overgrowth",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-cameruptite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "camerupt mega_evolution=mega held_item=mega_showdown:cameruptite uncatchable=true"
+    }
+  ]
+}

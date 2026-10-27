@@ -1,0 +1,78 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "maxY": 48
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-eelektrossite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "eelektross mega_evolution=mega held_item=mega_showdown:eelektrossite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 48,
+        "minSkyLight": 0
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "#cobblemon:shipwreck_cove"
+        ]
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-eelektrossite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "eelektross mega_evolution=mega held_item=mega_showdown:eelektrossite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "maxY": 13,
+        "minY": -60,
+        "structures": [
+          "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+        ]
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-eelektrossite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "eelektross mega_evolution=mega held_item=mega_showdown:eelektrossite uncatchable=true"
+    }
+  ]
+}

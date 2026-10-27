@@ -1,0 +1,5 @@
+{
+  "triggers": ["spawn_notification:spawned"],
+  "conditions": [{"type": "spawn_notification:matcher", "matcher": ["mega_evolution=mega uncatchable=true", "mega_evolution=mega_x uncatchable=true", "mega_evolution=mega_y uncatchable=true", "mega_evolution=mega_z uncatchable=true"]}],
+  "otherSituations": ["spawn_notification:special/spawned"]
+}

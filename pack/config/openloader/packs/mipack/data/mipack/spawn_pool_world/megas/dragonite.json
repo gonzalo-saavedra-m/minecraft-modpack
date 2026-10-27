@@ -1,0 +1,95 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-dragoninite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "dragonite mega_evolution=mega held_item=mega_showdown:dragoninite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "isRaining": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-dragoninite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "dragonite mega_evolution=mega held_item=mega_showdown:dragoninite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "presets": [
+        "water",
+        "ocean_ruins"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-dragoninite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "dragonite mega_evolution=mega held_item=mega_showdown:dragoninite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "water",
+        "ocean_ruins"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-dragoninite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "dragonite mega_evolution=mega held_item=mega_showdown:dragoninite uncatchable=true"
+    }
+  ]
+}

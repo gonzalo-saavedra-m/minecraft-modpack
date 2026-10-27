@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "structures": [
+          "mega_showdown:mega_site"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-absolite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "absol mega_evolution=mega held_item=mega_showdown:absolite uncatchable=true"
+    },
+    {
+      "condition": {
+        "structures": [
+          "mega_showdown:mega_site"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-absolite_z-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "absol mega_evolution=mega_z held_item=mega_showdown:absolite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "deeperdarker:deeplands"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-absolite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "absol mega_evolution=mega held_item=mega_showdown:absolite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "deeperdarker:deeplands"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-absolite_z-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "absol mega_evolution=mega_z held_item=mega_showdown:absolite_z uncatchable=true"
+    }
+  ]
+}

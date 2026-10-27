@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-falinksite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "falinks mega_evolution=mega held_item=mega_showdown:falinksite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      },
+      "presets": [
+        "natural",
+        "nether_structures"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-falinksite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "falinks mega_evolution=mega held_item=mega_showdown:falinksite uncatchable=true"
+    }
+  ]
+}

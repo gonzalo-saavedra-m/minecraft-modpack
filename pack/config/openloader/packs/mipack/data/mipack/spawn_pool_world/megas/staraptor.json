@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_snowy_forest",
+          "#cobblemon:is_taiga"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-staraptite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "staraptor mega_evolution=mega held_item=mega_showdown:staraptite uncatchable=true"
+    }
+  ]
+}

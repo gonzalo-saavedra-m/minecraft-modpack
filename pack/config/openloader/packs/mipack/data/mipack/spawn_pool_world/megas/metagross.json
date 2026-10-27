@@ -1,0 +1,99 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_dripstone",
+          "#cobblemon:is_peak"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-metagrossite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "metagross mega_evolution=mega held_item=mega_showdown:metagrossite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-metagrossite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "metagross mega_evolution=mega held_item=mega_showdown:metagrossite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-metagrossite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "metagross mega_evolution=mega held_item=mega_showdown:metagrossite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "structures": [
+          "#aether:dungeons"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-metagrossite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "metagross mega_evolution=mega held_item=mega_showdown:metagrossite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "the_bumblezone:howling_constructs"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-metagrossite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "metagross mega_evolution=mega held_item=mega_showdown:metagrossite uncatchable=true"
+    }
+  ]
+}

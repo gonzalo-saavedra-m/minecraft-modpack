@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_tropical_island"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day"
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "surface",
+      "id": "mipack-mega-glimmoranite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "glimmora mega_evolution=mega held_item=mega_showdown:glimmoranite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-glimmoranite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "glimmora mega_evolution=mega held_item=mega_showdown:glimmoranite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_tropical_island"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-glimmoranite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "glimmora mega_evolution=mega held_item=mega_showdown:glimmoranite uncatchable=true"
+    }
+  ]
+}

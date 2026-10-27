@@ -1,0 +1,90 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-sablenite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "sableye mega_evolution=mega held_item=mega_showdown:sablenite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "neededNearbyBlocks": [
+          "#cobblemon:gemstones"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-sablenite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "sableye mega_evolution=mega held_item=mega_showdown:sablenite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-sablenite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "sableye mega_evolution=mega held_item=mega_showdown:sablenite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "the_bumblezone:crystal_canyon",
+          "biomesoplenty:crystalline_chasm"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-sablenite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "sableye mega_evolution=mega held_item=mega_showdown:sablenite uncatchable=true"
+    }
+  ]
+}

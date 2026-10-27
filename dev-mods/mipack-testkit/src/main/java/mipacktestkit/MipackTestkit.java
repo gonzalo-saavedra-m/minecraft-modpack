@@ -207,6 +207,20 @@ public class MipackTestkit implements ModInitializer {
 									new com.cobblemon.mod.common.entity.pokeball.EmptyPokeBallEntity(p.level()))}, e -> kotlin.Unit.INSTANCE);
 					return reply(c, "catch " + p.getScoreboardName() + ": " + wild.getPokemon().getSpecies().getName() + " en " + wild.blockPosition());
 				}))))
+				// Debilita al rival salvaje del combate del jugador: solo dispara BATTLE_FAINTED (los salvajes no eligen con jugadores falsos)
+				.then(literal("faint").then(argument("player", EntityArgument.player()).executes(c -> {
+					var p = EntityArgument.getPlayer(c, "player");
+					var battle = BattleRegistry.getBattleByParticipatingPlayer(p);
+					if (battle == null) return reply(c, "faint " + p.getScoreboardName() + ": sin batalla");
+					for (var actor : battle.getActors()) for (var bp : actor.getPokemonList()) if (bp.getEffectedPokemon().isWild()) {
+						com.cobblemon.mod.common.api.events.CobblemonEvents.BATTLE_FAINTED.post(new com.cobblemon.mod.common.api.events.battles.BattleFaintedEvent[]{
+								new com.cobblemon.mod.common.api.events.battles.BattleFaintedEvent(battle, bp, new com.cobblemon.mod.common.api.battles.interpreter.BasicContext(
+										"faint", battle.getTurn(), com.cobblemon.mod.common.api.battles.interpreter.BattleContext.Type.FAINT, bp), "faint")}, e -> kotlin.Unit.INSTANCE);
+						return reply(c, "faint " + p.getScoreboardName() + ": " + bp.getEffectedPokemon().getSpecies().getName() + ", inventario: " + p.getInventory().items.stream()
+								.filter(s -> !s.isEmpty()).map(s -> s.getCount() + " " + BuiltInRegistries.ITEM.getKey(s.getItem())).toList());
+					}
+					return reply(c, "faint " + p.getScoreboardName() + ": sin salvaje");
+				})))
 				.then(literal("forcepass").then(argument("player", EntityArgument.player()).executes(c -> {
 					var p = EntityArgument.getPlayer(c, "player");
 					var battle = BattleRegistry.getBattleByParticipatingPlayer(p);

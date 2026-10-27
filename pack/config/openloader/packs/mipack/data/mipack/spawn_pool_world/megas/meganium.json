@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meganiumite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "meganium mega_evolution=mega held_item=mega_showdown:meganiumite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meganiumite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "meganium mega_evolution=mega held_item=mega_showdown:meganiumite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "the_bumblezone:floral_meadow"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meganiumite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "meganium mega_evolution=mega held_item=mega_showdown:meganiumite uncatchable=true"
+    }
+  ]
+}

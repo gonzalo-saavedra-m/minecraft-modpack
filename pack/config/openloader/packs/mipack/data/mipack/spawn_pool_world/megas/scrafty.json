@@ -1,0 +1,78 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scraftinite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scrafty mega_evolution=mega held_item=mega_showdown:scraftinite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      },
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scraftinite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scrafty mega_evolution=mega held_item=mega_showdown:scraftinite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#minecraft:village"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scraftinite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scrafty mega_evolution=mega held_item=mega_showdown:scraftinite uncatchable=true"
+    }
+  ]
+}

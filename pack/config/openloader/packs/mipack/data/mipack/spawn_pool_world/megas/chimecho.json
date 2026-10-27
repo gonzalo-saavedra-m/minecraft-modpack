@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_taiga"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_volcanic",
+          "alexscaves:forlorn_hollows"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-chimechite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "chimecho mega_evolution=mega held_item=mega_showdown:chimechite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "alexscaves:candy_cavity"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-chimechite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "chimecho mega_evolution=mega held_item=mega_showdown:chimechite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:bell"
+        ],
+        "timeRange": "night"
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-chimechite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "chimecho mega_evolution=mega held_item=mega_showdown:chimechite uncatchable=true"
+    }
+  ]
+}

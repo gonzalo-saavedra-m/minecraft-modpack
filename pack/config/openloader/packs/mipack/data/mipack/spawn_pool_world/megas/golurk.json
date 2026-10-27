@@ -1,0 +1,122 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "ancient_city"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-golurkite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "golurk mega_evolution=mega held_item=mega_showdown:golurkite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#cobblemon:ruin"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-golurkite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 50.0,
+      "pokemon": "golurk mega_evolution=mega held_item=mega_showdown:golurkite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "trail_ruins"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-golurkite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "golurk mega_evolution=mega held_item=mega_showdown:golurkite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      },
+      "presets": [
+        "natural",
+        "desert_pyramid"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-golurkite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "golurk mega_evolution=mega held_item=mega_showdown:golurkite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      },
+      "presets": [
+        "natural",
+        "jungle_pyramid"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-golurkite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "golurk mega_evolution=mega held_item=mega_showdown:golurkite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "the_bumblezone:howling_constructs"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-golurkite-6",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "golurk mega_evolution=mega held_item=mega_showdown:golurkite uncatchable=true"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-lucarionite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "lucario mega_evolution=mega held_item=mega_showdown:lucarionite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-lucarionite_z-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "lucario mega_evolution=mega_z held_item=mega_showdown:lucarionite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-lucarionite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "lucario mega_evolution=mega held_item=mega_showdown:lucarionite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-lucarionite_z-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "lucario mega_evolution=mega_z held_item=mega_showdown:lucarionite_z uncatchable=true"
+    }
+  ]
+}

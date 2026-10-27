@@ -1,0 +1,174 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-swampertite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "canSeeSky": true
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-swampertite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "anticondition": {
+        "maxY": 9,
+        "minY": -41,
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-swampertite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "anticondition": {
+        "maxY": 9,
+        "minY": -41,
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ]
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-swampertite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-swampertite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 9,
+        "minSkyLight": 0,
+        "minY": -41,
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-swampertite-6",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 9,
+        "minSkyLight": 0,
+        "minY": -41,
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-swampertite-7",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 10.0,
+      "pokemon": "swampert mega_evolution=mega held_item=mega_showdown:swampertite uncatchable=true"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-baxcalibrite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "baxcalibur mega_evolution=mega held_item=mega_showdown:baxcalibrite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "yungscavebiomes:frosted_caves"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-baxcalibrite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "baxcalibur mega_evolution=mega held_item=mega_showdown:baxcalibrite uncatchable=true"
+    }
+  ]
+}

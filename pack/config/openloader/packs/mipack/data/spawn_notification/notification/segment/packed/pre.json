@@ -1,0 +1,13 @@
+{
+  "type": "spawn_notification:full",
+  "segments": {
+    "1": "spawn_notification:ultra_rare",
+    "2": "spawn_notification:alpha",
+    "3": "spawn_notification:shiny",
+    "4": "spawn_notification:label",
+    "5": "spawn_notification:max_ivs",
+    "6": "mipack:mega"
+  },
+  "delimiter": " ",
+  "after": " "
+}

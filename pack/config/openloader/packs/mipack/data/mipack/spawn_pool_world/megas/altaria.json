@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-altarianite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "altaria mega_evolution=mega held_item=mega_showdown:altarianite uncatchable=true"
+    }
+  ]
+}

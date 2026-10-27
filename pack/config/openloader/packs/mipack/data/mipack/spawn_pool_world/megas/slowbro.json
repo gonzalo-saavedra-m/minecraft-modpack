@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-slowbronite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "slowbro mega_evolution=mega held_item=mega_showdown:slowbronite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "minecraft:mushroom_fields",
+          "#cobblemon:is_tropical_island"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-slowbronite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "slowbro mega_evolution=mega held_item=mega_showdown:slowbronite uncatchable=true"
+    }
+  ]
+}

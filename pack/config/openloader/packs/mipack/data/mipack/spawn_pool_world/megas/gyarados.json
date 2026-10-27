@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": true
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-gyaradosite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "gyarados mega_evolution=mega held_item=mega_showdown:gyaradosite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_ocean"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "surface",
+      "id": "mipack-mega-gyaradosite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "gyarados mega_evolution=mega held_item=mega_showdown:gyaradosite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_ocean"
+        ],
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "id": "mipack-mega-gyaradosite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "gyarados mega_evolution=mega held_item=mega_showdown:gyaradosite uncatchable=true"
+    }
+  ]
+}

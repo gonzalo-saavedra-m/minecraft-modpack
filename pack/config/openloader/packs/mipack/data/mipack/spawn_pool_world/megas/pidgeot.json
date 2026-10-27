@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_sky"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-pidgeotite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "pidgeot mega_evolution=mega held_item=mega_showdown:pidgeotite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-pidgeotite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "pidgeot mega_evolution=mega held_item=mega_showdown:pidgeotite uncatchable=true"
+    }
+  ]
+}

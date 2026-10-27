@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_fire"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-chandelurite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "chandelure mega_evolution=mega held_item=mega_showdown:chandelurite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false,
+        "timeRange": "night"
+      },
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-chandelurite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "chandelure mega_evolution=mega held_item=mega_showdown:chandelurite uncatchable=true"
+    }
+  ]
+}

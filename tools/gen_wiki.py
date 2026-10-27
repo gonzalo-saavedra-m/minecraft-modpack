@@ -262,6 +262,8 @@ for n, read in files.items():
     if not data or not data.get('enabled', True):
         continue
     for s in data.get('spawns', []):
+        if 'mega_evolution=' in str(s.get('pokemon')):
+            continue  # megas salvajes: van en Megas.md (tools/gen_megas.py), no como la especie base
         mons = [s.get('pokemon')] + [h.get('pokemon') for h in s.get('herdablePokemon', [])]
         c = dict(s.get('condition') or {})
         for p in s.get('presets', []):

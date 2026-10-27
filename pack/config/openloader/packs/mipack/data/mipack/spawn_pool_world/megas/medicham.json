@@ -1,0 +1,45 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-medichamite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "medicham mega_evolution=mega held_item=mega_showdown:medichamite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minY": 48
+      },
+      "presets": [
+        "natural",
+        "jungle_pyramid"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-medichamite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "medicham mega_evolution=mega held_item=mega_showdown:medichamite uncatchable=true"
+    }
+  ]
+}

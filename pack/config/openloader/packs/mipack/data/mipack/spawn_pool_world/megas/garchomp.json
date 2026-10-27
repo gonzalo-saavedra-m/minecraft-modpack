@@ -1,0 +1,293 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega held_item=mega_showdown:garchompite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite_z-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega_z held_item=mega_showdown:garchompite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "garchomp mega_evolution=mega held_item=mega_showdown:garchompite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite_z-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "garchomp mega_evolution=mega_z held_item=mega_showdown:garchompite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:magma_block"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "garchomp mega_evolution=mega held_item=mega_showdown:garchompite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:magma_block"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite_z-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 5.0,
+      "pokemon": "garchomp mega_evolution=mega_z held_item=mega_showdown:garchompite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0,
+        "neededNearbyBlocks": [
+          "minecraft:magma_block"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega held_item=mega_showdown:garchompite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0,
+        "neededNearbyBlocks": [
+          "minecraft:magma_block"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite_z-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega_z held_item=mega_showdown:garchompite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_thermal"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega held_item=mega_showdown:garchompite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_thermal"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "minY": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite_z-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega_z held_item=mega_showdown:garchompite_z uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite-6",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega held_item=mega_showdown:garchompite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-garchompite_z-6",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 25.0,
+      "pokemon": "garchomp mega_evolution=mega_z held_item=mega_showdown:garchompite_z uncatchable=true"
+    }
+  ]
+}

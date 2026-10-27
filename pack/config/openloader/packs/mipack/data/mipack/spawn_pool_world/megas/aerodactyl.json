@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-aerodactylite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "aerodactyl mega_evolution=mega held_item=mega_showdown:aerodactylite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "alexscaves:primordial_caves"
+        ],
+        "structures": [
+          "alexscaves:dino_bowl"
+        ]
+      },
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-aerodactylite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "aerodactyl mega_evolution=mega held_item=mega_showdown:aerodactylite uncatchable=true"
+    }
+  ]
+}

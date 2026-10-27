@@ -1,0 +1,74 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "minY": 190
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-drampanite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "drampa mega_evolution=mega held_item=mega_showdown:drampanite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-drampanite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "drampa mega_evolution=mega held_item=mega_showdown:drampanite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "minY": 190
+      },
+      "anticondition": {
+        "biomes": [
+          "#aether:is_aether"
+        ]
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-drampanite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 80.0,
+      "pokemon": "drampa mega_evolution=mega held_item=mega_showdown:drampanite uncatchable=true"
+    }
+  ]
+}

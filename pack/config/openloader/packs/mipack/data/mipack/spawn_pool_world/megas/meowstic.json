@@ -1,0 +1,125 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meowsticite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "meowstic mega_evolution=mega held_item=mega_showdown:meowsticite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#minecraft:village"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meowsticite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "meowstic mega_evolution=mega held_item=mega_showdown:meowsticite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8
+      },
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meowsticite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "meowstic mega_evolution=mega held_item=mega_showdown:meowsticite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_freezing"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#minecraft:village"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meowsticite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "meowstic mega_evolution=mega held_item=mega_showdown:meowsticite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "canSeeSky": false
+      },
+      "presets": [
+        "mansion"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-meowsticite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "meowstic mega_evolution=mega held_item=mega_showdown:meowsticite uncatchable=true"
+    }
+  ]
+}

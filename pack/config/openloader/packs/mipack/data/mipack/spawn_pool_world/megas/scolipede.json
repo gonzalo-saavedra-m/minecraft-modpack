@@ -1,0 +1,123 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scolipite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scolipede mega_evolution=mega held_item=mega_showdown:scolipite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night"
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scolipite-2",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scolipede mega_evolution=mega held_item=mega_showdown:scolipite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "maxSkyLight": 7,
+        "minSkyLight": 0
+      },
+      "anticondition": {
+        "maxY": 9,
+        "minY": -41,
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scolipite-3",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scolipede mega_evolution=mega held_item=mega_showdown:scolipite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_forest",
+          "#cobblemon:nether/is_fungus"
+        ]
+      },
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scolipite-4",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scolipede mega_evolution=mega held_item=mega_showdown:scolipite uncatchable=true"
+    },
+    {
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "maxSkyLight": 7,
+        "maxY": 9,
+        "minSkyLight": 0,
+        "minY": -41,
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-scolipite-5",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "scolipede mega_evolution=mega held_item=mega_showdown:scolipite uncatchable=true"
+    }
+  ]
+}

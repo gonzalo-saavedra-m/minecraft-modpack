@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_snowy_forest",
+          "#cobblemon:is_snowy_taiga"
+        ]
+      },
+      "presets": [
+        "natural"
+      ],
+      "spawnablePositionType": "grounded",
+      "id": "mipack-mega-abomasite-1",
+      "type": "pokemon",
+      "bucket": "boss",
+      "level": "100",
+      "weight": 100.0,
+      "pokemon": "abomasnow mega_evolution=mega held_item=mega_showdown:abomasite uncatchable=true"
+    }
+  ]
+}

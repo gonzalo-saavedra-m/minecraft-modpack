@@ -52,7 +52,11 @@ lo mismo, solo cambia el look; todos llevan una Piedra activadora:
 
 ## De dónde salen las megapiedras
 
-- **Mega Site** (única fuente en el mundo): estructura enterrada entre y −19 e y 5, en cualquier bioma del
+- **Megas salvajes** (endgame): un Pokémon ya megaevolucionado, de nivel 100, aparece donde salen los alfas de
+  su especie y igual de seguido. Sale casi solo para jugadores con un Pokémon cerca del nivel 100 y se anuncia en
+  el chat. No se puede capturar: al derrotarlo, cada jugador del combate recibe **su megapiedra** ya lista.
+  No hay megas salvajes de legendarios ni míticos.
+- **Mega Site**: estructura enterrada entre y −19 e y 5, en cualquier bioma del
   Overworld. Trae **un** <img src="img/megas/mega_stone_crystal.png" width="24"> Cristal de Megapiedra. Con
   **pico de diamante** y **sin Toque de seda** suelta 1 <img src="img/megas/mega_stone.png" width="24"> **Megapiedra**, una megapiedra "en bruto".
 - **Mesa de crafteo**: la Megapiedra + ingredientes = la megapiedra de cada Pokémon (tabla de abajo). Cada
