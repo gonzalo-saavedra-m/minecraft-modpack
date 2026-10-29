@@ -187,7 +187,8 @@ public class MipackRules implements ModInitializer {
 			for (ServerPlayer player : server.getPlayerList().getPlayers()) StructureLegendaries.tick(player);
 			placeEndCrystal(server.getLevel(Level.END));
 			for (ServerLevel level : server.getAllLevels())
-				for (Entity e : level.getAllEntities()) {
+				// Copia: discard() saca la entidad de la colección mientras se recorre y el iterador devolvía null (crash 29-oct)
+				for (Entity e : StreamSupport.stream(level.getAllEntities().spliterator(), false).toList()) {
 					if (isIdleWildTrainer(e)) e.discard();
 					if (e instanceof PokemonEntity p) leashGuardian(p);
 				}
