@@ -4791,6 +4791,14 @@ file = "config/openloader/packs/mipack/data/mipack/raid/boss/venusaur_gmax.json"
 hash = "e68934de701368ce3f0222106c84eae2e392c1a8068384b20de5264a749f3f35"
 
 [[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/cosmoem_moves.json"
+hash = "5caa42ad419286e3c73a01a5fa973f4bfd7881775bedd7d5e4ae41fcd583f01b"
+
+[[files]]
+file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/cosmog_moves.json"
+hash = "a9b66aa7ae3d4d1a703bf5250cd8a8bfffc6e8e06c989bb4f4495aedae3a71d4"
+
+[[files]]
 file = "config/openloader/packs/mipack/data/mipack/raid/boss_additions/dmax.json"
 hash = "cf90f251ac2b24d52142b73006d2a9c083fd05503d65190440fd83bbe3f0d2d6"
 

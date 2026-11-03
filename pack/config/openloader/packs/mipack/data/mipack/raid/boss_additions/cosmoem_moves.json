@@ -1,0 +1,24 @@
+{
+  "include": [
+    "crd_legendaries:cosmoem",
+    "crd_legendaries:cosmoem_tera",
+    "crd_legendaries:cosmoem_dmax"
+  ],
+  "additions": {
+    "raid_feature": "DEFAULT",
+    "force_dynamax": false,
+    "boss": {
+      "moves": [
+        [
+          "psychic"
+        ],
+        [
+          "storedpower"
+        ],
+        [
+          "cosmicpower"
+        ]
+      ]
+    }
+  }
+}

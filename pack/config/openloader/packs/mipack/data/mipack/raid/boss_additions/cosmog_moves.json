@@ -1,0 +1,21 @@
+{
+  "include": [
+    "crd_legendaries:cosmog",
+    "crd_legendaries:cosmog_tera",
+    "crd_legendaries:cosmog_dmax"
+  ],
+  "additions": {
+    "raid_feature": "DEFAULT",
+    "force_dynamax": false,
+    "boss": {
+      "moves": [
+        [
+          "psychic"
+        ],
+        [
+          "swift"
+        ]
+      ]
+    }
+  }
+}

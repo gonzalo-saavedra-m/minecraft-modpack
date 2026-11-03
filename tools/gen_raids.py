@@ -18,6 +18,10 @@ OUT = ROOT / 'pack/config/openloader/packs/mipack/data/mipack/raid'
 VARIANT_WEIGHT = 0.5  # multiplica el peso del jefe base
 NO_DYNAMAX = {'zacian', 'zamazenta', 'eternatus'}  # no pueden dinamaxear en los juegos
 TIERS = ['TIER_ONE', 'TIER_TWO', 'TIER_THREE', 'TIER_FOUR', 'TIER_FIVE', 'TIER_SIX', 'TIER_SEVEN']
+# Los únicos jefes que aprenden solo movimientos de estado: Raid Dens elige solo con daño, y las variantes Tera y
+# Dynamax quedan sin movimientos y pelean a puro Forcejeo. Se fijan en "boss", así el Pokémon que se captura conserva
+# los suyos. Van sin Tera ni Dynamax porque ahí Cobblemon borra lo que la especie no aprende.
+BOSS_MOVES = {'cosmog': ['psychic', 'swift'], 'cosmoem': ['psychic', 'storedpower', 'cosmicpower']}
 
 jar = lambda glob: zipfile.ZipFile(next((SERVER / 'mods').glob(glob)))
 rd, msd = jar('cobblemonraiddens-*.jar'), jar('mega_showdown-*.jar')
@@ -32,6 +36,11 @@ for suffix, feature, include in [('tera', 'TERA', ids),
     (OUT / f'boss_additions/{suffix}.json').write_text(json.dumps(
         {'include': include, 'exclude': [], 'additions': {'raid_feature': feature, 'weight': VARIANT_WEIGHT},
          'replace': False, 'suffix': suffix}, indent=2) + '\n')
+
+for sp, moves in BOSS_MOVES.items():
+    (OUT / f'boss_additions/{sp}_moves.json').write_text(json.dumps(
+        {'include': [f'crd_legendaries:{sp}{s}' for s in ('', '_tera', '_dmax')],
+         'additions': {'raid_feature': 'DEFAULT', 'force_dynamax': False, 'boss': {'moves': [[m] for m in moves]}}}, indent=2) + '\n')
 
 made = []
 for sp in gmax:
