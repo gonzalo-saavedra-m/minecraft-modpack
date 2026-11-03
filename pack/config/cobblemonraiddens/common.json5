@@ -34,7 +34,7 @@
 	// The reward distribution algorithm (Options: random, damage, survivor). Default: random
 	"reward_distribution": "random",
 	// The maximum number of players in a raid before shared supporting moves are disabled. Default: 4
-	"max_players_for_support": 4,
+	"max_players_for_support": 8,
 	// The amount of raid energy required to convert a raid shard. Default: 100
 	"required_energy": 100,
 	// How many raids can occur simultaneously. Determines raid coordinate allocation. Default: 10000

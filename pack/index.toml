@@ -54,7 +54,35 @@ hash = "8ffb1ada7438796dfdc6844ef14c0df98aa739dc303f1ee02b4c141478023b8f"
 
 [[files]]
 file = "config/cobblemonraiddens/common.json5"
-hash = "fa595d41da4a31350493553a47a709d0373437074dcac7ceecfa9e0e79d88811"
+hash = "bdac844825ff4414173c6e1caea1850140d1fccf4bf5e7c54fc7e58592ec28f5"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_five.json5"
+hash = "b5c9900b103d8ee43de2d34986164f82d4e6f52a90f61cc9b48d79c700d3497a"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_four.json5"
+hash = "af9af2199ac1bf8a702e95573ad20a6fe5584d8fc2a139d27e938109ae57d1b4"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_one.json5"
+hash = "7b74afba3c5ded59bf06f03381966b6059709baa2701b5decc7bca3fb8fbd310"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_seven.json5"
+hash = "342be0e70addc82d17bfa94f5658fc13fa54ccfb846603917d1ee487f47f041c"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_six.json5"
+hash = "36a706b4f377a2f800515aab94f209aeea3d3cc181fdc65163004321cbf447bd"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_three.json5"
+hash = "2ee3c52854c298a207794ad8948f7199978c0921c38cd4a65bf63d0310f39074"
+
+[[files]]
+file = "config/cobblemonraiddens/tier_two.json5"
+hash = "a9e52fd74e9032d973f9a18a75d5177fe1c4e2889826b057e0c52ad5c3b4567e"
 
 [[files]]
 file = "config/craftpresence.json"
