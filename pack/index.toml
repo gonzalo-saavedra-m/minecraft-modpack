@@ -42,7 +42,7 @@ hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
 [[files]]
 file = "config/cobbleloots.json"
-hash = "28b669c0421e69b49443557716e5cf8db400895599c88a3c81d02d8b78baf077"
+hash = "930a7d32b48b2517a1e00a8eb0676d1d4b51923ed03257f14e79e731cd8e3b18"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -7308,7 +7308,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecraft-raid-turns-0.1.0+1.21.1.jar"
-hash = "a337378e19f1ed3bf710a6d6027e9d1188964fffd03f8713875989cf3ad8cbca"
+hash = "8ab352620e9b09e4ab378b8f82507e23759214e07e73a889cbbfbe5f40b0f378"
 
 [[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
