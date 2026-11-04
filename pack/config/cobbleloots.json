@@ -18,13 +18,13 @@
   "generation_disabled_dimensions": [
     "aether:the_aether"
   ],
-  "spawning_enabled": true,
+  "spawning_enabled": false,
   "spawning_chance": 0.08,
   "spawning_cooldown_min": 6000,
   "spawning_cooldown_max": 36000,
   "spawning_despawn_time": 24000,
   "spawning_disabled_dimensions": [],
-  "fishing_enabled": true,
+  "fishing_enabled": false,
   "fishing_chance": 0.01,
   "fishing_luck_of_the_sea_multiplier": 1.25,
   "fishing_despawn_time": 24000,

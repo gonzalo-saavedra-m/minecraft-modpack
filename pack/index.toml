@@ -42,7 +42,7 @@ hash = "e5e3a580a0daf1abb2a45295f92608cae57877998aade6cf0a2d1b1af40c2115"
 
 [[files]]
 file = "config/cobbleloots.json"
-hash = "930a7d32b48b2517a1e00a8eb0676d1d4b51923ed03257f14e79e731cd8e3b18"
+hash = "b8d060ab5d1610686a6e073ef1740d8e4ceb52b1de501549fa3b5754f2d0414f"
 
 [[files]]
 file = "config/cobblemon/main.json"
