@@ -21,9 +21,17 @@ Las raids las agrega **Cobblemon Raid Dens**, con jefes Tera, Dynamax, Gigamax y
 
 ## El combate
 
-- Peleas con **un solo Pokémon**. Hasta **4 jugadores** contra el mismo jefe; la vida del jefe es compartida y más
-  alta mientras más jugadores entren.
-- Tienes **una vida** por raid. Si pierdes, puedes volver a intentarlo.
+- Hasta **8 jugadores** contra el mismo jefe. La vida del jefe es compartida y sube 10 % por jugador.
+- Cuando uno aprieta R, la raid se cierra y parte una cuenta de 5 segundos. Entran todos los que estén en la guarida, con
+  el Pokémon que tengan seleccionado. Nadie puede entrar después.
+- Peleas con **un solo Pokémon**, sin cambios.
+- Cada ronda todos eligen; hay **60 segundos**. Si no eliges, se usa tu primer movimiento con PP o, sin PP, Forcejeo.
+- Los ataques van **de a uno**, por prioridad y velocidad, con el jefe en la misma lista. En su turno, el jefe usa el mismo
+  movimiento contra todos.
+- Si alguien duerme al jefe, queda dormido para todos.
+- A la izquierda ves el tiempo y a los demás jugadores: su Pokémon, su nombre y si ya eligieron.
+- Si tu Pokémon se debilita, ya no tienes turnos y te quedas mirando. Si el grupo gana, igual recibes la recompensa.
+- Si huyes, sales de la raid. Si estabas solo puedes volver a entrar; si no, puedes volver cuando termine.
 - **Perder una raid no te mata** (la regla de "sin Pokémon en pie = muerte" no aplica en raids).
 - Al ganar puedes capturar al jefe: todos los que participaron reciben el mismo Pokémon (mismos IVs y shiny). En
   la ★5 sale a nivel 75 con 4 IVs perfectos. Además pagan **CobbleDollars** (20.000 en una ★5).

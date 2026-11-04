@@ -7307,6 +7307,10 @@ hash = "66e27964c598c333a9082695989d293e554c42a8a295c6cfdc56685bb01d0f4e"
 metafile = true
 
 [[files]]
+file = "mods/minecraft-raid-turns-0.1.0+1.21.1.jar"
+hash = "a337378e19f1ed3bf710a6d6027e9d1188964fffd03f8713875989cf3ad8cbca"
+
+[[files]]
 file = "mods/mipack-rules-0.1.0+1.21.1.jar"
 hash = "cfa13f8c984f163ec8aa8179a44bbe70fa379fa22d1a889d74472d2e62cc4c23"
 
